@@ -1,0 +1,12 @@
+.page-link {
+	font-family: Georgia, serif;    
+	transition-duration: 0.3s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+	display: inline-block; /* http://stackoverflow.com/questions/31860157/css3-transform-translate-on-hover-with-transition */
+	transform: perspective(100px) translateZ(-30px);
+}
+
+.page-link:hover {
+	transform: perspective(100px) translateZ(0px);
+}

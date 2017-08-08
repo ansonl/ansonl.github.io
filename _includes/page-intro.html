@@ -12,7 +12,17 @@
 
   <div class="inner">
     <div class="intro-text">
-      <h1 class="intro-title">{{ page.alt_title | default: page.title | default: site.title | markdownify | strip_html }}</h1>
+      
+      <!-- Choose to use animated typed.js title or static title -->
+      {% if page.layout == 'home' %}
+        <!-- Custom Title using typed.js -->
+        <h1 class="intro-title" id="intro-title-static">{{ site.description }}</h1>
+        <h1 class="intro-title"><span id="intro-title-animated-foreground"><span id="intro-title-animated"></span></span><span id="intro-title-animated-background">Code .  Run .  Eat .  Sleep  ↺  </span></h1>
+      {% else %}
+        <!-- Original intro-title -->
+        <h1 class="intro-title">{{ page.alt_title | default: page.title | default: site.title | markdownify | strip_html }}</h1>
+      {% endif %}
+
       {% if page.sub_title %}
         <p class="intro-subtitle">{{ page.sub_title | markdownify | strip_html }}</p>
       {% endif %}

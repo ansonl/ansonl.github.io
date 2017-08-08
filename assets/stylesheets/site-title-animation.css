@@ -1,0 +1,75 @@
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* Customized for Jekyll */
+.typed-cursor {
+    /*line-height: 50px;*/
+
+}
+/*
+a:hover, a:visited, a:link, a:active #intro-title-animated:hover {
+    text-decoration: none;
+}
+*/
+
+/* Resize based on screen width */
+/* http://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container */
+/*
+@media all and (max-width: 1024px) and (min-width: 768px) {
+.intro-title span {
+    font-size: auto;
+  }
+}
+
+@media all and (max-width: 767px) and (min-width: 667px) {
+.intro-title span {
+    font-size: 4vw;
+  }
+}
+
+@media all and (max-width: 666px) and (min-width: 0px) {
+.intro-title span {
+    font-size: 5vw;
+  }
+}
+*/
+
+.intro-title {
+    font-family: Consolas, Monaco, monospace;
+    
+}
+
+/* Need foreground span around actual typing.js span or the cursor will move the background span */
+#intro-title-animated-foreground {
+    position: absolute;
+    z-index: 1;
+}
+#intro-title-animated-background {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.856;
+    transition: opacity 1s;
+    transition-timing-function: ease-out;
+}
+#intro-title-animated-background:hover {
+    opacity: 0.9;
+}
