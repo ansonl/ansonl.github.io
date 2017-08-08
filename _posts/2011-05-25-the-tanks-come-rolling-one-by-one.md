@@ -1,6 +1,6 @@
 ---
 title: 'The tanks come rolling one by one&#8230;'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/05/the-tanks-come-rolling-one-by-one
 dsq_thread_id:

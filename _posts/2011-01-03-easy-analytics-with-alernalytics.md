@@ -1,6 +1,6 @@
 ---
 title: Easy analytics in-app w/ Alernalytics on GitHub
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/01/easy-analytics-with-alernalytics
 dsq_thread_id:

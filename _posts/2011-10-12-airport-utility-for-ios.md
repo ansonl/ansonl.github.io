@@ -1,6 +1,6 @@
 ---
 title: Airport Utility for iOS
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/10/airport-utility-for-ios
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Click to rate?
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/01/click-to-rate
 dsq_thread_id:

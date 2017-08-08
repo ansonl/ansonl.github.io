@@ -1,6 +1,6 @@
 ---
 title: First impressions of OSX 10.7 Lion
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/07/first-impressions-of-osx-10-7-lion
 dsq_thread_id:

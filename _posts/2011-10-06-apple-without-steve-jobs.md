@@ -1,6 +1,6 @@
 ---
 title: Apple without Steve Jobs
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/10/apple-without-steve-jobs
 sharing_disabled:

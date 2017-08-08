@@ -1,6 +1,6 @@
 ---
 title: Troll on the Go co-starring router
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/06/troll-on-the-go-co-starring-router
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: What deleted my SDKs?
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/11/what-deleted-my-sdks
 dsq_thread_id:

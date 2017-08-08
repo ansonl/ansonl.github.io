@@ -1,6 +1,6 @@
 ---
 title: Photos app and UIImagePickerController need a revamp
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/05/photos-app-and-uiimagepickercontroller-need-a-revamp
 dsq_thread_id:

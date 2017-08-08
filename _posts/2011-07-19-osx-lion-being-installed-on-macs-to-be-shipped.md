@@ -1,6 +1,6 @@
 ---
 title: OSX Lion being installed on macs to be shipped
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/07/osx-lion-being-installed-on-macs-to-be-shipped
 dsq_thread_id:

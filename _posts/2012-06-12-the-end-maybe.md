@@ -1,6 +1,6 @@
 ---
 title: The End? (maybe)
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/06/the-end-maybe
 dsq_thread_id:

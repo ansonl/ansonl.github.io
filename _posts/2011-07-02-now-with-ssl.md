@@ -1,6 +1,6 @@
 ---
 title: Now with SSL
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/07/now-with-ssl
 dsq_thread_id:

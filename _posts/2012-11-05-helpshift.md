@@ -1,6 +1,6 @@
 ---
 title: Helpshift
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/11/helpshift
 dsq_thread_id:

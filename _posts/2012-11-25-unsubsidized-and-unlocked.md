@@ -1,6 +1,6 @@
 ---
 title: Unsubsidized and Unlocked
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/11/unsubsidized-and-unlocked
 dsq_thread_id:

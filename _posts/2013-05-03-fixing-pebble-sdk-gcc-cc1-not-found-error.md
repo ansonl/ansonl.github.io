@@ -1,6 +1,6 @@
 ---
 title: 'Fixing Pebble SDK gcc &#8216;cc1&#8242; not found error'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/05/fixing-pebble-sdk-gcc-cc1-not-found-error
 dsq_thread_id:

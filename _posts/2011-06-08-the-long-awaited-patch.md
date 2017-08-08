@@ -1,6 +1,6 @@
 ---
 title: 'The long awaited &quot;patch&quot;'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/06/the-long-awaited-patch
 dsq_thread_id:

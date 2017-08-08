@@ -1,6 +1,6 @@
 ---
 title: 'Reviving an &#039;old&#039; app with leader boards'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/12/reviving-an-old-app-with-leader-boards
 dsq_thread_id:

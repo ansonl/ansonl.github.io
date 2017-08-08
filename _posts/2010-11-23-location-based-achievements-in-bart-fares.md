@@ -1,6 +1,6 @@
 ---
 title: Location based achievements in BART Fares
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/11/location-based-achievements-in-bart-fares
 dsq_thread_id:

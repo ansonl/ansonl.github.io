@@ -1,6 +1,6 @@
 ---
 title: T-Mobile Banner Pushes Around iPhone Activity Indicator
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/08/t-mobile-banner-pushes-around-iphone-activity-indicator
 dsq_thread_id:

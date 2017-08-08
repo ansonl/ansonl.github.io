@@ -1,6 +1,6 @@
 ---
 title: BART Fares promo video
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/11/bart-fares-promo-video
 dsq_thread_id:

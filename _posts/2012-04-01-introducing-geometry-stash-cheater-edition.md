@@ -1,6 +1,6 @@
 ---
 title: 'Introducing Geometry Stash &#8211; Cheater Edition™'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/04/introducing-geometry-stash-cheater-edition
 dsq_thread_id:

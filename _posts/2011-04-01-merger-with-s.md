@@ -1,6 +1,6 @@
 ---
 title: Merger with S²
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/04/merger-with-s
 dsq_thread_id:

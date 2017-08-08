@@ -1,6 +1,6 @@
 ---
 title: Fixing Cyberduck
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/09/fixing-cyberduck
 dsq_thread_id:

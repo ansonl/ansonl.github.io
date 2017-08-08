@@ -1,6 +1,6 @@
 ---
 title: Viewing iTunes artist pages through a web browser
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/05/viewing-itunes-artist-pages-through-a-web-browser
 dsq_thread_id:

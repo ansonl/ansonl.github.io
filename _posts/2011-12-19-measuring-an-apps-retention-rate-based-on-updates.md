@@ -1,6 +1,6 @@
 ---
 title: 'Measuring an app&#039;s retention rate based on updates'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/12/measuring-an-apps-retention-rate-based-on-updates
 dsq_thread_id:

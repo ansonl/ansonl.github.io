@@ -1,6 +1,6 @@
 ---
 title: Win7 cursor over black on login WLAN AutoConfig fix
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2014/08/win7-cursor-over-black-on-login-fix
 dsq_thread_id:

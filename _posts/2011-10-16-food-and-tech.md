@@ -1,6 +1,6 @@
 ---
 title: Food and Tech
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/10/food-and-tech
 dsq_thread_id:

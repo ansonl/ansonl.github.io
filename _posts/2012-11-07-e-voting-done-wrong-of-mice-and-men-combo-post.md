@@ -1,6 +1,6 @@
 ---
 title: 'E-voting done wrong + Of Mice and Men [COMBO POST]'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/11/e-voting-done-wrong-of-mice-and-men-combo-post
 dsq_thread_id:

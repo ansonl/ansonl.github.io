@@ -1,6 +1,6 @@
 ---
 title: Mac App Store lacking
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/02/mac-app-store-lacking
 dsq_thread_id:

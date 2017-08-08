@@ -1,6 +1,6 @@
 ---
 title: Geometry Stash 1.1.7 for your new iPad
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/03/geometry-stash-1-1-7-for-your-new-ipad
 dsq_thread_id:

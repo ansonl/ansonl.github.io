@@ -1,6 +1,6 @@
 ---
 title: The loss of quitting four apps at once
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/09/the-loss-of-quitting-four-apps-at-once
 dsq_thread_id:

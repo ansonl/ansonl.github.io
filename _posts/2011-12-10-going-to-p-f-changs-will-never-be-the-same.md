@@ -1,6 +1,6 @@
 ---
 title: 'Going to P.F. Chang&#039;s will never be the same.'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/12/going-to-p-f-changs-will-never-be-the-same
 dsq_thread_id:

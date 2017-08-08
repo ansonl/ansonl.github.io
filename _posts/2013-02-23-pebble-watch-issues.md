@@ -1,6 +1,6 @@
 ---
 title: Pebble watch (now a brick) cold weather issues
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/02/pebble-watch-issues
 dsq_thread_id:

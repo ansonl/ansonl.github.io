@@ -1,6 +1,6 @@
 ---
 title: Apple fixes the lock orientation conundrum
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/03/apple-fixes-the-lock-orientation-conondrum
 dsq_thread_id:

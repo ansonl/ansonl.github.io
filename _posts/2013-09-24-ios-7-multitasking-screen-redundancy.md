@@ -1,6 +1,6 @@
 ---
 title: iOS 7 multitasking screen redundancy
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/09/ios-7-multitasking-screen-redundancy
 dsq_thread_id:

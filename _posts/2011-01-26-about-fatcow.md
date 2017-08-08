@@ -1,6 +1,6 @@
 ---
 title: 'About Fatcow&#8230;a review based on past experience'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/01/about-fatcow
 dsq_thread_id:

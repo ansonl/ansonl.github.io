@@ -1,6 +1,6 @@
 ---
 title: Geometry Stash exceeds 100 educational discount purchases
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/02/geometry-stash-exceeds-100-educational-discount-purchases
 dsq_thread_id:

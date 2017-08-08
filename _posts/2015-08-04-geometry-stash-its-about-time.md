@@ -1,6 +1,6 @@
 ---
 title: Geometry Stash 2 - It's about time.
-author: Anson L
+author: Anson Liu
 layout: post
 categories:
   - Development

@@ -1,6 +1,6 @@
 ---
 title: 'Additional time &#8211; NOT'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/04/additional-time-not
 dsq_thread_id:

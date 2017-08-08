@@ -1,6 +1,6 @@
 ---
 title: 'What&#039;s coming'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/05/whats-coming
 dsq_thread_id:

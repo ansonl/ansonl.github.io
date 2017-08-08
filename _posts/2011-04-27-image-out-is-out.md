@@ -1,6 +1,6 @@
 ---
 title: 'Image Out is&#8230;out!'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/04/image-out-is-out
 dsq_thread_id:

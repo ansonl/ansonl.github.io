@@ -1,6 +1,6 @@
 ---
 title: 'Saving an identical in-app purchase &quot;Proposed&quot; description'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/04/saving-an-identical-in-app-purchase-proposed-description
 dsq_thread_id:

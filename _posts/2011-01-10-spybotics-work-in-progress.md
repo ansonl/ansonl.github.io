@@ -1,6 +1,6 @@
 ---
 title: Spybotics, work in progress
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/01/spybotics-work-in-progress
 dsq_thread_id:

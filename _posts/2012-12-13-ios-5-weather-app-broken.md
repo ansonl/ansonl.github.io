@@ -1,6 +1,6 @@
 ---
 title: iOS 6 Weather app broken?
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/12/ios-5-weather-app-broken
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Royalty waived transactions
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/01/royalty-waived-transactions
 dsq_thread_id:

@@ -3,8 +3,8 @@ title: 3D Printable 05-07 Ford Escape iPhone 5/6 Cupholder Drop In Insert
 excerpt: |
   A drop in insert for the Ford Escape cupholder holds your phone in place. 
 
-  ![Ford Escape cupholder drop in insert]({{ site.baseurl }}/wp-content/uploads/2016/09/ford-holder.jpg)
-author: Anson L
+  ![Ford Escape cupholder drop in insert](wp-content/uploads/2016/09/ford-holder.jpg)
+author: Anson Liu
 layout: post
 categories:
   - Vehicle

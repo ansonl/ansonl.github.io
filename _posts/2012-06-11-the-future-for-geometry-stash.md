@@ -1,6 +1,6 @@
 ---
 title: The Future for Geometry Stash
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/06/the-future-for-geometry-stash
 dsq_thread_id:

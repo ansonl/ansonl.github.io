@@ -1,6 +1,6 @@
 ---
 title: Blog Action Day
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/10/blog-action-day
 dsq_thread_id:

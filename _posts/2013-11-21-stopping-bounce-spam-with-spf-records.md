@@ -1,6 +1,6 @@
 ---
 title: Stopping bounce spam with SPF records
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/11/stopping-bounce-spam-with-spf-records
 dsq_thread_id:

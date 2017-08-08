@@ -1,6 +1,6 @@
 ---
 title: No upgraded macs in the US?
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/07/no-upgraded-macs-in-the-us
 dsq_thread_id:

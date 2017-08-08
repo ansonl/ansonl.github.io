@@ -1,6 +1,6 @@
 ---
 title: The Great Chase
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/11/the-great-chase
 dsq_thread_id:

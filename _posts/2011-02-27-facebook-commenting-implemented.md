@@ -1,6 +1,6 @@
 ---
 title: Facebook commenting implemented
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/02/facebook-commenting-implemented
 dsq_thread_id:

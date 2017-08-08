@@ -1,6 +1,6 @@
 ---
 title: 'Bypassing Facebook&#039;s SSL Requirement for Apps and Page Tabs'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/11/bypassing-facebooks-ssl-requirement-for-apps-and-page-tabs
 dsq_thread_id:

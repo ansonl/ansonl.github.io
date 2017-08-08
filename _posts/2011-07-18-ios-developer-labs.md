@@ -1,6 +1,6 @@
 ---
 title: iOS Developer Labs
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/07/ios-developer-labs
 dsq_thread_id:

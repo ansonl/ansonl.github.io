@@ -1,6 +1,6 @@
 ---
 title: 'Geometry Stash 1.1.6 submitted [Updated]'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/12/geometry-stash-1-1-6-submitted
 dsq_thread_id:

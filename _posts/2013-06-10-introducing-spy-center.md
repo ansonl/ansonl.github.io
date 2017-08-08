@@ -1,6 +1,6 @@
 ---
 title: Introducing Spy Center
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/06/introducing-spy-center
 dsq_thread_id:

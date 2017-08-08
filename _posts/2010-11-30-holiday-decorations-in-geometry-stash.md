@@ -1,6 +1,6 @@
 ---
 title: Holiday decorations in Geometry Stash
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/11/holiday-decorations-in-geometry-stash
 dsq_thread_id:

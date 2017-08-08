@@ -1,6 +1,6 @@
 ---
 title: 'Apple&#039;s changing view on devices'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/03/apples-changing-view-on-devices
 dsq_thread_id:

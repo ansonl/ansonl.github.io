@@ -1,6 +1,6 @@
 ---
 title: Pleasant news this morning.
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/11/pleasant-news-this-morning
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Location aware BART Fares
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/11/location-aware-bart-fares
 dsq_thread_id:

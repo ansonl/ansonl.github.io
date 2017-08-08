@@ -1,6 +1,6 @@
 ---
 title: 'iOS 5&#039;s Clock app'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/08/ios-5s-clock-app
 dsq_thread_id:

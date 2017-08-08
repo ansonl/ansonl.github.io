@@ -1,6 +1,6 @@
 ---
 title: Clear water clogged ears with the iPhone
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/05/clear-water-clogged-ears-with-the-iphone
 dsq_thread_id:

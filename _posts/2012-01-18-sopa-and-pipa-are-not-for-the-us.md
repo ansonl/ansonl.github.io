@@ -1,6 +1,6 @@
 ---
 title: 'SOPA and PIPA are not for the USA [Updated]'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/01/sopa-and-pipa-are-not-for-the-us
 dsq_thread_id:

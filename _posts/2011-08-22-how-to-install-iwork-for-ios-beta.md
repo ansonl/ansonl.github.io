@@ -1,6 +1,6 @@
 ---
 title: 'How-to: Install iWork for iOS beta'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/08/how-to-install-iwork-for-ios-beta
 dsq_thread_id:

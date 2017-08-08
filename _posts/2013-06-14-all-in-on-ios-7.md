@@ -1,6 +1,6 @@
 ---
 title: All in on iOS 7
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/06/all-in-on-ios-7
 dsq_thread_id:

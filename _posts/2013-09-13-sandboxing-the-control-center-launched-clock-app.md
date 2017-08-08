@@ -1,6 +1,6 @@
 ---
 title: Sandboxing the Control Center launched Clock app
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/09/sandboxing-the-control-center-launched-clock-app
 dsq_thread_id:

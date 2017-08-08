@@ -1,6 +1,6 @@
 ---
 title: iPhone 5 compatibility
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/10/iphone-5-compatibility
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: 2007 Ford Escape Audio AUX Input
-author: Anson L
+author: Anson Liu
 layout: post
 categories:
   - Vehicle

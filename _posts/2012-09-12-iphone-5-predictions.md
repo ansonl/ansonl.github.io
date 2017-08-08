@@ -1,6 +1,6 @@
 ---
 title: iPhone 5 predictions
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/09/iphone-5-predictions
 dsq_thread_id:

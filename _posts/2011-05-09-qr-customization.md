@@ -1,6 +1,6 @@
 ---
 title: QR customization
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/05/qr-customization
 dsq_thread_id:

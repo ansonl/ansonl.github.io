@@ -1,6 +1,6 @@
 ---
 title: Think like a dev
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/11/think-like-a-dev
 dsq_thread_id:

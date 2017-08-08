@@ -1,6 +1,6 @@
 ---
 title: 'So it&#039;s free, right? Or not…'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/08/so-its-free-right-or-not
 dsq_thread_id:

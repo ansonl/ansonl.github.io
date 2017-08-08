@@ -1,6 +1,6 @@
 ---
 title: 'Pirates&#8217; Guilty awareness'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/02/pirates-guilty-awareness
 dsq_thread_id:

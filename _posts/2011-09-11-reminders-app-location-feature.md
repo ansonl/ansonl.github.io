@@ -1,6 +1,6 @@
 ---
 title: Reminders app location feature
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/09/reminders-app-location-feature
 dsq_thread_id:

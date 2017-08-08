@@ -1,6 +1,6 @@
 ---
 title: Date and time tricks
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/02/date-and-time-tricks
 dsq_thread_id:

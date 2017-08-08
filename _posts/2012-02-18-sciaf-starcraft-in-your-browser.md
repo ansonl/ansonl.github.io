@@ -1,6 +1,6 @@
 ---
 title: 'SCIAF &#8211; StarCraft in your browser'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/02/sciaf-starcraft-in-your-browser
 dsq_thread_id:

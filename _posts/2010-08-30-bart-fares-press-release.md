@@ -1,6 +1,6 @@
 ---
 title: BART Fares Press Release
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/08/bart-fares-press-release
 geo_longitude:

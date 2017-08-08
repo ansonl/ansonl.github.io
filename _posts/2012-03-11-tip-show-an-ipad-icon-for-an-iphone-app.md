@@ -1,6 +1,6 @@
 ---
 title: 'Tip: Show an iPad icon for an iPhone app'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/03/tip-show-an-ipad-icon-for-an-iphone-app
 dsq_thread_id:

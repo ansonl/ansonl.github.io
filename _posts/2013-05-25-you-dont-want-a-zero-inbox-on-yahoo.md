@@ -1,6 +1,6 @@
 ---
 title: 'You don&#8217;t want a Zero Inbox on Yahoo!'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/05/you-dont-want-a-zero-inbox-on-yahoo
 dsq_thread_id:

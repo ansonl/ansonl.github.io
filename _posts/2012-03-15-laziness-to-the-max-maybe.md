@@ -1,6 +1,6 @@
 ---
 title: Laziness to the max (maybe)
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/03/laziness-to-the-max-maybe
 dsq_thread_id:

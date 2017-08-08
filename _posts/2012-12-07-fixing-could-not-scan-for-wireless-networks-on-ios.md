@@ -1,6 +1,6 @@
 ---
 title: 'Fixing &quot;Could not scan for wireless networks&quot; on iOS'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/12/fixing-could-not-scan-for-wireless-networks-on-ios
 dsq_thread_id:

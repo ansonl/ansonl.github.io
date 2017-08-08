@@ -1,6 +1,6 @@
 ---
 title: New ringtones in iOS 4.2
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/11/new-ringtones-in-ios-4-2
 dsq_thread_id:

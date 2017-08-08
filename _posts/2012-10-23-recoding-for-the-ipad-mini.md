@@ -1,6 +1,6 @@
 ---
 title: Re-coding for the iPad Mini
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/10/recoding-for-the-ipad-mini
 dsq_thread_id:

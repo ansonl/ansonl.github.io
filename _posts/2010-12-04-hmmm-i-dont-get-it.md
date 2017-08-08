@@ -1,6 +1,6 @@
 ---
 title: 'Hmmm&#8230;I don&#039;t get it'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/12/hmmm-i-dont-get-it
 dsq_thread_id:

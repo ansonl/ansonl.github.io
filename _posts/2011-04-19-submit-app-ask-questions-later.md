@@ -1,6 +1,6 @@
 ---
 title: Submit app, ask questions later
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/04/submit-app-ask-questions-later
 dsq_thread_id:

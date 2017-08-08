@@ -5,8 +5,8 @@ excerpt: |
 
   Complete your development environment by setting up an encrypted connection for soley Samba access over Xfinity internet.
 
-  ![Per device VPN client vs Router VPN client]({{ site.baseurl }}/wp-content/uploads/2016/07/per-device-vs-router-vpn-client.png)
-author: Anson L
+  ![Per device VPN client vs Router VPN client](wp-content/uploads/2016/07/per-device-vs-router-vpn-client.png)
+author: Anson Liu
 layout: post
 categories:
   - Development

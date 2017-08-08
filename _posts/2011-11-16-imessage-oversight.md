@@ -1,6 +1,6 @@
 ---
 title: iMessage Oversight
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/11/imessage-oversight
 dsq_thread_id:

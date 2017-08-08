@@ -1,6 +1,6 @@
 ---
 title: Geometry Stash reviewed by EDUInReview.com
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/09/geometry-stash-reviewed-by-eduinreview-com
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Googlebot Crawler download rate increase with move to Rackspace
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/06/googlebot-crawler-download-rate-increase-with-move-to-rackspace
 dsq_thread_id:

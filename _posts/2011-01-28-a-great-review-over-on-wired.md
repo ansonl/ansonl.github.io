@@ -1,6 +1,6 @@
 ---
 title: A great review over on Wired
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/01/a-great-review-over-on-wired
 dsq_thread_id:

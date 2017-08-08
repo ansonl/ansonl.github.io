@@ -1,6 +1,6 @@
 ---
 title: Migration to Rackspace
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/04/migration-to-rackspace
 dsq_thread_id:

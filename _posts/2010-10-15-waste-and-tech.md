@@ -1,6 +1,6 @@
 ---
 title: Waste and Tech — Blog Action Day 2010
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/10/waste-and-tech
 dsq_thread_id:

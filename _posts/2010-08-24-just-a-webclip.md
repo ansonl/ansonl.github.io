@@ -1,6 +1,6 @@
 ---
 title: Just a webclip
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/08/just-a-webclip
 dsq_thread_id:

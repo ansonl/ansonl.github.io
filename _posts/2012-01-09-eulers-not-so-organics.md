@@ -1,6 +1,6 @@
 ---
 title: 'Euler&#039;s not so Organics'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/01/eulers-not-so-organics
 dsq_thread_id:

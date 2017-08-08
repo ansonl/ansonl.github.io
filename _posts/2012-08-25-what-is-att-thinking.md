@@ -1,6 +1,6 @@
 ---
 title: 'What is AT&amp;T thinking?'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/08/what-is-att-thinking
 dsq_thread_id:

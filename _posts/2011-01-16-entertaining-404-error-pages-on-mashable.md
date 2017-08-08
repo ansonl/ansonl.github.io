@@ -1,6 +1,6 @@
 ---
 title: Entertaining 404 Error Pages on Mashable
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/01/entertaining-404-error-pages-on-mashable
 dsq_thread_id:

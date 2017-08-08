@@ -1,6 +1,6 @@
 ---
 title: Geometry Stash Discounted
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/06/geometry-stash-discounted
 dsq_thread_id:

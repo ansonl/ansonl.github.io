@@ -1,6 +1,6 @@
 ---
 title: iOS 5 beta 1 resetting
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/08/ios-5-beta-1-resetting
 dsq_thread_id:

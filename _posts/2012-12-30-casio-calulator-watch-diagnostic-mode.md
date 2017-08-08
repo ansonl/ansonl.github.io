@@ -1,6 +1,6 @@
 ---
 title: Casio calculator watch diagnostic mode
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/12/casio-calulator-watch-diagnostic-mode
 dsq_thread_id:

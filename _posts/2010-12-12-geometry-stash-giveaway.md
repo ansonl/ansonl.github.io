@@ -1,6 +1,6 @@
 ---
 title: Geometry Stash giveaway
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/12/geometry-stash-giveaway
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Just wait till Macworld 2011
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/11/just-wait-till-macworld-2011
 dsq_thread_id:

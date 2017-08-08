@@ -1,6 +1,6 @@
 ---
 title: Google Plus causes grief for Titan theme users
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/01/google-plus-causes-grief-for-titan-theme-users
 dsq_thread_id:

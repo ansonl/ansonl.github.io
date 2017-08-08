@@ -1,6 +1,6 @@
 ---
 title: Automata released!
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/05/automata-released
 dsq_thread_id:

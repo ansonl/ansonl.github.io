@@ -1,6 +1,6 @@
 ---
 title: Disqus Discovery on an Ad Free blog does not compute
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/03/disqus-discovery-on-an-ad-free-blog-does-not-compute
 dsq_thread_id:

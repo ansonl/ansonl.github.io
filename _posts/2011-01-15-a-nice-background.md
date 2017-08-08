@@ -1,6 +1,6 @@
 ---
 title: A nice background for iOS users
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/01/a-nice-background
 dsq_thread_id:

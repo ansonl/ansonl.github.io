@@ -1,6 +1,6 @@
 ---
 title: Customized Facebook profile bar for pages
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/02/customized-facebook-profile-bar-for-pages
 dsq_thread_id:

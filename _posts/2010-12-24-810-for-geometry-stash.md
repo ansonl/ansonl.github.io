@@ -1,6 +1,6 @@
 ---
 title: An 8/10 for Geometry Stash
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/12/810-for-geometry-stash
 categories:

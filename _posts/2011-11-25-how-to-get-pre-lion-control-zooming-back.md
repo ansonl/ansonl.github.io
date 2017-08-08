@@ -1,6 +1,6 @@
 ---
 title: How to get pre-Lion control zooming back
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/11/how-to-get-pre-lion-control-zooming-back
 dsq_thread_id:

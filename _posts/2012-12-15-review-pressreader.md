@@ -1,6 +1,6 @@
 ---
 title: '[Review] PressReader &#8211; A print news experience on your device'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/12/review-pressreader
 dsq_thread_id:

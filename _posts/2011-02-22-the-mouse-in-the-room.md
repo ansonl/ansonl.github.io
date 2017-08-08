@@ -1,6 +1,6 @@
 ---
 title: The mouse in the room
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/02/the-mouse-in-the-room
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Geometry Stash iOS 9 update released.
-author: Anson L
+author: Anson Liu
 layout: post
 comments: false
 categories:

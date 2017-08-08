@@ -1,6 +1,6 @@
 ---
 title: Unified Lobbyist Lookup
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2014/08/lobbyist-lookup
 dsq_thread_id:

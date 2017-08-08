@@ -1,6 +1,6 @@
 ---
 title: This should NOT be happening
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/12/this-should-not-be-happening
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Install iOS 7 GM by update
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/09/install-ios-7-gm-by-update
 dsq_thread_id:

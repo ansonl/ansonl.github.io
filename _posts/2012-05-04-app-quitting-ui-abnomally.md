@@ -1,6 +1,6 @@
 ---
 title: App Quitting UI Abnomally
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/05/app-quitting-ui-abnomally
 dsq_thread_id:

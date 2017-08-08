@@ -1,6 +1,6 @@
 ---
 title: RichardSolo 1800 iPhone battery pack promo
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/07/richardsolo-1800-iphone-battery-pack-promo
 dsq_thread_id:

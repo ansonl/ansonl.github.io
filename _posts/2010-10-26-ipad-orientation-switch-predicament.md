@@ -1,6 +1,6 @@
 ---
 title: 'iPad orientation switch predicament &#8211; A defense'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/10/ipad-orientation-switch-predicament
 dsq_thread_id:

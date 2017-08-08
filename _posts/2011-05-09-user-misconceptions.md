@@ -1,6 +1,6 @@
 ---
 title: User misconceptions?
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/05/user-misconceptions
 dsq_thread_id:

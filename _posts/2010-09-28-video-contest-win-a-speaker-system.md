@@ -1,6 +1,6 @@
 ---
 title: Video contest, win a speaker system!
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/09/video-contest-win-a-speaker-system
 dsq_thread_id:

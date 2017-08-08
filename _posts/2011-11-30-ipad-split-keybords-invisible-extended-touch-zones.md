@@ -1,6 +1,6 @@
 ---
 title: 'iPad Split Keyboard&#039;s Invisible Extended Touch Zones'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/11/ipad-split-keybords-invisible-extended-touch-zones
 dsq_thread_id:

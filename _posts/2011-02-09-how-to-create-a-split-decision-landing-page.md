@@ -1,6 +1,6 @@
 ---
 title: How to create split decision landing page
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/02/how-to-create-a-split-decision-landing-page
 dsq_thread_id:

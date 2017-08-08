@@ -1,6 +1,6 @@
 ---
 title: Invalid code entitlements fix
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2014/01/invalid-code-entitlements-fix
 dsq_thread_id:

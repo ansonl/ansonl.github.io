@@ -1,6 +1,6 @@
 ---
 title: New App Store stars
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/02/new-app-store-stars
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: 'Geometry Stash: Back in Action [UPDATE]'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/05/geometry-stash-back-in-action
 dsq_thread_id:

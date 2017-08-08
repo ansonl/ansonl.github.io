@@ -1,6 +1,6 @@
 ---
 title: Bananas in My Zerg
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/05/bananas-in-my-zerg
 dsq_thread_id:

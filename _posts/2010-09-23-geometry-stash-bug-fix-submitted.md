@@ -1,6 +1,6 @@
 ---
 title: Geometry Stash video out fix
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/09/geometry-stash-bug-fix-submitted
 dsq_thread_id:

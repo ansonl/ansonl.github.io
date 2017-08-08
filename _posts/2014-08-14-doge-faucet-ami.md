@@ -1,6 +1,6 @@
 ---
 title: 'Doge Faucet AMI &#8211; Let the doge flow!'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2014/08/doge-faucet-ami
 dsq_thread_id:

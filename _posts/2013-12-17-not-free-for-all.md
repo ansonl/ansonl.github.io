@@ -1,6 +1,6 @@
 ---
 title: Not free for all.
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/12/not-free-for-all
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Merry Christmas
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/12/merry-christmas
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: iMac 2011 SSD install
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2014/07/imac-2011-ssd-install
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Bancroft Hall on iOS Weather
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2013/01/bancroft-hall-on-ios-weather
 dsq_thread_id:

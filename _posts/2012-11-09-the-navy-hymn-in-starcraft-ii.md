@@ -1,6 +1,6 @@
 ---
 title: The Navy Hymn in StarCraft II
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2012/11/the-navy-hymn-in-starcraft-ii
 dsq_thread_id:

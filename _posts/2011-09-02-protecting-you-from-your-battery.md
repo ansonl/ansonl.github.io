@@ -1,6 +1,6 @@
 ---
 title: Protecting you from your battery
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/09/protecting-you-from-your-battery
 dsq_thread_id:

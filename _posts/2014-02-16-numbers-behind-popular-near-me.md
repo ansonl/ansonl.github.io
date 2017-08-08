@@ -1,6 +1,6 @@
 ---
 title: Numbers behind Popular Near Me
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2014/02/numbers-behind-popular-near-me
 dsq_thread_id:

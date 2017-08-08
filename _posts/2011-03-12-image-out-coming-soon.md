@@ -1,6 +1,6 @@
 ---
 title: Image Out coming soon
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/03/image-out-coming-soon
 dsq_thread_id:

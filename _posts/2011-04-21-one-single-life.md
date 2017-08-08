@@ -1,6 +1,6 @@
 ---
 title: One Single Life
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/04/one-single-life
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: VPN Internal
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/06/vpn-internal
 dsq_thread_id:

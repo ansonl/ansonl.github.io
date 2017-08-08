@@ -1,6 +1,6 @@
 ---
 title: 'The exodus towards the &#039;Prerendered Icon&#039;'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/11/the-disuse-of-the-rendered-icon
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: '&quot;Built-in capability&quot;, eh?'
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2010/10/built-in-capability
 dsq_thread_id:

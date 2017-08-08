@@ -1,6 +1,6 @@
 ---
 title: The Hefty Get Heftier
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/10/the-hefty-get-heftier
 dsq_thread_id:

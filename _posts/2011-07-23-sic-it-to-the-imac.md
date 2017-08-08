@@ -1,6 +1,6 @@
 ---
 title: Sic it to the iMac
-author: Anson L
+author: Anson Liu
 layout: post
 permalink: /2011/07/sic-it-to-the-imac
 dsq_thread_id:
