@@ -379,7 +379,7 @@ A year after first [splicing the audio cable into the CD connector]({{ site.base
 
 ### Credits
 
-The contribution of those below have made this project possible:
+Thanks to those below. Their contributions have made this project possible:
 
 Simon J. Fisher - [acpmon](http://www.mictronics.de/projects/cdc-protocols/#FordACP)
 Andrew Hammond - [yampp-3/usb firmware](http://www.mictronics.de/projects/cdc-protocols/#FordACP)
