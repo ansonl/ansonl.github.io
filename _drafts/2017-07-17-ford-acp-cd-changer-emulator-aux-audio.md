@@ -14,6 +14,8 @@ tags:
   - aux
 ---
 
+I finished an AUX audio system that plugs directly into my Ford Escape's electrical system and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle.
+
 ## Backstory
 
 Last July I added an AUX audio input to a recently acquired 2007 Ford Escape Hybrid. The reasons for adding an AUX audio input were:
