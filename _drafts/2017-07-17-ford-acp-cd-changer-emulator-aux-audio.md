@@ -30,14 +30,14 @@ I finished an AUX audio system that plugs directly into my Ford Escape's electri
       - [Android Inline Control](#android-inline-control)
       - [Apple Inline Control](#apple-inline-control)
    2. [Inline Control Timing](#inline-control-timing)
-6. [AUX Audio version 4 - Pulling It All Together \[on PCB\]](#development)
-   1. [Learning EAGLE](#layout-default)
-   2. [PCB Fabrication](#layout-post)
-   3. [Vehicle Wiring]()
-      - [Ford Escape head unit access]()
-   3. [PCB Arrives]()
-7. [Finishing Up](#contributing)
-   1. [Credits]()
+6. [AUX Audio version 4 - Pulling It All Together](#aux-audio-version-4-pulling-it-all-together-on-pcb-)
+   1. [Learning EAGLE](#learning-eagle)
+   2. [PCB Fabrication](#pcb-fabrication)
+   3. [Vehicle Wiring](#vehicle-wiring)
+      - [Ford Escape head unit access](#to-the-access-the-back-of-the-ford-escape-head-unit-)
+   3. [PCB Arrives](#pcb-arrives-2-weeks-later-)
+7. [Finishing Up](#finishing-up)
+   1. [Credits](#credits)
 
 ## Backstory
 
