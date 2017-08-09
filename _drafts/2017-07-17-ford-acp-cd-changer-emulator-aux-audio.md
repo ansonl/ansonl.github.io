@@ -348,4 +348,4 @@ Revised PCB from Seeed
 
 ## Finishing up
 
-
+Last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position. 
