@@ -2,8 +2,8 @@
 published: false
 ---
 ---
-title: Making the Ford AUX Audio Expansion w/ Inline Control
-author: Anson L
+title: Making Ford AUX Audio 🔊 Expansion w/ Inline Control
+author: Anson Liu
 layout: post
 categories:
   - Vehicle
@@ -12,6 +12,8 @@ tags:
   - acp
   - cd changer
   - aux
+  - pcb
+  - eagle
 ---
 
 I finished an AUX audio system that plugs directly into my Ford Escape's electrical system and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. 
@@ -67,7 +69,7 @@ Current Progress | Goals
 
 Unsatisfied, I looked to create a more integrated solution for AUX audio and forgot about this for a few months after not finding more resources online. 
 
-In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/) and [Dale Thomas](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)' projects by chance. 
+In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/) and [Dale Thomas](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)' projects by chance ⚄. 
 
 ## Ford ACP Timeline
 
