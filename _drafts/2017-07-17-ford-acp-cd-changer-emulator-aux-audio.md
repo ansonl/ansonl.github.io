@@ -79,7 +79,7 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
   - Andrew Hammond creates modified yampp-3/usb firmware meant for Ford 4/5/6000 series CD Changer head unit.
   - The firmware allows the head unit and steering column controls to be used to control Yampp and Yampp audio to be played through the head unit.
 - September 2008
-  - sorban creates iPod remote control with external display that interfaces with Ford CD6000 head unit.
+  - sorban creates [iPod remote control](http://ipod-remote.blogspot.com) with external display that interfaces with Ford CD6000 head unit.
 - Dcember 2013
   - Krysztof Pintscher ports Andrew Hammond's Yampp code to run on Arduino Mega 2560.
 - November 2014
@@ -371,8 +371,18 @@ I made the wiring mistake of placing the ACP activity indicator LED in series in
 
 Revised PCB from Seeed
 
-## Finishing up
+## Finishing Up
 
 Last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position within the Ford Escape.
 
 A year after first [splicing the audio cable into the CD connector]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/), I now have a fully integrated AUX audio system that lets me use the original radio head unit controls to control playback on iPhone.
+
+### Credits
+
+The contribution of those below have made this project possible:
+
+Simon J. Fisher - [acpmon](http://www.mictronics.de/projects/cdc-protocols/#FordACP)
+Andrew Hammond - [yampp-3/usb firmware](http://www.mictronics.de/projects/cdc-protocols/#FordACP)
+sorban - [iPod remote control](http://ipod-remote.blogspot.com)
+Krysztof Pintscher - Yampp → Arduino Mega 2560
+Dale Thomas - Bluetooth Audio support
