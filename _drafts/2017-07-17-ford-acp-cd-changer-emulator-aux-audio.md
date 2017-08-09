@@ -385,4 +385,4 @@ Thanks to those below. Their contributions have made this project possible:
 - Andrew Hammond - [yampp-3/usb firmware](http://www.mictronics.de/projects/cdc-protocols/#FordACP)
 - sorban - [iPod remote control](http://ipod-remote.blogspot.com)
 - Krysztof Pintscher - [Yampp → Arduino Mega 2560](http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/)
- -Dale Thomas - [Bluetooth Audio support](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)
+- Dale Thomas - [Bluetooth Audio support](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)
