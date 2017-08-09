@@ -36,7 +36,7 @@
           <span class="byline-item"><span class="icon">{% include icon-tag.svg %}</span>
           {% if page.tags.size > 0 %}
             {% for tag in page.tags %}
-              <span class="tag"><a href="#{{ tag | upcase }}">{{tag | upcase | replace:" ","-" }}</a></span>
+              <span class="tag"><a href="{{ site.baseurl }}/tags/#{{ tag | upcase }}">{{tag | upcase | replace:" ","-" }}</a></span>
             {% endfor %}
           {% else %}
             <!-- N/A text -->
