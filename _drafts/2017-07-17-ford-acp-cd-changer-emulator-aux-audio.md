@@ -11,6 +11,7 @@ tags:
   - ford escape
   - acp
   - cd changer
+  - aux
 ---
 
 ## Backstory
@@ -19,8 +20,6 @@ Last July I added an AUX audio input to a recently acquired 2007 Ford Escape Hyb
 
 - No built in AUX audio input.
 - Expensive (>$50) third [party](http://www.ycarlink.com/pd_12391_Digital-CD-USB-SD-AUX-Bluetooth-changer-emulator-adapter-for-new-Ford-quadlock-Fakra-12-pin-6000CD-6006CDC-5000C.htm) [accessories](http://www.discountcarstereo.com/AUX-FRDW.html) that emulated the CD changer to add AUX audio capability. 
-
-### So down the rabbit hole we go in search of a better external audio input solution...
 
 ## AUX Audio version 1 - Splicing audio wires
 
@@ -342,4 +341,11 @@ I made the wiring mistake of placing the ACP activity indicator LED in series in
 2. Do not proceed immediately to checkout.
 3. Wait a day for the coupon to appear on your account. 
 4. Proceed to checkout and apply coupon within 2 days.
+
+
+
+Revised PCB from Seeed
+
+## Finishing up
+
 
