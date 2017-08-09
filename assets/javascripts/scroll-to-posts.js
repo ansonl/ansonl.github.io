@@ -1,6 +1,6 @@
 var scrollTimeout;
 
-$( document ).ready(function() {
+$(window).load(function() {
 	scrollTimeout = setTimeout(function () { 
     var title = document.getElementById('intro-title-animated-background');
     zenscroll.to(title)
