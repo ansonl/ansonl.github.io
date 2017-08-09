@@ -2,11 +2,12 @@
 layout: page
 title: Post Tags
 permalink: /tags/
+regnerate: yes
 ---
 
 <section id="tags">
 
-  <h2>All tags</h2>
+  <h2>All Tags</h2>
   <ul class="tags">
   {% for tag in site.tags %}
     {% assign t = tag | first %}

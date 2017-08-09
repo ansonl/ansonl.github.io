@@ -1,6 +1,7 @@
 $( document ).ready(function() {
 	
 	//Have surrounding h1 take on content height so it takes up space in DOM and other elements push down.
+	$("#intro-title-animated-background").show();
 	$("h1.intro-title").height($("#intro-title-animated-background").height());
 
 	$("#intro-title-static").remove();

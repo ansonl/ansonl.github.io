@@ -33,13 +33,22 @@ disqus:
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+#highlighter: rouge
+
+#kramdown
+#kramdown:
+#  input: GFM
+#  syntax_highlighter: rouge
+
+plugins:
+#  - jekyll-feed
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-avatar
-  - jekyll-gist
+#  - jekyll-avatar
+#  - jekyll-gist
+
+
 feed:
   path: atom.xml
 

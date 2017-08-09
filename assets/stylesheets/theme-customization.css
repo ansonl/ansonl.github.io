@@ -10,3 +10,34 @@
 .page-link:hover {
 	transform: perspective(100px) translateZ(0px);
 }
+
+span .tag {
+	display: inline-block;
+	margin: 0.2em;
+	padding: 0.1em 0.5em 0.1em 0.5em;
+	border-radius: 0.25em;
+	background-color: #00848a;
+  border-style: inset;
+  border-color: #00848a;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+}
+
+span .tag:hover {
+	background-color: #339da1;
+}
+
+span .na-tag {
+	background-color: transparent;
+  border-color: #efefef;
+  color: #000;
+}
+
+span .na-tag:hover {
+	background-color: transparent;
+	opacity: 0.6;
+	transition: opacity 1s;
+  transition-timing-function: ease-out;
+}
