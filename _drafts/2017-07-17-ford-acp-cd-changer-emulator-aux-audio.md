@@ -81,9 +81,9 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
 - September 2008
   - sorban creates [iPod remote control](http://ipod-remote.blogspot.com) with external display that interfaces with Ford CD6000 head unit.
 - Dcember 2013
-  - Krysztof Pintscher ports Andrew Hammond's Yampp code to run on Arduino Mega 2560.
+  - Krysztof Pintscher ports Andrew Hammond's Yampp code to run on Arduino Mega 2560. [Instructable](http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/)
 - November 2014
-  - Dale Thomas adds AT Command integration for Bluetooth Audio support using OVC3868.
+  - Dale Thomas adds AT Command integration for Bluetooth Audio support using OVC3868. [Instructable](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)
   - AT Command integration sends head unit controls to connected Bluetooth device.
   
 ## AUX Audio version 2 - Emulating the CD Changer with Arduino
@@ -384,5 +384,5 @@ The contribution of those below have made this project possible:
 Simon J. Fisher - [acpmon](http://www.mictronics.de/projects/cdc-protocols/#FordACP)
 Andrew Hammond - [yampp-3/usb firmware](http://www.mictronics.de/projects/cdc-protocols/#FordACP)
 sorban - [iPod remote control](http://ipod-remote.blogspot.com)
-Krysztof Pintscher - Yampp → Arduino Mega 2560
-Dale Thomas - Bluetooth Audio support
+Krysztof Pintscher - [Yampp → Arduino Mega 2560](http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/)
+Dale Thomas - [Bluetooth Audio support](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)
