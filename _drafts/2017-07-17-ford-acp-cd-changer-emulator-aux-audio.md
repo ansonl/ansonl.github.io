@@ -348,4 +348,6 @@ Revised PCB from Seeed
 
 ## Finishing up
 
-Last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position. 
+Last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position within the Ford Escape.
+
+A year after first [splicing the audio cable into the CD connector]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/), I now have a fully integrated AUX audio system that uses the original headset controls. 
