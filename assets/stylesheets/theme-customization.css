@@ -27,13 +27,13 @@ span .tag {
 	font-weight: normal;
 	text-align: center;
 	text-decoration: none;
-  	opacity: 0.5;
+  	opacity: 0.1;
 }
 
 span .tag:hover {
 	background-color: #339da1;
   	opacity: 1;
-	transition: opacity 1s;
+	transition: opacity 2s;
   	transition-timing-function: ease-out;
 }
 
