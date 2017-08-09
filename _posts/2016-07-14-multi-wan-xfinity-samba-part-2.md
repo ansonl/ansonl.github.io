@@ -1,7 +1,7 @@
 ---
 title: Multi-WAN + Xfinity + Samba - Part 2/2
 excerpt: |
-  Finish up setting up the router from [part 1]({{ site.baseurl }}/2016/07/multi-wan-xfinity-samba-part-1/). ✓
+  Finish up setting up the router from [part 1](2016/07/multi-wan-xfinity-samba-part-1/). ✓
 
   Complete your development environment by setting up an encrypted connection for soley Samba access over Xfinity internet.
 
