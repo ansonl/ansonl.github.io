@@ -45,7 +45,4 @@ span .na-tag {
 
 span .na-tag:hover {
 	background-color: transparent;
-	opacity: 1;
-	transition: opacity 1s;
-  	transition-timing-function: ease-out;
 }
