@@ -14,7 +14,30 @@ tags:
   - aux
 ---
 
-I finished an AUX audio system that plugs directly into my Ford Escape's electrical system and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle.
+I finished an AUX audio system that plugs directly into my Ford Escape's electrical system and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. 
+
+1. [Backstory](#backstory)
+2. [AUX Audio version 1 - Splicing audio wires](#aux-audio-version-1-splicing-audio-wires)
+3. [Ford ACP Timeline](#ford-acp-timeline)
+4. [AUX Audio version 2 - Emulating the CD Changer with Arduino](#layouts)
+   1. [Setting Up Serial](#layout-default)
+   2. [Setting Up TX_ENABLE Pin](#layout-post)
+      - [Chart for `PORTA |= (1<<PA6)`](#a)
+   3. [Breadboard the Project](#layout-page)
+   4. [Protoboard the Project](#layout-home)
+5. [AUX Audio version 3 - Adding head unit playback control](#customization)
+   1. [Inline Playback Control](#overriding-includes-and-layouts)
+      - [Android Inline Control]()
+      - [Apple Inline Control]()
+   2. [Inline Control Timing](#customizing-sass-scss)
+6. [AUX Audio version 4 - Pulling It All Together \[on PCB\]](#development)
+   1. [Learning EAGLE](#layout-default)
+   2. [PCB Fabrication](#layout-post)
+   3. [Vehicle Wiring]()
+      - [Ford Escape head unit access]()
+   3. [PCB Arrives]()
+7. [Finishing Up](#contributing)
+   1. [Credits]()
 
 ## Backstory
 
