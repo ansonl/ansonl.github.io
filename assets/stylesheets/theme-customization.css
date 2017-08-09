@@ -33,7 +33,7 @@ span .tag {
 span .tag:hover {
 	background-color: #339da1;
   	opacity: 1;
-	transition: opacity 1s;
+	transition: opacity 0.5s;
   	transition-timing-function: ease-out;
 }
 
