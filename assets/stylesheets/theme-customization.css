@@ -27,7 +27,7 @@ span .tag {
 	font-weight: normal;
 	text-align: center;
 	text-decoration: none;
-  	opacity: 0.8;
+  	opacity: 0.5;
 }
 
 span .tag:hover {
