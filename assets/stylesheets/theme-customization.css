@@ -21,27 +21,31 @@ span .tag {
 	padding: 0.1em 0.5em 0.1em 0.5em;
 	border-radius: 0.25em;
 	background-color: #00848a;
-  border-style: inset;
-  border-color: #00848a;
+  	border-style: inset;
+  	border-color: #00848a;
 	color: #fff;
 	font-weight: normal;
 	text-align: center;
 	text-decoration: none;
+  	opacity: 0.8;
 }
 
 span .tag:hover {
 	background-color: #339da1;
+  	opacity: 1;
+	transition: opacity 1s;
+  	transition-timing-function: ease-out;
 }
 
 span .na-tag {
 	background-color: transparent;
-  border-color: #efefef;
-  color: #000;
+  	border-color: #efefef;
+  	color: #000;
 }
 
 span .na-tag:hover {
 	background-color: transparent;
-	opacity: 0.6;
+	opacity: 1;
 	transition: opacity 1s;
-  transition-timing-function: ease-out;
+  	transition-timing-function: ease-out;
 }
