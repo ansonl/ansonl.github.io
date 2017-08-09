@@ -1,0 +1,24 @@
+.toggle-inner.background--light>.navicon, .toggle-inner.background--light>.navicon::before, .toggle-inner.background--light>.navicon::after {
+	background: black;
+}
+
+.toggle-inner.background--dark>.navicon, .toggle-inner.background--dark>.navicon::before, .toggle-inner.background--dark>.navicon::after {
+	background: white;
+}
+
+.toggle-inner.background--complex>.navicon, .toggle-inner.background--complex>.navicon::before, .toggle-inner.background--complex>.navicon::after {
+	background: gray;
+}
+
+.toggle-inner.background--light>.sidebar-toggle-label, .toggle-inner.background--light>.sidebar-toggle-label::before, .toggle-inner.background--light>.sidebar-toggle-label::after {
+	color: black;
+}
+
+.toggle-inner.background--dark>.sidebar-toggle-label, .toggle-inner.background--dark>.sidebar-toggle-label::before, .toggle-inner.background--dark>.sidebar-toggle-label::after {
+	color: white;
+}
+
+.toggle-inner.background--complex>.sidebar-toggle-label, .toggle-inner.background--complex>.sidebar-toggle-label::before, .toggle-inner.background--complex>.sidebar-toggle-label::after {
+	color: gray;
+}
+

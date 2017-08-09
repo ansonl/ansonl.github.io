@@ -62,6 +62,7 @@ a:hover, a:visited, a:link, a:active #intro-title-animated:hover {
 #intro-title-animated-foreground {
     position: absolute;
     z-index: 1;
+    color: #111;
 }
 #intro-title-animated-background {
     display: none;

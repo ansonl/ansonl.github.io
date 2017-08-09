@@ -1,3 +1,7 @@
+body {
+	scroll-behavior: smooth;
+}
+
 .page-link {
 	font-family: Georgia, serif;    
 	transition-duration: 0.3s;
