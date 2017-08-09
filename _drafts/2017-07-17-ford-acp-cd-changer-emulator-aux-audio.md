@@ -351,6 +351,8 @@ Progress | Goals
 
 It works and doesn't disappoint. 
 
+![Inline control schematic]({{ site.baseurl }}/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png)
+
 As you may have noticed, I was able to fit both CD changer emulation and playback control functionality on a single Arduino UNO size shield. 
 
 Progress | Goals
