@@ -6,7 +6,7 @@
     {% endunless %}
     {% assign intro_image = intro_image | escape %}
     <div class="intro-image">
-      <img src="{{ intro_image }}" alt="{{ page.title }}">
+      <img data-src="{{ intro_image }}" alt="{{ page.title }}" class="lazyload">
     </div>
   {% endif %}
 
