@@ -12,6 +12,7 @@ tags:
   - aux
   - pcb
   - eagle
+published: false
 ---
 
 I finished an AUX audio system that plugs directly into my Ford Escape's electrical system and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. 
