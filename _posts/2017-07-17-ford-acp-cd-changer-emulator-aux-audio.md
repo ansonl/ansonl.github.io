@@ -259,6 +259,8 @@ The **Ring2** is simply cut out from the previous *TRS* **Sleeve** length so com
 
 *There is also the alternative OMTP TRRS pinout that swaps the Ring2 and Sleeve functionality so that Sleeve is Ground. The OMTP pinout was initially used by Nokia and early Android devices.*
 
+Cable Chick's *[Understanding TRRS and Audio Jacks](http://www.cablechick.com.au/blog/understanding-trrs-and-audio-jacks/)* is a good explanation of TRRS audio jacks with pictures.
+
 > How can we duplicate these inline control capabilities for programmatically triggered remote control?
 
 #### Android Inline Control
