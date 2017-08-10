@@ -96,8 +96,10 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
 
 Krysztof and Dales' code was made for the Arduino Mega 2560. The code would need to be modified to compile on an Arduino UNO I had. Refactoring Krysztof and Dales' code required replacing the constants in `ACP.ino` to be the correct pins on the Arduino UNO. 
 
-![AUX2]()
+<figure>
+<img alt="AUX2" data-src="{{ '/wp-content/uploads/2017/07/aux_2.jpg' | prepend:site.baseurl }}" class="lazyload" />
 <figcaption>A soldering warm up project.</figcaption>
+</figure>
 
 By May 2017, I had gathered up the needed parts and modified Dale Thomas's code to compile on Arduino UNO. The most significant steps were
 
@@ -132,7 +134,10 @@ The ACP code for Arduino Mega 2560 uses a digital pin to control **TX_ENABLE** o
 PORTA |= (1<<PA6); //set high state on digital pin 28
 PORTA &= ~(1<<PA6); //set low state on digital pin 28
 ```
+<figure>
 <img alt="ATMega2560 Arduino pin mapping" data-src="{{ '/wp-content/uploads/2017/07/atmega2560_pin_mapping.png' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>ATMega 2560 Arduino pin mapping</figcaption>
+</figure>
 
 The pin is addressed by constants that rely on the Arduino Mega's [ATmega2560 pin mapping](https://www.arduino.cc/en/Hacking/PinMapping2560). 
 
@@ -153,7 +158,10 @@ The second line sets a low state by performing bitwise AND operation on `PORTA` 
 
 `PORTA` and `PA6` constants must be updated to reference a valid pin on the Arduino UNO. 
 
+<figure>
 <img alt="ATMega168/328 Arduino pin mapping" data-src="{{ '/wp-content/uploads/2017/07/atmega168-328_pin_mapping.png' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>ATMega168/328 Arduino pin mapping</figcaption>
+</figure>
 
 I choose to use **digital pin 7** on the UNO to control **TX_ENABLE**. Locating **digital pin 7** on the [UNO ATmega328 pin mapping](https://www.arduino.cc/en/Hacking/PinMapping168) shows it as chip pin `PD7`. The `D` in `PD7` indicates `PORTD` of the ATmega328 chip.
 
@@ -182,7 +190,10 @@ Progress | Goals
 
 I prototyped the board on a clone protoshield based off the [Adafruit Proto Shield v.5](https://www.adafruit.com/product/51). 
 
+<figure>
 <img alt="AUX3" data-src="{{ '/wp-content/uploads/2017/07/aux_3.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>The finished protoboard.</figcaption>
+</figure>
 
 I used an [shield fabrication print](https://learn.adafruit.com/adafruit-proto-shield-arduino/download) for planning wiring. To prepare the file for acceptable printing, I reversed the colors and increased the contrast. This results in a white background and darker colored circuit board pads – good for drawing on a piece of paper.
 
