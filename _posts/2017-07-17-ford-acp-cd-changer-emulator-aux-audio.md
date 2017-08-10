@@ -246,7 +246,7 @@ Sleeve | Ground
 
 <figure>
 <img alt="Cable Chick TRRS diagram" data-src="http://www.cablechick.com.au/resources/image/trrs-diagram2.jpg" class="lazyload" />
-  <figcaption>TS, TRS, TRRS from <a href="http://www.cablechick.com.au/resources/image/trrs-diagram2.jpg">Cable Chick</a></figcaption>
+  <figcaption>TS, TRS, TRRS from <a href="http://www.cablechick.com.au/blog/understanding-trrs-and-audio-jacks/">Cable Chick</a></figcaption>
 </figure>
 
 Vendors' solution to transmitting a third channel of data (ex: microphone/playback control) was to add a second ring to the connector, forming the *Tip Ring Ring Sleeve (TRRS)* connector. 
@@ -296,6 +296,13 @@ Volume Up | ~ 4.7k Ω | 1
 Volume Down | ~ 10k Ω | 1
 
 ##### Mystery Control Chip
+
+Merely creating a circuit to short the **Ring2** and **Sleeve** lines fails to control a connected Apple device. If only things were that simple; there is an [additional component](http://www.macworld.com/article/1139414/appleheadphonechip.html) to Apple's headsets available as part of the [Apple MFi](https://developer.apple.com/programs/mfi/) program. 
+
+<figure>
+<img alt="iPod Shuffle 3G chip" data-src="https://cdn.arstechnica.net/wp-content/uploads/2009/03/ipodshuffleg3chip.jpg" class="lazyload" />
+  <figcaption>iPod Shuffle 3G headset chip from <a href="http://gadgets.boingboing.net/2009/03/14/we-found-the-chip-in.html">Boing Boing Gadgets</a></figcaption>
+</figure>
 
 David Carne analyzed the initial connection "chirp" that the Apple headset control chip produces in his [post](http://david.carne.ca/shuffle_hax/shuffle_remote.html). This "chirp" is required for the iOS device to begin accepting inline remote commands. The chirp took David a microcontroller and a small circuit to reproduce. I did not want to spend to much time on getting the "chirp" to work at this stage and was more interested in getting the entire inline control project working. 
 
