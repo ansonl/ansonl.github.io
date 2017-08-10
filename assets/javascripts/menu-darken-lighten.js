@@ -5,6 +5,6 @@ $( document ).ready(function() {
 	BackgroundCheck.refresh();
 });
 
-$(window).scroll(function() {
+$( window ).on( 'scroll', function() {
 	BackgroundCheck.refresh();
 });

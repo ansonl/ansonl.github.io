@@ -33,7 +33,6 @@ a:hover, a:visited, a:link, a:active #intro-title-animated:hover {
 
 /* Resize based on screen width */
 /* http://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container */
-/*
 @media all and (max-width: 1024px) and (min-width: 768px) {
 .intro-title span {
     font-size: auto;
@@ -51,7 +50,6 @@ a:hover, a:visited, a:link, a:active #intro-title-animated:hover {
     font-size: 5vw;
   }
 }
-*/
 
 .intro-title {
     font-family: Consolas, Monaco, monospace;

@@ -1,10 +1,8 @@
 ---
-published: false
----
----
-title: Making Ford AUX Audio 🔊 Expansion w/ Inline Control
+title: Making Ford AUX Audio Expansion w/ Stock Inline Control
 author: Anson Liu
 layout: post
+image: /wp-content/uploads/2017/07/all_pcb_bench.jpg
 categories:
   - Vehicle
 tags:
@@ -19,20 +17,20 @@ tags:
 I finished an AUX audio system that plugs directly into my Ford Escape's electrical system and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. 
 
 1. [Backstory](#backstory)
-2. [AUX Audio version 1 - Splicing audio wires](#aux-audio-version-1-splicing-audio-wires)
+2. [AUX Audio version 1 - Splicing audio wires](#aux-audio-version-1---splicing-audio-wires)
 3. [Ford ACP Timeline](#ford-acp-timeline)
-4. [AUX Audio version 2 - Emulating the CD Changer with Arduino](#aux-audio-version-2-emulating-the-cd-changer-with-arduino)
+4. [AUX Audio version 2 - Emulating the CD Changer with Arduino](#aux-audio-version-2---emulating-the-cd-changer-with-arduino)
    1. [Setting Up Serial](#setting-up-serial)
    2. [Setting Up TX_ENABLE Pin](#setting-up-tx_enable-pin)
       - [Chart for `PORTA |= (1<<PA6)`](#chart-for-porta-1-lt-lt-pa6-)
    3. [Breadboard the Project](#breadboard-the-project)
    4. [Protoboard the Project](#protoboard-the-project)
-5. [AUX Audio version 3 - Adding head unit playback control](#aux-audio-version-3-adding-head-unit-playback-control)
+5. [AUX Audio version 3 - Adding head unit playback control](#aux-audio-version-3---adding-head-unit-playback-control)
    1. [Inline Playback Control](#inline-playback-control)
       - [Android Inline Control](#android-inline-control)
       - [Apple Inline Control](#apple-inline-control)
    2. [Inline Control Timing](#inline-control-timing)
-6. [AUX Audio version 4 - Pulling It All Together](#aux-audio-version-4-pulling-it-all-together-on-pcb-)
+6. [AUX Audio version 4 - Pulling It All Together](#aux-audio-version-4---pulling-it-all-together-on-pcb-)
    1. [Learning EAGLE](#learning-eagle)
    2. [PCB Fabrication](#pcb-fabrication)
    3. [Vehicle Wiring](#vehicle-wiring)
@@ -50,7 +48,11 @@ Last July I added an AUX audio input to a recently acquired 2007 Ford Escape Hyb
 
 ## AUX Audio version 1 - Splicing audio wires
 
-At the time, I found the correct CD changer connector pin out from a [Taurus Car Club Forum post](https://web.archive.org/web/20151102133458/http://www.taurusclub.com/forum/attachments/electronics-security-audio-visual/34387d1106003765-cd-changer-interface-cdchanger_pinout.jpg). I stripped a normal Tip Ring Sleeve (TRS) audio jack cable to expose the three wires within: Left, Right, Ground. These wires were then connected to their respective pins in the CD changer connector. The result was an operational CD changer and a spliced in AUX audio jack for a phone. 
+At the time, I found the correct CD changer connector pin out from a [Taurus Car Club Forum post](https://web.archive.org/web/20151102133458/http://www.taurusclub.com/forum/attachments/electronics-security-audio-visual/34387d1106003765-cd-changer-interface-cdchanger_pinout.jpg). I stripped a normal Tip Ring Sleeve (TRS) audio jack cable to expose the three wires within: Left, Right, Ground. These wires were then connected to their respective pins in the CD changer connector. 
+
+<img alt="AUX1" data-src="{{ '/wp-content/uploads/2017/07/aux_1.jpg' | prepend:site.baseurl }}" class="lazyload" />
+
+The result was an operational CD changer and a spliced in AUX audio jack for a phone. 
 
 There were a few drawbacks to the spliced in AUX audio:
 
@@ -87,10 +89,15 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
 - November 2014
   - Dale Thomas adds AT Command integration for Bluetooth Audio support using OVC3868. [Instructable](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)
   - AT Command integration sends head unit controls to connected Bluetooth device.
+- 2017
+  - Anson Liu finally does something???
   
 ## AUX Audio version 2 - Emulating the CD Changer with Arduino
 
 Krysztof and Dales' code was made for the Arduino Mega 2560. The code would need to be modified to compile on an Arduino UNO I had. Refactoring Krysztof and Dales' code required replacing the constants in `ACP.ino` to be the correct pins on the Arduino UNO. 
+
+![AUX2]()
+<figcaption>A soldering warm up project.</figcaption>
 
 By May 2017, I had gathered up the needed parts and modified Dale Thomas's code to compile on Arduino UNO. The most significant steps were
 
@@ -125,7 +132,7 @@ The ACP code for Arduino Mega 2560 uses a digital pin to control **TX_ENABLE** o
 PORTA |= (1<<PA6); //set high state on digital pin 28
 PORTA &= ~(1<<PA6); //set low state on digital pin 28
 ```
-![ATMega2560 Arduino pin mapping]({{ site.baseurl }}/wp-content/uploads/2017/07/atmega2560_pin_mapping.png)
+<img alt="ATMega2560 Arduino pin mapping" data-src="{{ '/wp-content/uploads/2017/07/atmega2560_pin_mapping.png' | prepend:site.baseurl }}" class="lazyload" />
 
 The pin is addressed by constants that rely on the Arduino Mega's [ATmega2560 pin mapping](https://www.arduino.cc/en/Hacking/PinMapping2560). 
 
@@ -146,7 +153,7 @@ The second line sets a low state by performing bitwise AND operation on `PORTA` 
 
 `PORTA` and `PA6` constants must be updated to reference a valid pin on the Arduino UNO. 
 
-![ATMega168/328 Arduino pin mapping]({{ site.baseurl }}/wp-content/uploads/2017/07/atmega168-328_pin_mapping.png)
+<img alt="ATMega168/328 Arduino pin mapping" data-src="{{ '/wp-content/uploads/2017/07/atmega168-328_pin_mapping.png' | prepend:site.baseurl }}" class="lazyload" />
 
 I choose to use **digital pin 7** on the UNO to control **TX_ENABLE**. Locating **digital pin 7** on the [UNO ATmega328 pin mapping](https://www.arduino.cc/en/Hacking/PinMapping168) shows it as chip pin `PD7`. The `D` in `PD7` indicates `PORTD` of the ATmega328 chip.
 
@@ -175,21 +182,23 @@ Progress | Goals
 
 I prototyped the board on a clone protoshield based off the [Adafruit Proto Shield v.5](https://www.adafruit.com/product/51). 
 
+<img alt="AUX3" data-src="{{ '/wp-content/uploads/2017/07/aux_3.jpg' | prepend:site.baseurl }}" class="lazyload" />
+
 I used an [shield fabrication print](https://learn.adafruit.com/adafruit-proto-shield-arduino/download) for planning wiring. To prepare the file for acceptable printing, I reversed the colors and increased the contrast. This results in a white background and darker colored circuit board pads – good for drawing on a piece of paper.
 
 ##### Inverted protoshield schematic for printing
 
-![Inverted protoshield schematic for printing]({{ site.baseurl }}/wp-content/uploads/2017/07/adafruit_protoshield_v6_inverted.png)
+<img alt="Inverted protoshield schematic for printing" data-src="{{ '/wp-content/uploads/2017/07/adafruit_protoshield_v6_inverted.png' | prepend:site.baseurl }}" class="lazyload" />
 
 My protoshield wiring
 
-![LIU ACP only protoshield wiring diagram]({{ site.baseurl }}/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_diagram.png)
+<img alt="LIU ACP only protoshield wiring diagram" data-src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_diagram.png' | prepend:site.baseurl }}" class="lazyload" />
 
 The finished protoshield
 
-![LIU ACP only protoshield wiring top side]({{ site.baseurl }}/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_side.png)
-![LIU ACP only protoshield wiring bottom]({{ site.baseurl }}/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_bottom.png)
-![LIU ACP only protoshield wiring connected]({{ site.baseurl }}/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_connected.png)
+<img alt="LIU ACP only protoshield wiring top side" data-src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="LIU ACP only protoshield wiring bottom" data-src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_bottom.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="LIU ACP only protoshield wiring connected" data-src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_connected.jpg' | prepend:site.baseurl }}" class="lazyload" />
 
 Progress | Goals
 --- | ---
@@ -267,15 +276,19 @@ Send to Voicemail/Hang Up 2nd Call/Siri | 0 Ω | 1 (Long press)
 Volume Up | ~ 4.7k Ω | 1
 Volume Down | ~ 10k Ω | 1
 
+##### Mystery Control Chip
+
 David Carne analyzed the initial connection "chirp" that the Apple headset control chip produces in his [post](http://david.carne.ca/shuffle_hax/shuffle_remote.html). This "chirp" is required for the iOS device to begin accepting inline remote commands. The chirp took David a microcontroller and a small circuit to reproduce. I did not want to spend to much time on getting the "chirp" to work at this stage and was more interested in getting the entire inline control project working. 
 
-Apparently all the no-name manufacturers have created a working clone control chip to emulate the genuine Apple control chip. I was able to order some headsets with inline control chip for under $2 on Ebay/dollar store.
+Apparently all the no-name manufacturers have created a working clone control chip to emulate the genuine Apple control chip but I wasn't able to find any information on obtaining *just* the control chip. I ended up cheating by adding an additional audio port for a headset with the chip. I was able to order some headsets with inline control chip for under $2 on Ebay/dollar store.
 
 As the control chip "chirp" only occurs when the audio jack is first plugged into the iOS device, I modified my setup to have a separate TRRS audio jack just for the dongle with the control chip. This jack was connected by only **Ring2** and **Sleeve** to another jack containing the actual *TRRS* cable to the iOS device. 
 
 To simulate a button press, I initially tried using a *2N2222* transistor to short **Ring2** and **Sleeve**. For some reason the transistor did not short the two lines. Perhaps not enough current produced by the iPhone audio jack? After some more testing I was able to achieve a button press by using a reed relay. I only choose a reed relay at the time because I had on hand from a Radioshack closing sale — the reed relay was a good choice as will be explained later. 
 
 I did not emulate the volume up and down buttons as there was no need for those controls in this use case. The ACP protocol is not known to transmit volume control signals.
+
+<img alt="AUX3.5" data-src="{{ '/wp-content/uploads/2017/07/aux_3-5.jpg' | prepend:site.baseurl }}" class="lazyload" />
 
 Because I did not design my first CD changer emulating protoboard with this in mind, I added yet another TRRS audio jack to this second protoboard to pipe the audio from the iOS device to the first shield. If you plan on hand wiring a protoboard, this can be easily avoied by having upward facing female pin headers on the bottom shield connect with bottom facing male pin headers on the top shield!
 
@@ -285,9 +298,13 @@ After setting up my protoboard, I modified my previous Arduino program to execut
 
 Some testing revealed that iPhone SE is able to interpret a button press interval a small as 60 ms and that the interval must be under 200 ms to qualify for adjacent button presses to be considered part of the same sequence. I choose to use a round value of 100 ms in the program. 
 
+Back to the why a reed relay was a good choice. If I had used a larger electromagnetic relay - one with a spring and arm, depending on which relay I choose, the relay might not have had a fast enough switching speed to switch every 1/10 s.
+
 Progress | Goals
 --- | ---
 ✔ | Head unit controlled **Next/Previous** and **Fast Forward/Rewind** functionality
+
+<img alt="AUX3.5 side by side" data-src="{{ '/wp-content/uploads/2017/07/aux_3-5_side_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
 
 I got playback control functionality at the cost of aesthetics due to inefficient wiring — in retrospect. But hey, everything was put together and working! I had an external audio AUX input for my vehicle and **could control my iPhone from the head unit**. 
 
@@ -314,11 +331,23 @@ good for when mistakes are made.
 
 ### Vehicle Wiring
 
+<img alt="040 Multilock Connectors" data-src="{{ '/wp-content/uploads/2017/07/multilock_connectors.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Some 040 Multilock Connectors</figcaption>
+
 In the meantime, I experimented with hiding my existing protoboard inside the body of the car by removing the head unit and plugging my protoboard directly into the head unit. 
 
-It works. But nothing happens when I press the fuel economy and energy flow buttons on the head unit!
+<img alt="Head unit connections" data-src="{{ '/wp-content/uploads/2017/07/head_unit_back.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Ford Escape navigation head unit connections.</figcaption>
+
+<img alt="Head unit ACP" data-src="{{ '/wp-content/uploads/2017/07/acp_connection_back.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>12 position ACP connector - the one you want to use.</figcaption>
+
+> It works. But nothing happens when I press the fuel economy and energy flow buttons on the head unit!
 
 As it turns out, the vehicle contains a CAN-ACP convertor module located on the right side of the body compartment behind the glovebox. This module sends energy flow information (MPG, battery charge, etc) to the nav unit to be displayed to the user. 
+
+<img alt="CAN ACP Module" data-src="{{ '/wp-content/uploads/2017/07/can_acp_bus.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>The Mystery CAN to ACP module</figcaption>
 
 In order to place the protoboard behind the head unit, I needed to create a three 040 Multilock Connector headed cable that connected the head unit, CAN-ACP convertor, and CD changer (or CD changer emulator). The cable would consist of:
 
@@ -344,14 +373,24 @@ Progress | Goals
 --- | ---
 ✔ | Reliable connection
 
+<img alt="Center console location" data-src="{{ '/wp-content/uploads/2017/07/center_console_location.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Beneath the center console - one of many possible locations to place the system.</figcaption>
+
 
 ### PCB Arrives (2 weeks later)
 
-![Yay](https://media.giphy.com/media/119HWcqAtGGfJK/giphy.gif)
+<img alt="Yay" data-src="{{ '/wp-content/uploads/2017/07/cheering_nascar.gif' | prepend:site.baseurl }}" class="lazyload" />
+
+<img alt="AUX4" data-src="{{ '/wp-content/uploads/2017/07/aux_4.jpg' | prepend:site.baseurl }}" class="lazyload" />
 
 It works and doesn't disappoint. 
 
-![Inline control schematic]({{ site.baseurl }}/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png)
+<img alt="AUX4 before after top" data-src="{{ '/wp-content/uploads/2017/07/aux_4_before_after_top.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX4 before after side" data-src="{{ '/wp-content/uploads/2017/07/aux_4_before_after_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
+
+<a href="{{ '/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png' | prepend:site.baseurl }}"><img alt="Inline control schematic" data-src="{{ '/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png' | prepend:site.baseurl }}" class="lazyload" /></a>
+
+<img alt="AUX3.5 and AUX4" data-src="{{ '/wp-content/uploads/2017/07/aux_3-5_aux_4.jpg' | prepend:site.baseurl }}" class="lazyload" />
 
 As you may have noticed, I was able to fit both CD changer emulation and playback control functionality on a single Arduino UNO size shield. 
 
@@ -371,22 +410,41 @@ I made the wiring mistake of placing the ACP activity indicator LED in series in
 3. Wait a day for the coupon to appear on your account. 
 4. Proceed to checkout and apply coupon within 2 days.
 
+<img alt="AUX5" data-src="{{ '/wp-content/uploads/2017/07/aux_5.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Revised PCB from Seeed</figcaption>
 
+<img alt="AUX5 top" data-src="{{ '/wp-content/uploads/2017/07/aux_5_inline_top.jpg' | prepend:site.baseurl }}" class="lazyload" />
 
-Revised PCB from Seeed
+<img alt="AUX5 side" data-src="{{ '/wp-content/uploads/2017/07/aux_5_inline_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
+
+<img alt="AUX5 pcb before soldering" data-src="{{ '/wp-content/uploads/2017/07/aux_5_before.jpg' | prepend:site.baseurl }}" class="lazyload" />
 
 ## Finishing Up
 
 Last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position within the Ford Escape.
 
+<img alt="TRRS Audio jack bezel" data-src="{{ '/wp-content/uploads/2017/07/audio_jack_bezel.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>I drilled a hole in the bezel to fit a TRRS jack.</figcaption>
+
 A year after first [splicing the audio cable into the CD connector]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/), I now have a fully integrated AUX audio system that lets me use the original radio head unit controls to control playback on iPhone.
+
+> I want this for my Ford XXX but don't want to order 10 boards. 
+
+You're in luck, the Seeed Studio order came in a 10 pack so I have a couple boards to spare - I only have one car after all. [Send me an email](mailto:anson@ansonliu.com) and we can talk.
 
 ### Credits
 
-Thanks to those below. Their contributions have made this project possible:
+Thanks to the work of those below. Their contributions have made this project possible:
 
 - Simon J. Fisher - [acpmon](http://www.mictronics.de/projects/cdc-protocols/#FordACP)
 - Andrew Hammond - [yampp-3/usb firmware](http://www.mictronics.de/projects/cdc-protocols/#FordACP)
 - sorban - [iPod remote control](http://ipod-remote.blogspot.com)
 - Krysztof Pintscher - [Yampp → Arduino Mega 2560](http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/)
 - Dale Thomas - [Bluetooth Audio support](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)
+
+### To be continued?
+
+Bookmark and check back soon for a future post on wiring up your remote key fob for Bluetooth Low Energy vehicle security control.
+
+<img alt="AUX5.5 stacked" data-src="{{ '/wp-content/uploads/2017/07/aux_5-5_stacked.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>BLE control to come in a future post.</figcaption>

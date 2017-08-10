@@ -65,3 +65,9 @@ defaults:
     values:
       layout: post
       read_time: true
+  - scope:
+      path: "_drafts"
+      type: drafts
+    values:
+      layout: post
+      read_time: true
