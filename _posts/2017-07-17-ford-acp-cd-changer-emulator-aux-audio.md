@@ -244,6 +244,11 @@ Tip | Left audio
 Ring | Right audio
 Sleeve | Ground
 
+<figure>
+<img alt="Cable Chick TRRS diagram" data-src="http://www.cablechick.com.au/resources/image/trrs-diagram2.jpg" class="lazyload" />
+  <figcaption>TS, TRS, TRRS from <a href="http://www.cablechick.com.au/resources/image/trrs-diagram2.jpg">Cable Chick</a></figcaption>
+</figure>
+
 Vendors' solution to transmitting a third channel of data (ex: microphone/playback control) was to add a second ring to the connector, forming the *Tip Ring Ring Sleeve (TRRS)* connector. 
 
 The inline remote control headphones mentioned earlier connect to the audio source via a *TRRS* connector. iOS and recent (2012 and later) Android devices utilize the CTIA pinout for *TRRS*.
