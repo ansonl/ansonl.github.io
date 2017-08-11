@@ -1,5 +1,6 @@
 ---
 title: Making Ford AUX Audio Expansion w/ Stock Inline Control
+subtitle: test
 author: Anson Liu
 layout: post
 image: /wp-content/uploads/2017/07/all_pcb_bench.jpg
@@ -14,38 +15,40 @@ tags:
   - eagle
 published: false
 ---
-
-I finished an AUX audio system that plugs directly into my Ford Escape's electrical system and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. 
+I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehicle's electrical systems and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. 
 
 1. [Backstory](#backstory)
 2. [AUX Audio version 1 - Splicing audio wires](#aux-audio-version-1---splicing-audio-wires)
 3. [Ford ACP Timeline](#ford-acp-timeline)
 4. [AUX Audio version 2 - Emulating the CD Changer with Arduino](#aux-audio-version-2---emulating-the-cd-changer-with-arduino)
-   1. [Setting Up Serial](#setting-up-serial)
-   2. [Setting Up TX_ENABLE Pin](#setting-up-tx_enable-pin)
-      - [Chart for `PORTA |= (1<<PA6)`](#chart-for-porta-1-lt-lt-pa6-)
-   3. [Breadboard the Project](#breadboard-the-project)
-   4. [Protoboard the Project](#protoboard-the-project)
+   - [Setting Up Serial](#setting-up-serial)
+   - [Setting Up TX_ENABLE Pin](#setting-up-tx_enable-pin)
+   - [Breadboard the Project](#breadboard-the-project)
+   - [Protoboard the Project](#protoboard-the-project)
 5. [AUX Audio version 3 - Adding head unit playback control](#aux-audio-version-3---adding-head-unit-playback-control)
-   1. [Inline Playback Control](#inline-playback-control)
-      - [Android Inline Control](#android-inline-control)
-      - [Apple Inline Control](#apple-inline-control)
-   2. [Inline Control Timing](#inline-control-timing)
-6. [AUX Audio version 4 - Pulling It All Together](#aux-audio-version-4---pulling-it-all-together-on-pcb-)
-   1. [Learning EAGLE](#learning-eagle)
-   2. [PCB Fabrication](#pcb-fabrication)
-   3. [Vehicle Wiring](#vehicle-wiring)
-      - [Ford Escape head unit access](#to-the-access-the-back-of-the-ford-escape-head-unit-)
-   3. [PCB Arrives](#pcb-arrives-2-weeks-later-)
+   - [Inline Playback Control](#inline-playback-control)
+   - [Inline Control Timing](#inline-control-timing)
+6. [AUX Audio version 4 - Pulling It All Together](#aux-audio-version-4---pulling-it-all-together-on-pcb)
+   - [Learning EAGLE](#learning-eagle)
+   - [PCB Fabrication](#pcb-fabrication)
+   - [Vehicle Wiring](#vehicle-wiring)
+   - [PCB Arrives](#pcb-arrives-2-weeks-later)
 7. [Finishing Up](#finishing-up)
-   1. [Credits](#credits)
+   - [Compatibility](#compatibility)
+   - [Source and Reference](#source-and-reference-materials)
+   - [Credits](#credits)
 
 ## Backstory
 
 Last July I added an AUX audio input to a recently acquired 2007 Ford Escape Hybrid. The reasons for adding an AUX audio input were:
 
 - No built in AUX audio input.
-- Expensive (>$50) third [party](http://www.ycarlink.com/pd_12391_Digital-CD-USB-SD-AUX-Bluetooth-changer-emulator-adapter-for-new-Ford-quadlock-Fakra-12-pin-6000CD-6006CDC-5000C.htm) [accessories](http://www.discountcarstereo.com/AUX-FRDW.html) that emulated the CD changer to add AUX audio capability. 
+- Expensive (>$50) existing third [party](http://www.ycarlink.com/pd_12391_Digital-CD-USB-SD-AUX-Bluetooth-changer-emulator-adapter-for-new-Ford-quadlock-Fakra-12-pin-6000CD-6006CDC-5000C.htm) [accessories](http://www.discountcarstereo.com/AUX-FRDW.html) that emulated the CD changer to add AUX audio capability. 
+
+<figure>
+<img alt="Ford Audio Chassis" data-src="{{ '/wp-content/uploads/2017/07/ford_escape_audio_chassis.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Ford OEM head unit configurations for 2001-2007 Ford Escape and contemporary generation Ford vehicles. Note no AUX connection available in any of them. </figcaption>
+</figure>
 
 ## AUX Audio version 1 - Splicing audio wires
 
@@ -76,22 +79,70 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
 
 ## Ford ACP Timeline
 
-- 1994
-  - Ford Motor Corporation presents [Ford Audio Communication Protocol (ACP)](http://papers.sae.org/940142/) at SAE International Conference and Exposition. Paper available [here](http://www.mictronics.de/projects/cdc-protocols/#FordACP).
-- June 2003
-  - Simon J. Fisher creates [acpmon](http://www.mictronics.de/projects/cdc-protocols/#FordACP), an ACP monitor and decoder.
-- July 2003
-  - Andrew Hammond creates modified yampp-3/usb firmware meant for Ford 4/5/6000 series CD Changer head unit.
-  - The firmware allows the head unit and steering column controls to be used to control Yampp and Yampp audio to be played through the head unit.
-- September 2008
-  - sorban creates [iPod remote control](http://ipod-remote.blogspot.com) with external display that interfaces with Ford CD6000 head unit.
-- Dcember 2013
-  - Krysztof Pintscher ports Andrew Hammond's Yampp code to run on Arduino Mega 2560. [Instructable](http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/)
-- November 2014
-  - Dale Thomas adds AT Command integration for Bluetooth Audio support using OVC3868. [Instructable](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)
-  - AT Command integration sends head unit controls to connected Bluetooth device.
-- 2017
-  - Anson Liu finally does something???
+<div class="timeline-container">
+
+  <div class="timeline-item" date-is='1994'>
+    <h3 class="single-div-timeline">Ford Motor Corporation presents <a href="http://papers.sae.org/940142/">Ford Audio Communication Protocol (ACP)</a> at SAE International Conference and Exposition.</h3>
+    <p class="single-div-timeline">
+      Paper available <a href="http://www.mictronics.de/projects/cdc-protocols/#FordACP">here</a>.
+    </p>
+  </div>
+  
+  <div class="timeline-item" date-is='June 2003'>
+    <h3 class="single-div-timeline">Simon J. Fisher creates <a href="http://www.mictronics.de/projects/cdc-protocols/#FordACP">acpmon</a>.</h3>
+    <p class="single-div-timeline">
+      acpmon is an ACP monitor and decoder.
+    </p>
+  </div>
+  
+  <div class="timeline-item" date-is='July 2003'>
+    <h3 class="single-div-timeline">Andrew Hammond creates modified yampp-3/usb firmware meant for Ford 4/5/6000 series CD Changer head unit.</h3>
+    <p class="single-div-timeline">
+     The firmware allows the head unit and steering column controls to be used to control Yampp and Yampp audio to be played through the head unit.
+    </p>
+  </div>
+
+  <div class="timeline-item" date-is='September 2008'>
+    <h3 class="single-div-timeline">sorban creates <a href="http://ipod-remote.blogspot.com">iPod remote control</a></h3>
+    <p class="single-div-timeline">
+      <figure>
+      <img alt="ipod remote control" data-src="{{ '/wp-content/uploads/2017/07/ipod_remote_control.jpg' | prepend:site.baseurl }}" class="lazyload" />
+      </figure>
+      Contains external display that interfaces with Ford CD6000 head unit.
+    </p>
+  </div>
+
+  <div class="timeline-item" date-is='December 2013'>
+    <h3 class="single-div-timeline">Krysztof Pintscher ports Andrew Hammond's Yampp code to run on Arduino Mega 2560.</h3>
+    <p class="single-div-timeline">
+      <figure>
+      <img alt="nious" data-src="{{ '/wp-content/uploads/2017/07/nious.jpg' | prepend:site.baseurl }}" class="lazyload" />
+      </figure>
+      <a href="http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/">Instructable</a>
+
+    </p>
+  </div>
+
+  <div class="timeline-item" date-is='November 2014'>
+    <h3 class="single-div-timeline">Dale Thomas adds AT Command integration for Bluetooth Audio support using AT Command integration with OVC3868. </h3>
+    <p class="single-div-timeline">
+      <figure>
+      <img alt="dale thomas" data-src="{{ '/wp-content/uploads/2017/07/dale_thomas_pcb.jpg' | prepend:site.baseurl }}" class="lazyload" />
+      </figure>
+      <a href="http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/">Instructable</a>
+    </p>
+  </div>
+
+  <div class="timeline-item" date-is='Somewhere in 2017'>
+    <h3 class="single-div-timeline">Anson Liu finally does something???</h3>
+    <p class="single-div-timeline">
+       <figure>
+      <img alt="???" data-src="{{ '/wp-content/uploads/2017/07/liu_pcb_blurred.jpg' | prepend:site.baseurl }}" class="lazyload" />
+      </figure>
+    </p>
+  </div>
+
+</div>
   
 ## AUX Audio version 2 - Emulating the CD Changer with Arduino
 
@@ -220,7 +271,7 @@ Progress | Goals
 
 So this looked like the end. I had completed the goal of adding a standalone AUX audio in capability that did not require the original CD changer to operate. 
 
-The setup plugged into the CD changer connector under the front passenger seat. It was out mostly out of sight but still reachable for kicking by a someone in the backseat. 
+The setup plugged into the CD changer connector under the front passenger seat. It was out mostly out of sight but still reachable by a backseat passenger. The 12 strand twisted wire under the seat was also brittle from age and sometimes lost connectivity resulting in `CDDJ Timeout` error displayed on the head unit. 
 
 ## AUX Audio version 3 - Adding head unit playback control
 
@@ -304,9 +355,19 @@ Merely creating a circuit to short the **Ring2** and **Sleeve** lines fails to c
   <figcaption>iPod Shuffle 3G headset chip from <a href="http://gadgets.boingboing.net/2009/03/14/we-found-the-chip-in.html">Boing Boing Gadgets</a></figcaption>
 </figure>
 
-David Carne analyzed the initial connection "chirp" that the Apple headset control chip produces in his [post](http://david.carne.ca/shuffle_hax/shuffle_remote.html). This "chirp" is required for the iOS device to begin accepting inline remote commands. The chirp took David a microcontroller and a small circuit to reproduce. I did not want to spend to much time on getting the "chirp" to work at this stage and was more interested in getting the entire inline control project working. 
+David Carne analyzed the initial connection "chirp" that the Apple headset control chip produces in his [post](http://david.carne.ca/shuffle_hax/shuffle_remote.html). This "chirp" is required for the iOS device to begin accepting inline remote commands. The chirp took David a microcontroller and a small circuit to reproduce. 
 
-Apparently all the no-name manufacturers have created a working clone control chip to emulate the genuine Apple control chip but I wasn't able to find any information on obtaining *just* the control chip. I ended up cheating by adding an additional audio port for a headset with the chip. I was able to order some headsets with inline control chip for under $2 on Ebay/dollar store.
+I did not want to spend to much time on getting the "chirp" to work at this stage and was more interested in getting the entire inline control project working. Apparently all the no-name manufacturers have created a working clone control chip to emulate the genuine Apple control chip but I wasn't able to find any information on obtaining *just* the control chip. I ended up cheating by adding an additional audio port for a headset with the chip. I was able to order some headsets with inline control chip for under $2 on Ebay/dollar store.
+
+<figure style="display: inline-block; width: 45%;">
+<img alt="Remote extension cable" data-src="http://i.ebayimg.com/images/g/55wAAOSwLEtYhWtv/s-l500.jpg" class="lazyload" />
+  <figcaption>Example <a href="http://www.ebay.com/itm/3-5mm-Audio-Headphone-Adapter-Remote-Mic-Extension-Cable-For-iphone-5-6S-Samsung/272476961890?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649">remote extension cable</a> from Ebay</figcaption>
+</figure>
+
+<figure style="display: inline-block; width: 45%;">
+<img alt="Dollar General earbuds" data-src="{{ '/wp-content/uploads/2017/07/dollar_general_earbuds.jpg' | prepend:site.baseurl }}" class="lazyload" />
+  <figcaption>Example of the <i>iPhone + button</i> feature to look for at the Dollar General</figcaption>
+</figure>
 
 As the control chip "chirp" only occurs when the audio jack is first plugged into the iOS device, I modified my setup to have a separate TRRS audio jack just for the dongle with the control chip. This jack was connected by only **Ring2** and **Sleeve** to another jack containing the actual *TRRS* cable to the iOS device. 
 
@@ -324,7 +385,7 @@ After setting up my protoboard, I modified my previous Arduino program to execut
 
 Some testing revealed that iPhone SE is able to interpret a button press interval a small as 60 ms and that the interval must be under 200 ms to qualify for adjacent button presses to be considered part of the same sequence. I choose to use a round value of 100 ms in the program. 
 
-Back to the why a reed relay was a good choice. If I had used a larger electromagnetic relay - one with a spring and arm, depending on which relay I choose, the relay might not have had a fast enough switching speed to switch every 1/10 s.
+Back to why a reed relay was a good choice. If I had used a larger electromagnetic relay – one with a spring and arm, depending on which relay I choose, the relay might not have had a fast enough switching speed to switch every 1/10 s.
 
 Progress | Goals
 --- | ---
@@ -358,22 +419,31 @@ good for when mistakes are made.
 ### Vehicle Wiring
 
 <img alt="040 Multilock Connectors" data-src="{{ '/wp-content/uploads/2017/07/multilock_connectors.jpg' | prepend:site.baseurl }}" class="lazyload" />
-<figcaption>Some 040 Multilock Connectors</figcaption>
+<figcaption>Some 040 Multilock Connectors used by Ford vehicles.</figcaption>
 
 In the meantime, I experimented with hiding my existing protoboard inside the body of the car by removing the head unit and plugging my protoboard directly into the head unit. 
 
+<figure style="display: inline-block; width: 45%;">
 <img alt="Head unit connections" data-src="{{ '/wp-content/uploads/2017/07/head_unit_back.jpg' | prepend:site.baseurl }}" class="lazyload" />
 <figcaption>Ford Escape navigation head unit connections.</figcaption>
+</figure>
 
+<figure style="display: inline-block; width: 45%;">
 <img alt="Head unit ACP" data-src="{{ '/wp-content/uploads/2017/07/acp_connection_back.jpg' | prepend:site.baseurl }}" class="lazyload" />
 <figcaption>12 position ACP connector - the one you want to use.</figcaption>
+</figure>
 
-> It works. But nothing happens when I press the fuel economy and energy flow buttons on the head unit!
+> Audio works. But nothing happens when I press the fuel economy and energy flow buttons on the head unit!
 
-As it turns out, the vehicle contains a CAN-ACP convertor module located on the right side of the body compartment behind the glovebox. This module sends energy flow information (MPG, battery charge, etc) to the nav unit to be displayed to the user. 
+As it turns out, the hybrid vehicle contains a CAN-ACP convertor module located on the right side of the body compartment behind the glovebox. This module sends energy flow information (engine, battery charge, etc) to the nav unit to be displayed to the user. 
 
 <img alt="CAN ACP Module" data-src="{{ '/wp-content/uploads/2017/07/can_acp_bus.jpg' | prepend:site.baseurl }}" class="lazyload" />
 <figcaption>The Mystery CAN to ACP module</figcaption>
+
+<img id="acp_graph" alt="Captured ACP data" data-src="{{ '/wp-content/uploads/2017/07/acp_graph.png' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Captured ACP data to be decoded.</figcaption>
+
+I am still decoding this information and will post in the future with results. 
 
 In order to place the protoboard behind the head unit, I needed to create a three 040 Multilock Connector headed cable that connected the head unit, CAN-ACP convertor, and CD changer (or CD changer emulator). The cable would consist of:
 
@@ -394,27 +464,55 @@ We used a **Wire-to-Board** female 040 Multilock Connector ([TE 174051-2](http:/
   - If the tools do not work for you, the plastic side wall holding the head unit can be conveniently drilled through to provide access to the clips holding the head unit.
   - Any drilled holes will be covered up by replacing the silver bezel.
 
+#### 2007 Ford Escape Hybrid wiring diagram and component locations
+
+<figure style="display: inline-block; width: 45%;">
+<a href="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_audio_nav_sys_wiring_diagram.jpg' | prepend:site.baseurl }}"><img alt="2007 Ford Escape Hybrid Wiring Diagram" data-src="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_audio_nav_sys_wiring_diagram.jpg' | prepend:site.baseurl }}" class="lazyload" /></a>
+<figcaption>2007 Ford Escape Hybrid Audio System/Navigation Wiring Diagram</figcaption>
+</figure>
+
+<figure style="display: inline-block; width: 45%;">
+<a href="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_instrument_panel_rear_component_view.jpg' | prepend:site.baseurl }}"><img alt="2007 Ford Escape Hybrid Instrument Panel Rear Component View" data-src="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_instrument_panel_rear_component_view.jpg' | prepend:site.baseurl }}" class="lazyload" /></a>
+<figcaption>2007 Ford Escape Hybrid Instrument Panel Rear Component View</figcaption>
+</figure>
 
 Progress | Goals
 --- | ---
 ✔ | Reliable connection
 
+<figure style="display: inline-block; width: 45%;">
 <img alt="Center console location" data-src="{{ '/wp-content/uploads/2017/07/center_console_location.jpg' | prepend:site.baseurl }}" class="lazyload" />
 <figcaption>Beneath the center console - one of many possible locations to place the system.</figcaption>
+</figure>
 
+<figure style="display: inline-block; width: 45%;">
+<img alt="TRRS Audio jack bezel" data-src="{{ '/wp-content/uploads/2017/07/audio_jack_bezel.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>I drilled a hole in the bezel to fit a TRRS jack.</figcaption>
+</figure>
 
 ### PCB Arrives (2 weeks later)
 
+<figure style="display: inline-block; width: 25%;">
 <img alt="Yay" data-src="{{ '/wp-content/uploads/2017/07/cheering_nascar.gif' | prepend:site.baseurl }}" class="lazyload" />
+</figure>
 
+<figure style="display: inline-block; width: 70%;">
 <img alt="AUX4" data-src="{{ '/wp-content/uploads/2017/07/aux_4.jpg' | prepend:site.baseurl }}" class="lazyload" />
+</figure>
 
 It works and doesn't disappoint. 
 
+<figure style="display: inline-block; width: 45%;">
 <img alt="AUX4 before after top" data-src="{{ '/wp-content/uploads/2017/07/aux_4_before_after_top.jpg' | prepend:site.baseurl }}" class="lazyload" />
-<img alt="AUX4 before after side" data-src="{{ '/wp-content/uploads/2017/07/aux_4_before_after_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
+</figure>
 
+<figure style="display: inline-block; width: 45%;">
+<img alt="AUX4 before after side" data-src="{{ '/wp-content/uploads/2017/07/aux_4_before_after_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
+</figure>
+
+<figure>
 <a href="{{ '/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png' | prepend:site.baseurl }}"><img alt="Inline control schematic" data-src="{{ '/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png' | prepend:site.baseurl }}" class="lazyload" /></a>
+</figure>
 
 <img alt="AUX3.5 and AUX4" data-src="{{ '/wp-content/uploads/2017/07/aux_3-5_aux_4.jpg' | prepend:site.baseurl }}" class="lazyload" />
 
@@ -436,27 +534,68 @@ I made the wiring mistake of placing the ACP activity indicator LED in series in
 3. Wait a day for the coupon to appear on your account. 
 4. Proceed to checkout and apply coupon within 2 days.
 
+<figure>
 <img alt="AUX5" data-src="{{ '/wp-content/uploads/2017/07/aux_5.jpg' | prepend:site.baseurl }}" class="lazyload" />
 <figcaption>Revised PCB from Seeed</figcaption>
+</figure>
 
+<figure style="display: inline-block; width: 45%;">
 <img alt="AUX5 top" data-src="{{ '/wp-content/uploads/2017/07/aux_5_inline_top.jpg' | prepend:site.baseurl }}" class="lazyload" />
+</figure>
 
+<figure style="display: inline-block; width: 45%;">
 <img alt="AUX5 side" data-src="{{ '/wp-content/uploads/2017/07/aux_5_inline_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
+</figure>
 
+<figure>
 <img alt="AUX5 pcb before soldering" data-src="{{ '/wp-content/uploads/2017/07/aux_5_before.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>The bare PCB.</figcaption>
+</figure>
 
 ## Finishing Up
 
-Last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position within the Ford Escape.
+<div class="timeline-container">
 
-<img alt="TRRS Audio jack bezel" data-src="{{ '/wp-content/uploads/2017/07/audio_jack_bezel.jpg' | prepend:site.baseurl }}" class="lazyload" />
-<figcaption>I drilled a hole in the bezel to fit a TRRS jack.</figcaption>
+  <div class="timeline-item" date-is='2017'>
+    <h3 class="single-div-timeline">Anson Liu finally does something.</h3>
+    <p class="single-div-timeline">
+    </p>
+  </div>
+
+</div>
+
+Last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position within the Ford Escape.
 
 A year after first [splicing the audio cable into the CD connector]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/), I now have a fully integrated AUX audio system that lets me use the original radio head unit controls to control playback on iPhone.
 
 > I want this for my Ford XXX but don't want to order 10 boards. 
 
-You're in luck, the Seeed Studio order came in a 10 pack so I have a couple boards to spare - I only have one car after all. [Send me an email](mailto:anson@ansonliu.com) and we can talk.
+*You're in luck, the Seeed Studio order came in a 10 pack so I have a couple boards to spare - I only have one car after all. [Send me an email](mailto:anson@ansonliu.com) and we can talk.*
+
+### Compatibility
+
+Compatible head units and vehicles *(incomplete list)*
+1. 4050RDS
+2. 4500
+3. 4600RDS
+4. 5000RDS
+5. 5000RDS EON
+6. 6000CD RDS
+7. 6000 MP3
+8. 7000RDS
+9. 01-07 Ford Escape
+10. 96-05 Ford Expedition
+11. Ford Taurus (some)
+12. Ford Explorer (some)
+
+### Source and Reference Materials
+
+You can get the materials for this project at {% include icon-github.html username="ansonl" %}/[ford-acp-aux](https://github.com/ansonl/ansonl.github.io). 
+- Arduino source code
+- EAGLE schematic and board files
+  - EAGLE files should be explanatory for parts needed to build the project. I will create a Bill of Materials in the future after adding some additional features (BLE, energy info, etc).
+- Past contributors' works
+  - *I have made an effort to include as many surviving reference materials as I could find in the repository.*
 
 ### Credits
 
@@ -470,7 +609,9 @@ Thanks to the work of those below. Their contributions have made this project po
 
 ### To be continued?
 
-Bookmark and check back soon for a future post on wiring up your remote key fob for Bluetooth Low Energy vehicle security control.
+Bookmark and check back soon for future posts on wiring up your remote key fob for Bluetooth Low Energy vehicle security control and [decoding ACP messages](#/acp_graph) for hybrid energy flow information.
 
+<figure>
 <img alt="AUX5.5 stacked" data-src="{{ '/wp-content/uploads/2017/07/aux_5-5_stacked.jpg' | prepend:site.baseurl }}" class="lazyload" />
-<figcaption>BLE control to come in a future post.</figcaption>
+<figcaption>BLE control to come in a future post along with ACP energy flow decoding.</figcaption>
+</figure>

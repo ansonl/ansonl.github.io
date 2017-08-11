@@ -1,0 +1,75 @@
+/* 
+Copyright (c) 2017 by Niels Voogt (http://codepen.io/NielsVoogt/pen/MbMMxv) Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Modifications to make more specific selectors by Anson Liu.
+
+Example:;
+<div class="timeline-container">
+  <div class="timeline-item" date-is='1994'>
+    <h3 class="single-div-timeline">Ford Motor Corporation presents <a href="http://papers.sae.org/940142/">Ford Audio Communication Protocol (ACP)</a> at SAE International Conference and Exposition.</h3>
+    <p class="single-div-timeline">
+      Paper available <a href="http://www.mictronics.de/projects/cdc-protocols/#FordACP">here</a>.
+    </p>
+  </div>
+</div>
+*/
+
+h1.single-div-timeline, h2.single-div-timeline, h3.single-div-timeline, h4.single-div-timeline, h5.single-div-timeline, h6.single-div-timeline {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1.single-div-timeline {
+  font-size: 2rem;
+  margin-bottom: .5em;
+}
+
+p.single-div-timeline {
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
+}
+
+.timeline-container {
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.timeline-item {
+  padding: 3em 2em 2em;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+.timeline-item p {
+  font-size: 1rem;
+}
+.timeline-item::before {
+  content: attr(date-is);
+  position: absolute;
+  left: 2em;
+  font-weight: bold;
+  top: 1em;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: .785rem;
+}
+.timeline-item::after {
+  width: 10px;
+  height: 10px;
+  display: block;
+  top: 1em;
+  position: absolute;
+  left: -7px;
+  border-radius: 10px;
+  content: '';
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background: white;
+}
+.timeline-item:last-child {
+  -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+     border-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+}

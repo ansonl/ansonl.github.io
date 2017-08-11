@@ -1,7 +1,7 @@
 ---
 title: Ford Escape Faulty Door Lock Actuator Patch
 excerpt: |
-  Vehicle alarm going bump in the night? Have a case of bipolar door ajar alarm? Join me as we fix it.
+  Vehicle alarm going bump in the night? Persistent door ajar alarm? Join me as we fix it.
 
   ![Ford Escape door lock actuator electrical connector wire jump](wp-content/uploads/2016/08/wire-jump.jpg "Ford Escape door lock actuator electrical connector wire jump")
 author: Anson Liu
