@@ -670,9 +670,9 @@ Thanks to the work of those below. Their contributions have made this project po
 
 ### To be continued?
 
-Bookmark and check back soon for future posts on wiring up your remote key fob for Bluetooth Low Energy vehicle security control and more [decoding ACP messages](#/acp_graph) for hybrid energy flow information.
-
 <figure>
 <img alt="AUX5.5 stacked" data-src="{{ '/wp-content/uploads/2017/07/aux_5-5_stacked.jpg' | prepend:site.baseurl }}" class="lazyload" />
-<figcaption>BLE control to come in a future post along with ACP energy flow decoding.</figcaption>
+<figcaption>BLE control to come in the future with more ACP energy flow decoding.</figcaption>
 </figure>
+
+Bookmark and check back soon for future posts on wiring up your remote key fob for Bluetooth Low Energy vehicle security control and more [decoding ACP messages](#/acp_graph) for hybrid energy flow information.

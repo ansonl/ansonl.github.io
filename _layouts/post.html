@@ -10,6 +10,11 @@ layout: default
       <div class="entry-content">
         {{ content }}
       </div>
+
+      {% unless post.subscribe == false %}
+        {% include subscribe.html %}
+      {% endunless %}
+
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}
