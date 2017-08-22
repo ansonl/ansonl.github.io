@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitæ
+title: CV
 layout: cv
 actions:
   - label: "Available upon request"

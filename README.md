@@ -6,7 +6,9 @@
 
 - [Animated title bar](https://github.com/ansonl/ansonl.github.io/blob/master/_includes/page-intro.html) using [mattboldt/typed.js](https://github.com/mattboldt/typed.js/).
 - Menu sidebar toggle label color change based on background brightness for visibility using [kennethcachia/background-check](https://github.com/kennethcachia/background-check).
-- [`lazysizes`](https://github.com/aFarkas/lazysizes) conversion regex.
+- [`lazysizes`](https://github.com/aFarkas/lazysizes) integration.
+  - Markdown to `img` element for lazysizes regex substitution example below. 
+  - Liquid include for `img` element at [lazysizes.html](https://github.com/ansonl/ansonl.github.io/blob/master/_includes/lazysizes.html). Usage example in below sections.
 - [Post Archive](https://github.com/ansonl/ansonl.github.io/blob/master/archive.md) page with posts by year.
 - [Post Tags](https://github.com/ansonl/ansonl.github.io/blob/master/tags.md) page with list of all tags *and* list of tags with related posts. 
 
@@ -18,6 +20,14 @@ If you are using GitHub Pages, jekyll-theme-basically-basic gem is not supported
 git remote add upstream git@github.com:mmistakes/jekyll-theme-basically-basic.git
 git pull upstream master
 git mergetool #If needed
+```
+
+### Usage of [`lazysizes` Liquid include](https://github.com/ansonl/ansonl.github.io/blob/master/_includes/lazysizes.html) in a post
+```liquid
+{% capture src %}
+  {{ '/wp-content/uploads/2017/07/ford_escape_audio_chassis.jpg' | prepend:site.baseurl }}
+{% endcapture %}
+{% include lazysizes.html alt='test alt' data-src=src caption='a caption [test link](http://example.com)' %}
 ```
 
 ### Convert Markdown images to be `lazysizes` compatible for posts with lots of images.

@@ -1,2 +1,2 @@
 #!/bin/sh
-jekyll serve --drafts --host 0.0.0.0 --incremental --profile
+bundle exec jekyll serve --drafts --host 0.0.0.0 --incremental --profile

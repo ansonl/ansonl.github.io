@@ -1,0 +1,8 @@
+<figure style="{% if include.figure-style %}{{ include.figure-style }}{% endif %}">
+	<img alt="{% if include.alt %}{{ include.alt }}{% endif %}" 
+		data-src="{% if include.data-src %}{{ include.data-src }}{% else %}{% include missing-data-src.liquid %}{% endif %}" 
+		class="lazyload" />
+	{% if include.caption %}
+		<figcaption>{{ include.caption | markdownify }}</figcaption>
+	{% endif %}
+</figure>

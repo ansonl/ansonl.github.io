@@ -15,7 +15,9 @@ tags:
   - eagle
 published: false
 ---
-I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehicle's electrical systems and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. 
+I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehicle's electrical systems and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle.
+
+If you are interested in my work interpreting Ford ACP data for energy flow/fuel efficiency info you are skip down to it [here](#interpreting-acp-energy-data).
 
 1. [Backstory](#backstory)
 2. [AUX Audio version 1 - Splicing audio wires](#aux-audio-version-1---splicing-audio-wires)
@@ -33,6 +35,7 @@ I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehic
    - [PCB Fabrication](#pcb-fabrication)
    - [Vehicle Wiring](#vehicle-wiring)
    - [PCB Arrives](#pcb-arrives-2-weeks-later)
+7. [Interpreting ACP Energy Data](#interpreting-acp-energy-data)
 7. [Finishing Up](#finishing-up)
    - [Compatibility](#compatibility)
    - [Source and Reference](#source-and-reference-materials)
@@ -437,13 +440,17 @@ In the meantime, I experimented with hiding my existing protoboard inside the bo
 
 As it turns out, the hybrid vehicle contains a CAN-ACP convertor module located on the right side of the body compartment behind the glovebox. This module sends energy flow information (engine, battery charge, etc) to the nav unit to be displayed to the user. 
 
+<figure style="display: inline-block; width: 45%;">
 <img alt="CAN ACP Module" data-src="{{ '/wp-content/uploads/2017/07/can_acp_bus.jpg' | prepend:site.baseurl }}" class="lazyload" />
 <figcaption>The Mystery CAN to ACP module</figcaption>
+</figure>
 
+<figure style="display: inline-block; width: 45%;">
 <img id="acp_graph" alt="Captured ACP data" data-src="{{ '/wp-content/uploads/2017/07/acp_graph.png' | prepend:site.baseurl }}" class="lazyload" />
 <figcaption>Captured ACP data to be decoded.</figcaption>
+</figure>
 
-I am still decoding this information and will post in the future with results. 
+I experimented with various ways to find correlation between the ACP data and driving events such as acceleration and braking. My results are covered [below](#). 
 
 In order to place the protoboard behind the head unit, I needed to create a three 040 Multilock Connector headed cable that connected the head unit, CAN-ACP convertor, and CD changer (or CD changer emulator). The cable would consist of:
 
@@ -552,6 +559,60 @@ I made the wiring mistake of placing the ACP activity indicator LED in series in
 <figcaption>The bare PCB.</figcaption>
 </figure>
 
+## Interpreting ACP Energy Data
+
+The Ford CAN-ACP module converts the Ford 11 bit CAN bus messages to ACP message format. Presumably, this is the energy and fuel efficiency information that is displayed to the user through the navigation head unit. Energy information is represented as arrows pointing to and from the internal combustion engine (ICE), motor, wheels, and battery.
+
+The **9 byte ACP message for CD Changer** format is broken down by byte as follows. For more information on the ACP message for CD Changer, please see the document in the repository at `Resources/Ford ACP.doc`.
+
+0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+Priority | Address 1 | Address 2 | Command Control Byte | Data | Data | Data | Data
+
+Captured ACP energy flow messages appear to be differently sized; **11 bytes** in length versus 9 bytes. I love interpretting 11 dimensional data.
+
+I initially captured the ACP messages by writing to an SD card using the [Arduino SD library](https://www.arduino.cc/en/Reference/SDCardNotes), importing the data as CSV, and creating a scatter plot. The problem with this approach was that I had to mentally recall the recorded drive to find patterns between driving events and the collected data. *In the repository, ACP SD datalogging code is located in `Sketch/Ford_SD_datalogger`.*
+
+<figure>
+<img id="acp_graph" alt="Captured ACP data" data-src="{{ '/wp-content/uploads/2017/07/acp_graph.png' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Graphed ACP data in Excel. *Hint: Use `hex2dec()` to convert data if logged in hex.*</figcaption>
+</figure>
+
+I was able to figure out the byte at the **7th index** indicated the engine was **On/Off/Car Off**. Not much more was deduced from a non-realtime graph. Attaching an accelerometer in an attempt to capture acceleration and braking did not produce consistent results due to road incline, driving conditions, etc. 
+
+After these unsuccessful ideas and realizing realtime feedback would make decoding data much easier, I hooked up an HD44780 LCD using the 3 wire shift register setup copied below and described in the Arduino [New LiquidCrystal](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/schematics#!latch-shift-register) library. **The reason to use the HD44780 vs segmented LED bars: There was no way I was going to be able to use segmented LED bars to display data without a shift register anyways due to limited ports on the ATMega328.**
+
+<figure>
+<img id="acp_graph" alt="3 wire Shift Register 74HC595 LCD" data-src="{{ '/wp-content/uploads/2017/07/srlcd595.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>3 wire 74HC595 Latching Shift Register schematic from <a href="https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/schematics#!latch-shift-register">fmalpartida/new-liquidcrystal</a></figcaption>
+</figure>
+
+Based on previously recorded data, the first 4 bytes of energy flow ACP messages remained constant. This leaves 7 bytes of unknown data to interpret. I assume that the remaining 7 bytes of data is "separated" into bytes. Coincidentally, the HD44780 display I used was a 16x4 display of 5x8 cells.  
+- Each byte of the unknown data would be represented by a display area of 2x4 cells. 
+- A byte's maximum decimal value is 255.
+- 4 cells vertical length per bypte, each 8 pixels high, gave me a 4×8=32 pixel resolution to display 255 resolution data. See the previous bullet if you are confused about 255.
+- The bar graph can be displayed by 1 of 8 block symbols that look like &#9601; &#9602; &#9603; &#9604; &#9605; &#9606; &#9607; &#9608;
+- HD44780 character set only includes the " " and &#9608; characters.
+
+Coincidentally (again), the HD44780 supports up to 8 custom characters so we can just create our block symbols in these!
+- I initially tried to use [rowansimms/arduino-lcd-3pin](https://bitbucket.org/rowansimms/arduino-lcd-3pin) to drive the display but the library has an issue when creating over five custom characters. 😞
+
+<figure>
+<img alt="ACP Data Bar Graphs" data-src="{{ '/wp-content/uploads/2017/07/data_bars.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Realtime ACP data display.</figcaption>
+</figure>
+
+The display works after some fiddling around and realtime ACP data is displayed next to the stock energy display as I drive around. After a few drives with this setup, my guesses for the data are below. For others interested and trying to verify their setup is correct, I have graphed the ACP data in an spreadsheet in the repository at `Resources/liu_acp_datalog.xlsx` and on [Google Sheets](https://docs.google.com/a/apparentetch.com/spreadsheets/d/1_SgPwwJJCxt1RxiiE1k6P2VXfPj-C-Zy4JVyMQaL5C8/edit?usp=sharing).
+
+*I could be completely wrong about the data being separated into single bytes. Not too sure and still making observations.*
+
+0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+`0x71` for my vehicle | Constant | Constant | Constant | Battery charging? | Electric Motor load | Engine On/Off | ↑ w/ engine + motor use. Resets on max. | ↕ driving / ↓ w/ discharging battery | ↑ w/ engine use. Resets on max.  | ↕ driving / ↓ w/ discharging battery
+
+<figure>
+<img alt="ACP Data Bar Graphs Animated" data-src="{{ '/wp-content/uploads/2017/07/data_bar_animated.gif' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Like a music visualizer - for hybrids. </figcaption>
+</figure>
+
 ## Finishing Up
 
 <div class="timeline-container">
@@ -566,11 +627,11 @@ I made the wiring mistake of placing the ACP activity indicator LED in series in
 
 Last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position within the Ford Escape.
 
-A year after first [splicing the audio cable into the CD connector]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/), I now have a fully integrated AUX audio system that lets me use the original radio head unit controls to control playback on iPhone.
+A year after first [splicing the audio cable into the CD connector]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/), I now have a fully integrated AUX audio system (as well as a car [data visualizer](#interpreting-acp-energy-data)) that lets me use the original radio head unit controls to control playback on iPhone. 
 
 > I want this for my Ford XXX but don't want to order 10 boards. 
 
-*You're in luck, the Seeed Studio order came in a 10 pack so I have a couple boards to spare - I only have one car after all. [Send me an email](mailto:anson@ansonliu.com) and we can talk.*
+*You're in luck, the Seeed Studio order came in a 10 pack so I have a couple boards to spare - I only have one car after all. Please [send me an email](mailto:anson@ansonliu.com) and we can talk.*
 
 ### Compatibility
 
@@ -609,7 +670,7 @@ Thanks to the work of those below. Their contributions have made this project po
 
 ### To be continued?
 
-Bookmark and check back soon for future posts on wiring up your remote key fob for Bluetooth Low Energy vehicle security control and [decoding ACP messages](#/acp_graph) for hybrid energy flow information.
+Bookmark and check back soon for future posts on wiring up your remote key fob for Bluetooth Low Energy vehicle security control and more [decoding ACP messages](#/acp_graph) for hybrid energy flow information.
 
 <figure>
 <img alt="AUX5.5 stacked" data-src="{{ '/wp-content/uploads/2017/07/aux_5-5_stacked.jpg' | prepend:site.baseurl }}" class="lazyload" />

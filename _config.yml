@@ -50,7 +50,7 @@ plugins:
 
 
 feed:
-  path: atom.xml
+  path: rss.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 5
