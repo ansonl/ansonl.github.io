@@ -7,4 +7,4 @@ Last year, I started using Multi-WAN with Comcast Xfinity Hotspot networks to in
 
 The Xfinity Hotspot banner appears like this
 
-Upon loading a page, the banner will fade in over 2 seconds or so. Once it has faded in, you can click the in the upper right corner to dismiss it. If you misclick and end up clicking the rest of the banner or click before it has fully faded in, you will be redirected to an Xfinity upsell page in a new window. 
+Upon loading a page, the floating banner will fade in over 2 seconds or so. Once it has faded in, you can click the ✖ in the upper right corner to dismiss it. If you misclick and end up clicking the rest of the banner or click before it has fully faded in, you will be redirected to an Xfinity upsell page in a new window. 
