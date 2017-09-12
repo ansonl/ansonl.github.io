@@ -581,9 +581,14 @@ I was able to figure out the byte at the **7th index** indicated the engine was 
 
 After these unsuccessful ideas and realizing realtime feedback would make decoding data much easier, I hooked up an HD44780 LCD using the 3 wire shift register setup copied below and described in the Arduino [New LiquidCrystal](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/schematics#!latch-shift-register) library. **The reason to use the HD44780 vs segmented LED bars: There was no way I was going to be able to use segmented LED bars to display data without a shift register anyways due to limited ports on the ATMega328.**
 
-<figure>
+<figure style="display: inline-block; width: 45%;">
 <img id="acp_graph" alt="3 wire Shift Register 74HC595 LCD" data-src="{{ '/wp-content/uploads/2017/07/srlcd595.jpg' | prepend:site.baseurl }}" class="lazyload" />
 <figcaption>3 wire 74HC595 Latching Shift Register schematic from <a href="https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/schematics#!latch-shift-register">fmalpartida/new-liquidcrystal</a></figcaption>
+</figure>
+
+<figure style="display: inline-block; width: 45%;">
+<img id="acp_graph" alt="LCD Setup" data-src="{{ '/wp-content/uploads/2017/07/graph_wiring.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>LCD and Arduino setup</figcaption>
 </figure>
 
 Based on previously recorded data, the first 4 bytes of energy flow ACP messages remained constant. This leaves 7 bytes of unknown data to interpret. I assume that the remaining 7 bytes of data is "separated" into bytes. Coincidentally, the HD44780 display I used was a 16x4 display of 5x8 cells.  
@@ -603,10 +608,10 @@ Coincidentally (again), the HD44780 supports up to 8 custom characters so we can
 
 The display works after some fiddling around and realtime ACP data is displayed next to the stock energy display as I drive around. After a few drives with this setup, my guesses for the data are below. For others interested and trying to verify their setup is correct, I have graphed the ACP data in an spreadsheet in the repository at `Resources/liu_acp_datalog.xlsx` and on [Google Sheets](https://docs.google.com/a/apparentetch.com/spreadsheets/d/1_SgPwwJJCxt1RxiiE1k6P2VXfPj-C-Zy4JVyMQaL5C8/edit?usp=sharing).
 
-*I could be completely wrong about the data being separated into single bytes. Not too sure and still making observations.*
+*I could be completely wrong about the data being separated into single bytes. This is an ongoing side project.*
 
 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
-`0x71` for my vehicle | Constant | Constant | Constant | Battery charging? | Electric Motor load | Engine On/Off | ↑ w/ engine + motor use. Resets on max. | ↕ driving / ↓ w/ discharging battery | ↑ w/ engine use. Resets on max.  | ↕ driving / ↓ w/ discharging battery
+`0x71` for my vehicle | Constant | Constant | Constant | Battery charging? | Electric Motor load | Engine On/Off | ↑ w/ engine + motor use. Resets on max. | ↕ driving / ↓ w/ discharging battery | ↑ w/ engine use. Resets on max.  | ↕ driving / ↑ w/ discharging battery
 
 <figure>
 <img alt="ACP Data Bar Graphs Animated" data-src="{{ '/wp-content/uploads/2017/07/data_bar_animated.gif' | prepend:site.baseurl }}" class="lazyload" />
@@ -625,11 +630,20 @@ The display works after some fiddling around and realtime ACP data is displayed 
 
 </div>
 
-Last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position within the Ford Escape.
+The last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position within the Ford Escape. 
+
+<figure>
+<img alt="Glove box location" data-src="{{ '/wp-content/uploads/2017/07/glovebox_location.gif' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Plenty of room to place the setup next to the glovebox.</figcaption>
+</figure>
+
+I bought an inexpensive (~$2) acrylic case to house the Arduino UNO itself to prevent the headers on the bottom of the Arduino from contacting the metal vehicle chassis and shorting out (which just resets the unit if we are lucky). 
+
+Measured power consumption of the shield is ~10 mA so the shield should not drain a typical car battery if the vehicle is driven around regularly.
 
 A year after first [splicing the audio cable into the CD connector]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/), I now have a fully integrated AUX audio system (as well as a car [data visualizer](#interpreting-acp-energy-data)) that lets me use the original radio head unit controls to control playback on iPhone. 
 
-> I want this for my Ford XXX but don't want to order 10 boards. 
+> I want this for my Ford XXX but don't want to order 10 boards from China.
 
 *You're in luck, the Seeed Studio order came in a 10 pack so I have a couple boards to spare - I only have one car after all. Please [send me an email](mailto:anson@ansonliu.com) and we can talk.*
 

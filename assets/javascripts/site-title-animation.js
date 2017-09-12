@@ -5,7 +5,9 @@ $( document ).ready(function() {
 	$("h1.intro-title").height($("#intro-title-animated-background").height());
 
 	$("#intro-title-static").remove();
-	siteTitleAnimate();
+
+	if (document.getElementById('intro-title-animated'))
+		siteTitleAnimate();
 });
 
 function siteTitleAnimate() {
