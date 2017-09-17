@@ -11,6 +11,7 @@
   - Liquid include for `img` element at [lazysizes.html](https://github.com/ansonl/ansonl.github.io/blob/master/_includes/lazysizes.html). Usage example in below sections.
 - [Post Archive](https://github.com/ansonl/ansonl.github.io/blob/master/archive.md) page with posts by year.
 - [Post Tags](https://github.com/ansonl/ansonl.github.io/blob/master/tags.md) page with list of all tags *and* list of tags with related posts. 
+  - Tag display in Liquid with matching CSS styling. Clicking tags in post page goes to tab list page. 
 
 ### How to get updated theme from [Basically Basic Jekyll Theme](https://github.com/mmistakes/jekyll-theme-basically-basic) when using GitHub Pages
 

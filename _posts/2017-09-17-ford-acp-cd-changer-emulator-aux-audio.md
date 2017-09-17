@@ -23,7 +23,7 @@ tags:
   - audio
 published: true
 ---
-I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehicle's electrical systems and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle.
+I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehicle's electrical systems and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. Materials for this project available at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). 
 
 <img alt="AUX1" data-src="{{ '/wp-content/uploads/2017/07/ford_acp_aux_demo_350w.gif' | prepend:site.baseurl }}" class="lazyload" />
 [Skip down to the demo video for the impatient.](#demo-video)
@@ -705,7 +705,7 @@ Compatible head units and vehicles *(incomplete list)*
 
 ### Source and Reference Materials
 
-You can get the materials for this project at {% include icon-github.html username="ansonl" %}/[ford-acp-aux](https://github.com/ansonl/ansonl.github.io). 
+You can get the materials for this project at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). 
 - Arduino source code
 - EAGLE schematic and board files
   - EAGLE files should be explanatory for parts needed to build the project. I will create a Bill of Materials in the future after adding some additional features (BLE, energy info, etc). 
