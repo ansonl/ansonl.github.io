@@ -710,7 +710,7 @@ Compatible head units and vehicles *(incomplete list)*
 You can get the materials for this project at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). 
 - Arduino source code
 - EAGLE schematic and board files
-  - EAGLE files should be explanatory for parts needed to build the project. I have created a Bill of Materials (BOM) in the repo that is accessible [here](https://docs.google.com/spreadsheets/d/1_OhOUx1-6nDyxZcexFdxv_ioSifVK5XGcY0s4NO1DsY/edit?usp=sharing). Cost for parts comes out to ~$30 depending on if you intend to hand wire or use a printed board.
+  - EAGLE files should be explanatory for parts needed to build the project. I have created a Bill of Materials (BOM) in the repository, also accessible [here](https://docs.google.com/spreadsheets/d/1_OhOUx1-6nDyxZcexFdxv_ioSifVK5XGcY0s4NO1DsY/edit?usp=sharing). Cost for parts comes out to ~$30 depending on if you intend to hand wire or use a printed board.
 - Past contributors' works
   - *I have made an effort to include as many surviving reference materials as I could find in the repository.*
 
