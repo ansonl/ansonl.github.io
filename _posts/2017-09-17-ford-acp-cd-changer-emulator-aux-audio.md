@@ -1,5 +1,5 @@
 ---
-title: Making Ford AUX Audio Expansion w/ Stock Inline Control
+title: Making Ford AUX Audio Expansion w/ Stock Head Unit Playback Control
 excerpt: |
   Add AUX audio input to your older Ford vehicle using an Atmega328 (Arduino UNO).
 
