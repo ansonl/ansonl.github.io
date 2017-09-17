@@ -55,7 +55,7 @@ If you are interested in interpreting Ford ACP data for energy flow/fuel efficie
 
 ## Backstory
 
-Last July I added an AUX audio input to a recently acquired 2007 Ford Escape Hybrid. The reasons for adding an AUX audio input were:
+Last July I [added an AUX audio input]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to a recently acquired 2007 Ford Escape Hybrid. The reasons for adding an AUX audio input were:
 
 - No built in AUX audio input.
 - Expensive (>$50) existing third [party](http://www.ycarlink.com/pd_12391_Digital-CD-USB-SD-AUX-Bluetooth-changer-emulator-adapter-for-new-Ford-quadlock-Fakra-12-pin-6000CD-6006CDC-5000C.htm) [accessories](http://www.discountcarstereo.com/AUX-FRDW.html) that emulated the CD changer to add AUX audio capability. 
