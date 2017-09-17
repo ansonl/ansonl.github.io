@@ -23,7 +23,7 @@ tags:
   - audio
 published: true
 ---
-I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehicle's electrical systems and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. Materials for this project available at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). 
+I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehicle's electrical systems and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. This open source project is available at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). 
 
 <img alt="AUX1" data-src="{{ '/wp-content/uploads/2017/07/ford_acp_aux_demo_350w.gif' | prepend:site.baseurl }}" class="lazyload" />
 [Skip down to the demo video for the impatient.](#demo-video)
@@ -423,6 +423,11 @@ I learned how to use Autodesk EAGLE for printed circuit board (PCB) design using
 1. [KTOWN's Ultimate Creating Parts in Eagle Tutorial](https://learn.adafruit.com/ktowns-ultimate-creating-parts-in-eagle-tutorial?view=all)
 2. [SparkFun - Using EAGLE: Schematic](https://learn.sparkfun.com/tutorials/using-eagle-schematic)
 3. [SparkFun - Using EAGLE: Board Layout](https://learn.sparkfun.com/tutorials/using-eagle-board-layout)
+4. 
+<figure>
+<img alt="EAGLE screenshot ford acp aux" data-src="{{ '/wp-content/uploads/2017/07/eagle_screenshot.png' | prepend:site.baseurl }}" class="lazyload" />
+<figcaption>Screenshot of the EAGLE project.</figcaption>
+</figure>
 
 ### PCB Fabrication
 
@@ -707,12 +712,12 @@ Compatible head units and vehicles *(incomplete list)*
 
 ### Source and Reference Materials
 
-You can get the materials for this project at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). 
-- Arduino source code
+You can get the materials for this project at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). Project includes:
+- Source code
 - EAGLE schematic and board files
-  - EAGLE files should be explanatory for parts needed to build the project. I have created a Bill of Materials (BOM) in the repository, also accessible [here](https://docs.google.com/spreadsheets/d/1_OhOUx1-6nDyxZcexFdxv_ioSifVK5XGcY0s4NO1DsY/edit?usp=sharing). Cost for parts comes out to ~$30 depending on if you intend to hand wire or use a printed board.
-- Past contributors' works
-  - *I have made an effort to include as many surviving reference materials as I could find in the repository.*
+  - I recommend printing the PCB with names and values. I have included a Bill of Materials (BOM) in the repository – also accessible [online](https://docs.google.com/spreadsheets/d/1_OhOUx1-6nDyxZcexFdxv_ioSifVK5XGcY0s4NO1DsY/edit?usp=sharing). Cost for parts comes out ~$30 depending on if you intend to hand wire or use a printed board.
+- Past contributors' works in *Resources* folder.
+  - *I have made an effort to include as many surviving reference materials as I could find.*
 
 ### Credits
 
@@ -736,4 +741,4 @@ Thanks to the work of those below. Their contributions have made this project po
 <figcaption>Can't view APNG? <a href="{{ '/wp-content/uploads/2017/07/ble_control_short.gif' | prepend:site.baseurl }}">View GIF</a></figcaption>
 </figure>
 
-Bookmark and check back soon for future posts on wiring up your remote key fob (I don't want to fry my only car.) for Bluetooth Low Energy vehicle security control and more [decoding ACP messages](#interpreting-acp-energy-data) for hybrid energy flow information.
+Check back soon for future posts on wiring up your remote key fob (I don't want to fry my only car.) for Bluetooth Low Energy (BLE) vehicle security control and more [decoding ACP messages](#interpreting-acp-energy-data) for hybrid energy flow information.
