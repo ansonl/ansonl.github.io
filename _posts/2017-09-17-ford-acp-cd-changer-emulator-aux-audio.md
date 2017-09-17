@@ -3,7 +3,7 @@ title: Making Ford AUX Audio Expansion w/ Stock Inline Control
 excerpt: |
   Add AUX audio input to your older Ford vehicle using an Atmega328 (Arduino UNO).
 
-  ![Ford ACP AUX demo](wp-content/uploads/2017/07/ford_acp_aux_demo_350w.gif)
+  [![Ford ACP AUX demo](wp-content/uploads/2017/07/ford_acp_aux_demo_350w.gif)](2017/09/ford-acp-cd-changer-emulator-aux-audio/)
   - Ford CD changer emulation
   - AUX Audio input
   - Stock head unit playback control for iPhone
@@ -673,10 +673,12 @@ An inexpensive (~$2) acrylic case houses the Arduino UNO itself to prevent the h
   </div>
 </div>
 
+
 <!--https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed-->
 <div id="demo-video" style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">
 <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="https://www.youtube-nocookie.com/embed/0sfqStZWe_w?rel=0&amp;start=17" frameborder="0" allowfullscreen></iframe>
 </div>
+
 
 A year after first [splicing the audio cable into the CD connector]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/), I now have a fully integrated AUX audio system (as well as a car [data visualizer](#interpreting-acp-energy-data)) that lets me use the original radio head unit controls to control playback on iPhone. 
 
@@ -708,7 +710,7 @@ Compatible head units and vehicles *(incomplete list)*
 You can get the materials for this project at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). 
 - Arduino source code
 - EAGLE schematic and board files
-  - EAGLE files should be explanatory for parts needed to build the project. I will create a Bill of Materials in the future after adding some additional features (BLE, energy info, etc). 
+  - EAGLE files should be explanatory for parts needed to build the project. I have created a Bill of Materials (BOM) in the repo that is accessible [here](https://docs.google.com/spreadsheets/d/1_OhOUx1-6nDyxZcexFdxv_ioSifVK5XGcY0s4NO1DsY/edit?usp=sharing). Cost for parts comes out to ~$30 depending on if you intend to hand wire or use a printed board.
 - Past contributors' works
   - *I have made an effort to include as many surviving reference materials as I could find in the repository.*
 
