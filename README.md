@@ -12,6 +12,7 @@
 - [Post Archive](https://github.com/ansonl/ansonl.github.io/blob/master/archive.md) page with posts by year.
 - [Post Tags](https://github.com/ansonl/ansonl.github.io/blob/master/tags.md) page with list of all tags *and* list of tags with related posts. 
   - Tag display in Liquid with matching CSS styling. Clicking tags in post page goes to tab list page. 
+  - [Google Rich Snippets](https://developers.google.com/search/docs/guides/mark-up-content) support for posts using LD+JSON in [postStructuredData.html](https://github.com/ansonl/ansonl.github.io/blob/master/_includes/postStructuredData.html) included in post layout.
 
 ### How to get updated theme from [Basically Basic Jekyll Theme](https://github.com/mmistakes/jekyll-theme-basically-basic) when using GitHub Pages
 
@@ -44,6 +45,8 @@ s/!\[(.*)\]\(({{.*}})\)/<img alt="\1" src="data:image/gif;base64,R0lGODlhAQABAAA
 ```
 
 ### Credits
+
+[Basically Basic Jekyll Theme](https://github.com/mmistakes/jekyll-theme-basically-basic) by mmistakes.
 
 [Typed.js](https://github.com/mattboldt/typed.js/) by [Matt Boldt](http://www.mattboldt.com/).
 
