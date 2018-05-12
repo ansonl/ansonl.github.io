@@ -12,7 +12,7 @@
 - [Post Archive](https://github.com/ansonl/ansonl.github.io/blob/master/archive.md) page with posts by year.
 - [Post Tags](https://github.com/ansonl/ansonl.github.io/blob/master/tags.md) page with list of all tags *and* list of tags with related posts. 
   - Tag display in Liquid with matching CSS styling. Clicking tags in post page goes to tab list page. 
-  - [Google Rich Snippets](https://developers.google.com/search/docs/guides/mark-up-content) support for posts using LD+JSON in [postStructuredData.html](https://github.com/ansonl/ansonl.github.io/blob/master/_includes/postStructuredData.html) included in post layout.
+- [Google Rich Snippets](https://developers.google.com/search/docs/guides/mark-up-content) support for posts using LD+JSON in [postStructuredData.html](https://github.com/ansonl/ansonl.github.io/blob/master/_includes/postStructuredData.html) included in post layout.
 
 ### How to get updated theme from [Basically Basic Jekyll Theme](https://github.com/mmistakes/jekyll-theme-basically-basic) when using GitHub Pages
 
@@ -43,6 +43,10 @@ Regex
 ```
 s/!\[(.*)\]\(({{.*}})\)/<img alt="\1" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="\2" class="lazyload" />
 ```
+
+### Contributing & Bugs
+
+Bug reports and pull requests are welcome. 
 
 ### Credits
 
