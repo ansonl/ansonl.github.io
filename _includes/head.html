@@ -82,11 +82,11 @@
 	{% if page.layout == 'post' %}
 	{% 
   include postStructuredData.html 
-  title=post.title
-  excerpt=post.excerpt
-  content=post.content
-  link=post.permalink
-  date=post.date
+  title=page.title
+  excerpt=page.excerpt
+  content=page.content
+  link=page.url
+  date=page.date
 	image=post.image
 %}
 
