@@ -79,4 +79,17 @@
 }
     </script>
 	
+	{% if page.layout == 'post' %}
+	{% 
+  include postStructuredData.html 
+  headline=page.title
+  excerpt=page.excerpt
+  content=page.content
+  link=page.permalink
+  date=page.date
+	image=page.image
+%}
+
+	{% endif %}
+	
 </head>
