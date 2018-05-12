@@ -9,7 +9,7 @@
    "url":"https://ansonliu.com{{ include.link }}",
    "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
    "author": {% include authorStructuredData.html %},
-   "publisher": "{% include authorStructuredData.html %}",
+   "publisher": "{% include publisherStructuredData.html %}",
    "image": "{% if include.except %}https://ansonliu.com{{ include.image }}{% else %}https://avatars1.githubusercontent.com/ansonl?v=3&s=200{% endif %}",
    "mainEntityOfPage":{  
       "@type":"WebPage",
