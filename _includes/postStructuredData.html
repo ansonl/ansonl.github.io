@@ -1,22 +1,22 @@
 <script type="application/ld+json">
 {  
    "@context":"http://schema.org",
-   "@type":"BlogPosting",
-   "headline":"{{ post.title }}",
-   {% if post.content %}
-   "wordCount": {{ post.content | strip_html | number_of_words }},
+   "@type":"Blogpageing",
+   "headline":"{{ page.title }}",
+   {% if page.content %}
+   "wordCount": {{ page.content | strip_html | number_of_words }},
    {% endif %}
-   "url":"{{ post.link | absolute_url }}",
-   "datePublished":"{{ post.date | | date: '%Y-%m-%d' }}",
-   "dateModified":"{{ post.date | | date: '%Y-%m-%d' }}",
+   "url":"{{ page.link | absolute_url }}",
+   "datePublished":"{{ page.date | | date: '%Y-%m-%d' }}",
+   "dateModified":"{{ page.date | | date: '%Y-%m-%d' }}",
    "author": {% include authorStructuredData.html %},
    "publisher": {% include publisherStructuredData.html %},
-   "image": "{% if post.image %}https://ansonliu.com{{ post.image.path }}{% else %}https://avatars1.githubusercontent.com/ansonl?v=3&s=200{% endif %}{{ post.image }}",
+   "image": "{% if page.image %}https://ansonliu.com{{ page.image.path }}{% else %}https://avatars1.githubusercontent.com/ansonl?v=3&s=200{% endif %}{{ page.image }}",
    "mainEntityOfPage":{  
       "@type":"WebPage",
-      "@id":"{{ post.link | absolute_url }}"
+      "@id":"{{ page.link | absolute_url }}"
    },
-   "description": "{% if post.excerpt %}{{ post.excerpt strip_html | xml_escape | normalize_whitepace | strip }}{% else %}{{ post.content | strip_html | xml_escape | normalize_whitepace | strip | truncate: 200 }}{% endif %}"
+   "description": "{% if page.excerpt %}{{ page.excerpt strip_html | xml_escape | normalize_whitepace | strip }}{% else %}{{ page.content | strip_html | xml_escape | normalize_whitepace | strip | truncate: 200 }}{% endif %}"
    
 }
 </script>
