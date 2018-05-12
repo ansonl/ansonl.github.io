@@ -66,24 +66,35 @@
 
 	<!-- JSON+LD rich structured data https://developers.google.com/search/docs/data-types/social-profile -->
 	<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "USA"
-      },
-      "image": "https://avatars1.githubusercontent.com/ansonl?v=3&s=200",
-      "name": "Anson Liu",
-      "alumniOf": {
-      	"@type": "EducationalOrganization",
-        "name": "United States Naval Academy",
-        "alternateName": "USNA"
-       },
-      "gender": "male",
-      "url": "https://ansonliu.com",
-       "sameAs" : [ "https://github.com/ansonl"]
-    }
+{
+  "@context":"http://schema.org",
+  "@type":"Blog",
+  "keywords":"software engineering development ios golang js objective c objc navy arduino",
+  "url":"https://ansonliu.com",
+  "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"https://ansonliu.com"
+  },
+  "author":{
+    "@type":"Person",
+    "address":{
+      "@type":"PostalAddress",
+      "addressCountry":"USA"
+    },
+    "image":"https://avatars1.githubusercontent.com/ansonl?v=3&s=200",
+    "name":"Anson Liu",
+    "alumniOf":{
+      "@type":"EducationalOrganization",
+      "name":"United States Naval Academy",
+      "alternateName":"USNA"
+    },
+    "gender":"male",
+    "url":"https://ansonliu.com",
+    "sameAs":[
+      "https://github.com/ansonl"
+    ]
+  }
+}
     </script>
 	
 </head>
