@@ -3,8 +3,6 @@
    "@context":"http://schema.org",
    "@type":"BlogPosting",
    "headline":"{{ include.title }}",
-   "wordCount":"{% include.content | strip_html | number_of_words %}",
-   "url":"https://ansonliu.com{{ include.link }}",
-   "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}"
+   "wordCount":"{% include.content | strip_html | number_of_words %}"
 }
 </script>
