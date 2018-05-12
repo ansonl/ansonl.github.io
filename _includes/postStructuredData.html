@@ -16,7 +16,7 @@
       "@type":"WebPage",
       "@id":"https://ansonliu.com{{ include.link }}"
    },
-   "description": "{% if include.except %}{{ include.excerpt strip_html | xml_escape | normalize_whitepace | strip }}{% else %}{{ include.content | strip_html | xml_escape | normalize_whitepace | strip | truncate: 200 }}{% endif %}"
+   "description": "{% if include.except %}{{ include.excerpt strip_html | xml_escape | normalize_whitepace | strip }}{% endif %}"
    
 }
 </script>
