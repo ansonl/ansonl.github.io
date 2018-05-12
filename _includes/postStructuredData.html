@@ -1,7 +1,7 @@
 <script type="application/ld+json">
 {  
    "@context":"http://schema.org",
-   "@type":"Blogpageing",
+   "@type":"BlogPosting",
    "headline":"{{ page.title }}",
    {% if page.content %}
    "wordCount": {{ page.content | strip_html | number_of_words }},
