@@ -3,6 +3,15 @@ layout: default
 ---
 
 {% include page-intro.html %}
+	{% 
+  include postStructuredData.html 
+  title=post.title
+  excerpt=post.excerpt
+  content=post.content
+  link=post.url
+  date=post.date
+	image=post.image
+%}
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
