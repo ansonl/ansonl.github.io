@@ -2,7 +2,9 @@
 {  
    "@context":"http://schema.org",
    "@type":"BlogPosting",
-   "headline":"{{ include.title }}",
-   "wordCount":"{% include.content | number_of_words %}"
+   "headline":"{{ include.title }}"
+   {% if include.content %}
+   ,"wordCount":"{% include.content | number_of_words %}"
+   {% endif %}
 }
 </script>
