@@ -4,19 +4,19 @@
    "@type":"BlogPosting",
    "headline":"{{ include.title }}",
    {% if include.content %}
-   "wordCount": {{ include.content | number_of_words }},
+   "wordCount": {{ include.content | strip_html | number_of_words }},
    {% endif %}
    "url":"https://ansonliu.com{{ include.link }}",
    "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
    "dateModified":"{{ include.date | | date: '%Y-%m-%d' }}",
    "author": {% include authorStructuredData.html %},
    "publisher": {% include publisherStructuredData.html %},
-   "image": "{% if include.except %}https://ansonliu.com{{ include.image }}{% else %}https://avatars1.githubusercontent.com/ansonl?v=3&s=200{% endif %}",
+   "image": "{% if include.image %}https://ansonliu.com{{ include.image }}{% else %}https://avatars1.githubusercontent.com/ansonl?v=3&s=200{% endif %}",
    "mainEntityOfPage":{  
       "@type":"WebPage",
       "@id":"https://ansonliu.com{{ include.link }}"
    },
-   "description": "{% if post.except %}{{ post.excerpt strip_html | xml_escape | normalize_whitepace | strip }}{% else %}{{ include.content | strip_html | xml_escape | normalize_whitepace | strip | truncate: 200 }}{% endif %}"
+   "description": "{% if post.excerpt %}{{ post.excerpt strip_html | xml_escape | normalize_whitepace | strip }}{% else %}{{ include.content | strip_html | xml_escape | normalize_whitepace | strip | truncate: 200 }}{% endif %}"
    
 }
 </script>
