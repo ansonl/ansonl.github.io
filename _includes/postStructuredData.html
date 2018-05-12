@@ -3,6 +3,6 @@
    "@context":"http://schema.org",
    "@type":"BlogPosting",
    "headline":"{{ include.title }}",
-   "wordCount":"{% include.content | strip_html | number_of_words %}"
+   "wordCount":"{% include.content | number_of_words %}"
 }
 </script>
