@@ -11,12 +11,12 @@
    "dateModified":"{{ include.date | | date: '%Y-%m-%d' }}",
    "author": {% include authorStructuredData.html %},
    "publisher": {% include publisherStructuredData.html %},
-   "image": "{% if include.image %}https://ansonliu.com{{ include.image }}{% else %}https://avatars1.githubusercontent.com/ansonl?v=3&s=200{% endif %}",
+   "image": "{% if include.image %}https://ansonliu.com{{ include.image }}{% else %}https://avatars1.githubusercontent.com/ansonl?v=3&s=200{% endif %}{{ post.image }}",
    "mainEntityOfPage":{  
       "@type":"WebPage",
       "@id":"https://ansonliu.com{{ include.link }}"
    },
-   "description": "{% if post.excerpt %}{{ post.excerpt strip_html | xml_escape | normalize_whitepace | strip }}{% else %}{{ include.content | strip_html | xml_escape | normalize_whitepace | strip | truncate: 200 }}{% endif %}"
+   "description": "{% if include.excerpt %}{{ include.excerpt strip_html | xml_escape | normalize_whitepace | strip }}{% else %}{{ include.content | strip_html | xml_escape | normalize_whitepace | strip | truncate: 200 }}{% endif %}"
    
 }
 </script>
