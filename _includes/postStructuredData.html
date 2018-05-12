@@ -16,7 +16,7 @@
       "@type":"WebPage",
       "@id":"{{ page.link | absolute_url }}"
    },
-   "description": "{% if page.excerpt %}{{ page.excerpt strip_html | xml_escape | normalize_whitepace | strip }}{% else %}{{ page.content | strip_html | xml_escape | normalize_whitepace | strip | truncate: 200 }}{% endif %}"
+   "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | xml_escape | normalize_whitepace | strip }}{% else %}{{ page.content | strip_html | xml_escape | normalize_whitepace | strip | truncate: 200 }}{% endif %}"
    
 }
 </script>
