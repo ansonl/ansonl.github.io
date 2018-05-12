@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{  
+   "@context":"http://schema.org",
+   "@type":"BlogPosting",
+   "headline":"{{ post.title }}",
+   "keywords":"{{ post.excerpt }}",
+   "wordCount":"{% post.content | strip_html | number_of_words %}",
+   "url":"https://ansonliu.com{{ post.link }}",
+   "datePublished":"{{ post.date | | date: '%Y-%m-%d' }}",
+   "author": "{% include authorStructuredData.html %}",
+   "publisher": "{% include authorStructuredData.html %}",
+   "image": "{{ post.image }}",
+   "mainEntityOfPage":{  
+      "@type":"WebPage",
+      "@id":"https://ansonliu.com{{ post.link }}"
+   },
+   "description": "{{ post.excerpt }}",
+   "articleBody": "{{ post.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
+}
+</script>
