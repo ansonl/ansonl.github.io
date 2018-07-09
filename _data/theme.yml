@@ -31,6 +31,7 @@ google_fonts:
 
 navigation_pages:
   - about.md
+  - hikes.md
   - archive.md
   - tags.md
   - cv.md
