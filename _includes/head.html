@@ -7,9 +7,8 @@
 	{% comment %}
 	Disable jekyll-seo-tag to use our own title and description.
   {% if site.gems contains 'jekyll-seo-tag' %}
-    {% comment %}
-      Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
-    {% endcomment %}
+      <!--Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled-->
+
     {% include head-seo.html %}
   {% else %}
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
