@@ -3,6 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+	
+	{% comment %}
+	Disable jekyll-seo-tag to use our own title and description.
   {% if site.gems contains 'jekyll-seo-tag' %}
     {% comment %}
       Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
@@ -13,6 +16,10 @@
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
+	{% end comment %}
+	<title>Code, Run, Eat, Sleep ↺ - Anson Liu</title>
+    <meta name="description" content="A collection of my written content on software development and hardware. Curated hikes and outdoor exploration done are here as well.">
+	<link rel="canonical" href="http://ansonliu.com/">
 
   <script>
     /* Cut the mustard */
