@@ -1,10 +1,12 @@
 ---
 title: Facebook Messenger Expose Unfriends Bug/Feature is Intended Functionality
-excerpt: |
-  The Facebook Messenger **Hide Story From** setting exposes people who have unfriended a profile with no advance preparation needed.
+excerpt: >
+  The Facebook Messenger **Hide Story From** setting exposes people who have
+  unfriended a profile with no advance preparation needed.
 
-  [!Facebook Messenger Expose Unfriends Bug](/wp-content/uploads/2019/05/messenger_hide_friends_blur.png)
 
+  ![Facebook Messenger Expose Unfriends
+  Bug](/wp-content/uploads/2019/05/messenger_hide_friends_blur.png)
 author: Anson Liu
 layout: post
 categories:
