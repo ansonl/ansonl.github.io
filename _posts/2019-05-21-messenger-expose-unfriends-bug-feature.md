@@ -17,7 +17,7 @@ tags:
   - stories
   - unfriend
   - bug
-published: true
+published: false
 ---
 ## Facebook Messenger Expose Unfriends Bug/Feature is Intended Functionality
 
