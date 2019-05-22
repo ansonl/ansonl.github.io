@@ -47,7 +47,7 @@ The expectation for **Hide Story From** is that you choose to hide a story from 
 Unlike users keeping a copy of a past friend list and looking up the current friendship status of everyone, this bug requires no advance preparation or mass lookup of profiles either manually or through Graph API.
 
 I reported this bug to Facebook's Bug Bounty because it is possibly a identification/deanonymization issue depending on various situations that may lead to unfriending (social/emotional/etc) and the effects (bullying?/etc) of a previously assumed "silent" unfriend now being confirmed. 
-While there is no technical "hacking" involved, the bug is more than just a user interface bug and what I assume is a implementation error in Facebook Stories when people unfriend/block each other. 
+While there is no technical "hacking" involved, the bug is more than just a user interface bug. I assume it is a implementation error in Facebook Stories when people unfriend/block each other, but am not sure how far back it goes. 
 
 19APR19 - Reported bug to Facebook Whitehat Report #10157074538798744.
 21APR19 - Facebook Security informs me that the expose unfriend bug "is actually just intended functionality".
