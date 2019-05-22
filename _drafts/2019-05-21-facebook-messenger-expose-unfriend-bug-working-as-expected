@@ -8,11 +8,15 @@ published: false
 This unexpected behavior can be triggered in the iOS Messenger app on at least v213.0. I have not tested on Android but expect it to work on the Android Messenger app as well. 
 
 1. Open Messenger settings and select the Story row.
-![]({{site.baseurl}}/test)
+![Messenger settings]({{ '/wp-content/uploads/2019/05/messenger_settings.png' | prepend:site.baseurl }})
 
 2. Inside the Story settings select the **Hide Story From** setting.
 
+![Messenger settings]({{ '/wp-content/uploads/2019/05/messenger_hide_story.png' | prepend:site.baseurl }})
+
 3. Note that any checked people (aka people who you thought were still Facebook friends) you haven't explicitly choosen to your hide story from have silently unfriended you in the past.
+
+![Messenger settings]({{ '/wp-content/uploads/2019/05/messenger_hide_friends_blur.png' | prepend:site.baseurl }})
 
 The expectation for **Hide Story From** is that you choose to hide a story from someone by checking their name. If someone unfriends you it doesn't make logical sense for Facebook to automatically check them to have your story hidden from them on your end for a few reasons:
 
