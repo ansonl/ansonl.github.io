@@ -26,6 +26,7 @@ published: true
 This unexpected behavior can be viewed in the iOS Messenger app on at least v213.0. I have not tested on Android but expect it to work on the Android Messenger app as well. 
 
 1. Open Messenger settings and select the Story row.
+
 ![Messenger settings]({{ '/wp-content/uploads/2019/05/messenger_settings.png' | prepend:site.baseurl }})
 
 2. Inside the Story settings select the **Hide Story From** setting.
