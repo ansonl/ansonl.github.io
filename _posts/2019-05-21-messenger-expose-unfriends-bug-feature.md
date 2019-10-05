@@ -16,8 +16,8 @@ tags:
   - messenger
   - stories
   - unfriend
-  - bug
-published: false
+  - bug bounty
+published: true
 ---
 ## Facebook Messenger "Expose Unfriends" Bug
 
@@ -47,18 +47,20 @@ The expectation for **Hide Story From** is that you choose to hide a story from 
 
 Unlike users keeping a copy of a past friend list and looking up the current friendship status of everyone, this bug requires no advance preparation or mass lookup of profiles either manually or through Graph API.
 
-The bug seems to be an implementation error in Facebook Stories **Hide Story From** database that occurs when people unfriend each other. Below is a matrix of the correct and incorrect behavior.
+The bug seems to be an implementation error in Facebook Stories **Hide Story From** database that occurs when people unfriend each other. Below is a matrix of the correct and incorrect behavior:
 
  Primary profile setting at time of unfriend | Correct **Hide Story From** selection | Bug behavior **Hide Story From** selection
  --- | --- | ---
  User explicitly choose to hide story | ☑ | ☑
  User did not choose to hide story | ☐ | ☑
+ 
+The bug appears to affect unfriends between 2015-2018 until the Facebook Stories implementation was fixed. The actual implementation patch date is not public so the actual affected user count is unknown.
 
 I reported this bug to Facebook's Bug Bounty because it is possibly a identification/deanonymization issue depending on various situations that may lead to unfriending (social/emotional/etc) and the effects (bullying?/etc) of a previously assumed "silent" unfriend now being confirmed. While there is no technical "hacking" involved, the bug is more than just a user interface bug. 
 
 ~~If this is apparently intended functionality and I may have misinterpreted it, I figure people should know more about the functionality of the **Hide Story From** feature through this post.~~
 
-Facebook Security initially replied to my report as not valid. They wrote that this behavior "is actually just intended functionality". I wrote an initial version of this post a weeks days later and Facebook requested that the post be removed while they investigate the bug behavior further. About four months later Facebook Security emailed me that:
+Facebook Security initially replied to my report as not valid. They wrote that this behavior "is actually just intended functionality". I wrote an initial version of this post a month later and Facebook requested that the post be removed while they investigate the bug behavior further. About four months later Facebook Security emailed me that:
 
 > We had already fixed the bug when you reported the issue to us and started a mitigation job. However, your report highlighted our timeframe as an issue in the mitigation process, and now we're working on improving and expediting that work.
 > While we had already fixed the bug when you reported the issue to us and started a cleanup process, your report led us to improve the process for a quicker full remediation.
@@ -69,10 +71,8 @@ Facebook gave a $1000 bounty for the report but the bounty claim URL came out as
 
 21APR19 - Facebook Security informs me that the expose unfriend behavior "is actually just intended functionality".
 
-XXX - *Facebook Messenger Expose Unfriends Bug/Feature is Intended Functionality* initial post published. 
+21MAY19 - *Facebook Messenger Expose Unfriends Bug/Feature is Intended Functionality* initial post published. 
 
-XXX - Facebook requests the post be removed while they investigate bug behavior further.
+21MAY19 - Facebook requests the post be removed while they investigate bug behavior further.
 
-30SEP19 - Facebook Security replies with bug bounty and short explanation. 
-
-
+30SEP19 - Facebook Security replies with bug bounty and explanation on mitigation. 
