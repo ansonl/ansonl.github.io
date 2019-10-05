@@ -51,7 +51,7 @@ The bug seems to be an implementation error in Facebook Stories **Hide Story Fro
 
  Primary profile setting at time of unfriend | Correct **Hide Story From** selection | Bug behavior **Hide Story From** selection
  --- | --- | ---
- User explicitly choose to hide story | ☑ | ☑
+ User explicitly chose to hide story | ☑ | ☑
  User did not choose to hide story | ☐ | ☑
  
 The bug appears to affect unfriends between 2015-2018 until the Facebook Stories implementation was fixed. The actual implementation patch date is not public so the actual affected user count is unknown.
