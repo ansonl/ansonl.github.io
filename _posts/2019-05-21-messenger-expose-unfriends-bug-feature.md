@@ -21,7 +21,7 @@ published: true
 ---
 ## Facebook Messenger "Expose Unfriends" Bug
 
-**In short:** The Facebook Messenger **Hide Story From** setting exposes people who have unfriended a profile. You don't need to remember all your friends' names and look up every profile and friendship status because people who have unfriended you will show up as checked for **Hide Story From**. All the silently unfriended people will show up in a convenient list. This bug is assumed to affect users sometime between 2015-2017. 
+**In short:** The Facebook Messenger **Hide Story From** setting exposes people who have unfriended a profile. You don't need to remember all your friends' names and look up every profile and friendship status because people who have unfriended you will show up as checked for **Hide Story From**. All the silently unfriended people will show up in a convenient list. 
 
 This unexpected behavior can be viewed in the iOS Messenger app on at least v213.0. I have not tested on Android but expect it be shown on the Android Messenger app as well. 
 
