@@ -33,7 +33,7 @@ This unexpected behavior can be viewed in the iOS Messenger app on at least v213
 
 ![Messenger Hide Story From setting]({{ '/wp-content/uploads/2019/05/messenger_hide_story.png' | prepend:site.baseurl }})
 
-3. Any checked profile rows you haven't _explicitly choosen to your hide story from_ have silently unfriended you in the past (aka people who you thought were still Facebook friends unless you manually checked their profile). _**Note:** People who have blocked you do not appear to show up in my testing._
+3. Any checked profile rows you haven't _explicitly choosen to your hide story from_ have silently unfriended you in the past (aka people who you thought were still Facebook friends unless you manually checked their profile). _**Note:** People who have blocked you do not appear to show up in my testing but Facebook had already fixed their Stories implementation by then._
 
 ![Messenger Hide Story From expose unfriends]({{ '/wp-content/uploads/2019/05/messenger_hide_friends_blur.png' | prepend:site.baseurl }})
 
