@@ -67,7 +67,7 @@ Facebook Security initially replied to my report as not valid. They wrote that t
 
 ~~Facebook gave a $1000 bounty for the report but the bounty claim URL came out as `%BUGCROWD_CLAIM_URL_DO_NOT_EDIT%`. I let them know but haven't gotten reply yet. :(~~
 
-Facebook paid a $1000 bounty for the report that was paid out on Bugcrowd. 
+Facebook paid a $1000 bounty for the report that was transferred via Bugcrowd. 
 
 19APR19 - Reported bug to Facebook Whitehat Report #10157074538798744.
 
