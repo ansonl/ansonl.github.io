@@ -65,7 +65,9 @@ Facebook Security initially replied to my report as not valid. They wrote that t
 > We had already fixed the bug when you reported the issue to us and started a mitigation job. However, your report highlighted our timeframe as an issue in the mitigation process, and now we're working on improving and expediting that work.
 > While we had already fixed the bug when you reported the issue to us and started a cleanup process, your report led us to improve the process for a quicker full remediation.
 
-Facebook gave a $1000 bounty for the report but the bounty claim URL came out as `%BUGCROWD_CLAIM_URL_DO_NOT_EDIT%`. I let them know but haven't gotten reply yet. :(
+~~Facebook gave a $1000 bounty for the report but the bounty claim URL came out as `%BUGCROWD_CLAIM_URL_DO_NOT_EDIT%`. I let them know but haven't gotten reply yet. :(~~
+
+Facebook paid a $1000 bounty for the report that was paid out on Bugcrowd. 
 
 19APR19 - Reported bug to Facebook Whitehat Report #10157074538798744.
 
