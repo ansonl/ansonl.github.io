@@ -1,5 +1,25 @@
 ---
 published: false
+excerpt: >
+  Transferred a domain away from Hover, but the domain continues to show on the
+  Hover dashboard and send renewal emails. Not sure if it really got
+  transferred? Check for yourself using the `whois` command. 
+
+  ![Hover 1 day renewal email]({{
+  '/wp-content/uploads/2020/09/hover_1_day_renewal_email.png' |
+  prepend:site.baseurl }})
+author: Anson Liu
+layout: post
+image: /wp-content/uploads/2017/07/all_pcb_bench.jpg
+categories:
+  - Development
+tags:
+  - domain
+  - whois
+  - registrar
+  - renewal
+  - hover
+  - cloudflare
 ---
 ## Beware of Hover Placeholder Domains After Transferring and whois command
 
@@ -65,4 +85,4 @@ You can see the updated registrar information in the output versus a sample of t
 
 Adding `--verbose` option will output the registry server selected as source. The whois command manual specifies that *whois.networksolutions.com* is the default query server. Network Solutions was acquired by Verisign and is now part of Web.com group. Most whois clients will [start at Verisign's WHOIS server](https://github.com/rfc1036/whois/blob/b7cfb4ef37c4f53f29e8b52ce78fa11258d0ad97/tld_serv_list). The current agreed upon root `.com` registry is run by Verisign due to an [agreement](https://www.sec.gov/Archives/edgar/data/1014473/000119312507154202/dex1026.htm) between Verisign and ICANN. 
 
-Why does Verisign get a monopoly on the `.com` top level domain and why it's unlikely to change has been widely discussed elsewhere and would be the topic an entirely separate post. 
+Why does Verisign get a monopoly on the `.com` top level domain and why it's unlikely to change has been widely discussed elsewhere and would be the topic an entirely separate post.
