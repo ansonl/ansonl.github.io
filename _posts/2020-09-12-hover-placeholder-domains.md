@@ -5,6 +5,7 @@ excerpt: >
   Hover dashboard and send renewal emails. Not sure if it really got
   transferred? Check for yourself using the `whois` command. 
 
+
   ![Hover 1 day renewal email]({{
   '/wp-content/uploads/2020/09/hover_1_day_renewal_email.png' |
   prepend:site.baseurl }})
