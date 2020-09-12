@@ -35,7 +35,7 @@ Hover's user dashboard should update to reflect a domain's actual status and not
 
 If I had been less knowledgable or left my domains on autorenew, I expect that I would've panic paid a renewal fee for nothing and more time and effort would be spent clawing it back. 
 
-If you prefer not to use a web based site to check WHOIS records, you may use the `whois` command through the command line. 
+If you prefer not to use a web based site to check WHOIS records, you may use the `whois` command through the command line to check the current domain registrar. 
 
 ```
 sudo apt-get install whois # If you do not have whois installed
@@ -63,6 +63,6 @@ whois example.com --verbose
 
 You can see the updated registrar information in the output versus a sample of the original registrar record. 
 
-Adding `--verbose` option will output the registry server selected as source. The whois command manual specifies that *whois.networksolutions.com* is the default query server. Network Solutions was acquired by Verisign and is now part of Web.com group. Most whois clients will start at Verisign's WHOIS server. The current agreed upon root `.com` registry is run by Verisign due to an [agreement](https://www.sec.gov/Archives/edgar/data/1014473/000119312507154202/dex1026.htm) between Verisign and ICANN. 
+Adding `--verbose` option will output the registry server selected as source. The whois command manual specifies that *whois.networksolutions.com* is the default query server. Network Solutions was acquired by Verisign and is now part of Web.com group. Most whois clients will [start at Verisign's WHOIS server](https://github.com/rfc1036/whois/blob/b7cfb4ef37c4f53f29e8b52ce78fa11258d0ad97/tld_serv_list). The current agreed upon root `.com` registry is run by Verisign due to an [agreement](https://www.sec.gov/Archives/edgar/data/1014473/000119312507154202/dex1026.htm) between Verisign and ICANN. 
 
-Why does Verisign get a monopoly on the `.com` top level domain has been widely discussed elsewhere and would be the topic an entirely separate post. 
+Why does Verisign get a monopoly on the `.com` top level domain and why it's unlikely to change has been widely discussed elsewhere and would be the topic an entirely separate post. 
