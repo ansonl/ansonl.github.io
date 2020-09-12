@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 excerpt: >
   Transferred a domain away from Hover, but the domain continues to show on the
   Hover dashboard and send renewal emails. Not sure if it really got
