@@ -2,13 +2,12 @@
 published: true
 excerpt: >
   Transferred a domain away from Hover, but the domain continues to show on the
-  Hover dashboard and send renewal emails. Not sure if it really got
-  transferred? Check for yourself using the `whois` command. 
+  Hover dashboard. Are you getting misleading renewal notices? If you're not
+  sure it really got transferred, check for yourself using the `whois` command. 
 
 
-  ![Hover 1 day renewal email]({{
-  '/wp-content/uploads/2020/09/hover_1_day_renewal_email.png' |
-  prepend:site.baseurl }})
+  ![Hover misleading 1 day renewal
+  email](/wp-content/uploads/2020/09/hover_1_day_renewal_email.png)
 author: Anson Liu
 layout: post
 image: /wp-content/uploads/2017/07/all_pcb_bench.jpg
