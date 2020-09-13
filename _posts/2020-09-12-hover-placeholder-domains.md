@@ -5,6 +5,7 @@ excerpt: >
   the account as well as send misleading renewal notices. Turns out Hover calls
   them *placeholder domains* that look exactly identical. 
 
+
   If you're not sure it really got transferred, check for yourself using the
   `whois` command. 
 
