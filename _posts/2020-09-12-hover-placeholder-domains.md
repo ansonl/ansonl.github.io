@@ -1,9 +1,12 @@
 ---
 published: true
 excerpt: >
-  Transferred a domain away from Hover, but the domain continues to show on the
-  Hover dashboard. Are you getting misleading renewal notices? If you're not
-  sure it really got transferred, check for yourself using the `whois` command. 
+  I transferred a domain away from Hover, but Hover continued to show domain on
+  the account as well as send misleading renewal notices. Turns out Hover calls
+  them *placeholder domains* that look exactly identical. 
+
+  If you're not sure it really got transferred, check for yourself using the
+  `whois` command. 
 
 
   ![Hover misleading 1 day renewal
