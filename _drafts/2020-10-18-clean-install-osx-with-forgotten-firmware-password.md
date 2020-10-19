@@ -16,4 +16,5 @@ My father and I were trying to use a [Mid-2011 Apple iMac](https://everymac.com/
   
 
 
+
 TLDR: The USB drive with the OS X Installer **must be formatted using the GUID Partition Table (GPT)** before writing the OS X Installer files to it. Set startup disk to a USB drive formatted with OS X Installer using the System Preferences app. 
