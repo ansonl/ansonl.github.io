@@ -19,7 +19,11 @@ My father and I were trying to use a [Mid-2011 Apple iMac](https://everymac.com/
   - This issue was partially resolved by adding the iMessage contact's **Apple ID email** to the correct contact card. 
   - iMessage appears to use phone numbers to tie together messages and recipients. iMessage Screen Sharing creates a connection between two Apple IDs. The glue that ties phone numbers to Apple IDs needs help associating the two types of identification and this requires both sides of the screen share to have the other side's Apple ID email and phone number in the same contact card.
   
-We wanted to use the iMac to play games such as Starcraft 2 and Call of Duty. A clean install to the latest supported OS X 10.13 High Sierra would be the easiest way to resolve all our issues. Unfortunately I forgot the iMac's firmware password over 8 years away from home so we were unable to select an alternate start up disk at EFI startup by holding any of the ALT/OPTION hotkeys. 
+We wanted to use the iMac to play games such as Starcraft 2 and Call of Duty. A clean install to the latest supported OS X 10.13 High Sierra would be the easiest way to resolve all our issues. Unfortunately I forgot the iMac's firmware password over 8 years away from home so we were unable to select an alternate start up disk at EFI startup by holding any of the ALT/OPTION combinations. 
+
+2011 was also the first year where Apple moved the firmware password storage from PRAM to a [separate chip](https://www.cnet.com/news/efi-firmware-protection-locks-down-newer-macs/)(apparently Atmel [ATtiny13](http://ww1.microchip.com/downloads/en/DeviceDoc/2535S.pdf)) with persistent storage on the logic board. 
+
+Pre-2011 Mac EFI passwords could be reset by removing power and making a hardware change such as changing the amount of memory installed on the computer. Due to the new EFI password storage design, the only way to change the password short of desoldering or attaching a hardware based EFI unlocker is the bring the computer to an Apple Store or Authorized Apple Repair location. The technicians as the location can send the computer's EFI hash to the mothership which will use a master key to create binary file with unlock commands which are loaded onto a USB drive. This binary file is checked by the EFI on start up reset the password if the matching binary is found.
   
 
 
