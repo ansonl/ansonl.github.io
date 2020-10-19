@@ -17,7 +17,7 @@ My father and I were trying to use a [Mid-2011 Apple iMac](https://everymac.com/
   - We couldn't find another Blizzard/BattleNet agent setup process running on the computer. 
   
 - **iMessage Screen Sharing** - *Screen sharing option grayed out*
-  - Yes, Apple has built in a VNC tunneling capability that traverses the internet and NAT! The screen share is supposed to be initiated between iMessage users through the contact detail popover > screen share icon.
+  - Yes, Apple has built a lesser known VNC tunneling capability that traverses the internet and NAT! The screen share is supposed to be initiated between iMessage users through the contact detail popover > screen share icon.
   - This issue was partially resolved by adding the iMessage contact's **Apple ID email** to the correct contact card. 
   - iMessage appears to use phone numbers to tie together messages and recipients. iMessage Screen Sharing creates a connection between two Apple IDs. The glue that ties phone numbers to Apple IDs needs help associating the two types of identification and this requires both sides of the screen share to have the other side's Apple ID email and phone number in the same contact card.
   
