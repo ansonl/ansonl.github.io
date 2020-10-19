@@ -3,6 +3,8 @@ published: false
 ---
 ## Clean install OS X on a Macintosh computer made during or after 2011 with an unknown EFI password.
 
+You can still boot to a USB drive if you have either the password for OS level access (TLDR at end) or firmware (EFI/BIOS) password for a post-2011 Macintosh computer. If the OS is in an unbootable state, this method may not work. 
+
 My father and I were trying to use a [Mid-2011 Apple iMac](https://everymac.com/systems/apple/imac/specs/imac-core-i7-2.8-21-inch-aluminum-mid-2011-thunderbolt-specs.html) to run some games and it was exhibiting strange issues with no clear fix. Before I left California for college in 2012 I had upgraded this iMac from stock HDD by adding an internal 256 GB Sandforce SSD. The 2011 iMac curiously enough has enough space inside the display case to fit 2 storage drives. This wasn't the ole' optical drive <-> second storage drive swap; there is enough space to keep the optical drive behind the display! I recall the second storage drive fit behind the optical drive but it was a tight fit to refit the display on the case (no glue for this model, either!). I had installed OS X 10.7 Lion on the 256 GB SSD and set my home directory to be located on the 1 TB HDD to maximize space savings on the smaller capacity SSD. The applications folder was also half mapped onto the HDD for "large" games [30 GB of StarCraft was big]. After 8 years of almost nonexistent usage and trusting the automatic OS X updater to update this strange configuration every few years, errors started to impede using it for games:
 
 - **Safari** - *Not Enough Free Disk Space*
@@ -31,4 +33,10 @@ We created a USB bootable installer for macOS using the [createinstallmedia](htt
 
 
 
-TLDR: The USB drive with the OS X Installer **must be formatted using the GUID Partition Table (GPT)** before writing the OS X Installer files to it. Set startup disk to a USB drive formatted with OS X Installer using the System Preferences app. 
+**TLDR:** 
+1. Erase the booting USB installer drive and **specify GUID Partition Table (GPT)** before writing the OS X Installer files to it. 
+2. Set startup disk to a USB drive formatted with OS X Installer using the Startup Disks screen in System Preferences. 
+3. Restart directly to USB drive with no ALT/OPTION keys. 
+4. Open the installer's copy of Disk Utilityrase the disk/partition with the existing OS X install. 
+5. Exit Disk Utility. 
+6. Proceed with OS X install. 
