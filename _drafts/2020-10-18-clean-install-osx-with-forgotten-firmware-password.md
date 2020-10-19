@@ -24,6 +24,8 @@ We wanted to use the iMac to play games such as Starcraft 2 and Call of Duty. A 
 2011 was also the first year where Apple moved the firmware password storage from PRAM to a [separate chip](https://www.cnet.com/news/efi-firmware-protection-locks-down-newer-macs/)(apparently Atmel [ATtiny13](http://ww1.microchip.com/downloads/en/DeviceDoc/2535S.pdf)) with persistent storage on the logic board. 
 
 Pre-2011 Mac EFI passwords could be reset by removing power and making a hardware change such as changing the amount of memory installed on the computer. Due to the new EFI password storage design, the only way to change the password short of desoldering or attaching a hardware based EFI unlocker is the bring the computer to an Apple Store or Authorized Apple Repair location. The technicians as the location can send the computer's EFI hash to the mothership which will use a master key to create binary file with unlock commands which are loaded onto a USB drive. This binary file is checked by the EFI on start up reset the password if the matching binary is found.
+
+
   
 
 
