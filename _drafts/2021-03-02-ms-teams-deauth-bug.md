@@ -18,14 +18,14 @@ This behavior can be viewed in the iOS Microsoft Teams app on at least version 2
   - Before the login webview popup, the iOS client will find that the refresh_token is expired by response from a request to _https://login.microsoftoline.com/XXX/oauth2/v2.0/**token**_.
   - See [OAuth 2.0](https://oauth.net/2/) for details on the _[Authorization Code](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2#grant-type-authorization-code)_ grant type login flow.
 
-4. Click "Cancel" button in upper-left of the popup webview containing login page. The popup webview will dismiss by sliding down off the screen.
+4. Click **"Cancel"** button in upper-left of the popup webview containing login page. The popup webview will dismiss by sliding down off the screen.
 
 5. Full interaction and information viewing is possible in the iOS client app for a brief period. Examples of tested data access:
   - Bottom tab bar can be clicked to view different Teams data such as notifcations, chats, calendar.
   - Pull to refresh on notifications view will intiate a refresh and load new data
-  - Clicking "join" meeting on calendar view will successfully join a team meeting and audio. (connection to api.flightproxy.teams.microsoft.com made) Creation of the meeting is logged and can be seen in the "chat" view of a event showing who entered the meeting.
+  - Clicking "join" meeting on calendar view will successfully join a team meeting and audio. (connection to _api.flightproxy.teams.microsoft.com_ made) Creation of the meeting is logged and can be seen in the "chat" view of an event showing who entered the meeting.
 
-6. iOS client app may display a dialog indicating auth failure and an option to sign out. Click "cancel". iOS client app will popup the login webview again.
+6. iOS client app may display a dialog indicating auth failure and an option to sign out. Click **"cancel"**. iOS client app will popup the login webview again.
 
 7. Go to step 4. Repeated user privileged data access is possible by cancelling the popup login webview and tapping on parts of the graphical user interface during the few seconds before the login alert and webview pop up again. 
 
