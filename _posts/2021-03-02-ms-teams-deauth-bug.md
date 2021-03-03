@@ -2,10 +2,13 @@
 published: true
 title: iOS Microsoft Teams Client 'Dodge Deauth & Make Voice Calls' Bug
 excerpt: >
-  Protected data can be viewed and calls can be joined in the iOS Microsoft Teams client after the organization mandated login expiration has passed. This bypass is trivial and only requires quick fingers.
+  Protected data can be viewed and calls can be joined in the iOS Microsoft
+  Teams client after the organization mandated login expiration has passed. This
+  bypass is trivial and only requires quick fingers.
 
 
-  ![MS Teams vulnerability title image](/wp-content/uploads/2021/03/teams_excerpt_splash.png)
+  ![MS Teams vulnerability title
+  image](/wp-content/uploads/2021/03/teams_excerpt_splash.png)
 author: Anson Liu
 layout: post
 categories:
@@ -61,6 +64,8 @@ A month later, Microsoft replied that this "behavior is considered to be by desi
 Caching data locally to alleviate the need to redownload user Teams data is a normal design philosophy. However, the graphical user interface should not be designed to allow free access to cached data once the user access to the data is known to be expired/invalid. The separate data storage and data presentation functionalities of the Microsoft Teams iOS client application should be designed to mask or hide the cached data from view until the user has successfully reauthenticated. 
 
 Microsoft's response also suggests that being able to join, speak, and hear Teams calls when not authenticated is expected behavior. 
+
+![MS Teams Backend/Frontend role separation](/wp-content/uploads/2021/03/teams_separation_clipart_diagram.jpg)
 
 A simple and effective solution would hide visibility of the main Teams user interface when the user authentication has expired. Once the user has successfully reauthenticated, enable interaction and make the main GUI containing cached user data visible again. The Teams call infrastructure should also be patched to check if the authentication has expired before allowing a client to join a call. 
 
