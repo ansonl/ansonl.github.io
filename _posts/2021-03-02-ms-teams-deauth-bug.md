@@ -11,6 +11,7 @@ excerpt: >
   image](/wp-content/uploads/2021/03/teams_excerpt_splash.png)
 author: Anson Liu
 layout: post
+image: /wp-content/uploads/2021/03/teams_separation_clipart_diagram.jpg
 categories:
   - Development
 tags:
