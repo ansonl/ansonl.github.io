@@ -7,8 +7,7 @@ excerpt: >
   Protected data can be viewed and calls can be joined in the iOS Microsoft Teams client after the organization mandated login expiration has passed. This bypass is trivial and only requires quick fingers.
 
 
-  ![Facebook Messenger Expose Unfriends
-  Bug](/wp-content/uploads/2021/03/teams_excerpt.png)
+  ![MS Teams vulnerability title image](/wp-content/uploads/2021/03/teams_excerpt.png)
 author: Anson Liu
 layout: post
 categories:
