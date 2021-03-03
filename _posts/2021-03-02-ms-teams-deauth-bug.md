@@ -1,7 +1,5 @@
 ---
 published: true
----
----
 title: iOS Microsoft Teams Client 'Dodge Deauth & Make Voice Calls' Bug
 excerpt: >
   Protected data can be viewed and calls can be joined in the iOS Microsoft Teams client after the organization mandated login expiration has passed. This bypass is trivial and only requires quick fingers.
@@ -19,7 +17,6 @@ tags:
   - call
   - skype
   - bug bounty
-published: true
 ---
 ## Microsoft Teams iOS Client 'Dodge Deauth & Make Voice Calls' Bug
 
