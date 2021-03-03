@@ -28,6 +28,7 @@ tags:
 - Expiration example: _Organization mandates re-authentication period of 18 hours. The user is no longer authenticated 19 hours after initial login._
 - Cached data such as notification, teams, and chat are available. 
 - New Teams voice calls can be successfully joined with two way voice communication.
+- The only thing needed for this is quick fingers.
 
 [![MS Teams iOS vulnerability proof of concept 2](/wp-content/uploads/2021/03/team_poc_2_sanitised.gif)](https://www.youtube.com/watch?v=n7rak6WZwSI&feature=youtu.be)
 
