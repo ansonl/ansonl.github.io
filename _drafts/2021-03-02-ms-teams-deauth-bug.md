@@ -1,12 +1,14 @@
 ---
 published: false
 ---
-## Microsoft Teams iOS Client 'Dodge Deauthentication & Make Voice Calls' Bug
+## Microsoft Teams iOS Client 'Dodge Deauth & Make Voice Calls' Bug
 
 **In short:** Microsoft Teams iOS client login screen can be bypassed after organization mandated login (refresh token) expiration has expired by dismissing the login view and tapping on the enabled user-interface elements. This behavior can be repeated an unlimited amount of times to browse section of the app and view protected data meant for a successfully authenticated user.
 - Expiration example: _Organization mandates re-authentication period of 18 hours. The user is no longer authenticated 19 hours after initial login._
 - Cached data such as notification, teams, and chat are available. 
 - New Teams voice calls can be successfully joined with two way voice communication.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n7rak6WZwSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This behavior can be viewed in the iOS Microsoft Teams app on at least version 2.2.1. I have not tested this on the equivalent Android Teams app. Steps to access user data after your login expires are below:
 
@@ -42,4 +44,4 @@ Microsoft's response also suggests that being able to join, speak, and hear Team
 
 A simple and effective solution would hide visibility of the main Teams user interface when the user authentication has expired. Once the user has successfully reauthenticated, enable interaction and make the main GUI containing cached user data visible again. 
 
-If this is apparently intended functionality - maybe a helpful feature to peek at messages and join Teams calls when the user is 
+If this is apparently intended functionality - maybe a helpful feature to peek at messages and join Teams calls when the user's authentication is not verified - people should know more about the functionality of **Dodge Deauth & Make Voice Calls** when the user "forgets" their password. 
