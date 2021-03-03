@@ -29,4 +29,9 @@ This behavior can be viewed in the iOS Microsoft Teams app on at least version 2
 
 7. Go to step 4. Repeated user privileged data access is possible by cancelling the popup login webview and tapping on parts of the graphical user interface during the few seconds before the login alert and webview pop up again. 
 
-This login bypass and information disclosure vulnerability was submitted to [Microsoft Security Response Center (MSRC) Researcher Portal](https://msrc.microsoft.com/) on February 1st, 2021 and assigned case #63474.
+This login bypass and information disclosure vulnerability was submitted to [Microsoft Security Response Center (MSRC) Researcher Portal](https://msrc.microsoft.com/) and assigned case #63474. Screen recordings demonstrating bypass of the login screen and ability to successfully join a call were shared as well. 
+A month later, Microsoft replied that this is expected behavior.
+
+> We determined that this behavior is considered to be by design because after the tokens expire, the device still has cached data locally which is accessible to the Teams client.
+
+A
