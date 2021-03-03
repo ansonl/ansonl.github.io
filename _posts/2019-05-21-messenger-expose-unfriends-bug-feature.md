@@ -18,6 +18,7 @@ tags:
   - stories
   - unfriend
   - bug bounty
+  - the internet of bugs
 ---
 ## Facebook Messenger "Expose Unfriends" Bug
 
