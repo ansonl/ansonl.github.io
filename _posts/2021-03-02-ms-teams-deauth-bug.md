@@ -35,7 +35,7 @@ tags:
 
 _Click above image for video version of PoC screen recording._
 
-This behavior can be viewed in the iOS Microsoft Teams app on at least version 2.2.1. I have not tested this on the equivalent Android Teams app. Steps to access user data after your login expires are below:
+This behavior can be viewed in the iOS Microsoft Teams app on at least version 2.3.1 (tested working on 03MAR21). I have not tested this on the equivalent Android Teams app. Steps to access user data after your login expires are below:
 
 1. Login to MS Teams account under an organization with a relogin (refresh token) expiration time of N. (Ex: Max lifetime of refresh token of 18 hours) MS Teams may be set to use a authentication method similar to [OAuth 2.0](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
 
