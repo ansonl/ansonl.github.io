@@ -9,7 +9,7 @@ published: false
 - New Teams voice calls can be successfully joined with two way voice communication.
 
 [![MS Teams iOS vulnerability proof of concept 2](/wp-content/uploads/2021/03/teams_poc_2_sanitised.png)](https://www.youtube.com/watch?v=n7rak6WZwSI&feature=youtu.be)
-_Click above image for video version of proof of concept screen recording._
+_Click above image for video version of PoC screen recording._
 
 This behavior can be viewed in the iOS Microsoft Teams app on at least version 2.2.1. I have not tested this on the equivalent Android Teams app. Steps to access user data after your login expires are below:
 
