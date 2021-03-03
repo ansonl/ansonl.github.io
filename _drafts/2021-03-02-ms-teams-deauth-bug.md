@@ -8,7 +8,8 @@ published: false
 - Cached data such as notification, teams, and chat are available. 
 - New Teams voice calls can be successfully joined with two way voice communication.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n7rak6WZwSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![MS Teams iOS vulnerability proof of concept 2](/wp-content/uploads/2021/03/teams_poc_2_sanitised.png)](https://www.youtube.com/watch?v=n7rak6WZwSI&feature=youtu.be)
+_Click above image for video version of proof of concept screen recording._
 
 This behavior can be viewed in the iOS Microsoft Teams app on at least version 2.2.1. I have not tested this on the equivalent Android Teams app. Steps to access user data after your login expires are below:
 
@@ -33,15 +34,19 @@ This behavior can be viewed in the iOS Microsoft Teams app on at least version 2
 
 7. Go to step 4. Repeated user privileged data access is possible by cancelling the popup login webview and tapping on parts of the graphical user interface during the few seconds before the login alert and webview pop up again. 
 
-This login bypass and information disclosure vulnerability was submitted to [Microsoft Security Response Center (MSRC) Researcher Portal](https://msrc.microsoft.com/) and assigned case #63474. Screen recordings demonstrating bypass of the login screen and ability to successfully join a call were shared as well. 
+This login bypass and information disclosure vulnerability was submitted to Microsoft and assigned case #63474. Screen recordings demonstrating bypass of the login screen and ability to successfully join a call were shared as well. 
 A month later, Microsoft replied that this "behavior is considered to be by design".
 
 > We determined that this behavior is considered to be by design because after the tokens expire, the device still has cached data locally which is accessible to the Teams client.
 
 Caching data locally to alleviate the need to redownload user Teams data is a normal design philosophy. However, the graphical user interface should not be designed to allow free access to cached data once the user access to the data is known to be expired/invalid. The separate data storage and data presentation functionalities of the Microsoft Teams iOS client application should be designed to mask or hide the cached data from view until the user has successfully reauthenticated. 
 
-Microsoft's response also suggests that being able to join, speak, and hear Teams calls when not authenticated as expected behavior. 
+Microsoft's response also suggests that being able to join, speak, and hear Teams calls when not authenticated is expected behavior. 
 
-A simple and effective solution would hide visibility of the main Teams user interface when the user authentication has expired. Once the user has successfully reauthenticated, enable interaction and make the main GUI containing cached user data visible again. 
+A simple and effective solution would hide visibility of the main Teams user interface when the user authentication has expired. Once the user has successfully reauthenticated, enable interaction and make the main GUI containing cached user data visible again. The Teams call infrastructure should also be patched to check if the authentication has expired before allowing a client to join a call. 
 
-If this is apparently intended functionality - maybe a helpful feature to peek at messages and join Teams calls when the user's authentication is not verified - people should know more about the functionality of **Dodge Deauth & Make Voice Calls** when the user "forgets" their password. 
+If this is apparently intended functionality - maybe a helpful feature to peek at messages and join Teams calls when the user's authentication is not verified - people should know more about the functionality of **Dodge Deauth & Make Voice Calls** when the user "forgets" their password.
+
+01FEB21 - Reported bug to [Microsoft Security Response Center (MSRC) Researcher Portal](https://msrc.microsoft.com/) 
+
+02MAR21 - MSRC informs me that login bypass and information disclosure described is unavoidable "by design".
