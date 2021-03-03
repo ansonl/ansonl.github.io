@@ -1,4 +1,5 @@
 ---
+published: true
 title: Facebook Messenger 'Expose Unfriends' Bug
 excerpt: >
   The Facebook Messenger **Hide Story From** setting exposes people who have
@@ -17,7 +18,6 @@ tags:
   - stories
   - unfriend
   - bug bounty
-published: true
 ---
 ## Facebook Messenger "Expose Unfriends" Bug
 

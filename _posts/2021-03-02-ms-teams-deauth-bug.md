@@ -1,10 +1,9 @@
 ---
-published: false
----
----
+published: true
 title: iOS Microsoft Teams Client 'Dodge Deauth & Make Voice Calls' Bug
 excerpt: >
   Protected data can be viewed and calls can be joined in the iOS Microsoft Teams client after the organization mandated login expiration has passed. This bypass is trivial and only requires quick fingers.
+
 
   ![MS Teams vulnerability title image](/wp-content/uploads/2021/03/teams_excerpt_splash.png)
 author: Anson Liu
@@ -19,7 +18,6 @@ tags:
   - call
   - skype
   - bug bounty
-published: true
 ---
 ## Microsoft Teams iOS Client 'Dodge Deauth & Make Voice Calls' Bug
 
@@ -29,6 +27,7 @@ published: true
 - New Teams voice calls can be successfully joined with two way voice communication.
 
 [![MS Teams iOS vulnerability proof of concept 2](/wp-content/uploads/2021/03/team_poc_2_sanitised.gif)](https://www.youtube.com/watch?v=n7rak6WZwSI&feature=youtu.be)
+
 _Click above image for video version of PoC screen recording._
 
 This behavior can be viewed in the iOS Microsoft Teams app on at least version 2.2.1. I have not tested this on the equivalent Android Teams app. Steps to access user data after your login expires are below:
@@ -65,7 +64,7 @@ Microsoft's response also suggests that being able to join, speak, and hear Team
 
 A simple and effective solution would hide visibility of the main Teams user interface when the user authentication has expired. Once the user has successfully reauthenticated, enable interaction and make the main GUI containing cached user data visible again. The Teams call infrastructure should also be patched to check if the authentication has expired before allowing a client to join a call. 
 
-If this is apparently intended functionality - maybe a helpful feature to peek at messages and join Teams calls when the user's authentication is not verified - people should know more about the functionality of **Dodge Deauth & Make Voice Calls** when the user "forgets" their password.
+If this is apparently intended functionality - maybe a helpful feature to peek at messages and join Teams calls when the user's authentication is not verified - people should know more about the functionality of **"Dodge Deauth & Make Voice Calls"** when the user "forgets" their password.
 
 01FEB21 - Reported bug to [Microsoft Security Response Center (MSRC) Researcher Portal](https://msrc.microsoft.com/) 
 
