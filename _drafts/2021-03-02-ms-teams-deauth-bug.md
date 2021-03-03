@@ -15,7 +15,7 @@ This behavior can be viewed in the iOS Microsoft Teams app on at least version 2
 2. Wait N hrs for the refresh token to expire. 
 
 3. Open Teams iOS app. iOS client app will popup webview loading a login page at _https://login.microsoftonline.com/XXX/oauth2/v2.0/**authorize**_.
-  - Before the login webview popup, the iOS client will find that the refresh_token is expired by response from a request to _https://login.microsoftoline.com/XXX/oauth2/v2.0/**token**_.
+  - Before the login webview popup, the iOS client will find that the refresh_token is expired by a response from a request to _https://login.microsoftoline.com/XXX/oauth2/v2.0/**token**_.
   - See [OAuth 2.0](https://oauth.net/2/) for details on the _[Authorization Code](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2#grant-type-authorization-code)_ grant type login flow.
 
 4. Click **"Cancel"** button in upper-left of the popup webview containing login page. The popup webview will dismiss by sliding down off the screen.
@@ -29,11 +29,4 @@ This behavior can be viewed in the iOS Microsoft Teams app on at least version 2
 
 7. Go to step 4. Repeated user privileged data access is possible by cancelling the popup login webview and tapping on parts of the graphical user interface during the few seconds before the login alert and webview pop up again. 
 
-
-Related Security Bypass demonstrating expired oauth token being accepted:
-If tasks.office.com is successfully authenticated once in the web browser on a desktop (Chrome), the same tasks page can get new data and be reloaded through after the authentication token is supposed to expire according to the organization policy (tested 18hrs).
-Steps to reproduce:
-1. Login to teams.microsoft.com on desktop web browser
-2. Load a Tasks page from within Teams so that a new window is opened at tasks.office.com.
-3. Wait for organization policy for password expiration.
-4. Check Tasks page. Reload Tasks page will also show updated data.
+This login bypass and information disclosure vulnerability was submitted to [Microsoft Security Response Center (MSRC) Researcher Portal](https://msrc.microsoft.com/) on February 1st, 2021 and assigned case #63474.
