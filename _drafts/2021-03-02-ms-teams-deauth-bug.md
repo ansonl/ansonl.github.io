@@ -1,6 +1,28 @@
 ---
 published: false
 ---
+---
+title: iOS Microsoft Teams Client 'Dodge Deauth & Make Voice Calls' Bug
+excerpt: >
+  Protected data can be viewed and calls can be joined in the iOS Microsoft Teams client after the organization mandated login expiration has passed. This bypass is trivial and only requires quick fingers.
+
+
+  ![Facebook Messenger Expose Unfriends
+  Bug](/wp-content/uploads/2021/03/teams_excerpt.png)
+author: Anson Liu
+layout: post
+categories:
+  - Development
+tags:
+  - microsoft
+  - teams
+  - chat
+  - messages
+  - call
+  - skype
+  - bug bounty
+published: true
+---
 ## Microsoft Teams iOS Client 'Dodge Deauth & Make Voice Calls' Bug
 
 **In short:** Microsoft Teams iOS client login screen can be bypassed after organization mandated login (refresh token) expiration has expired by dismissing the login view and tapping on the enabled user-interface elements. This behavior can be repeated an unlimited amount of times to browse section of the app and view protected data meant for a successfully authenticated user.
