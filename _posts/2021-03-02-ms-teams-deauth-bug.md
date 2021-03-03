@@ -24,7 +24,6 @@ tags:
   - bug bounty
   - the internet of bugs
 ---
-## Microsoft Teams iOS Client 'Quick Fingers' Bug
 
 **In short:** Microsoft Teams iOS client login screen can be bypassed after organization mandated login (refresh token) expiration has expired by dismissing the login view and tapping on the enabled user-interface elements. This behavior can be repeated an unlimited amount of times to browse section of the app and view protected data meant for a successfully authenticated user.
 - Expiration example: _Organization mandates re-authentication period of 18 hours. The user is no longer authenticated 19 hours after initial login._
