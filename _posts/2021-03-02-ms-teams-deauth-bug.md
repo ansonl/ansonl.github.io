@@ -21,6 +21,7 @@ tags:
   - call
   - skype
   - bug bounty
+  - the internet of bugs
 ---
 ## Microsoft Teams iOS Client 'Dodge Deauth & Make Voice Calls' Bug
 
