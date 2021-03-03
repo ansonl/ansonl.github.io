@@ -1,6 +1,6 @@
 ---
 published: true
-title: iOS Microsoft Teams Client 'Dodge Deauth & Make Voice Calls' Bug
+title: iOS Microsoft Teams Client 'Quick Fingers' Bug
 excerpt: >
   Protected data can be viewed and calls can be joined in the iOS Microsoft
   Teams client after the organization mandated login expiration has passed. This
@@ -24,7 +24,7 @@ tags:
   - bug bounty
   - the internet of bugs
 ---
-## Microsoft Teams iOS Client 'Dodge Deauth & Make Voice Calls' Bug
+## Microsoft Teams iOS Client 'Quick Fingers' Bug
 
 **In short:** Microsoft Teams iOS client login screen can be bypassed after organization mandated login (refresh token) expiration has expired by dismissing the login view and tapping on the enabled user-interface elements. This behavior can be repeated an unlimited amount of times to browse section of the app and view protected data meant for a successfully authenticated user.
 - Expiration example: _Organization mandates re-authentication period of 18 hours. The user is no longer authenticated 19 hours after initial login._
@@ -72,7 +72,7 @@ Microsoft's response also suggests that being able to join, speak, and hear Team
 
 A simple and effective solution would hide visibility of the main Teams user interface when the user authentication has expired. Once the user has successfully reauthenticated, enable interaction and make the main GUI containing cached user data visible again. The Teams call infrastructure should also be patched to check if the authentication has expired before allowing a client to join a call. 
 
-If this is apparently intended functionality - maybe a helpful feature to peek at messages and join Teams calls when the user's authentication is not verified - people should know more about the functionality of **"Dodge Deauth & Make Voice Calls"** when the user "forgets" their password.
+If this is apparently intended functionality - maybe a helpful feature to peek at messages and join Teams calls when the user's authentication is not verified - people should know more about the functionality of **"Quick Fingers"** when the user "forgets" their password.
 
 01FEB21 - Reported bug to [Microsoft Security Response Center (MSRC) Researcher Portal](https://msrc.microsoft.com/) 
 
