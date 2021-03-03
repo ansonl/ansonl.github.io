@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ---
 title: iOS Microsoft Teams Client 'Dodge Deauth & Make Voice Calls' Bug
