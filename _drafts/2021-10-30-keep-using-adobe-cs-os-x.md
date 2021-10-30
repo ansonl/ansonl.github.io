@@ -5,6 +5,8 @@ published: false
 
 I purchased Adobe CS5 a decade ago and have been keeping around an older Apple computer to use it for graphic and photo editing. macOS versions newer than macOS Mojave 10.14 will not run 32-bit applications such as the Adobe CS5 suite. An accidental macOS upgrade requires a clean reinstall to get Adobe CS5 running again which is a hassle. 
 
+![MS Teams call chat history](/wp-content/uploads/2021/10/osx-vm-adobe-cs5.PNG)
+
 Switching 3 DisplayPort displays with a KVM between a Windows 10/new Mac/old Mac (the Adobe CS5 machine) also rearranges visible windows in my main Windows 10 workstation which is unfortunate. Windows 10 does not remember which display your windows were in when multiple displays are reconnected while macOS does remember to restore the windows correctly. 
 
 It took me a while before I thought of a solution: **Run the older version of macOS in a virtual machine and run Adobe CS5 inside that virtual machine!**
