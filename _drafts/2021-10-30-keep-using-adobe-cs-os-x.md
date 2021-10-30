@@ -15,4 +15,10 @@ After some trial and error here are the steps:
 
 2. Download the macOS High Sierra 10.13 or Mojave 10.14 DMG from Apple on an existing installation of macOS and then convert the DMG to ISO with Disk Utility OR download a [premade VMDK from Geekrar](https://www.geekrar.com/install-macos-high-sierra-on-virtualbox-on-windows/). *Many steps in this post are from Geekrar but there are some additions to fix the final display resolution.*
 
-3. 
+3. Create a new guest virtual machine in Virtual Box and select the ISO as the inserted CD or the VMDK as the storage device. 
+
+4. Set processor count to 4. 
+
+5. Set memory to 8192mb.
+
+5. Set video memory to 128mb.
