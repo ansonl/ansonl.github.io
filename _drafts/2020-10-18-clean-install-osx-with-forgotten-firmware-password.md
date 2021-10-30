@@ -27,11 +27,9 @@ We wanted to use the iMac to play games such as Starcraft 2 and Call of Duty. A 
 
 Pre-2011 Mac EFI passwords could be reset by removing power and making a hardware change such as changing the amount of memory installed on the computer. Due to the new EFI password storage design, the only way to change the password short of desoldering or attaching a hardware based EFI unlocker is the bring the computer to an Apple Store or Authorized Apple Repair location. The technicians as the location can send the computer's EFI hash to the mothership which will use a master key to create binary file with unlock commands which are loaded onto a USB drive. This binary file is checked by the EFI on start up reset the password if the matching binary is found.
 
-Getting an Apple Store Genius Bar appointment was difficult due to high demand and COVID-19 so we would like to just perform a clean reinstall on the computer to play games for now. 
+Getting an Apple Store Genius Bar appointment was difficult due to high demand and COVID-19 so we would like to just perform a clean reinstall on the computer to play games for now. (We got the firmware password reset by the Apple Store at some point.)
 
 We created a USB bootable installer for macOS using the [createinstallmedia](https://support.apple.com/en-us/HT201372) and Macdaddy [Disk Creator](https://macdaddy.io/install-disk-creator/) methods. We were able to boot from the USB installer by setting the USB drive as the startup disk in **System Preferences > Startup Disk**. Through trial and error we discovered that install disk creation methods we used did not format the USB disk using GUID Partition Table (GPT) layout. Master Boot Record (MBR) and Apple Partition Map (APM) do not have complete compatibility with Intel based macs and may not be recognized startup disks in the OS X Startup Disk list. The best way to ensure that the installer disk is GPT is to use Disk Utility or Disk Management (Windows 10) to erase and specify GPT as the partition layout method before running the install creation methods mentioned earlier.
-
-
 
 **TLDR:** 
 1. Erase the booting USB installer drive and **specify GUID Partition Table (GPT)** before writing the OS X Installer files to it. 
@@ -39,4 +37,6 @@ We created a USB bootable installer for macOS using the [createinstallmedia](htt
 3. Restart directly to USB drive with no ALT/OPTION keys. 
 4. Open the installer's copy of Disk Utilityrase the disk/partition with the existing OS X install. 
 5. Exit Disk Utility. 
-6. Proceed with OS X install. 
+6. Proceed with OS X install.
+
+*I wrote this post in October 2020 but forgot to release it until a year later 😶*
