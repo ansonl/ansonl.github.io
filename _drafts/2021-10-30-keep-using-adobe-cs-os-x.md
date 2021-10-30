@@ -21,4 +21,17 @@ After some trial and error here are the steps:
 
 5. Set memory to 8192mb.
 
-5. Set video memory to 128mb.
+6. Set video memory to 128mb.
+
+7. Run the below VBoxManage commands after navigating to the VirtualBox installation directory. 
+
+```
+cd "C:\Program Files\Oracle\VirtualBox\"
+.\VBoxManage.exe modifyvm "VMNAME" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+.\VBoxManage setextradata "VMNAME" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+.\VBoxManage setextradata "VMNAME" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+.\VBoxManage setextradata "VMNAME" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+.\VBoxManage setextradata "VMNAME" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata "VMNAME" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
+.\VBoxManage setextradata "VMNAME" VBoxInternal2/EfiGraphicsResolution 1920x1080
+```
