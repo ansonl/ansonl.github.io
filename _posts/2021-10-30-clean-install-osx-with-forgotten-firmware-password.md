@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 excerpt: >
   Protected data can be viewed and calls can be joined in the iOS Microsoft
   Teams client after the organization mandated login expiration has passed. This
