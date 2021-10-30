@@ -1,8 +1,6 @@
 ---
 published: true
 excerpt: >
-  Clean install OS X on a Macintosh computer made during or after 2011 with an unknown EFI password.
-
   You can still boot to a USB drive if you have either the password for OS level access (TLDR at end) or firmware (EFI/BIOS) password for a post-2011 Macintosh computer. If the OS is in an unbootable state, this method may not work. 
 author: Anson Liu
 layout: post
