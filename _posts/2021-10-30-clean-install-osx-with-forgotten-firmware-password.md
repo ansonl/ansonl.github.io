@@ -1,27 +1,21 @@
 ---
 published: true
 excerpt: >
-  Protected data can be viewed and calls can be joined in the iOS Microsoft
-  Teams client after the organization mandated login expiration has passed. This
-  bypass is trivial and only requires quick fingers.
+  Clean install OS X on a Macintosh computer made during or after 2011 with an unknown EFI password.
 
-
-  ![MS Teams vulnerability title
-  image](/wp-content/uploads/2021/03/teams_excerpt_splash.png)
+  You can still boot to a USB drive if you have either the password for OS level access (TLDR at end) or firmware (EFI/BIOS) password for a post-2011 Macintosh computer. If the OS is in an unbootable state, this method may not work. 
 author: Anson Liu
 layout: post
-image: /wp-content/uploads/2021/03/teams_separation_clipart_diagram.jpg
 categories:
   - Development
 tags:
-  - microsoft
-  - teams
-  - chat
-  - messages
-  - call
-  - skype
-  - bug bounty
-  - the internet of bugs
+  - macintosh
+  - firmware
+  - imac
+  - app
+  - macos
+  - osx
+  - efi
 ---
 ## Clean install OS X on a Macintosh computer made during or after 2011 with an unknown EFI password.
 
