@@ -23,7 +23,7 @@ After some trial and error here are the steps:
 
 6. Set video memory to 128mb.
 
-7. Run the below VBoxManage commands after navigating to the VirtualBox installation directory. 
+7. Quit VirtualBox. Run the below VBoxManage commands in Powershell or equivalent terminal after navigating to the VirtualBox installation directory. Replace `VMNAME` with the name of your new virtual machine in Virtual Box.
 
 ```
 cd "C:\Program Files\Oracle\VirtualBox\"
@@ -33,5 +33,12 @@ cd "C:\Program Files\Oracle\VirtualBox\"
 .\VBoxManage setextradata "VMNAME" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
 .\VBoxManage setextradata "VMNAME" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
 VBoxManage setextradata "VMNAME" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
+
 .\VBoxManage setextradata "VMNAME" VBoxInternal2/EfiGraphicsResolution 1920x1080
 ```
+
+The last command sets the resolution to 1920x1080. I tried 4K 3840x2160 resolution but the lag was too great with the simulated VBox graphics controller. 
+
+8. Start your virtual machine.
+
+9. If you have a 4K display and are using 1080p resolution for the virtual machine, scale the display with View > Virtual Screen 1 > Scale to 200% which will make each pixel in the virtual machine appear twice as large on the host display. It's not real scaling but it's the best solution I've found so far. 
