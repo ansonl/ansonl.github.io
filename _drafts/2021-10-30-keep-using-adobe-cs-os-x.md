@@ -3,7 +3,7 @@ published: false
 ---
 ## Keep using Adobe Creative Suite (CS) after upgrading your host machine to a newer macOS (OS X). 
 
-I purchased Adobe CS5 a decade ago and have been keeping around an older Apple computer to use it for graphic and photo editing. macOS versions newer than macOS Mojave 10.14 will not run 32-bit applications such as the Adobe CS5 suite. An accidental macOS upgrade requires a clean reinstall to get Adobe CS5 running again which is a hassle. 
+I purchased Adobe CS5 for OS X a decade ago and have been keeping around an older Apple computer to use it for graphic and photo editing. macOS versions newer than macOS Mojave 10.14 will not run 32-bit applications such as the Adobe CS5 suite. An accidental macOS upgrade requires a clean reinstall to get Adobe CS5 running again which is a hassle. 
 
 ![Adobe CS5 working again](/wp-content/uploads/2021/10/osx-vm-adobe-cs5.PNG)
 
