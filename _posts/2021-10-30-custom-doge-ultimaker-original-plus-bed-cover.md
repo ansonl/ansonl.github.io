@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 excerpt: >
   Adobe Create Suite no longer works on macOS after Mojave and I've been keeping
   an old mac around to run it.  It took me longer than I'd like to find a
