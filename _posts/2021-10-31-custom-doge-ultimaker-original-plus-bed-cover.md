@@ -22,6 +22,7 @@ tags:
   - virtualbox
   - cs5
 title: Custom Doge Ultimaker Original+ Bed Cover
+image: /wp-content/uploads/2021/10/printed-bed-cover-unfinished.jpg
 ---
 ## Custom Doge Ultimaker Original+ Bed Header in Thermochromatic PLA
 
