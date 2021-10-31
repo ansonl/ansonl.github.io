@@ -27,10 +27,14 @@ The United States of America flag was created by doing a similar process on an i
 
 The print had to be positioned with the front facing up in order to print the angled Doge features without support material. I made the mistake of printing it with the front facing down on a test print and the Doge becomes a husky. The front face is very glossy and smooth when it is facing down, so I had to try to replicate the effect using ironing with the front facing up. 
 
-| foo | bar |
+| My UMO+ Ironing Setting | Value |
 | --- | --- |
-| baz | bim |
+| Pattern | Zig Zag |
+| Line Spacing | 0.2 mm |
+| Flow | 35% |
+| Inset | 0.33 mm |
+| Speed | 60 mm/s |
 
-![test umo+ bed cover prints](/wp-content/uploads/2021/10/test-bed-cover-prints.gif)
+![test umo+ bed cover prints](/wp-content/uploads/2021/10/test-bed-cover-prints.jpg)
 
 I used [Gizmo Dorks 2.85mm Gray-White Color Changing PLA](https://gizmodorks.com/pla-3d-printer-filament/) filament to print the final bed cover.
