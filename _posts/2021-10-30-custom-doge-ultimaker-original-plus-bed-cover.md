@@ -21,6 +21,7 @@ tags:
   - osx
   - virtualbox
   - cs5
+title: Custom Doge Ultimaker Original+ Bed Cover
 ---
 ## Custom Doge Ultimaker Original+ Bed Header in Thermochromatic PLA
 
