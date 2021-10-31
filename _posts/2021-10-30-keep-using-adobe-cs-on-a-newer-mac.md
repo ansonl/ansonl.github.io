@@ -1,8 +1,8 @@
 ---
 published: true
 excerpt: >
-  Adobe Create Suite no longer works in newer macOS (OS X) and I've been keeping
-  an old mac aroudn to run it.  It took me longer than I'd like to find a
+  Adobe Create Suite no longer works on macOS after Mojave and I've been keeping
+  an old mac around to run it.  It took me longer than I'd like to find a
   solution:  **Run the older version of macOS in a virtual machine and run Adobe
   CS5.5 inside that virtual machine.** ![Adobe CS5 running in
   VirtualBox](/wp-content/uploads/2021/10/osx-vm-adobe-cs5.PNG)
@@ -19,8 +19,9 @@ tags:
   - osx
   - virtualbox
   - cs5
+title: Keep using Adobe CS on a newer mac
 ---
-## Keep using Adobe Creative Suite (CS) after upgrading your host machine to a newer macOS (OS X). 
+## Keep using Adobe Creative Suite (CS) after upgrading your host machine past macOS Mojave 10.14. 
 
 I purchased Adobe CS5 for OS X a decade ago and have been keeping around an older Apple computer to use it for graphic and photo editing. macOS versions newer than macOS Mojave 10.14 will not run 32-bit applications such as the Adobe CS5 suite. An accidental macOS upgrade requires a clean reinstall to get Adobe CS5 running again which is a hassle. 
 
@@ -76,4 +77,4 @@ The last command sets the resolution to 1920x1080. I tried 4K 3840x2160 resoluti
 There may be 2 legal issues with this setup:
 
 - You need to have purchased a copy of OS X — which you already fulfilled when you bought a physical Apple computer. 
-- The [OS X software license]((https://store.apple.com/Catalog/US/Images/MacOSX.htm)) agreement states that a single license may only be used on a "single Apple-labled computer at a time" which seems to refer to the hardware itself. 
+- The [OS X software license]((https://store.apple.com/Catalog/US/Images/MacOSX.htm)) agreement states that a single license may only be used on a "single Apple-labled computer at a time" which seems to refer to the hardware itself.
