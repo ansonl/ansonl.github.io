@@ -1,10 +1,9 @@
 ---
 published: true
 excerpt: >
-  Adobe Create Suite no longer works on macOS after Mojave and I've been keeping
-  an old mac around to run it.  It took me longer than I'd like to find a
-  solution:  **Run the older version of macOS in a virtual machine and run Adobe
-  CS5.5 inside that virtual machine.** 
+  *Not the custom 3D printer part you need but the part you deserve.*
+
+  The Doge and USA flag themed Ultimaker Original+ bed header. 
 
   ![finished doge umo+ bed
   cover](/wp-content/uploads/2021/10/finished-bed-cover.gif)
