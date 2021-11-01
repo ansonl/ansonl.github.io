@@ -5,8 +5,8 @@
 
 	
 	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="A collection of my written content on software development and hardware. Curated hikes and outdoor exploration done are here as well.">
-	<link rel="canonical" href="http://ansonliu.com/">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
 
   <script>
     /* Cut the mustard */
@@ -63,11 +63,11 @@
 {
   "@context":"http://schema.org",
   "@type":"Blog",
-  "keywords":"software engineering development ios golang js objective c objc navy arduino",
+  "keywords":"software engineering development ios golang js objective c objc navy arduino 3d printing",
   "url":"https://ansonliu.com",
   "mainEntityOfPage":{
     "@type":"WebPage",
-    "@id":"https://ansonliu.com"
+    "@id":"http://ansonliu.com"
   },
   "author": {% include authorStructuredData.html %}
 }
