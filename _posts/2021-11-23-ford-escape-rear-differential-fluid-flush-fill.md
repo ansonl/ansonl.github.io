@@ -1,11 +1,13 @@
 ---
-published: false
+published: true
 excerpt: >
-  The first rear differential oil change since the factory 15 years ago! 
+  The first rear differential oil change since the factory 15 years ago. 
 
-  A very overdue service on a Ford "filled for life" part. Minimizing resistance this component of the powertrain increased my fuel economy from 26-28 mpg. 
+  A very overdue service on a Ford "filled for life" part. Time to see the
+  carnage on the inside!
 
-  ![Ford Escape rear diff w/o fill plug](/wp-content/uploads/2021/11/2007-ford-escape-rear-diff-cover-install.jpg)
+  ![Ford Escape rear diff w/o fill
+  plug](/wp-content/uploads/2021/11/2007-ford-escape-rear-diff-cover-install.jpg)
 author: Anson Liu
 layout: post
 categories:
@@ -19,7 +21,7 @@ title: 2007 Ford Escape Rear Axel Differential Fluid Flush and Fill
 image: /wp-content/uploads/2021/10/printed-bed-cover-unfinished.jpg
 ---
 
-Materials needed: *Linked products are similar to the tools I use and provided for reference.*
+Materials needed: *Linked products provided for reference.*
 - 1.40L (2.96 pints) [80W-90 gear oil](https://www.amazon.com/Valvoline-773732-High-Performance-gallon/dp/B000CQ6L7I?&linkCode=sl1&tag=ansonl-20&linkId=8b9f3220c8a02b7a48455405e398c6f7&language=en_US&ref_=as_li_ss_tl)
 - [3/8" rachet](https://www.amazon.com/CRAFTSMAN-Ratchet-Wrench-72-Tooth-CMMT81748/dp/B07QK9YS8G?keywords=CMMT81748&qid=1638899196&s=hi&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1&linkCode=sl1&tag=ansonl-20&linkId=31cd04dd9db74d9cac8184e4b689ea18&language=en_US&ref_=as_li_ss_tl)
 - [1/2" or 13mm hex socket](https://www.amazon.com/CRAFTSMAN-Socket-6-Point-11-Piece-CMMT12044/dp/B07QL3DMT4?&linkCode=sl1&tag=ansonl-20&linkId=150c518dd6250db1ed600d8a8ddb6189&language=en_US&ref_=as_li_ss_tl)
@@ -36,7 +38,7 @@ Materials recommended:
 - [Oil hand pump](https://www.amazon.com/Slippery-Pete-Fluid-Quart-Bottles/dp/B07CX4XKFH?&linkCode=sl1&tag=ansonl-20&linkId=bfc61255298505f7f158b4b39d675b28&language=en_US&ref_=as_li_ss_tl)
 - [Spare oil container](https://www.amazon.com/Hopkins-11849-FloTool-Dispos-Oil-Recycle/dp/B0014FKI1Q?&linkCode=sl1&tag=ansonl-20&linkId=52d02f116837ef55961a8e950ee4be9e&language=en_US&ref_=as_li_ss_tl)
 
-I changed the rear axel differential fluid on my 2007 Ford Escape Hybrid with 222k miles. The rear differential fluid has not been changed since it left the factory 15 years ago. This axel has probably been periodically submerged in water from driving through hurricanes in South Carolina and flooded roads in Florida. 
+I changed the rear axel differential fluid on my 2007 Ford Escape Hybrid with 222k miles. The rear differential fluid has not been changed since it left the factory 15 years ago. This axel has probably been periodically submerged in water from driving through hurricanes in South Carolina and flooded roads in Florida so it's time to see its condition inside!
 
 *Proceed at your own risk! You are recommended to go to a certified dealer to service your vehicle.*
 
@@ -83,4 +85,6 @@ I changed the rear axel differential fluid on my 2007 Ford Escape Hybrid with 22
 
 - Fill the rear differential through the fill hole with 1.40L (2.96 pints) 80W-90 gear oil. Stop filling when oil drains out from the fill hole. 
 - Replace the fill plug and tighten fill plug with a torque wrench to 20 lb-ft.
-- Drop off the drained oil for recycling at the autoshop or county waste facility. 
+- Drop off the drained oil for recycling at the autoshop or county waste facility.
+
+After driving 1000 miles, my fuel economy increased about 10% from 26-28 mpg. Minimizing resistance in this component of the powertrain may have helped. 
