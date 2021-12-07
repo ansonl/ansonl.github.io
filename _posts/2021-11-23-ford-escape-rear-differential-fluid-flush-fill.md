@@ -21,21 +21,21 @@ image: /wp-content/uploads/2021/10/printed-bed-cover-unfinished.jpg
 ---
 
 Materials needed: *Linked products are similar to the tools I use and provided for reference.*
-- 1.40L (2.96 pints) [80W-90 gear oil](https://www.amazon.com/Valvoline-773732-High-Performance-gallon/dp/B000CQ6L7I)
-- [3/8" rachet](https://www.amazon.com/CRAFTSMAN-Ratchet-Wrench-72-Tooth-CMMT81748/dp/B07QK9YS8G/ref=sxin_15_ac_d_bv?ac_md=2-1-QmV0d2VlbiAkMjAgYW5kICQyNQ%3D%3D-ac_d_bv_bv_bv&cv_ct_cx=3%2F8+ratchet&keywords=3%2F8+ratchet&pd_rd_i=B07QK9YS8G&pd_rd_r=7d58f6e2-a37c-4bee-88a9-89f19b2d9b71&pd_rd_w=Z4z2n&pd_rd_wg=c8PpW&pf_rd_p=148e9898-1bed-4a70-9840-46f32e4185bd&pf_rd_r=T1YY0YXR492WQASE2H1K&psc=1&qid=1638898272&sr=1-2-f4ff053e-b1e8-4d31-8f95-56d755c862ba)
-- [1/2" or 13mm hex socket](https://www.amazon.com/CRAFTSMAN-Socket-6-Point-11-Piece-CMMT12044/dp/B07QL3DMT4/ref=sr_1_21?keywords=3%2F8+Drive+Sockets&qid=1638898108&sr=8-21)
-- [Silicone sealant/RTV](https://www.amazon.com/Permatex-82180-Maximum-Resistance-Silicone/dp/B0002UEN1U/ref=sr_1_1?keywords=rtv+ultra+black&qid=1638898008&sr=8-1)
-- [Flat head](https://www.amazon.com/CRAFTSMAN-Screwdriver-Set-5-Piece-CMHT65050/dp/B07S8YTC8K/ref=sr_1_1?keywords=screw+driver&qid=1638898521&s=automotive&sr=1-1) tool and [mallet](https://www.amazon.com/TEKTON-30603-Fiberglass-Handle-16-Ounce/dp/B00KX4KB5M/ref=sr_1_3?keywords=mallet&qid=1638898547&sr=8-3)
-- [Oil catch pan](https://www.amazon.com/WirthCo-32953-Funnel-Coolant-Handles/dp/B009KVSYOE/ref=sr_1_43?keywords=Oil+Drain+Pans&qid=1638897507&sr=8-43)
+- 1.40L (2.96 pints) [80W-90 gear oil](https://www.amazon.com/Valvoline-773732-High-Performance-gallon/dp/B000CQ6L7I?&linkCode=sl1&tag=ansonl-20&linkId=8b9f3220c8a02b7a48455405e398c6f7&language=en_US&ref_=as_li_ss_tl)
+- [3/8" rachet](https://www.amazon.com/CRAFTSMAN-Ratchet-Wrench-72-Tooth-CMMT81748/dp/B07QK9YS8G?keywords=CMMT81748&qid=1638899196&s=hi&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1&linkCode=sl1&tag=ansonl-20&linkId=31cd04dd9db74d9cac8184e4b689ea18&language=en_US&ref_=as_li_ss_tl)
+- [1/2" or 13mm hex socket](https://www.amazon.com/CRAFTSMAN-Socket-6-Point-11-Piece-CMMT12044/dp/B07QL3DMT4?&linkCode=sl1&tag=ansonl-20&linkId=150c518dd6250db1ed600d8a8ddb6189&language=en_US&ref_=as_li_ss_tl)
+- [Silicone sealant/RTV](https://www.amazon.com/Permatex-82180-Maximum-Resistance-Silicone/dp/B0002UEN1U?&linkCode=sl1&tag=ansonl-20&linkId=d1625c41de680d80fe2a33cd9a88276c&language=en_US&ref_=as_li_ss_tl)
+- [Flat head](https://www.amazon.com/CRAFTSMAN-Screwdriver-Set-5-Piece-CMHT65050/dp/B07S8YTC8K?&linkCode=sl1&tag=ansonl-20&linkId=115d9f4b61846bcb014fee13e6241c02&language=en_US&ref_=as_li_ss_tl) tool and [mallet](https://www.amazon.com/TEKTON-30603-Fiberglass-Handle-16-Ounce/dp/B00KX4KB5M?&linkCode=sl1&tag=ansonl-20&linkId=aeeb141ed3fa7c1e330a5f04056d12fa&language=en_US&ref_=as_li_ss_tl)
+- [Oil catch pan](https://www.amazon.com/WirthCo-32953-Funnel-Coolant-Handles/dp/B009KVSYOE?&linkCode=sl1&tag=ansonl-20&linkId=a3699050a57d7dbc6146399d736ff01b&language=en_US&ref_=as_li_ss_tl)
 
 Materials recommended:
-- [Metal glass scraper razer](https://www.amazon.com/Razor-Blade-Scraper-Cooktop-Replaceable/dp/B07HPFGQ2G/ref=sr_1_3?keywords=glass+scrape&qid=1638897987&sr=8-3)
-- [Brake cleaner](https://www.amazon.com/CRC-05084-BRAKLEEN-Brake-Cleaner-Non-Chlorinated-14/dp/B000BXKZUQ/ref=sr_1_8?keywords=brake+cleaner+non+chlorinated&qid=1638897623&sr=8-8)
-- [WD-40 penetrant](https://www.amazon.com/WD-40-Multi-Use-Product-Smart-Straw-Sprays/dp/B084VNWM3J)
-- [Rags](https://www.amazon.com/Buffalo-Industries-10524-Recycled-T-Shirt/dp/B002IV89UW/ref=sr_1_23?keywords=rags&qid=1638898613&sr=8-23) or towels
-- Gloves and [pumice soap](https://www.amazon.com/Cleaner-Non-Drying-Heavy-Duty-Squeeze-Bottles/dp/B019666VXI/ref=sr_1_9?keywords=supro+max&qid=1638897896&s=industrial&sr=1-9)
-- [Oil hand pump](https://www.amazon.com/Slippery-Pete-Fluid-Quart-Bottles/dp/B07CX4XKFH/ref=sr_1_5?keywords=oil+hand+pump&qid=1638897934&sr=8-5)
-- [Spare oil container](https://www.amazon.com/Hopkins-11849-FloTool-Dispos-Oil-Recycle/dp/B0014FKI1Q/ref=sr_1_4?crid=1Q3YWGJEK7YPV&keywords=oil+container+automotive&qid=1638898590&sprefix=oil+container+%2Caps%2C168&sr=8-4)
+- [Metal glass scraper razer](https://www.amazon.com/Razor-Blade-Scraper-Cooktop-Replaceable/dp/B07HPFGQ2G?&linkCode=sl1&tag=ansonl-20&linkId=0f59db1dd5eb77babd5d60d08f22755d&language=en_US&ref_=as_li_ss_tl)
+- [Brake cleaner](https://www.amazon.com/CRC-05084-BRAKLEEN-Brake-Cleaner-Non-Chlorinated-14/dp/B000BXKZUQ?&linkCode=sl1&tag=ansonl-20&linkId=e454a2360d8de373820db8afeb9faaf8&language=en_US&ref_=as_li_ss_tl)
+- [WD-40 penetrant](https://www.amazon.com/WD-40-Multi-Use-Product-Smart-Straw-Sprays/dp/B084VNWM3J?&linkCode=sl1&tag=ansonl-20&linkId=d95312d5e95a818a6a1817d615a50b4f&language=en_US&ref_=as_li_ss_tl)
+- [Rags](https://www.amazon.com/Buffalo-Industries-10524-Recycled-T-Shirt/dp/B002IV89UW?&linkCode=sl1&tag=ansonl-20&linkId=e7247e8733e369590a1caddbb61f4840&language=en_US&ref_=as_li_ss_tl) or towels
+- Gloves and [pumice soap](https://www.amazon.com/Cleaner-Non-Drying-Heavy-Duty-Squeeze-Bottles/dp/B019666VXI?&linkCode=sl1&tag=ansonl-20&linkId=f12bbf834a06794ed7fb4318344f2d36&language=en_US&ref_=as_li_ss_tl)
+- [Oil hand pump](https://www.amazon.com/Slippery-Pete-Fluid-Quart-Bottles/dp/B07CX4XKFH?&linkCode=sl1&tag=ansonl-20&linkId=bfc61255298505f7f158b4b39d675b28&language=en_US&ref_=as_li_ss_tl)
+- [Spare oil container](https://www.amazon.com/Hopkins-11849-FloTool-Dispos-Oil-Recycle/dp/B0014FKI1Q?&linkCode=sl1&tag=ansonl-20&linkId=52d02f116837ef55961a8e950ee4be9e&language=en_US&ref_=as_li_ss_tl)
 
 I changed the rear axel differential fluid on my 2007 Ford Escape Hybrid with 222k miles. The rear differential fluid has not been changed since it left the factory 15 years ago. This axel has probably been periodically submerged in water from driving through hurricanes in South Carolina and flooded roads in Florida. 
 
