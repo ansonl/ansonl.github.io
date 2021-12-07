@@ -1,12 +1,11 @@
 ---
 published: false
 excerpt: >
-  *Not the custom 3D printer part you need but the part you deserve.*
+  The first rear differential oil change since the factory 15 years ago! 
 
-  The Doge and USA flag themed Ultimaker Original+ bed header. 
+  A very overdue service on a Ford "filled for life" part. Minimizing resistance this component of the powertrain increased my fuel economy from 26-28 mpg. 
 
-  ![finished doge umo+ bed
-  cover](/wp-content/uploads/2021/10/finished-bed-cover.gif)
+  ![Ford Escape rear diff w/o fill plug](/wp-content/uploads/2021/11/2007-ford-escape-rear-diff-cover-install.jpg)
 author: Anson Liu
 layout: post
 categories:
