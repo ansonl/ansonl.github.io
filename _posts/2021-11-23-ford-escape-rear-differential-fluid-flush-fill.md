@@ -20,7 +20,7 @@ title: 2007 Ford Escape Rear Axel Differential Fluid Flush and Fill
 image: /wp-content/uploads/2021/10/printed-bed-cover-unfinished.jpg
 ---
 
-Materials needed: 
+Materials needed: *Linked products are similar to the tools I use and provided for reference.*
 - 1.40L (2.96 pints) [80W-90 gear oil](https://www.amazon.com/Valvoline-773732-High-Performance-gallon/dp/B000CQ6L7I)
 - [3/8" rachet](https://www.amazon.com/CRAFTSMAN-Ratchet-Wrench-72-Tooth-CMMT81748/dp/B07QK9YS8G/ref=sxin_15_ac_d_bv?ac_md=2-1-QmV0d2VlbiAkMjAgYW5kICQyNQ%3D%3D-ac_d_bv_bv_bv&cv_ct_cx=3%2F8+ratchet&keywords=3%2F8+ratchet&pd_rd_i=B07QK9YS8G&pd_rd_r=7d58f6e2-a37c-4bee-88a9-89f19b2d9b71&pd_rd_w=Z4z2n&pd_rd_wg=c8PpW&pf_rd_p=148e9898-1bed-4a70-9840-46f32e4185bd&pf_rd_r=T1YY0YXR492WQASE2H1K&psc=1&qid=1638898272&sr=1-2-f4ff053e-b1e8-4d31-8f95-56d755c862ba)
 - [1/2" or 13mm hex socket](https://www.amazon.com/CRAFTSMAN-Socket-6-Point-11-Piece-CMMT12044/dp/B07QL3DMT4/ref=sr_1_21?keywords=3%2F8+Drive+Sockets&qid=1638898108&sr=8-21)
