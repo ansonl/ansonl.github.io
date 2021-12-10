@@ -1,13 +1,16 @@
 ---
-published: false
+published: true
 excerpt: >
-  The first rear differential oil change since the factory 15 years ago. 
+  Changing the "filled for life" electronically controlled continuously variable
+  transmission (eCVT) on my 2007 Ford Escape Hybrid for the first time in 220k
+  miles.
 
-  A very overdue service on a Ford "filled for life" part. Time to see the
-  carnage on the inside!
+  This CVT has surprisingly good design for user accessible draining and
+  filling. No oil pan needs to be dropped and it has a standardized socket size
+  and torque spec for both fill and drain plugs. 
 
-  ![Ford Escape rear diff w/o fill
-  plug](/wp-content/uploads/2021/11/2007-ford-escape-rear-diff-cover-install.jpg)
+  ![1st gen Ford Escape Hybrid eCVT and engine fill drain
+  diagram](/wp-content/uploads/2021/11/2007-ford-escape-hybrid-cvt-drain-plug-labeled.jpg.svg)
 author: Anson Liu
 layout: post
 categories:
