@@ -88,4 +88,4 @@ I changed the rear axel differential fluid on my 2007 Ford Escape Hybrid with 22
 - Replace the fill plug and tighten fill plug with a torque wrench to 20 lb-ft.
 - Drop off the drained oil for recycling at the autoshop or county waste facility.
 
-After driving 1000 miles, my fuel economy increased about 10% from 26-28 mpg. Minimizing resistance in this component of the powertrain may have helped. 
+After driving 1000 miles, my fuel economy increased about 10% from 26-28 mpg. Minimizing resistance in this component of the powertrain may have helped.
