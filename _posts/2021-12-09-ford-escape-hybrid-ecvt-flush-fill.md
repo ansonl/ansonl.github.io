@@ -21,8 +21,9 @@ tags:
   - hybrid
   - ecvt
   - transmission
-title: 2007 Ford Escape Rear Axel Differential Fluid Flush and Fill
-image: /wp-content/uploads/2021/10/printed-bed-cover-unfinished.jpg
+title: 2007 Ford Escape Hybrid eCVT Fluid Flush and Fill
+image: >-
+  /wp-content/uploads/2021/11/2007-ford-escape-hybrid-cvt-drain-plug-labeled.jpg.svg
 ---
 
 Materials needed: *Linked products provided for reference.*
