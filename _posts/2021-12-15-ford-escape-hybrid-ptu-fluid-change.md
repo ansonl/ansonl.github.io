@@ -59,7 +59,9 @@ A [couple](https://youtu.be/7yLkr609bfI) of [existing](https://youtu.be/sS9JPaf1
 
 - Reposition the oil catch pan under the PTU drain hole. 
 - Remove the PTU drain plug (6 mm hex bit) and let the old fluid drain. 
-**You need to use a low profile 6 mm hex bit to loosen the drain plug.** The vehicle subframe is directly across from the drain plug and most rachet hex bits will be too long to fit in that space. I used a 6 mm hex L shaped key (allen wrench key) to loosen the drain plug. The drain plug should only be tightened to 10 lb-ft. 
+
+**You need to use a low profile 6 mm hex bit to loosen the drain plug.** The vehicle subframe is directly across from the drain plug and most rachet hex bits will be too long to fit in that space. I used a 6 mm hex L shaped key (allen wrench key) to loosen the drain plug as seen in the above picture. The drain plug should only be tightened to 10 lb-ft. 
+
 - Pump some new 75W-140 into the open fill hole to flush any remaining dirty fluid out of the PTU until the fluid runs clean. 
 
 ![1st gen Ford Escape Hybrid PTU fluid draining dark gray](/wp-content/uploads/2021/11/2007-ford-escape-hybrid-ptu-draining.jpg)
