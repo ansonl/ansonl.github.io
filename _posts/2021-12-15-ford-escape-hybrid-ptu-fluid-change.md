@@ -71,7 +71,7 @@ The old 190k remanufactured PTU fluid came out as a opaque, dark gray color. The
 
 ![1st gen Ford Escape Hybrid PTU fluid filling flushing](/wp-content/uploads/2021/11/2007-ford-escape-hybrid-ptu-plugs-clean-prepped.jpg)
 
-- Clean the fill and drain plugs of metal. 
+- Clean the fill and drain plugs of metal build up. 
 - Wrap the threads in teflon sealant tape. 
 - Tighten the drain plug to 10 lb-ft.
 
@@ -80,4 +80,4 @@ The old 190k remanufactured PTU fluid came out as a opaque, dark gray color. The
 - Pump 0.35 liters (12 oz) of 75W-140 gear oil into the fill hole. The new fluid should spill out of the fill hole when the PTU is filled to capacity.
 - Tighten fill plug to 25 lb-ft.
 
-Driving the 2007 Ford Escape Hybrid's acceleration power felt more immediate and firm after replacing the PTU fluid. My fuel economy actually decreased after the PTU fluid change so this may be due to increased friction in the limited slip gear oil that I used. 
+Driving the 2007 Ford Escape Hybrid's acceleration power felt more immediate and firm after replacing the PTU fluid. My fuel economy actually decreased after the PTU fluid change so this may be due to increased friction or variation in gear oil that I used. 
