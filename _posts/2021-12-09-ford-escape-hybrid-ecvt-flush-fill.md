@@ -31,15 +31,15 @@ Materials needed: *Linked products provided for reference.*
 - [3/8" rachet](https://amzn.to/3GzNe49)
 - [10mm hex bit socket](https://amzn.to/3y9glZ1)
 - [3/8" torque wrench](https://amzn.to/3dytykw)
-- [Oil catch pan](https://www.amazon.com/WirthCo-32953-Funnel-Coolant-Handles/dp/B009KVSYOE?&linkCode=sl1&tag=ansonl-20&linkId=a3699050a57d7dbc6146399d736ff01b&language=en_US&ref_=as_li_ss_tl)
+- [Oil catch pan](https://amzn.to/30sWaZu)
 
 Materials recommended:
-- [Brake cleaner](https://www.amazon.com/CRC-05084-BRAKLEEN-Brake-Cleaner-Non-Chlorinated-14/dp/B000BXKZUQ?&linkCode=sl1&tag=ansonl-20&linkId=e454a2360d8de373820db8afeb9faaf8&language=en_US&ref_=as_li_ss_tl)
-- [WD-40 penetrant](https://www.amazon.com/WD-40-Multi-Use-Product-Smart-Straw-Sprays/dp/B084VNWM3J?&linkCode=sl1&tag=ansonl-20&linkId=d95312d5e95a818a6a1817d615a50b4f&language=en_US&ref_=as_li_ss_tl)
-- [Rags](https://www.amazon.com/Buffalo-Industries-10524-Recycled-T-Shirt/dp/B002IV89UW?&linkCode=sl1&tag=ansonl-20&linkId=e7247e8733e369590a1caddbb61f4840&language=en_US&ref_=as_li_ss_tl) or towels
-- Gloves and [pumice soap](https://www.amazon.com/Cleaner-Non-Drying-Heavy-Duty-Squeeze-Bottles/dp/B019666VXI?&linkCode=sl1&tag=ansonl-20&linkId=f12bbf834a06794ed7fb4318344f2d36&language=en_US&ref_=as_li_ss_tl)
-- [Oil hand pump](https://www.amazon.com/Slippery-Pete-Fluid-Quart-Bottles/dp/B07CX4XKFH?&linkCode=sl1&tag=ansonl-20&linkId=bfc61255298505f7f158b4b39d675b28&language=en_US&ref_=as_li_ss_tl)
-- [Spare oil container](https://www.amazon.com/Hopkins-11849-FloTool-Dispos-Oil-Recycle/dp/B0014FKI1Q?&linkCode=sl1&tag=ansonl-20&linkId=52d02f116837ef55961a8e950ee4be9e&language=en_US&ref_=as_li_ss_tl)
+- [Brake cleaner](https://amzn.to/30veGR9)
+- [WD-40 penetrant](https://amzn.to/3yBf25d)
+- [Rags](https://amzn.to/3q2HOaY) or towels
+- Gloves and [pumice soap](https://amzn.to/3oWlujT)
+- [Oil hand pump](https://amzn.to/3oVF5Rt)
+- [Spare oil container](https://amzn.to/3ysjmUc)
 
 Changing the electronically controlled continuously variable transmission (eCVT) on my 2007 Ford Escape Hybrid at 220k miles. Ford considers the eCVT as "filled for life" so it's not on the maintenance schedule (which ended at 150k miles anyways). The fluid has never been changed since it came from the factory 15 years ago. Let's see the condition of the fluid!
 
@@ -58,14 +58,14 @@ The eCVT used in the 1st gen Ford Escape Hybrid is a simple drain and fill unit.
 
 ![1st gen Ford Escape Hybrid eCVT fill plug](/wp-content/uploads/2021/11/2007-ford-escape-hybrid-cvt-fill-plug.jpg.svg)
 
-- Remove the eCVT fill plug (10mm hex drive). Transmission fluid will probably leak out of the fill hole.
+- Remove the eCVT fill plug (10mm hex bit). Transmission fluid will probably leak out of the fill hole.
 - Reposition the oil catch pan under the eCVT drain plug. 
-- Remove the eCVT drain plug (100mm hex bit) and let the old fluid drain. You can pump some new Mercon V into the open fill hole to flush any remaining dirty fluid out of the eCVT until the fluid runs a clean. 
+- Remove the eCVT drain plug (10mm hex bit) and let the old fluid drain. You can pump some new Mercon V into the open fill hole to flush any remaining dirty fluid out of the eCVT until the fluid runs clean. 
 
 The old 220k eCVT fluid in my vehicle came out as a transparent medium brown color and smelled like something burnt. The new Mercon V fluid is a clear light red transparent color and smells like fish. Of note is that there weren't many observable metal shavings like you might hear about for other vehicles' CVTs. I did not take any pictures of the old 220k eCVT fluid because of oily hands and it drained very quickly. 
 
 - Clean the drain hole and plug and tighten the drain plug to 30 lb-ft.
-- Pump 5 liters (5.30 qt) or Mercon V into the fill hole. The new fluid should spill out of the fill hole when the eCVT is filled to capacity.
+- Pump 5 liters (5.30 qt) of Mercon V into the fill hole. The new fluid should spill out of the fill hole when the eCVT is filled to capacity.
 - Clean the fill plug and tighten to 30 lb-ft.
 - Replace the splash guard and you're good to go. 
 
