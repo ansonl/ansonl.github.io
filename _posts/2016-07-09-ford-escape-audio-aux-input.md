@@ -5,8 +5,10 @@ layout: post
 categories:
   - Vehicle
 tags:
-  - ford escape
+  - ford
+  - escape
   - aux
+published: true
 ---
 
 I recently bought a used 2007 Ford Escape Hybrid and it had the Ford Navigation CD Player installed. 
