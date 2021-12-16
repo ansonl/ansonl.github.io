@@ -9,11 +9,13 @@ layout: post
 categories:
   - Vehicle
 tags:
-  - ford escape
+  - ford
+  - escape
   - knob
   - joystick
   - head unit
   - 3d print
+published: true
 ---
 
 I created a 3D printable joystick style knob that replaces the GPS navigation head unit for the 05-07 Ford Escape. 
