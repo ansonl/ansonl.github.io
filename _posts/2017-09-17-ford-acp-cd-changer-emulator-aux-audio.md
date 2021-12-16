@@ -1,11 +1,17 @@
 ---
 title: Making Ford AUX Audio Expansion w/ Stock Head Unit Playback Control
-excerpt: |
-  Add AUX audio input to your older Ford vehicle using an Atmega328 (Arduino UNO).
+excerpt: >
+  Add AUX audio input to your older Ford vehicle using an Atmega328 (Arduino
+  UNO).
 
-  [![Ford ACP AUX demo](wp-content/uploads/2017/07/ford_acp_aux_demo_350w_cod.gif)](2017/09/ford-acp-cd-changer-emulator-aux-audio/)
+
+  [![Ford ACP AUX
+  demo](wp-content/uploads/2017/07/ford_acp_aux_demo_350w_cod.gif)](2017/09/ford-acp-cd-changer-emulator-aux-audio/)
+
   - Ford CD changer emulation
+
   - AUX Audio input
+
   - Stock head unit playback control for iPhone
 author: Anson Liu
 layout: post
@@ -13,7 +19,8 @@ image: /wp-content/uploads/2017/07/all_pcb_bench.jpg
 categories:
   - Vehicle
 tags:
-  - ford escape
+  - ford
+  - escape
   - acp
   - cd changer
   - aux
