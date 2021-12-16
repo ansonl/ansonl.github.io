@@ -1,17 +1,23 @@
 ---
 title: Ford Escape Faulty Door Lock Actuator Patch
-excerpt: |
-  Vehicle alarm going bump in the night? Persistent door ajar alarm? Join me as we fix it.
+excerpt: >
+  Vehicle alarm going bump in the night? Persistent door ajar alarm? Join me as
+  we fix it.
 
-  ![Ford Escape door lock actuator electrical connector wire jump](wp-content/uploads/2016/08/wire-jump-min.jpg "Ford Escape door lock actuator electrical connector wire jump")
+
+  ![Ford Escape door lock actuator electrical connector wire
+  jump](wp-content/uploads/2016/08/wire-jump-min.jpg "Ford Escape door lock
+  actuator electrical connector wire jump")
 author: Anson Liu
 layout: post
 categories:
   - Vehicle
 tags:
-  - ford escape
+  - ford
+  - escape
   - rr door
   - lock actuator assembly
+published: true
 ---
 
 I recently bought a used 2007 Ford Escape Hybrid and [installed a DIY audio AUX input in it]({{ site.baseurl }}/2016/08/ford-escape-audio-aux-input/). 
