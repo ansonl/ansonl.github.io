@@ -1,7 +1,10 @@
 ---
 title: 2007 Ford Escape Hybrid Inner/Outer Tie Rod Replacement
-excerpt: |
-  Pictures, details, and BOM of a recent 2007 Ford Escape Hybrid **inner and outer** tie rod replacement. Possibly useful if you intend to do DIY work on your own vehicle.
+excerpt: >
+  Pictures, details, and BOM of a recent 2007 Ford Escape Hybrid **inner and
+  outer** tie rod replacement. Possibly useful if you intend to do DIY work on
+  your own vehicle.
+
 
   ![New inner tie rod](wp-content/uploads/2017/04/new_inner_tie_rod.jpg)
 author: Anson Liu
@@ -9,10 +12,12 @@ layout: post
 categories:
   - Vehicle
 tags:
-  - ford escape
+  - ford
+  - escape
   - inner tie rod
   - outer tie rod
   - replacement
+published: true
 ---
 
 Some pictures, description, and BOM of a 2007 Ford Escape Hybrid inner **and** outer tie rod replacement.
