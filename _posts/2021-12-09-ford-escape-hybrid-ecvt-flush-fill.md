@@ -21,7 +21,7 @@ tags:
   - hybrid
   - ecvt
   - transmission
-title: 2007 Ford Escape Hybrid eCVT Fluid Change
+title: 2005-2007 Ford Escape Hybrid eCVT Fluid Change
 image: >-
   /wp-content/uploads/2021/11/2007-ford-escape-hybrid-cvt-drain-plug-labeled.jpg.svg
 ---
