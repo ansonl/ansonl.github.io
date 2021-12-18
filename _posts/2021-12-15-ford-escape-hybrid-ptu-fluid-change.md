@@ -20,7 +20,7 @@ tags:
   - transmission
   - ptu
   - transfer case
-title: 1st generation Ford Escape Hybrid PTU Fluid Change
+title: 1st generation 2005-2007 Ford Escape Hybrid PTU Fluid Change
 image: /wp-content/uploads/2021/11/2007-ford-escape-hybrid-ptu-fill-plug.jpg.svg
 ---
 
