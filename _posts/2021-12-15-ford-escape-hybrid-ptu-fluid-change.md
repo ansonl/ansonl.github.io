@@ -3,9 +3,11 @@ published: true
 excerpt: >
   1st generation Ford Escape Hybrid PTU fluid change. 
 
-  The PTU is a high stress, high failure part for this model generation, but changing it's fluid as preventative maintenance is surprisingly easy.
+  The PTU is a high stress, high failure part for this model generation, but
+  changing it's fluid as preventative maintenance is surprisingly easy.
 
-  ![1st gen Ford Escape Hybrid PTU fill plug](/wp-content/uploads/2021/11/2007-ford-escape-hybrid-ptu-fill-plug.jpg.svg)
+  ![1st gen Ford Escape Hybrid PTU fill
+  plug](/wp-content/uploads/2021/11/2007-ford-escape-hybrid-ptu-fill-plug.jpg.svg)
 author: Anson Liu
 layout: post
 categories:
@@ -18,9 +20,8 @@ tags:
   - transmission
   - ptu
   - transfer case
-title: 2007 Ford Escape PTU Fluid Change
-image: >-
-  /wp-content/uploads/2021/11/2007-ford-escape-hybrid-ptu-fill-plug.jpg.svg
+title: 1st generation Ford Escape Hybrid PTU Fluid Change
+image: /wp-content/uploads/2021/11/2007-ford-escape-hybrid-ptu-fill-plug.jpg.svg
 ---
 
 Materials needed: *Linked products provided for reference.*
@@ -80,4 +81,4 @@ The old 190k remanufactured PTU fluid came out as a opaque, dark gray color. The
 - Pump 0.35 liters (12 oz) of 75W-140 gear oil into the fill hole. The new fluid should spill out of the fill hole when the PTU is filled to capacity.
 - Tighten fill plug to 25 lb-ft.
 
-Driving the 2007 Ford Escape Hybrid's acceleration power felt more immediate and firm after replacing the PTU fluid. My fuel economy actually decreased after the PTU fluid change so this may be due to increased friction or variation in gear oil that I used. 
+Driving the 2007 Ford Escape Hybrid's acceleration power felt more immediate and firm after replacing the PTU fluid. My fuel economy actually decreased after the PTU fluid change so this may be due to increased friction or variation in gear oil that I used.
