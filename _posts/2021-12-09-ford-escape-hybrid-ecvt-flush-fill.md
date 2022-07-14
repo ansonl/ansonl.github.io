@@ -70,3 +70,5 @@ The old 220k eCVT fluid in my vehicle came out as a transparent medium brown col
 - Replace the splash guard and you're good to go. 
 
 The 2007 Ford Escape Hybrid ran much smoother after changing the eCVT fluid. I was getting an additional 2-3 mpg in fuel economy. Unfortunately the Escape was crashed by another car (more on that in a future post) during my break in/test drive so it was in the auto shop for 2 months before I could use it again, make benchmarking impossible.
+
+Update 12JUL22 - After 9 months of monitoring the transmission temperature reported by an Ultragauge monitor has been 10-40 degrees lower after the eCVT and PTU fluid changes. The high temperature I see after hours of driving on a hot summer day is around 190F and the previous reported high temperature was 230-240F.
