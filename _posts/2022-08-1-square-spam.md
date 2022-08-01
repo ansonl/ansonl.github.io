@@ -37,7 +37,7 @@ This is a sorry excuse for trying to increase the click through rate for a dying
 
 These unsolicited emails cost very little to send but inflict a huge drain on users' time and concentration to sort through and unsubscribe. Block, Inc is basically selling users' inboxes and time to third parties. Third parties are able to reach previously unreachable users using Block's vast email list and high [email server reputation](https://www.sparkpost.com/resources/email-explained/email-sender-reputation/).
 
-**For the unaware:** Most users don't trust/know how unsubscribing works and simply let their inboxes accumulate messages over the years. Some users believe that the "unsubscribe" link in every email is a phishing attempts to gather valid emails for future spam and thus do not unsubscribe out of a well founded, undue sense of safety. No one has time to verify which of the below senders is most authentic:
+**For the unaware:** Most users don't trust/know how unsubscribing works and simply let their inboxes accumulate messages over the years. Some users believe that the "unsubscribe" link in every email is a phishing attempts to gather valid emails for future spam and thus do not unsubscribe out of a well founded, undue sense of safety. *No one has time to verify which of the below senders is most authentic:*
 
 - jdorsey@squareup.com
 - messages+815sdgdd@square.mktg.com
