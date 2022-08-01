@@ -4,12 +4,15 @@ excerpt: >
   You thought you unsubscribed from company X's marketing emails. Did you really
   think it would be that easy?
 
+
   It would be a shame if you missed out on company X's newly created promotional
   email category. Especially if the advertiser is a third party reaching you
   through company X's mail list and email server.
 
+
   ![Square Spice 6 Modern Indian Spam
   unsubscribe](/wp-content/uploads/2022/08/square_unsubscribe.png)
+
 
   We're mostly powerless to stop this as individuals but marking these spam
   emails for our email   providers' spam filter is the least we can do. 
