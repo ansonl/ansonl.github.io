@@ -27,7 +27,7 @@ tags:
 title: Stop Making Up Promotional Email Categories
 ---
 
-Companies need to stop creating new promotional email categories to increase click-through rates. There's no incentive for them to quit this behavior. The least we can do is teach our email providers' crowdsourced spam filters to start filtering these promotions for all users (almost [blackholing](https://en.wikipedia.org/wiki/Black_hole_(networking)) since no one looks for spam in their Spam folder) by marking offending messages as spam. 
+Companies need to stop creating new promotional email categories in pursuit of click-through rates. There's no incentive for them to quit this behavior. The least we can do is teach our email providers' crowdsourced spam filters to start filtering these promotions for all users (almost [blackholing](https://en.wikipedia.org/wiki/Black_hole_(networking)) since no one looks for spam in their Spam folder) by marking offending messages as spam. 
 
 If the user has unsubscribed to all existing promotional emails, it's bad form to create a new email category for additional marketing messages and opt all users into this created category. Block, Inc ([formerly Square](https://squareup.com/us/en/press/square-changes-name-to-block)) is the latest company to opt users into exciting new "messages" which claim:
 
