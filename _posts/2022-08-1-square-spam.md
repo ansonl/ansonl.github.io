@@ -1,8 +1,8 @@
 ---
 published: true
 excerpt: >
-  You thought you unsubscribed from company X's marketing emails. But did you
-  really?
+  You thought you unsubscribed from company X's marketing emails. Did you really
+  think it would be that easy?
 
   It would be a shame if you missed out on company X's newly created promotional
   email category. Especially if the advertiser is a third party reaching you
@@ -10,6 +10,9 @@ excerpt: >
 
   ![Square Spice 6 Modern Indian Spam
   unsubscribe](/wp-content/uploads/2022/08/square_unsubscribe.png)
+
+  We're mostly powerless to stop this as individuals but marking these spam
+  emails for our email   providers' spam filter is the least we can do. 
 author: Anson Liu
 layout: post
 categories:
@@ -20,10 +23,11 @@ tags:
   - advertising
   - email
   - spam
+  - filter
 title: Stop Making Up Promotional Email Categories
 ---
 
-Companies need to stop creating new promotional email categories for miniscule returns at the cost of wasting our time.
+Companies need to stop creating new promotional email categories for miniscule returns. There's no incentive for them to quit this behavior. The least we can do is teach our email providers' crowdsourced spam filters to start filtering these promotions for all users (almost [blackholing](https://en.wikipedia.org/wiki/Black_hole_(networking)) since no one looks for spam in their Spam folder) by marking offending messages as spam. 
 
 If the user has unsubscribed to all existing promotional emails, it's bad form to create a new email category for additional marketing messages and opt all users into this created category. Block, Inc ([formerly Square](https://squareup.com/us/en/press/square-changes-name-to-block)) is the latest company to opt users into exciting new "messages" which claim:
 
@@ -44,7 +48,7 @@ These unsolicited emails cost very little to send but inflict a huge drain on us
 - messages+815tcvjzddd@squaremktg.com
 - custsupport@square.block.xyz
 
-Users simply resign to ignoring the regular promotional emails which end up sitting in an inbox that never gets manually sorted. Gmail's spam filter uses global spam samples to determine categorization which is helpful but is not perfect. For the vast majority, email is just a means to an end that must be endured. 
+Users simply resign to ignoring the regular promotional emails which end up sitting in an inbox that never gets manually sorted. Gmail and other email providers' spam filters use global spam samples to determine categorization which is helpful but not perfect. For the vast majority, email is just a means to an end that must be endured. 
 
 Block's marketing department probably claims that these emails are "geographically targeted" so that users will only get promotions from local businesses. Even if the emails are more supposedly more relevant (hint: they aren't), users never asked for these emails and even fewer will go through the trouble of unsubscribing. 
 
@@ -74,4 +78,4 @@ Block/Square isn't the only offender of opting users into new promotional catego
 
 ![Square profile](/wp-content/uploads/2022/08/gmail_mark_spam_square.png)
 
-Rather than waste more time trying to opt-out of this new category of spam, we can mark it for what it is as a sample for Gmail's spam filter and hope that the filter can save others from the same fate.
+Rather than waste more time trying to opt-out of this new category of spam, we can mark it for what it is as a sample for our email providers' spam filters and hope that the filter can save others from the same fate.
