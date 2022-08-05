@@ -9,6 +9,10 @@
     <h3 class="entry-title">
       <a href="{{ post.url | relative_url }}" rel="bookmark">{{ title }}</a>
     </h3>
+    {% if post.image.thumbnail %}
+      {% assign entry_image = post.image.thumbnail | relative_url | escape %}
+      <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
+    {% endif %}
   </header>
   <footer class="entry-meta">
     <ul>
