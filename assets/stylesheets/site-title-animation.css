@@ -23,6 +23,7 @@
 /* Customized for Jekyll */
 .typed-cursor {
     /*line-height: 50px;*/
+    filter: invert(50%);
 
 }
 /*

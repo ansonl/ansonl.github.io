@@ -16,9 +16,9 @@
 lang: en-US
 title: Anson Liu
 email: anson@ansonliu.com
-description: The best programming is done when not programming.
+description: Coding, 3D printing, and outdoor adventures
 baseurl: ""
-url: "http://ansonliu.com"
+url: "https://ansonliu.com"
 author:
   name: Anson Liu
   picture: https://avatars1.githubusercontent.com/ansonl?v=3&s=200
@@ -27,14 +27,9 @@ linkedin_username: console
 youtube_channel: UCqC8y5FsFaAwKkbZu25xY_g
 instagram_username: hardhikes
 logo: # path of site logo, e.g. "/assets/images/logo.png"
-search: # true, false (default)
+search: true
 search_full_content: false # true, false (default)
-search_provider: # lunr (default), algolia
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
+search_provider: lunr
 
 #Custom settings
 permalink: /:year/:month/:title/
@@ -52,13 +47,13 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-avatar
   - jekyll-gist
-
 
 feed:
   path: atom.xml
@@ -82,3 +77,5 @@ defaults:
     values:
       layout: post
       read_time: true
+
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
