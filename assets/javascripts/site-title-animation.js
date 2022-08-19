@@ -18,7 +18,7 @@ function siteTitleAnimate() {
 		contentType: 'html',
 		showCursor: true,
 		cursorChar: "&#9608;",
-		startDelay: 2000,
+		startDelay: 5000,
 		backDelay: 10000, //delay at end of start typing
 		loop: true,
 		loopCount: Infinity,
