@@ -15,7 +15,7 @@ excerpt: >
 
 
   We're mostly powerless to stop this as individuals but marking these spam
-  emails for our email   providers' spam filter is the least we can do. 
+  emails for our email providers' spam filter is the least we can do. 
 author: Anson Liu
 layout: post
 categories:
