@@ -72,14 +72,26 @@ As seen in the chart above, not every platform has support for all features. I u
 
 Some of these features are made possible by a server infrastructure that aggregates message data. The iOS, Android, and Web apps fetch message data from the server application for load balancing and uniformity. The early version of NAVADMIN Viewer got its message directly from the official source. Any irregularities at the source required an app update to fix so I ended up creating a server that provided messages to the app; meaning any changes at the message source were handled at the server for uninterrupted app message delivery. Reducing 3 parsing logic in 3 languages into 1 language saved countless hours 😉
 
-```
-┌───────────┐    ┌───────────┐
-│ REST API  ├────┤Redis      │
-│           │    └───────────┘
-│     +     │
-│           │    ┌───────────┐
-│Data Parser├────┤PostgreSQL │
-└───────────┘    └───────────┘
+```                                                   
+                                                          
+                                                          
+                                                          
+                                                          
++---------------+  +--------------+  +--------------+     
+|  iOS Client   |  |Android Client|  |    Web app   |     
+|               |  |              |  |              |     
+|  Objective C  |  |    Kotlin    |  |  Javascript  |     
++-----------|---+  +------|-------+  +---|----------+     
+            |             |              |                
+            +---------+   |   +----------+                
+                      |   |   |                           
+     +              +-|---|---|-+       +-------------+   
+                    | REST API  |------ | Redis cache |   
+ +-----------+      |    +      |       +-------------+   
+ |Data source|------|Data Parser|       +----------+      
+ +-----------+      |           |-------|PostgreSQL|      
+                    |  Golang   |       |database  |      
+                    +-----------+       +----------+        
 ```
 
 The server consists of a front facing REST API and data processor written in Golang. This forward application caches a limited amount of messages in RAM and a Redis cache. The server utilizes a PostgreSQL database for storing everything else which is persistent message data.
@@ -124,4 +136,4 @@ You can reach me at [support@ansonliu.com](mailto:support@ansonliu.com).
 - 📱 iOS App Store - [https://apps.apple.com/us/app/navadmin-viewer/id1345135985](https://apps.apple.com/us/app/navadmin-viewer/id1345135985) 
 - 📱 Google Play - [https://play.google.com/store/apps/details?id=com.ansonliu.navadmin](https://play.google.com/store/apps/details?id=com.ansonliu.navadmin)
 
-- 🖥 Web NAVADMIN Viewer - [https://navadmin-viewer.github.io/](https://navadmin-viewer.github.io/)
+- 🌐 Web NAVADMIN Viewer - [https://navadmin-viewer.github.io/](https://navadmin-viewer.github.io/)
