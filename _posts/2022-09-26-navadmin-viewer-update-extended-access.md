@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 excerpt: >
   NAVADMIN Viewer has provided quick access to messages for over 4 years. See our feature chart and roadmap within. 
 
