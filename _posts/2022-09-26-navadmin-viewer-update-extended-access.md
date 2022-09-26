@@ -4,12 +4,15 @@ excerpt: >
   NAVADMIN Viewer has provided 80k+ sailors with quick access to messages for
   over 4 years. See the feature chart and roadmap within. 
 
+
   ![NAVADMIN Viewer
   icon](/wp-content/uploads/2022/09/navadmin-viewer-Icon128.png)
+
 
   NAVADMIN Viewer for iOS now has the Extended Access in-app purchase to support
   development and offset operating costs. Existing users can continue viewing
   the 3 latest messages. Extended Access ($4.99/year) unlocks all messages.
+
 
   Why is there Extended Access? Please read the backstory in the post. 
 author: Anson Liu
@@ -93,7 +96,7 @@ NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer be
 
 **The iOS version of NAVADMIN Viewer still lets ALL users access the 3 latest messages.** I added Extended Access as an in-app purchase to unlock access to all remaining messages. All users can continue searching through all messages and see which messages contain their search term but Extended Access is needed to view the full message.
 
-*Android and Web versions of NAVADMIN Viewer continue to be free to use as this time. NAVADMIN Viewer on iOS is the flagship version that gets new features first.*
+*Users who previously supported me via in-app purchase get Extended Access for free 💯. Android and Web versions of NAVADMIN Viewer continue to be free to use as this time. NAVADMIN Viewer on iOS remains the flagship version that gets new features first.*
 
 **If you find NAVADMIN Viewer helpful and that it saves you time and frustration *(AKA it accelerates your life)*, please consider supporting development and operations by getting Extended Access for $4.99/year.**
 
