@@ -72,11 +72,7 @@ As seen in the chart above, not every platform has support for all features. I u
 
 Some of these features are made possible by a server infrastructure that aggregates message data. The iOS, Android, and Web apps fetch message data from the server application for load balancing and uniformity. The early version of NAVADMIN Viewer got its message directly from the official source. Any irregularities at the source required an app update to fix so I ended up creating a server that provided messages to the app; meaning any changes at the message source were handled at the server for uninterrupted app message delivery. Reducing 3 parsing logic in 3 languages into 1 language saved countless hours 😉
 
-```                                                   
-                                                          
-                                                          
-                                                          
-                                                          
+```                                                                                                        
 +---------------+  +--------------+  +--------------+     
 |  iOS Client   |  |Android Client|  |    Web app   |     
 |               |  |              |  |              |     
