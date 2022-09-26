@@ -1,11 +1,15 @@
 ---
 published: true
 excerpt: >
-  NAVADMIN Viewer has provided quick access to messages for over 4 years. See our feature chart and roadmap within. 
+  NAVADMIN Viewer has provided 80k+ sailors with quick access to messages for
+  over 4 years. See the feature chart and roadmap within. 
 
-  ![NAVADMIN Viewer icon](/wp-content/uploads/2022/09/navadmin-viewer-Icon128.png)
+  ![NAVADMIN Viewer
+  icon](/wp-content/uploads/2022/09/navadmin-viewer-Icon128.png)
 
-  NAVADMIN Viewer for iOS now has Extended Access as an in-app purchase to support development and offset operating costs. Existing users can continue viewing the 3 latest messages. Extended Access ($4.99/year) unlocks all messages.
+  NAVADMIN Viewer for iOS now has the Extended Access in-app purchase to support
+  development and offset operating costs. Existing users can continue viewing
+  the 3 latest messages. Extended Access ($4.99/year) unlocks all messages.
 
   Why is there Extended Access? Please read the backstory in the post. 
 author: Anson Liu
@@ -27,9 +31,9 @@ NAVADMIN Viewer has migrated to newer infrastructure to continue operations and 
 
 Support from users offsets operating costs and encourages me to spend time developing. I hope the backstory of the app provides information on NAVADMIN Viewer for iOS having Extended Access for $4.99/year.
 
-I initially developed NAVADMIN Viewer as side project in 2018. As you might expect, I didn't think that most people would be interested in an accessible message viewer and this side project for reading NAVADMINs would end up only being used by me. **Look, it's literally named "NAVADMIN Viewer".** But, contrary to what I thought in 2018, app usage took to the air and I continued to develop and maintain NAVADMIN Viewer in my free time.
+I initially developed NAVADMIN Viewer as side project in 2018. As you might expect, I didn't think that most people would be interested in an accessible message viewer and this side project for reading NAVADMINs would end up only being used by me. **Look, it's literally named "NAVADMIN Viewer".** But, contrary to what I thought in 2018, app usage took off and I continued to develop and maintain NAVADMIN Viewer in my free time.
 
-Over 4.5 years later NAVADMIN Viewer does a lot more than list NAVADMINs. In 2022, the feature roadmap is below:
+Over 4.5 years later NAVADMIN Viewer does a lot more than list NAVADMINs for 80k+ active unique yearly users. In 2022, the feature roadmap is below:
 
 | Feature      | [iOS](https://apps.apple.com/us/app/navadmin-viewer/id1345135985) | [Android](https://play.google.com/store/apps/details?id=com.ansonliu.navadmin) | [Web](https://navadmin-viewer.github.io/) |
 | ----------- | ----------- | ----------- | ----------- |
@@ -81,7 +85,7 @@ The server consists of a front facing REST API and data processor written in Gol
 
 Alright here we are. **Compute time and data transfer costs money.**
 
-NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer because it's fun and it makes an impact helping sailors and others who read administrative messages.
+NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer because it's fun and it makes an impact helping sailors and others who read administrative messages. I've never put ads in NAVADMIN Viewer and strive to keep it that way.
 
 **Operating NAVADMIN Viewer has real costs and my time is valuable.** NAVADMIN Viewer is able to avoid major costs by automation and running it on a hybrid of free and low cost cloud hosting. NAVADMIN Viewer's main server was running on a free server instance on Heroku for the past 4 years. Many PaaS cloud hosts have eliminated their free/low cost offerings lately. Heroku is [discontinuing free products](https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq) at the end of 2022. Heroku's pricing scales exponentially 📈 – I would like to avoid that so I migrated NAVADMIN Viewer to new infrastructure to continue running. In addition to the main server, Redis and PostgreSQL hosting has some additional money and time cost to maintain.
 
@@ -89,7 +93,7 @@ NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer be
 
 **The iOS version of NAVADMIN Viewer still lets ALL users access the 3 latest messages.** I added Extended Access as an in-app purchase to unlock access to all remaining messages. All users can continue searching through all messages and see which messages contain their search term but Extended Access is needed to view the full message.
 
-*Android and Web versions of NAVADMIN Viewer continue to be free to use as this time but NAVADMIN Viewer on iOS is the flagship version that gets new features first.*
+*Android and Web versions of NAVADMIN Viewer continue to be free to use as this time. NAVADMIN Viewer on iOS is the flagship version that gets new features first.*
 
 **If you find NAVADMIN Viewer helpful and that it saves you time and frustration *(AKA it accelerates your life)*, please consider supporting development and operations by getting Extended Access for $4.99/year.**
 
@@ -107,6 +111,10 @@ NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer be
 - Tank of fuel for a Smart Car
 - 100 DOGE coin
 - Your time
+
+### ✉ Questions? Inquiries?
+
+You can reach me at [support@ansonliu.com](mailto:support@ansonliu.com).
 
 #### NAVADMIN Viewer is available on the below platforms
 
