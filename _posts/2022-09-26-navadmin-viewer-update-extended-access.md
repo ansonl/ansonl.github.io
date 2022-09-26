@@ -104,7 +104,7 @@ NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer be
 
 **The iOS version of NAVADMIN Viewer still lets ALL users access the 3 latest messages.** I added Extended Access as an in-app purchase to unlock access to all remaining messages. All users can continue searching through all messages and see which messages contain their search term but Extended Access is needed to view the full message.
 
-*Users who previously supported me via in-app purchase get Extended Access for free 💯. Android and Web versions of NAVADMIN Viewer continue to be free to use as this time. NAVADMIN Viewer on iOS remains the flagship version that gets new features first.*
+*Users who previously supported me via in-app purchase get Extended Access for free 💯. Android and Web versions of NAVADMIN Viewer continue to be free to use. NAVADMIN Viewer on iOS remains the flagship version that gets new features first.*
 
 **If you find NAVADMIN Viewer helpful and that it saves you time and frustration *(AKA it accelerates your life)*, please consider supporting development and operations by getting Extended Access for $4.99/year.**
 
