@@ -83,7 +83,7 @@ Some of these features are made possible by the NAVADMIN Viewer server infrastru
             |             |              |                
             +---------+   |   +----------+                
                       |   |   |                           
-     +              +-|---|---|-+       +-------------+   
+                    +-|---|---|-+       +-------------+   
                     | REST API  |------ | Redis cache |   
  +-----------+      |    +      |       +-------------+   
  |Data source|------|Data Parser|       +----------+      
