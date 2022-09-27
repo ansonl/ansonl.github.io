@@ -46,6 +46,7 @@ Over 4.5 years later NAVADMIN Viewer does a lot more than list NAVADMINs for 80k
 | Near real-time message updates | ✅ | ✅ | ✅ |
 | All NAVADMIN/ALNAVs (~2010 and later) | ✅ | ✅ | ✅ |
 | All MARADMIN/ALMARs (~2015 and later) | ✅ | ✅ | ✅ |
+| All numbered DoD issuances | 🚧 |  | 🚧 |
 | Full message search   | ✅ | ✅ | 🟡/🚧 |
 | Offline messages | ✅ | ✅ | 🟡 |
 | Notifications on new message release | ✅ | 🚧 | 🚧 |
