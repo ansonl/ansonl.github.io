@@ -106,7 +106,7 @@ NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer be
 
 **The iOS version of NAVADMIN Viewer lets ALL users access the 3 latest messages.** I added Extended Access as an in-app purchase to unlock access to all remaining messages. All users can continue searching through all messages and see which messages contain their search term but Extended Access is needed to view the full message.
 
-*Users who previously supported me via in-app purchase get Extended Access for free 💯. Android and Web versions of NAVADMIN Viewer continue to be free to use. NAVADMIN Viewer on iOS remains the flagship version that gets new features first.*
+💯*Users who previously supported me via in-app purchase get Extended Access for free. Android and Web versions of NAVADMIN Viewer continue to be free to use. NAVADMIN Viewer on iOS remains the flagship version that gets new features first.*
 
 **If you find NAVADMIN Viewer helpful and that it saves you time and frustration *(AKA it accelerates your life)*, please consider supporting development and operations by getting Extended Access for $4.99/year.**
 
@@ -114,24 +114,24 @@ NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer be
 
 - Meal at the NEX
 - Pumpkin Spice Latte
+- Netflix
 - Chipotle
 - Call of Duty battle pass
 - Big Mac meal
 - Skins in World of Warcraft
-- Anything Supply is ordering on GSA right now
-- 1 lb of beef
 - 2 meals underway
-- Tank of fuel for a Smart Car
-- 100 DOGE coin
+- Spotify
 - Your time
 
 ### ✉ Questions? Inquiries?
 
 You can reach me at [support@ansonliu.com](mailto:support@ansonliu.com).
 
-#### NAVADMIN Viewer is available on the below platforms
+---
 
-- 📱 iOS App Store - [https://apps.apple.com/us/app/navadmin-viewer/id1345135985](https://apps.apple.com/us/app/navadmin-viewer/id1345135985) 
-- 📱 Google Play - [https://play.google.com/store/apps/details?id=com.ansonliu.navadmin](https://play.google.com/store/apps/details?id=com.ansonliu.navadmin)
+#### 📱 NAVADMIN Viewer is available on the below platforms
 
-- 🌐 Web NAVADMIN Viewer - [https://navadmin-viewer.github.io/](https://navadmin-viewer.github.io/)
+- iOS App Store - [https://apps.apple.com/us/app/navadmin-viewer/id1345135985](https://apps.apple.com/us/app/navadmin-viewer/id1345135985) 
+- Google Play - [https://play.google.com/store/apps/details?id=com.ansonliu.navadmin](https://play.google.com/store/apps/details?id=com.ansonliu.navadmin)
+
+- Web NAVADMIN Viewer - [https://navadmin-viewer.github.io/](https://navadmin-viewer.github.io/)
