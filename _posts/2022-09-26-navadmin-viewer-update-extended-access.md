@@ -98,7 +98,7 @@ The server consists of a front facing REST API and concurrent data processor wri
 
 Alright here we are. **Operating NAVADMIN Viewer costs money and my time is valuable.**
 
-NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer because it's fun and makes an impact helping sailors and others who read administrative messages. I've never put ads in NAVADMIN Viewer and strive to keep it that way.
+NAVADMIN Viewer is a side project. I spend my time developing NAVADMIN Viewer because it's fun and makes an impact helping sailors and others who read administrative messages. I've never put ads in NAVADMIN Viewer and strive to keep it that way. If you're wondering if ads make "a lot of money" — they don't.
 
 **Compute time and data transfer have real costs.** NAVADMIN Viewer is able to avoid major costs and outages by automation and running it on a hybrid of free and low cost cloud hosting. NAVADMIN Viewer's main server was running on a free server instance on Heroku for the past 4 years. Many PaaS cloud hosts have eliminated their free/low cost offerings lately. Heroku is [discontinuing free products](https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq) at the end of 2022. Heroku's pricing scales exponentially 📈 – I would like to avoid that so I've migrated NAVADMIN Viewer to new infrastructure to continue running. In addition to the main server, Redis and PostgreSQL hosting has some additional money and time cost to maintain.
 
