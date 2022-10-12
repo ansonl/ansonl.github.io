@@ -23,7 +23,7 @@ The Ford Bronco Sport is unofficial spiritual successor to the sporty design of 
 
 For those in the same figurative or literal vehicle as me, the short answer to how the Bronco Sport compares to the 1st generation Escape Hybrid is
 
- **Bronco Sport does everything the 1st generation Escape Hybrid does — but worse**.
+ **The Bronco Sport does everything the 1st generation Escape Hybrid does — but worse**.
 
 Looking past the inclusion of new driving and safety features that are standard in vehicles manufactured in the past 5 years, the Bronco Sport pales in comparison to the 1st generation Ford Escape Hybrid for a modern car that is ~$30k MSRP. The Bronco Sport sacrifices usability in pursuit of form over function. A couple specifications that you won't find directly compared elsewhere:
 
