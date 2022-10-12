@@ -4,7 +4,7 @@ excerpt: >
   I got the opportunity to drive a 2021 Ford Bronco Sport Base for 3 days as a rental car and compare it to my current 2007 Ford Escape Hybrid. 
 
 
-  ![bronco sport escape hybrid](/wp-content/uploads/2022/10/bronco-escape-hybrid.jpg)
+  ![bronco sport escape hybrid](/wp-content/uploads/2022/10/ford-escape-evolution-chart.jpg)
 
 
   I want to like the Bronco Sport but the designers noticably compromised on practical features to deliver form over function. This Ford Escape in disguise just isn't there yet in its current form. 
@@ -15,9 +15,12 @@ categories:
 tags:
   - bronco sport
 title: 2021 Bronco Sport Base vs 2007 Ford Escape Hybrid
+image: /wp-content/uploads/2022/10/ford-escape-evolution-chart.jpg
 ---
 
 I got the opportunity to drive a 2021 Ford Bronco Sport Base for 3 days as a rental car. Since 2020, I've been eyeing the Bronco Sport as a possible new car to get if I need to replace my 2007 Ford Escape Hybrid since the Bronco/Bronco Sport was announced and was able to compare the vehicles based on an extended test drive of 430+ miles over 3 days.
+
+![bronco sport escape hybrid](/wp-content/uploads/2022/10/ford-escape-evolution-chart.jpg)
 
 The Ford Bronco Sport is unofficial spiritual successor to the sporty design of the 1st and 2nd generation Ford Escape. Ford gradually rounded the vehicle bodies in the 3rd and 4th generation of the Escape to create room in the lineup for this Bronco Sport. I really wanted to like the Bronco Sport and was excited to drive what I saw as my future upgrade from the 1st generation Escape Hybrid.
 
