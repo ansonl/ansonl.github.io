@@ -51,6 +51,7 @@ Looking past the inclusion of new driving and safety features that are standard 
 | Rear seat folding | ❌ (seats do NOT fold flat, level with the trunk floor, rear leg area is wasted) | ✅ |
 | In-trunk clips / covers | ✔️ (not sure how long the plastic mounting clips would last with daily use) | ✔️ |
 | Analog speedometer and tachometer | ✔️ | ✔️ |
+| Physical climate controls | ✔️ | ✔️ |
 | Adaptive (radar) cruise control | ❌ (none on Base) | ❌ |
 | Lane keeping assist (LKA) | ✅ (conveniently adjustable with a button on the blinker knob) | ❌ |
 | Forward collision detection | ✅ | ❌ |
@@ -98,6 +99,8 @@ The Bronco Sport has soft skid covers on the bottom but has lower ground clearan
 The ride feels smooth and turning is sharp with a small turn radius in the Bronco Sport. I can feel the road; bumps and shocks are well dampened by the suspension and shocks. Non-adaptive cruise control works how you would expect and the car does not turn into a screamer when going up hills on the highway. The cruise control does not seem to allow the current speed to dip below the set speed. It would be nice if the cruise control in ECO drive mode would allow a few MPH decrease in speed when encountering a brief hill for fuel efficiency and noise.
 
 The Bronco Sport driving range calculation is more accurate than my Escape's calculation because the Bronco Sport appears to use the correct fuel volume in it's calculation. The 1st gen Escape driving range calculation uses a 15 gal fuel tank volume but the fuel gauge actually measures ~13.5 gal, thus underestimating driving range and over reporting fuel economy because its 0% fuel level cannot measure the remaining 1.5 gal "reserve" fuel volume of the official capabity.
+
+The Bronco Sport also retain physical climate controls that the driver can manipulate with knobs and buttons through feel without taking eyes off the road. The vehicle 4 analog dials for speedometer, tachometer, engine temperature, and fuel which are a relief because the dashboard isn't taken over by an iPad. There is a small digital pixel screen in the top half center but it's sized small to show information and not demand your attention. Digital pixel screens with skeumorphic interfaces look dated a few years after release and never get updates. I prefer dot matrix and 7 segment displays that are are fully utilized by the displayed info and never go out of style.
 
 The Bronco Sport does have a couple improvements to the 1st gen Ford Escape. The addition of new driving and safety technology such as Lane Keeping Assistance, Forward Collision Detection, and Adaptive Cruise Control (not available on base model) make long distance driving more easier. Apple CarPlay allows the driver to use their phone as if it is part of the car. The issue is that all newer vehicles in the Bronco Sport's price range of $30-40k come standard with these quality of life and safety features.
 
