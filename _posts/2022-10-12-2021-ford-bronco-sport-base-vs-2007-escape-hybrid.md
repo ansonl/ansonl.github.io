@@ -32,7 +32,7 @@ The Ford Bronco Sport is unofficial spiritual successor to the sporty design of 
 
 For those in the same figurative or literal vehicle as me, the short answer to how the Bronco Sport compares to the 1st generation Escape Hybrid is
 
- **The Bronco Sport does everything the 1st generation Escape Hybrid does — but worse**.
+ **The Bronco Sport does everything the 1st generation Escape Hybrid does — only worse**.
 
 This review is biased from my point of view as a happy 1st gen Escape Hybrid driver. I believe the designers of the 1st gen Escape got the size and proportion spot on. You can fit a dryer and washer in perfectly in the back of that Escape and the cabin has enough length to transport a multiple 8ft long 2x4s without needing to hang the wood planks out of a window, among many other things that the Escape performs above average at. 
 
