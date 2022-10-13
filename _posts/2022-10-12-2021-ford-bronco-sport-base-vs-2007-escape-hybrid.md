@@ -1,20 +1,26 @@
 ---
 published: true
 excerpt: >
-  I got the opportunity to drive a 2021 Ford Bronco Sport Base for 3 days as a rental car and compare it to my current 2007 Ford Escape Hybrid. 
+  I got the opportunity to drive a 2021 Ford Bronco Sport Base for 3 days as a
+  rental car and compare it to my current 2007 Ford Escape Hybrid. 
 
 
-  ![bronco sport escape hybrid](/wp-content/uploads/2022/10/ford-escape-evolution-chart.jpg)
+  ![bronco sport escape
+  hybrid](/wp-content/uploads/2022/10/ford-escape-evolution-chart.jpg)
 
 
-  I want to like the Bronco Sport but the designers noticably compromised on practical features to deliver form over function. This Ford Escape in disguise just isn't there yet in its current form. 
+  I want to like the Bronco Sport but the designers noticably compromised on
+  practical features to deliver form over function. This Ford Escape in disguise
+  just isn't there yet in its current form. 
 author: Anson Liu
 layout: post
 categories:
   - cars
 tags:
   - bronco sport
-title: 2021 Bronco Sport Base vs 2007 Ford Escape Hybrid
+title: >-
+  2021 Bronco Sport Base Review: (D)evolution of the 1st/2nd Generation Ford
+  Escape
 image: /wp-content/uploads/2022/10/ford-escape-evolution-chart.jpg
 ---
 
@@ -27,6 +33,10 @@ The Ford Bronco Sport is unofficial spiritual successor to the sporty design of 
 For those in the same figurative or literal vehicle as me, the short answer to how the Bronco Sport compares to the 1st generation Escape Hybrid is
 
  **The Bronco Sport does everything the 1st generation Escape Hybrid does — but worse**.
+
+This review is biased from my point of view as a happy 1st gen Escape Hybrid driver. I believe the designers of the 1st gen Escape got the size and proportion spot on. You can fit a dryer and washer in perfectly in the back of that Escape and the cabin has enough length to transport a multiple 8ft long 2x4s without needing to hang the wood planks out of a window, among many other things that the Escape performs above average at. 
+
+**I don't understand why [almost](https://www.slashgear.com/2021-ford-bronco-sport-first-drive-review-shockingly-capable-13650751/) [every](https://www.newcartestdrive.com/reviews/2022-ford-bronco-sport/) [Bronco](https://www.thecarconnection.com/overview/ford_bronco-sport_2022) [Sport](https://www.autonationdrive.com/research/reviews/ford/bronco-sport-first-edition/2021/index.htm) [review](https://www.caranddriver.com/ford/bronco-sport) [mentions](https://www.broncosportforum.com/forum/threads/bronco-sport-interior-storage-review-its-like-an-rei-in-here.3201/) the ["ground-breaking"](https://www.youtube.com/watch?v=O7_d4U9YW_4) [built-in](https://www.motor1.com/reviews/496725/2021-ford-bronco-sport-badlands-review/) [bottle opener](https://www.motorauthority.com/news/1132208_review-update-2021-ford-bronco-sport-badlands-will-make-jeep-compass-buyers-reconsider) in the tailgate**. The obligatory bottle opener mention has to be a joke or contractual condition to get a complimentary Bronco Sport review model. Maybe I don't pop a cold one often enough while sitting in the trunk, but can't you just put any bottle opener in a side pocket of the vehicle or bring your own opener? 
 
 Looking past the inclusion of new driving and safety features that are standard in vehicles manufactured in the past 5 years, the Bronco Sport pales in comparison to the 1st generation Ford Escape Hybrid for a modern car that is ~$30k MSRP. The Bronco Sport sacrifices usability in pursuit of form over function. A couple specifications that you won't find directly compared elsewhere:
 
