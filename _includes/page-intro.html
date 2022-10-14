@@ -3,6 +3,8 @@
     {% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
     <div class="intro-image">
       <img data-src="{{ intro_image }}" alt="{{ page.title }}" class="lazyload">
+      <!-- Caption support from https://github.com/mmistakes/jekyll-theme-basically-basic/pull/141 -->
+      {% if page.image.caption %}<span class="image-caption">{{ page.image.caption | markdownify | strip_newlines | remove: "<p>" | remove: "</p>" }}</span>{% endif %}
     </div>
   {% endif %}
 
