@@ -38,7 +38,7 @@ Support from users offsets operating costs and encourages me to spend time devel
 
 I initially developed NAVADMIN Viewer as a side project in 2018. As you might expect, I didn't think that most people would be interested in an accessible message viewer and this side project for reading NAVADMINs would end up only being used by me. **Look, it's literally named "NAVADMIN Viewer".** But, contrary to what I thought in 2018, app usage took off and I continued to develop and maintain NAVADMIN Viewer in my free time.
 
-Over 4.5 years later NAVADMIN Viewer does a lot more than list NAVADMINs for 80k+ active unique yearly users. In 2022, the feature roadmap (as of 26SEP22) is below ([see current live roadmap](https://github.com/navadmin-viewer)):
+Over 4.5 years later NAVADMIN Viewer does a lot more than list NAVADMINs for 80k+ active unique yearly users. In 2022, the feature roadmap (as of 26SEP22) is below ([see current live roadmap](https://github.com/navadmin-viewer/.github/blob/main/profile/README.md)):
 
 | Feature      | [iOS](https://apps.apple.com/us/app/navadmin-viewer/id1345135985) | [Android](https://play.google.com/store/apps/details?id=com.ansonliu.navadmin) | [Web](https://navadmin-viewer.github.io/) |
 | ----------- | ----------- | ----------- | ----------- |
