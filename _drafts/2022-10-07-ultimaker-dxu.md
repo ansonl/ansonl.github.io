@@ -133,7 +133,7 @@ Filament loader switchers swap the filament before filament enters the extruder/
 - Theoretically unlimited material switching
 - Material switching is decoupled from the printhead and extruder/feeder. Less complex printhead means less to go wrong.
 
-The number of possible materials that can be used in a single print is theoretically unlimited and independent of the core printer train that consists of the extruder, printhead, and everything in between. Rather than alter and work around a printer's fundamental train, a new filament loader switcher is added before the extruder. The number of materials that can be fed into the extruder is now limited by this filament loader switcher.
+The number of possible materials that can be used in a single print is theoretically unlimited and independent of the core printer extruder train that consists of the extruder, printhead, and everything in between. Rather than alter and work around a printer's extruder train, a new filament loader switcher is added before the extruder. The number of materials that can be fed into the extruder is now limited by this filament loader switcher.
 
 The [Prusa Multi Material Upgrade 2S (MMU2S)](https://blog.prusa3d.com/multi-material-upgrade-2-0-is-here_8700/) and [Ultimaker Material Station](https://support.ultimaker.com/hc/en-us/articles/360011547780-Printing-with-the-Material-Station) are two commercial filament loader switchers available to consumers.
 
