@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 excerpt: >
   The SUNLU T3 is a capable 3D printer that is designed similar to the Ender 3 Pro. 
 
