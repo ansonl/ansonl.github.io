@@ -1,6 +1,6 @@
 ---
-published: false
-title: SUNLU T3 Fast Print Explained
+published: true
+title: SUNLU T3 Fast Print Analyzed
 author: Anson Liu
 layout: post
 categories:
@@ -9,12 +9,23 @@ tags:
   - sunlu t3
   - fast print
 excerpt: >
-  What does Fast Print on the T3 do?
+  What does Fast Print on the SUNLU T3 3D printer actually do?
+
+
+  ![Fast print menu](/wp-content/uploads/2023/02/fast_print_menu.jpg)
+
+
+  After looking through the released T3 source code, Fast Print appears to be an acceleration modifier that SUNLU had future development planned.
 ---
 
 What does Fast print do?
 
-The SUNLU T3 3D printer comes with a Fast Print mode that claims to speed up printing by 3x. There is no explanation from the manufacturer what Fast Print actually changes to deliver faster print times. We can check in the released SUNLU T3 source code. The T3 firmware is a variant of Marlin firmware which is licensed under GPL and SUNLU's release of their changes to Marlin complies with GPL!
+![Fast print menu](/wp-content/uploads/2023/02/fast_print_menu.jpg)
+
+The SUNLU T3 3D printer comes with a Fast Print mode that claims to speed up printing by 3x and deliver 250mm/s print speed. There is no explanation from the manufacturer what Fast Print actually changes to deliver faster print times. We can check in the released [SUNLU T3 source code](http://3dsunlu.com/Content/2169603.html). The T3 firmware is a variant of Marlin firmware which is licensed under GPL and SUNLU's release of their changes to Marlin complies with GPL which is great!
+
+
+![SUNLU T3 printer](/wp-content/uploads/2023/02/sunlu_t3_printer.jpg)
 
 ### Finding the code
 
@@ -121,6 +132,7 @@ The previous enabled status of Fast Print mode is kept track of to avoid redunda
 This previous value is stored in `fast_print_enable_pre` at the end of the `main_menu()` loop.
 
 ```cpp
+//Enable Fast Print mode
 planner.settings.acceleration=800;
 planner.settings.max_acceleration_mm_per_s2[X_AXIS]=planner.settings.max_acceleration_mm_per_s2[Y_AXIS]=planner.settings.max_acceleration_mm_per_s2[Z_AXIS]=1500;
 planner.settings.max_acceleration_mm_per_s2[E_AXIS] = 2000;
@@ -141,7 +153,9 @@ position.e=current_position.e*settings.axis_steps_per_mm[E_AXIS];
 //	do{ Serial.print("ffffcurrent_position.e:"); Serial.println(current_position.e); }while(0);
 ```
 
-The above is code from an added debug/testing function `Planner::change_e_stepper_mm()` that overwrites an existing `position.e` variable to `current_position.e*settings.axis_steps_per_mm[E_AXIS]` to store the current extruder position in step count. After the calculation are some `Serial.print` statements that should let the developers verify the extruder position in steps. `Planner::change_e_stepper_mm()` is called near the end of `Planner::_populate_block()`. `current_position` appears to be used for actual movement positioning and `position` is modified elsewhere for calculations so modifying `position` in `Planner::change_e_stepper_mm()` may not affect the actual printing since this modification is near the end of `Planner::_populate_block()`.
+The above is code from an added debug/testing function `Planner::change_e_stepper_mm()` that overwrites an existing `position.e` variable to `current_position.e*settings.axis_steps_per_mm[E_AXIS]` to store the current extruder position in step count. After the calculation are some `Serial.print` statements that should let the developers verify the extruder position in steps. `Planner::change_e_stepper_mm()` is called near the end of `Planner::_populate_block()`. 
+
+`current_position` appears to be used for actual movement positioning and `position` is modified elsewhere for calculations so modifying `position` in `Planner::change_e_stepper_mm()` may not affect the actual printing since this modification is near the end of `Planner::_populate_block()`? I haven't dug into the planner logic so I'm unsure.
 
 ```cpp
 void PrintJobRecovery::resume() {
@@ -161,18 +175,18 @@ void PrintJobRecovery::resume() {
 }
 ```
 
-There is a similar new function `Planner::resume_e_stepper_mm()` that is called by the above code `PrintJobRecovery::resume()` in `powerloss.cpp` to restore a position. The default Marlin implementation to restore a position with `G92` G-code command is commented out so the `Planner::resume_e_stepper_mm()` appears to set the software's current extruder position like `G92`. I'm not sure why the default Marlin implementation was 
+There is an equivalent new function `Planner::resume_e_stepper_mm()` that is called by the above code in `PrintJobRecovery::resume()` from `powerloss.cpp` to restore a position. The default Marlin implementation code that restores a position with `G92` G-code command is commented out so the `Planner::resume_e_stepper_mm()` appears to set the software position of extruder like `G92`. I'm not sure why the default Marlin implementation wasn't usedinstead but the `Serial.print()` lines suggest that this change was made for debug logging purposes.
 
-
-When Fast Print mode is disabled, only the printing acceleration value is reset. The axis maximum, retract, and travel accelerations do not seem to be reset.
-
-fast_print_enable_change
 
 ```cpp
+//Disable Fast Print mode
 planner.settings.acceleration=acceleration_Back;
 fast_print_enable_change=true;
 ```
 
+When Fast Print mode is disabled, only the printing acceleration value is reset. The axis maximum, retract, and travel accelerations do not seem to be reset.
+
+fast_print_enable_change
 
 
 ```cpp
@@ -245,3 +259,14 @@ void Adjust_Print_Speed() {
 }
 ```
 
+When running printing Gcode movements like G0/G1, a new function `Adjust_Print_Speed()` has some disabled code that increases acceleration and feedrate based on the Z height. The code seemed to be disabled because it is only run when the Gcode command is a `W` or `Q` letter command - none of which are generated by any FDM slicer that I know of. SUNLU distributes a copy of Cura with their printer profiles built in but it does not generate Gcode with W and Q commands. The disabled code and macros like `Internal_Version` and `HEAT_PIPES_60_W` scattered around suggest that SUNLU was developing an adaptive Fast Print mode and experimenting with a higher powered heater.
+
+I didn't see any setting of velocity to 250mm/s despite the mention of 250mm/s print speeds in SUNLU's Fast Print marketing image.
+
+![Fast print menu](/wp-content/uploads/2023/02/t3_fast_print_promo.jpg)
+
+Fast Print mode's acceleration values look similar to the high end of user reported accleration values in fast Ender 3 V2 printer settings found [online](https://3dprinterly.com/how-to-get-the-perfect-jerk-acceleration-setting/). Which makes sense - the T3 is an Ender 3 V2 clone after all. 
+
+Without spending more time analyzing every custom code that SUNLU has added to the T3 version of Marlin firmware, Fast Print mode is a straight forward accleration increase feature that 3D printer users can replicate on their own without using SUNLU's variant of Marlin.
+
+In future when I have access to the actual T3 printer currently stored in another location, I'll create a Marlin configuration for it based on the current Marlin code branch. This will allow the printer to take advantage of newer features like Linear Advance, S curve, and Input Shaping as well as fixing some bugs in the T3 firmware (ex: not properly stopping an SD print over the serial connection).
