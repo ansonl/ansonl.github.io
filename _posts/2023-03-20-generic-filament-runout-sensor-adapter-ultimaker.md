@@ -1,6 +1,6 @@
 ---
 published: true
-title: Filament Runout Sensor 
+title: Operation and Installation of the Generic Filament Runout Sensor in Ultimaker Boards
 author: Anson Liu
 layout: post
 categories:
