@@ -17,7 +17,7 @@ excerpt: >
   ![filament runout sensor pinout](/wp-content/uploads/2023/03/filament-runout-sensor-3-pinout.jpg)
 
   
-  I created a board that minimizes wiring and uses adjacent pins on the Ultimainboard. 
+  I created a adapter board for this style of filament runout sensor that minimizes wiring and uses adjacent pins on the Ultimainboard. 
 
 
   ![filament runout sensor pinout](/wp-content/uploads/2023/03/ultimaker-filament-runout-schematic.png)
@@ -52,7 +52,7 @@ The Ultimaker Ultimainboard's built in 3 pin analog sensor header has the pin or
 
 ![filament runout sensor pinout](/wp-content/uploads/2023/03/ultimainboard-analog-sensor-header-schematic.png)
 
-I have dual extruders on my Ultimaker and wanted to utilize the unused expansion pins on the Ultimainboard to read from 2 filament sensors. The below schematic and board layout reads from 2 filament sensors using the least amount of adjacent pins on the Ultimainboard v2.
+I have dual extruders on my Ultimaker and wanted to utilize the unused expansion pins on the Ultimainboard to read from 2 filament sensors. The below adapter board schematic and layout reads from 2 filament sensors using the least amount of adjacent pins on the Ultimainboard v2.
 
 ![filament runout sensor pinout](/wp-content/uploads/2023/03/ultimaker-filament-runout-schematic.png)
 
