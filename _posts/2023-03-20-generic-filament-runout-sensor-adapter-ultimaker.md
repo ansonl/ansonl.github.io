@@ -1,6 +1,8 @@
 ---
 published: true
-title: Operation and Installation of the Generic Filament Runout Sensor in Ultimaker Boards
+title: >-
+  Operation and Installation of the Generic Filament Runout Sensor in Ultimaker
+  Boards
 author: Anson Liu
 layout: post
 categories:
@@ -10,18 +12,24 @@ tags:
   - ultimaker
   - pcb
 excerpt: >
-  Connecting the generic 3 pin filament runout sensor to the Ultimaker Original+/2/2+ controller board or other printer without dedicated filament runout sensor pins is plug and play once the mystery runout sensor pin out is determined.
+  Connecting the generic 3 pin filament runout sensor to the Ultimaker
+  Original+/2/2+ controller board or other printer without dedicated filament
+  runout sensor pins is plug and play once the mystery runout sensor pin out is
+  determined.
 
-  ![filament runout sensor pinout](/wp-content/uploads/2023/03/filament-runout-sensor.png)
+  ![filament runout sensor
+  pinout](/wp-content/uploads/2023/03/filament-runout-sensor.png)
 
-  ![filament runout sensor pinout](/wp-content/uploads/2023/03/filament-runout-sensor-3-pinout.jpg)
-
-  
-  I created a adapter board for this style of filament runout sensor that minimizes wiring and uses adjacent pins on the Ultimainboard. 
+  ![filament runout sensor
+  pinout](/wp-content/uploads/2023/03/filament-runout-sensor-3-pinout.jpg)
 
 
-  ![filament runout sensor pinout](/wp-content/uploads/2023/03/ultimaker-filament-runout-schematic.png)
+  I created a adapter board for this style of filament runout sensor that
+  minimizes wiring and uses adjacent pins on the Ultimainboard. 
 
+
+  ![filament runout sensor
+  pinout](/wp-content/uploads/2023/03/ultimaker-filament-runout-schematic.png)
 ---
 
 ![filament runout sensor pinout](/wp-content/uploads/2023/03/filament-runout-sensor.png)
@@ -58,7 +66,9 @@ I have dual extruders on my Ultimaker and wanted to utilize the unused expansion
 
 ![filament runout sensor pinout](/wp-content/uploads/2023/03/ultimaker-filament-runout-board.png)
 
-This design uses the 4 pins on the J22 header and uses the TxD2 (54) and RxD2 (55) pins. 
+I tested this design with the below configuration using the first top 2 pins on the J25 header: ADC0 (54) and ADC1 (55). ADC0 and ADC1 are mistakenly labeled as ADC1 and ADC2 respectively in the UltiMainboard diagram above. The 5V and GND can be supplied from either J26 or J22. 
+
+If you are okay with using a serial port, you can use 4 pins in a row on J22 to get 5V, GND, and use the TxD2 and RxD2 pins for runout sensor input. 
 
 ![filament runout sensor pinout](/wp-content/uploads/2023/03/ultimainboard-expansion-pins-detail.png)
 
@@ -82,4 +92,4 @@ I recommend tweaking the rest of the filament configuration values to match your
 
 `FILAMENT_RUNOUT_DISTANCE_MM` should be large enough to allow the filament to clear the runout sensor output hole after clearing the switch contact. The switch used in the sensor only allows the filament to slide through freely from the input hole. Once the sensor switch contact springs up from no more filament passing over it, the extruder will likely destroy the switch if filament is moved backwards and get stuck underneath the switch contact's bottom side. The runout distance should be not be too long that the filament runs past the extruder gear and looses traction.
 
-`FILAMENT_RUNOUT_SCRIPT` `U-XX` value represents the unload length of the filament after the runout distance is exhausted. It should retract the filament back out the extruder input so you can reach it to pull it out. 
+`FILAMENT_RUNOUT_SCRIPT` `U-XX` value represents the unload length of the filament after the runout distance is exhausted. It should retract the filament back out the extruder input so you can reach it to pull it out.
