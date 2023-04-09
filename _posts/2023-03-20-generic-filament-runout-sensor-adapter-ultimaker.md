@@ -68,7 +68,7 @@ I have dual extruders on my Ultimaker and wanted to utilize the unused expansion
 
 I tested this design with the below configuration using the first top 2 pins on the J25 header: ADC0 (54) and ADC1 (55). ADC0 and ADC1 are mistakenly labeled as ADC1 and ADC2 respectively in the UltiMainboard diagram above. The 5V and GND can be supplied from either J26 or J22. 
 
-If you are okay with using a serial port, you can use 4 pins in a row on J22 to get 5V, GND, and use the TxD2 and RxD2 pins to read the sensors. 
+For a more seamless cable setup with a single plug in point on the board, you could use 4 pins in a row on J22 to get 5V, GND, and use the TxD2 and RxD2 pins to read the sensors. You would lose the extra serial port.
 
 ![filament runout sensor pinout](/wp-content/uploads/2023/03/ultimainboard-expansion-pins-detail.png)
 
