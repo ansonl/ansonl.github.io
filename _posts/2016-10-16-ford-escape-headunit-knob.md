@@ -3,7 +3,7 @@ title: 3D Printable 05-07 Ford Escape Head Unit Knob
 excerpt: |
   A joystick knob replacement for the Ford Escape navigation head unit. 
 
-  ![Ford Escape headunit knob](wp-content/uploads/2016/10/ford-knob.jpg)
+  ![Ford Escape headunit knob](/wp-content/uploads/2016/10/ford-knob.jpg)
 author: Anson Liu
 layout: post
 categories:

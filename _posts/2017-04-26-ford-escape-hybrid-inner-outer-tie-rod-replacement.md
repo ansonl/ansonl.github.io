@@ -6,7 +6,7 @@ excerpt: >
   your own vehicle.
 
 
-  ![New inner tie rod](wp-content/uploads/2017/04/new_inner_tie_rod.jpg)
+  ![New inner tie rod](/wp-content/uploads/2017/04/new_inner_tie_rod.jpg)
 author: Anson Liu
 layout: post
 categories:

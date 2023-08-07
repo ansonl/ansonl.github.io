@@ -5,7 +5,7 @@ excerpt: >
 
 
   ![Ford Escape cupholder drop in
-  insert](wp-content/uploads/2016/09/ford-holder.jpg)
+  insert](/wp-content/uploads/2016/09/ford-holder.jpg)
 author: Anson Liu
 layout: post
 categories:

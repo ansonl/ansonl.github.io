@@ -6,7 +6,7 @@ excerpt: >
 
 
   ![Ford Escape door lock actuator electrical connector wire
-  jump](wp-content/uploads/2016/08/wire-jump-min.jpg "Ford Escape door lock
+  jump](/wp-content/uploads/2016/08/wire-jump-min.jpg "Ford Escape door lock
   actuator electrical connector wire jump")
 author: Anson Liu
 layout: post

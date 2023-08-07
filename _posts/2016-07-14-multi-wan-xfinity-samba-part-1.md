@@ -3,7 +3,7 @@ title: Multi-WAN + Xfinity + Samba - Part 1/2
 excerpt: |
   Add some extra bandwidth to your Xfinity internet connection by setting up Multi-WAN on your router. 
 
-  ![OpenWRT Wifi Scan](wp-content/uploads/2016/07/openwrt-wifi-scan.png)
+  ![OpenWRT Wifi Scan](/wp-content/uploads/2016/07/openwrt-wifi-scan.png)
 author: Anson Liu
 layout: post
 categories:

@@ -6,7 +6,7 @@ excerpt: >
 
 
   [![Ford ACP AUX
-  demo](wp-content/uploads/2017/07/ford_acp_aux_demo_350w_cod.gif)](2017/09/ford-acp-cd-changer-emulator-aux-audio/)
+  demo](/wp-content/uploads/2017/07/ford_acp_aux_demo_350w_cod.gif)](2017/09/ford-acp-cd-changer-emulator-aux-audio/)
 
   - Ford CD changer emulation
 
