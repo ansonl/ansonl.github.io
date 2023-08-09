@@ -1,7 +1,7 @@
 ---
 published: true
 title: >-
-  SUNLU T3 Electronics
+  SUNLU T3 Marlin Configuration and Controller Board Pictures
 author: Anson Liu
 layout: post
 categories:
