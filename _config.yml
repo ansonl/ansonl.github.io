@@ -16,13 +16,14 @@
 lang: en-US
 title: Anson Liu
 email: anson@ansonliu.com
-description: Coding, 3D printing, and outdoor adventures
+description: Software design, 3D printing, and outdoor adventures
 baseurl: ""
 url: "https://ansonliu.com"
 author:
   name: Anson Liu
   picture: https://avatars1.githubusercontent.com/ansonl?v=3&s=200
 github_username: ansonl
+printables_username: ansonl
 linkedin_username: console
 youtube_channel: UCqC8y5FsFaAwKkbZu25xY_g
 instagram_username: hardhikes
@@ -62,6 +63,12 @@ feed:
 paginate: 5
 paginate_path: /page:num/
 
+# Collections
+collections:
+  3dprint:
+    output: true
+    permalink: /:collection/:path/
+
 # Front Matter Defaults
 defaults:
   # _posts
@@ -77,5 +84,13 @@ defaults:
     values:
       layout: post
       read_time: true
+  # _3dprint
+  - scope:
+      path: "_3dprint"
+      type: 3dprint
+    values:
+      layout: page
+      read_time: false
+      hide_entry-meta: true
 
 remote_theme: "mmistakes/jekyll-theme-basically-basic"

@@ -50,6 +50,7 @@ t:
 
 navigation_pages:
   - about.md
+  - 3dprint.md
   - hikes.md
   - archive.md
   - tags.md

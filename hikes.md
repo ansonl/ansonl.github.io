@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hard Hikes
-permalink: /hikes/
+title: Hard Hikes Map
+redirect: http://hardhikes.com
 ---
 
 

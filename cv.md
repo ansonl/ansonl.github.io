@@ -2,7 +2,7 @@
 title: CV
 layout: cv
 actions:
-  - label: "Available upon request"
+  - label: "CV available upon request"
     icon: email
-    url: "mailto:anson@ansonliu.com"
+    url: "mailto:cv@ansonliu.com"
 ---
