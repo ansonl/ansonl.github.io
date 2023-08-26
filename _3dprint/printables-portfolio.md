@@ -1,7 +1,7 @@
 ---
 title: "3D Model Design Portfolio"
 image: 
-  thumbnail: /assets/images/3dprint/printables-thumbnail.jpg
+  thumbnail: /assets/images/3dprint/printables-scroll-thumbnail.webp
 redirect: https://www.printables.com/@ansonl
 more-link-text: "View Models"
 ---
