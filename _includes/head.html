@@ -3,70 +3,80 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!--- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <meta name="theme-color" content="#003B4F">
+
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
-    {% comment %}
-      Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
-    {% endcomment %}
-    {% include head-seo.html %}
+  {% comment %}
+  Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
+  {% endcomment %}
+  {% include head-seo.html %}
   {% else %}
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description"
+    content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
 
   <script>
     /* Cut the mustard */
-    if ( 'querySelector' in document && 'addEventListener' in window ) {
+    if ('querySelector' in document && 'addEventListener' in window) {
       document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
     }
   </script>
 
   <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | relative_url }}">
   {% if site.data.theme.google_fonts %}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}">
   {% endif %}
 
   {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed'%}
-    {% comment %}
-      Add Atom feed link if jekyll-feed plugin is enabled
-    {% endcomment %}
-    {% include head-feed.html %}
+  {% comment %}
+  Add Atom feed link if jekyll-feed plugin is enabled
+  {% endcomment %}
+  {% include head-feed.html %}
   {% endif %}
 
   <!-- For general theme customization -->
-  <link rel="stylesheet" href="{{ "/assets/stylesheets/theme-customization.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ " /assets/stylesheets/theme-customization.css" | prepend: site.baseurl }}">
 
   <!-- For lazy load images -->
-  <script src="{{ "/assets/javascripts/lazysizes.min.js" | prepend: site.baseurl }}" async></script>
+  <script src="{{ " /assets/javascripts/lazysizes.min.js" | prepend: site.baseurl }}" async></script>
 
   <!-- For animated title using Typed.JS by mattboldt https://github.com/mattboldt/typed.js/ -->
-  <script src="{{ "/assets/javascripts/jquery-3.6.0.min.js" | prepend: site.baseurl }}"></script>
-  <link rel="stylesheet" href="{{ "/assets/stylesheets/site-title-animation.css" | prepend: site.baseurl }}">
+  <script src="{{ " /assets/javascripts/jquery-3.6.0.min.js" | prepend: site.baseurl }}"></script>
+  <link rel="stylesheet" href="{{ " /assets/stylesheets/site-title-animation.css" | prepend: site.baseurl }}">
   <!--<script src="{{ "/assets/javascripts/typed.min.js" | prepend: site.baseurl }}"></script>-->
-  <script src="{{ "/assets/javascripts/typed.js@2.0.12.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/javascripts/site-title-animation.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ " /assets/javascripts/typed.js@2.0.12.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ " /assets/javascripts/site-title-animation.js" | prepend: site.baseurl }}"></script>
 
   <!-- For background-check.js to darken/lighten menu button -->
-  <link rel="stylesheet" href="{{ "/assets/stylesheets/menu-darken-lighten.css" | prepend: site.baseurl }}">
-  <script src="{{ "/assets/javascripts/background-check.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/javascripts/menu-darken-lighten.js" | prepend: site.baseurl }}"></script>
+  <link rel="stylesheet" href="{{ " /assets/stylesheets/menu-darken-lighten.css" | prepend: site.baseurl }}">
+  <script src="{{ " /assets/javascripts/background-check.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ " /assets/javascripts/menu-darken-lighten.js" | prepend: site.baseurl }}"></script>
 
   <!-- For smooth scrolling to links -->
   <script>window.noZensmooth = true</script> <!-- Turn off automatic zen scroll, only use it when explicitly called -->
-  <script src="{{ "/assets/javascripts/zenscroll-min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/javascripts/scroll-to-posts.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ " /assets/javascripts/zenscroll-min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ " /assets/javascripts/scroll-to-posts.js" | prepend: site.baseurl }}"></script>
 
   <!-- single-div-timeline -->
-  <link rel="stylesheet" href="{{ "/assets/stylesheets/single-div-timeline.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ " /assets/stylesheets/single-div-timeline.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700">
 
   <!-- Return to top arrow https://codepen.io/rdallaire/pen/apoyx -->
-  <link rel="stylesheet" href="{{ "/assets/stylesheets/return-to-top.css" | prepend: site.baseurl }}">
-	<a href="javascript:" title="Scroll to top"><div id="return-to-top">▲</div></a>
-	<script src="{{ "/assets/javascripts/return-to-top.js" | prepend: site.baseurl }}"></script>
+  <link rel="stylesheet" href="{{ " /assets/stylesheets/return-to-top.css" | prepend: site.baseurl }}">
+  <a href="javascript:" title="Scroll to top">
+    <div id="return-to-top">▲</div>
+  </a>
+  <script src="{{ " /assets/javascripts/return-to-top.js" | prepend: site.baseurl }}"></script>
 
-	<!-- JSON+LD rich structured data https://developers.google.com/search/docs/data-types/social-profile -->
-	<script type="application/ld+json">
+  <!-- JSON+LD rich structured data https://developers.google.com/search/docs/data-types/social-profile -->
+  <script type="application/ld+json">
 {
   "@context":"http://schema.org",
   "@type":"Blog",
@@ -79,10 +89,10 @@
   "author": {% include authorStructuredData.html %}
 }
     </script>
-	
-	{% if page.layout == 'post' %}
+
+  {% if page.layout == 'post' %}
 
 
-	{% endif %}
-	
+  {% endif %}
+
 </head>
