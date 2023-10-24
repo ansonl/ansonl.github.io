@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hard Hikes Map
+title: Hard Hikes
 redirect: http://hardhikes.com
 ---
 

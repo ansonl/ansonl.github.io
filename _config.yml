@@ -46,6 +46,7 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  auto_ids: true
 
 plugins:
   - jekyll-remote-theme
@@ -65,9 +66,13 @@ paginate_path: /page:num/
 
 # Collections
 collections:
-  3dprint:
+  maps:
     output: true
     permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Front Matter Defaults
 defaults:
