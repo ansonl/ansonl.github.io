@@ -1,12 +1,13 @@
 ---
 title: "Release Notes"
 layout: post
+permalink: /maps/release-notes/
 image: 
   path: /assets/images/maps/3d-printable-maps-banner.webp
   thumbnail: /assets/images/maps/release-notes.jpg
 show_subscribe: false
 excerpt: >
-  Check out the improvements and additions in the latest 3D model update.
+  See what's new and improved in the latest 3D map update.
 ---
 
 **Major Releases** represent a batch improvements for a region. Individual maps are updated in **revisions** on a rolling schedule. Thus release notes for a **Major Release** cover all subregion map variants with specified **revision** numbers underneath the Variant Chart.
