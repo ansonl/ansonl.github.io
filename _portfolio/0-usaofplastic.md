@@ -1,7 +1,7 @@
 ---
 title: "USA of Plastic - 3D Topo Maps"
 image: 
-  thumbnail: /assets/images/3dprint/usaofplastic-models-thumbnail.jpg
+  thumbnail: /assets/images/portfolio/usaofplastic-models-thumbnail.jpg
 redirect: http://usaofplastic.com
 more-link-text: "Download 3D Topo Maps"
 ---

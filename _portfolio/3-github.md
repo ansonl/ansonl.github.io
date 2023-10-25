@@ -1,7 +1,7 @@
 ---
 title: "Open Source Contributions on Github"
 image: 
-  thumbnail: /assets/images/3dprint/code-pulse-thumbnail.webp
+  thumbnail: /assets/images/portfolio/code-pulse-thumbnail.webp
 redirect: https://github.com/pulls?q=author%3Aansonl
 more-link-text: "View Activity (🔒 Requires GitHub account)"
 ---

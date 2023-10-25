@@ -1,8 +1,8 @@
 ---
-title: "3D Topo Relief Maps - Release Notes"
+title: "Download 3D Map Models"
 layout: page
 image: 
-  thumbnail: /assets/images/3dprint/download.jpg
+  thumbnail: /assets/images/maps/usaofplastic-printables-scroll.webp
 redirect: https://www.printables.com/@ansonl/collections/714909
 more-link-text: "Download 3D Map Models"
 ---
