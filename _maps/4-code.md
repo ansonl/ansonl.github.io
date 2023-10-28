@@ -1,5 +1,5 @@
 ---
-title: "GIS Code"
+title: "The Code"
 layout: page
 image: 
   thumbnail: /assets/images/maps/code.jpg

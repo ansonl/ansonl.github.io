@@ -12,26 +12,11 @@ excerpt: >
 
 **Major Releases** represent a batch improvements for a region. Individual maps are updated in **revisions** on a rolling schedule. Thus release notes for a **Major Release** cover all subregion map variants with specified **revision** numbers underneath the Variant Chart.
 
-### Model Filename Decoder
-
-```
-STATE-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
-     │                       │
-     └────────VARIANT────────┘
-```
-
-| Definition | Meaning |
-| ---- | ---- |
-| `STATE` | State Abbreviation |
-| `ESCALING` | Linear or Square Root (sqrt) elevation scaling. |
-| `EXTRUDER` | Dual or Single color (extrusion) model |
-| `STYLE` *(optional)* | `STYLE` is only present when the model is a special style or the model is exclusive to a special subregion. Default style is water model printed over submerged low lying lands. This submerged land may be visible when water layers are printed with a transparent filament. Default style minimizes usage of secondary (water) filament color. `transparent` style is water model features go all the way through the land for max light transmission when used with glow and transparent filaments.|
-| `REVISION` | Revision number. See changelog for improvements. |
-| `PIECE##` *(optional)* | Interlocking piece # for 180 mm x 180 mm bed |
+[Model Filename Chart & Map Specifications](https://ansonliu.com/maps/specifications/)
 
 ## USA Regions Variant Chart
 
-[All USA state printable models download](https://www.printables.com/@ansonl/collections/714909)
+[Download all USA state printable models](https://www.printables.com/@ansonl/collections/714909)
 
 | Subregion | Variant | V1 | V2 |
 | --- | --- | --- | --- |
@@ -49,9 +34,12 @@ USA V1 - June 2023
 
 USA V2 - Oct 2023
 : Added Square Root elevation scale models.
+: Released Alaska
 : Improved alignment between state borders and dual color print objects.
 : Death Valley, CA and other inland below sea level locations are now at the correct elevations instead holes.
+: Increased 3MF model precision from 4 to 6 decimal places.
 : Maps now import into slicers at the correct size.
+: 3D model previews on Printables.com now show in contrasting colors.
 
 ## Asia Region Major Release to Variant Revision Chart
 
