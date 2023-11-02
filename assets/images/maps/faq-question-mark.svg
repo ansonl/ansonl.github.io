@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 600"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="faq-question-mark.svg"
+   width="1200"
+   height="600"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     showgrid="false"
+     fit-margin-top="44"
+     fit-margin-bottom="44"
+     fit-margin-left="344"
+     fit-margin-right="344"
+     inkscape:zoom="0.8125"
+     inkscape:cx="559.38462"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-1926"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+  <path
+     d="m 808,300 a 208,208 0 1 0 -416,0 208,208 0 1 0 416,0 z m -464,0 a 256,256 0 1 1 512,0 256,256 0 1 1 -512,0 z M 513.8,209.3 C 521.7,187 542.9,172 566.6,172 h 58.3 c 34.9,0 63.1,28.3 63.1,63.1 0,22.6 -12.1,43.5 -31.7,54.8 L 624,308.4 c -0.2,13 -10.9,23.6 -24,23.6 -13.3,0 -24,-10.7 -24,-24 v -13.5 c 0,-8.6 4.6,-16.5 12.1,-20.8 l 44.3,-25.4 c 4.7,-2.7 7.6,-7.7 7.6,-13.1 0,-8.4 -6.8,-15.1 -15.1,-15.1 h -58.3 c -3.4,0 -6.4,2.1 -7.5,5.3 l -0.4,1.2 c -4.4,12.5 -18.2,19 -30.6,14.6 -12.4,-4.4 -19,-18.2 -14.6,-30.6 l 0.4,-1.2 z M 568,396 a 32,32 0 1 1 64,0 32,32 0 1 1 -64,0 z"
+     id="path2" />
+</svg>
