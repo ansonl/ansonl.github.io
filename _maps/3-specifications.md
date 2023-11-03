@@ -10,6 +10,8 @@ excerpt: >
   Map projection, scale, resolution, and more. 
 ---
 
+[Updated 3D Map Model Release Notes](https://ansonliu.com/maps/release-notes/)
+
 ## Model Filename Chart
 
 ```

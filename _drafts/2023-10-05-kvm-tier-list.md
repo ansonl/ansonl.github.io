@@ -148,6 +148,7 @@ The IOGear GCS1942 and GCS1944 switch 2 and 4 computers respectively. I currentl
 - GCS1942 and GCS1944 KVMs can be controlled over a serial interface through a RJ45 port. You can remotely send the KVM signals to control switching and other settings which gives these KVMs massive flexibility and customizability.
 - Two IOGear KVMs can be connected to each other over serial interface in a master/slave arrangement and switching with the master KVM will switch the slave KVM. This allows you to increase the amount of switched displays by using two KVMs at once.
 - I have [confirmed](https://youtu.be/NlyIbFiSxfk?si=9BGVQbmipHlZiEIH) that the GCS1942 2 Port and GCS1944 4 Port KVM are compatible with each other when connected over serial port. Switching to the 3rd or 4th port when master is the 4 Port KVM results in the slave 2 Port KVM switching to its second port (its highest port). I had preferred and expected the 2 Port KVM to ignore a serial command to switch to a higher port than it physically has but its actual behavior of switching to the 2nd port is also acceptable.
+- If you buy this KVM without a power cable, make sure to buy a power supply with a 5.5x2.5mm DC Barrel Plug connector on the output. IOGear did a big no-no and modified the included DPS-40AB-11 power adapter to have a 5.5x2.5mm plug instead of the normal 5.5x2.1mm plug that the power adapter is speced for.
 
 
 ![sunlu t3 bottom](/wp-content/uploads/2023/08/sunlu-t3-bottom.JPG)
