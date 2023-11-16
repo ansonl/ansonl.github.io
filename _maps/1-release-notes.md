@@ -13,6 +13,7 @@ excerpt: >
 **Major Releases** represent a batch improvements for a region. Individual maps are updated in **revisions** on a rolling schedule. Thus release notes for a **Major Release** cover all subregion map variants with specified **revision** numbers underneath the Variant Chart.
 
 [Model Filename Chart & Map Specifications](https://ansonliu.com/maps/specifications/)
+[3D Print Settings](https://ansonliu.com/maps/print-settings/)
 
 ## USA Regions Variant Chart
 

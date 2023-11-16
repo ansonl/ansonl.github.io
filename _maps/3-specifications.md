@@ -11,6 +11,7 @@ excerpt: >
 ---
 
 [Updated 3D Map Model Release Notes](https://ansonliu.com/maps/release-notes/)
+[3D Print Settings](https://ansonliu.com/maps/print-settings/)
 
 ## Model Filename Chart
 
@@ -44,8 +45,43 @@ STATE-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
 | Horizontal Scale (Alaska) | 1:2500000 (0.4mm:1000m) | Effective resolution is 2000m x 2000m. |
 | Vertical Scale (Linear) | 1:500000 (0.1mm:50m) | Vertical exaggeration is 5x. Elevations 0-40m are scaled between 0 and 0.8mm on a logarithmic scale for enhanced coastal detail. |
 | Vertical Scale (Square Root) | 1:500000 (0.1mm:50m) | Vertical exaggeration is greater at lower elevation and lower at higher elevation, ranging from 285-5x between sea level and ~4000m. Linear and Square Root elevation breakover at ~4000m. |
+| 3D Model Resolution | 0.1mm | |
+| 3D Model Resolution (Alaska) | 0.2mm | |
 | Maritime Boundary | Submerged Lands Act | Seaward boundary of coastal states generally 3 or 9 nm from the coastline. Maritime boundaries are included in the dual print models. |
 | Model Base Thickness at Sea Level | ~0.9mm | Additional +0.9mm (dual) / +0.4mm (single) for locations not covered by water. |
+
+---
+
+## USA Local Regions
+
+### Williamstown, MA, USA - Dual Color (NOV2023)
+
+Download
+
+| Map Specification | Value | Notes |
+| ------------- | ------------- | ------------- |
+| Projection | UTM 18N | |
+| Horizonal Scale | 1:36000 (0.5mm:18m) | Effective resolution is 20m x 20m. |
+| Vertical Scale (Linear) | 1:36000 | |
+| 3D Model Resolution | 0.2mm | |
+| Highlights | Water, Highways, Streets |  |
+| Model Base Thickness at Sea Level | 0.0mm | Additional +0.27mm for unhighlighted locations. |
+
+### Oahu, HI, USA - Dual Color (NOV2023)
+
+[Download Regular](https://www.printables.com/model/548923-oahu-hi-topographic-map-with-coastal-outline-for-g)
+
+[Download Low Poly](https://www.printables.com/model/550996-low-poly-oahu-hi-with-coastal-outline-for-glow-in-)
+
+| Map Specification | Value | Notes |
+| ------------- | ------------- | ------------- |
+| Projection | UTM 4N | |
+| Horizonal Scale | 1:500000 (0.4mm:200m) | Effective resolution is 200m x 200m. |
+| Vertical Scale (Linear) | 1:100000 (0.1mm:10m) | Vertical exaggeration is 5x. Elevations 0-40m are scaled between 0 and 0.8mm on a logarithmic scale for enhanced coastal detail. |
+| Highlights | Coastal Outline |  |
+| Model Base Thickness at Sea Level | 1.2mm | Additional +0.27mm for unhighlighted locations. |
+
+---
 
 ## China
 
@@ -57,5 +93,5 @@ STATE-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
 | Horizontal Scale | 1:2500000 (0.4mm:1000m) | Effective resolution is 4000m x 4000m. |
 | Vertical Scale (Linear) | 1:500000 (0.1mm:50m) | Vertical exaggeration is 5x. Elevations 0-40m are scaled between 0 and 0.8mm on a logarithmic scale for enhanced coastal detail. |
 | Vertical Scale (Square Root) | 1:500000 (0.1mm:50m) | Vertical exaggeration is greater at lower elevation and lower at higher elevation, ranging from 285-5x between sea level and ~4000m. Linear and Square Root elevation breakover at ~4000m. |
-| Maritime Boundary | __N/A__ |  |
-| Model Base Thickness at Sea Level | ~3.6mm | Additional +0.9mm (dual) / +0.4mm (single) for locations not covered by water. |
+| 3D Model Resolution | 0.2mm | |
+| Model Base Thickness at Sea Level | ~1.2mm | Additional +0.9mm (dual) / +0.4mm (single) for unhighlighted locations. |
