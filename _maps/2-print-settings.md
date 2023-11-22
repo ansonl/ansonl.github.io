@@ -26,7 +26,7 @@ For models that have a flat side, you can try printing vertically with the flat 
 
 ## Filament
 
-Use glow-in-the-dark or translucent filament to show off rivers and lakes — or simply use a different color from the base land color!
+Assign your extruders/filaments to the individual objects in each model. Use glow-in-the-dark or translucent filament to show off rivers and lakes — or simply use a different color from the base land color! 
 
 ## Model Scaling
 

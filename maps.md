@@ -9,4 +9,4 @@ image:
   path: /assets/images/maps/3d-printable-maps-banner.webp
 ---
 
-3D printable topographic maps of the United States of America. Designed with geographically accurate projections. Print the regions you want and fit them together!
+3D printable topographic maps of the United States of America. Designed for easy printability and geographic accuracy. Print the regions you want and fit them together!
