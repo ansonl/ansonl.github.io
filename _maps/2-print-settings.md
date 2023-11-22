@@ -13,6 +13,7 @@ excerpt: >
 [Download the optimized Cura 4 and Cura 5 print settings profile for topo maps](https://www.printables.com/model/529276-contiguous-usa-lower-48-topographic-map-with-hydro/files).
 
 [Updated 3D Map Model Release Notes](https://ansonliu.com/maps/release-notes/)
+
 [Model Filename Chart & Map Specifications](https://ansonliu.com/maps/specifications/)
 
 ## Model Placement/Orientation
@@ -25,7 +26,7 @@ For models that have a flat side, you can try printing vertically with the flat 
 
 ## Filament
 
-Use glow-in-the-dark or translucent filament to show off rivers and lakes — or simply use a different color from the base!
+Use glow-in-the-dark or translucent filament to show off rivers and lakes — or simply use a different color from the base land color!
 
 ## Model Scaling
 

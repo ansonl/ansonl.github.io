@@ -42,6 +42,9 @@ USA V2 - Oct 2023
 : Maps now import into slicers at the correct size.
 : 3D model previews on Printables.com now show in contrasting colors.
 
+USA V2.1 - NOV 2023
+: Reuploaded certain models in CO, OH, OK, NE, NV, MI, ID, AZ, KS, GA that did not compress correctly with 7zip.
+
 ## Asia Region Major Release to Variant Revision Chart
 
 | Subregion | Variant | V1 |
