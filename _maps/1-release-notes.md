@@ -21,17 +21,17 @@ excerpt: >
 
 | Subregion | Variant | V1 | V2 |
 | --- | --- | --- | --- |
-| Lower 48 | Linear Scale | 1 | 2 |
+| [Lower 48](https://www.printables.com/@ansonl/collections/714909) | Linear Scale | 1 | 2 |
 | Lower 48 | Square Root Scale | __N/A__ | 1 |
-| Alaska | Linear Scale | __N/A__ | 1 |
+| [Alaska](https://www.printables.com/model/611779-alaska-usa-ak-topographic-relief-map-with-rivers-a) | Linear Scale | __N/A__ | 1 |
 | Alaska | Square Root Scale | __N/A__ | 1 |
-| Hawaii | Linear Scale | 1 | __N/A__ |
-| Lower 48 Combined | Low Poly | 1 | __N/A__ |
+| [Hawaii](https://www.printables.com/model/546259-hawaii-usa-hi-southeastern-islands-topo-map-with-h) | Linear Scale | 1 | __N/A__ |
+| [Lower 48 Combined](https://www.printables.com/model/550506-low-poly-usa-lower-48-states) | Low Poly | 1 | __N/A__ |
 
 **Lower 48 is equivalent to Contiguous states.*
 
 USA V1 - June 2023
-: Initial Release
+: Initial release
 
 USA V2 - Oct 2023
 : Added Square Root elevation scale models.
@@ -49,8 +49,11 @@ USA V2.1 - NOV 2023
 
 | Subregion | Variant | V1 |
 | --- | --- | --- |
-| China | Linear Scale | 🚧 |
-| China | Square Root Scale | 🚧 |
+| [China](https://www.printables.com/model/656330-china-3d-relief-map-with-streams-and-lakes) | Linear Scale | 1 |
+| China | Square Root Scale | 1 |
+
+China V1 - NOV 2023
+: Initial release
 
 ## Europe Region Major Release to Variant Revision Chart
 
