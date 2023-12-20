@@ -19,7 +19,9 @@ excerpt: >
   ![Maryland MD before color and after color](/wp-content/uploads/2023/12/MD-before-after.webp)
 
 
-  Let's figure out how the Printables 3D previewer gets color info from 3MF files and get Blender to export models with the needed color info!
+  Let's figure out how the Printables 3D previewer gets color info from 3MF files and get [Blender to export models](https://github.com/Ghostkeeper/Blender3mfFormat/pull/58) with the needed color info!
+
+  ![blender 3mf addon with color groups](/wp-content/uploads/2023/12/blender-3mf-addon-color-groups.webp)
 ---
 
 [Printables](https://www.printables.com/) is a 3D model sharing site where you can upload your creations and download other user's models. The site's 3D model preview has a trick up its sleeve.
@@ -50,7 +52,7 @@ Anyways, my multicolor 3MF files were not showing up with any assigned colors in
 
 ## Figuring out how Printables supports color
 
-To find out how Printables supports colors, I downloaded the Ninja Pot model that has multiple objects with each objects assigned a different color. I also assigned colors to my 3D model of the District of Columbia (DC) in Blender as "materials" and exported it as a 3MF.
+To find out how Printables supports colors, I downloaded the Ninja Pot model that has multiple objects with each objects assigned a different color. I also assigned colors to my 3D model of the [District of Columbia (DC)](https://www.printables.com/model/531431-district-of-columbia-usa-dc-topographic-map-with-r) in Blender as "materials" and exported it as a 3MF.
 
 The 3MF file is a zip archive of multiple other files that contain the 3D model and metadata. The 3D model is stored in XML format in the `3dmodel.model` file under the `3D/` directory. I compared the `3dmodel.model` for the Ninja Pot (exported from Prusaslicer) and DC (exported from Blender).
 
@@ -153,7 +155,9 @@ Color Groups describe ONLY colors and are used when color is the only property o
 
 ## Adding Color Groups to Blender
 
-I added an option to the Blender3MFFormat addon to use Color Groups to describe material colors and use `object.name` to keep human readable names when exporting 3MF files.
+I added an option to the [Blender3MFFormat addon](https://github.com/ansonl/Blender3mfFormat/tree/color-groups) to use Color Groups to describe material colors and use `object.name` to keep human readable names when exporting 3MF files.
+
+![blender 3mf addon with color groups](/wp-content/uploads/2023/12/blender-3mf-addon-color-groups.webp)
 
 One of the most annoying issues was dealing with the addition of the 3MF Materials Extension Spec as a second XML namespace. I also learned that Ultimaker [Cura does not import the human readable `object.name`](https://github.com/Ultimaker/Cura/issues/17110) and sets `object.name` to the filename incremented by 1 when exporting as 3MF which is destructive and not user friendly.
 
