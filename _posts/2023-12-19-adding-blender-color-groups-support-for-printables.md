@@ -26,6 +26,8 @@ excerpt: >
 
 [Printables](https://www.printables.com/) is a 3D model sharing site where you can upload your creations and download other user's models. The site's 3D model preview has a trick up its sleeve.
 
+***TLDR:** Use the [Blender 3MF Format addon branch with color group support](https://github.com/ansonl/Blender3mfFormat/tree/color-groups) to export models with color data in metadata supported by Printables.*
+
 ![printables banner](/assets/images/maps/usaofplastic-printables-scroll.webp)
 
 One of the unique features of Printables is support for colors in each listing's 3D model preview. At first glance, the preview is similar to other 3D model sites where it shows a 3D object on the screen that you can rotate and show a wireframe mode. The color support is not apparent until you upload a 3D model in a format that has colors embedded.
