@@ -15,12 +15,14 @@ tags:
 excerpt: >
   [Printables](https://www.printables.com/) is a 3D model sharing site with a unique 3D model previewer. This preview can utilize color data embedded in the 3D file — but only if you assign colors in specific software.
 
-  Let's figure out how the Printables 3D previewer gets color info from 3MF files and get Blender to export models with the needed color info!
 
   ![Maryland MD before color and after color](/wp-content/uploads/2023/12/MD-before-after.webp)
+
+
+  Let's figure out how the Printables 3D previewer gets color info from 3MF files and get Blender to export models with the needed color info!
 ---
 
-[Printables](https://www.printables.com/) is a 3D model sharing site where you can upload your creations and download other user's models.
+[Printables](https://www.printables.com/) is a 3D model sharing site where you can upload your creations and download other user's models. The site's 3D model preview has a trick up its sleeve.
 
 ![printables banner](/assets/images/maps/usaofplastic-printables-scroll.webp)
 
@@ -30,13 +32,17 @@ One of the unique features of Printables is support for colors in each listing's
 
 The [Fluffcorn](https://www.printables.com/model/578880-fluffcorn-from-fluffcorn-stickers) model with no color data appears as a single color while multicolor [Ninja Pot](https://www.printables.com/model/228038-ninja-pot-01) model shows in multiple colors specified by the creator.
 
-If you try to export a model to a 3MF file that has multiple objects, all the objects will show up in the same color in Printables 3D model preview by default. This is because the model preview supports colors through the [Color Group](https://github.com/3MFConsortium/spec_materials/blob/master/3MF%20Materials%20Extension.md#chapter-2-color-groups) element of the 3MF specification.
+If you try to export a model to a 3MF file that has multiple objects, all the objects will show up in the same color in Printables 3D model preview by default. This is because the model preview appears to only supports color through the [Color Groups](https://github.com/3MFConsortium/spec_materials/blob/master/3MF%20Materials%20Extension.md#chapter-2-color-groups) element of the 3MF specification.
 
-Initially, it was not clear that the 3D model preview supported colors at all. If you do not embed colors in a supported method, the preview will just show a single object in a single color even though the shown object is made up of multiple objects. I asked the question about multicolors on the [Printables Prusa group](https://www.printables.com/group/prusa-research-official-g7RVLQP/comments/1012167) and Ondrej linked me to an existing Ninja Pot model with colors embedded. Upon further discussion, it was revealed that colors could be assigned within Prusaslicer and Microsoft 3D Builder and multiple objects exported in a single 3MF file.
+Initially, it was not clear that the 3D model preview supported colors at all. If you do not embed colors in a supported method, the preview will just show a single object in a single color even though the shown object is made up of multiple objects. It was hard to find existing 3D models that have multicolor previews. I asked the question about multicolors on the [Printables Prusa group](https://www.printables.com/group/prusa-research-official-g7RVLQP/comments/1012167) and Ondřej show me an existing Ninja Pot model with colors embedded as a template. Upon further discussion, it was revealed that colors could be assigned within Prusaslicer and Microsoft 3D Builder and exported as multiple objects in a single 3MF file.
 
 It's all well and good that colors can be assigned in the 3D slicer software and editor but I want to know what part of the 3MF file is used in the Printables 3D model preview for color info.
 
-I automate the export of larger 3MF files in Blender using Python using the excellent [Blender 3MF Format addon](https://github.com/Ghostkeeper/Blender3mfFormat) created by GhostKeeper. 3MF only supports zip as the compression method at the moment so compression and extraction is single threaded and slow, often taking minutes to hours — hence the automation. Some of my 3D topo map models are so large (looking at you, Alaska) that I found the Blender vertex limit which is a [known bug](https://projects.blender.org/blender/blender/issues/113380).
+## Why do this?
+
+I automate the export of larger 3MF files in Blender using Python using the excellent [Blender 3MF Format addon](https://github.com/Ghostkeeper/Blender3mfFormat) created by GhostKeeper. 3MF only supports zip as the compression method at the moment so compression and extraction is single threaded and slow, often taking minutes to hours — hence the automation. For scale, some of my larger 3D topo map models are so detailed (looking at you, [Alaska](https://www.printables.com/model/611779-alaska-usa-ak-topographic-relief-map-with-rivers-a) 🔨) that I found the Blender vertex limit which is a [known bug](https://projects.blender.org/blender/blender/issues/113380).
+
+I use Cura to slice models to print on my modified Ultimaker DXU with multiple nozzles 
 
 Anyways, my multicolor 3MF files were not showing up with any assigned colors in the online model preview which meant that an image that I rendered in Blender was rendered as a solid orange block on Printables. Users who used the Printables preview tool were not able to distinguish between different objects in the model.
 
