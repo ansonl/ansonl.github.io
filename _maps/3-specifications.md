@@ -41,7 +41,7 @@ STATE-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
 | Projection | USA Contiguous Lambert Conformal Conic | |
 | Projection (Alaska) | NA Lambert Conformal Conic | |
 | Projection (Hawaii) | UTM zone 4N | |
-| Horizonal Scale | 1:2500000 (0.4mm:1000m) | Effective resolution is 1000m x 1000m. |
+| Horizontal Scale | 1:2500000 (0.4mm:1000m) | Effective resolution is 1000m x 1000m. |
 | Horizontal Scale (Alaska) | 1:2500000 (0.4mm:1000m) | Effective resolution is 2000m x 2000m. |
 | Vertical Scale (Linear) | 1:500000 (0.1mm:50m) | Vertical exaggeration is 5x. Elevations 0-40m are scaled between 0 and 0.8mm on a logarithmic scale for enhanced coastal detail. |
 | Vertical Scale (Square Root) | 1:500000 (0.1mm:50m) | Vertical exaggeration is greater at lower elevation and lower at higher elevation, ranging from 285-5x between sea level and ~4000m. Linear and Square Root elevation breakover at ~4000m. |
@@ -62,7 +62,7 @@ Download
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |
 | Projection | UTM 18N | |
-| Horizonal Scale | 1:36000 (0.5mm:18m) | Effective resolution is 20m x 20m. |
+| Horizontal Scale | 1:36000 (0.5mm:18m) | Effective resolution is 20m x 20m. |
 | Vertical Scale (Linear) | 1:36000 | |
 | 3D Model Resolution | 0.2mm | |
 | Highlights | Water, Highways, Streets |  |
@@ -77,7 +77,7 @@ Download
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |
 | Projection | UTM 4N | |
-| Horizonal Scale | 1:500000 (0.4mm:200m) | Effective resolution is 200m x 200m. |
+| Horizontal Scale | 1:500000 (0.4mm:200m) | Effective resolution is 200m x 200m. |
 | Vertical Scale (Linear) | 1:100000 (0.1mm:10m) | Vertical exaggeration is 5x. Elevations 0-40m are scaled between 0 and 0.8mm on a logarithmic scale for enhanced coastal detail. |
 | Highlights | Coastal Outline |  |
 | Model Base Thickness at Sea Level | 1.2mm | Additional +0.27mm for unhighlighted locations. |
