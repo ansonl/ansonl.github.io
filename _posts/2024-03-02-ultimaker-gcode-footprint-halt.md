@@ -15,6 +15,7 @@ tags:
 excerpt: >
   The Ultimaker S-line printer has an optimized bed leveling procedure that speeds up the preparation process to get printing. 
 
+  
   This bed leveling procedure can trigger a shutdown and require a soft-reset when a sufficiently complex model or G-code without Cura style layer indicators is printed.
 
 
@@ -24,7 +25,7 @@ excerpt: >
   Let's find out what is causing this error and possible solutions for both Ultimaker and users. 
 ---
 
-Ultimaker S-line 3D printers run both a linux kernel and Marlin firmware. The touch screen user interface and networking is handled by the Linux "management" side and the printer motion controller code is based on Marlin. The last public documentation on Ultimaker's architecture is the helpful *[Inside the Ultimaker 3 - Day 4 - Electronics](https://community.ultimaker.com/topic/15649-inside-the-ultimaker-3-day-4-electronics/)* post in 2016 on the Ultimaker forum.
+[Ultimaker](https://ultimaker.com/) S-line 3D printers run both a linux kernel and Marlin firmware. The touch screen user interface and networking is handled by the Linux "management" side and the printer motion controller code is based on Marlin. The last public documentation on Ultimaker's architecture is the helpful *[Inside the Ultimaker 3 - Day 4 - Electronics](https://community.ultimaker.com/topic/15649-inside-the-ultimaker-3-day-4-electronics/)* post in 2016 on the Ultimaker forum.
 
 ![UM3 system](/wp-content/uploads/2024/02/um3-system-diagram.png)
 : Source: Ultimaker forum
@@ -37,14 +38,14 @@ This is in contrast to the Ultimaker Original+ and 2 that use an embedded microc
 The Ultimaker S-line printer has an optimized bed level probing procedure where the printer can calculate the bottom footprint of G-code model and only probe the bed where necessary — only where the printed model will touch the bed. Klipper's [adaptive bed meshing](https://www.klipper3d.org/Bed_Mesh.html#adaptive-meshes) speeds up bed mesh generation (leveling) in a similar way.
 
 ![Ultimaker nozzle and bed](/wp-content/uploads/2024/02/UM-bed-nozzle.jpg)
-: Source: Ultimaker
+: *Source: Ultimaker*
 
 ## The Issue
 
 Recently, I found a bug where the Ultimaker S-line firmware will hang and fail to print 3D models with a complex bottom layer or no `;LAYER:` comments. When these conditions influenced by the 3D model and exported G-code worsen, the footprint discovery will not finish within a time limit and the Ultimaker printer requires a soft reset.
 
 ![Ultimaker system error](/wp-content/uploads/2024/02/UM-ER998.jpg)
-: Source: Ultimaker forum (A similar, but as print-ending error)
+: *Source: Ultimaker forum (A similar, but as print-ending error)*
 
 What the user sees will be:
 
@@ -280,7 +281,7 @@ After all the coordinates touched before layer > 0 are returned, `computeFootpri
 Unlike `findFootprintCoordinates(stream: IO[bytes])` which ends early when `STOP_FOOTPRINT_COMPUTER` message is received, the `ConvexHull` and `updateWithBoundedSubSet(boundary_vectors: List[Vector2])` algorithms do not check for early termination.
 
 ![quickhull](/wp-content/uploads/2024/02/quickhull_animation.gif)
-: Source: Wikipedia - Maonus
+: *Source: Wikipedia - Maonus*
 
 The [Convex Hull algorithm](https://www.oreilly.com/content/an-elegant-solution-to-the-convex-hull-problem/) used is [Quickhull](https://en.wikipedia.org/wiki/Quickhull) and has a worst case run time of `O(N^2)` where `N` is the number of coordinates before layer 1. Although the most likely worst run time is `O(N)` if the printed model has a circular base.
 
