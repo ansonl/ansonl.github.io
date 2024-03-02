@@ -13,9 +13,13 @@ tags:
   - firmware
   - python3
 excerpt: >
-  The Ultimaker S-line printer has an optimized bed leveling procedure that speeds up the preparation process to get printing. However if you have a complex model or slice a model without `;LAYER` indicators in G-code, the Ultimaker printer may trigger a safety shutdown and require a soft-reset.
+  The Ultimaker S-line printer has an optimized bed leveling procedure that speeds up the preparation process to get printing. 
+
+  This bed leveling procedure can trigger a shutdown and require a soft-reset when a sufficiently complex model or G-code without Cura style layer indicators is printed.
+
 
   ![Ultimaker system error](/wp-content/uploads/2024/02/UM-ER998.jpg)
+
 
   Let's find out what is causing this error and possible solutions for both Ultimaker and users. 
 ---
@@ -78,7 +82,7 @@ INF - parseHeaderStep:70 - Handling file '/media/usb0/XXX'
 
 Looking further up in the log, the USB flash drive detection event can be found.
 
-The following lines of the log show the printer calibration and preheating status. There may be a couple of lines with "errors" due to lack of internet connectivity or Ultimaker subscription. I'm using an airgapped Ultimaker S7 and S3 at school. The first obvious sign of trouble is this line.
+The following lines of the log show the printer calibration and preheating status. There may be a couple of lines with "errors" due to lack of internet connectivity or Ultimaker subscription. I'm using an Ultimaker S7 and S5 at school. The first obvious sign of trouble is this line.
 
 ```log
 WAR - transportLayer:232 - Got error line 1 from printer: Error:SERIAL_INPUT_TIMEOUT: No commands received over time. Safety shutdown
