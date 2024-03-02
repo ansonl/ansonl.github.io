@@ -342,11 +342,11 @@ if "G" in keys and gcode_line.getValue("G", return_type=str) in self.__allowed_c
     self.__coordinates.append(self.__currentPositionToCoordinates())
 ```
 
-In general, the requirements are:
+In general, the workaround requirements are:
 
-1. Including `G0` travel commands to the 4 corners of the bed (extruder movement is not needed) in our start G-code. Although these G-code will be found ahead of time by the footprint finder's lookahead, these G-code should come AFTER any homing code to avoid possible collisions.
+1. Include `G0` travel commands to the 4 corners of the bed (extruder movement is not needed) in our start G-code. Although these G-code will be found ahead of time by the footprint finder's lookahead, these G-code should come AFTER any homing code to avoid possible collisions.
 
-2. Including a `;LAYER:1` after these `G0` travel commands so that the footprint finder ends due to encountering a layer marker for a layer > 0.
+2. Include a `;LAYER:1` after these `G0` travel commands so that the footprint finder ends due to encountering a layer marker for a layer > 0.
 
 Start G-code workaround example for PrusaSlicer:
 
@@ -365,7 +365,7 @@ G0 X{print_bed_max[0]} Y{print_bed_max[1]}
 
 > **Note:** We still need to show a minimum of the actual print bottom footprint coordinates to the footprint finder before it stops or else the footprint finder will return a single prefilled point which is the default nozzle probe position in the back right of the bed and the printer will warn about an unbalanced model.
 
-## Bonus Bug
+## Bonus Bug!
 
 ![matrix](/wp-content/uploads/2024/02/matrix_code_logo.jpg)
 
@@ -415,3 +415,17 @@ Another header parsing function for the `build_plate` type also calls the `lower
 Each header parsing function for a specific field returns the expected type so it's clear that some of the header values are meant to be saved as numeric data types and not as strings.
 
 A header parsing solution could be checking the type of the stored metadata value and doing an explicit type conversion before doing any processing of the value.
+
+## Conclusion
+
+We found at least 2 edge cases that force a soft reset on the Ultimaker S-line 3D printers. The root causes were identified and successful workarounds found.
+
+Ultimaker makes a streamlined 3D printer line of dual color 3D FDM printers and in recent years, they have pivoted away from the hobbyist audience to institutional customers. This seems to happen to many 3D printer companies when a "time is more valuable than money" customer base is found.
+
+Ultimaker printers are well built (my UMO+ and UM2+ printers are still going strong!) and have above average reliability. This is partly due to overengineering as well as conservative performance estimates and limited features compared to new 3D printers from Prusa and Bambu. Without incorporating new hardware features that benefit the common user, a company can only float on support contracts for so long until other "newly established" competitors come for a piece of the pie.
+
+This is not to say that Ultimaker is slacking in the software aspect! Ultimaker is the lead developer of the open source [Cura](https://github.com/Ultimaker/Cura) slicer software. Cura has consistently incorporated new slicer innovations at the front of the pack competing slicers. Notable examples that come to mind are Ironing, Tree Supports, and (more recently) Organic Tree Supports.
+
+Similar to iOS and Android, CuraEngine and [Slic3r](https://slic3r.org/) based slicers ([PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) and [Bambu Studio](https://github.com/bambulab/BambuStudio)) have kept abreast with each other in feature parity over the years. The formerly formidable commercial competitor, Simplify3D, is basically dead at this point. The open source nature of both projects allows developers from both projects to freely borrow good ideas from the other project so the 3D printing community grows as a whole.
+
+I look forward to seeing Ultimaker's innovations that improve the 3D printing industry and community in the future!
