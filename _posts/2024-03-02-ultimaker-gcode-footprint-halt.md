@@ -45,7 +45,7 @@ The Ultimaker S-line printer has an optimized bed level probing procedure where 
 Recently, I found a bug where the Ultimaker S-line firmware will hang and fail to print 3D models with a complex bottom layer or no `;LAYER:` comments. When these conditions influenced by the 3D model and exported G-code worsen, the footprint discovery will not finish within a time limit and the Ultimaker printer requires a soft reset.
 
 ![Ultimaker system error](/wp-content/uploads/2024/02/UM-ER998.jpg)
-: *Source: Ultimaker forum (A similar, but as print-ending error)*
+: *Source: Ultimaker forum (A similarly cryptic, but not as print-ending error)*
 
 What the user sees will be:
 
