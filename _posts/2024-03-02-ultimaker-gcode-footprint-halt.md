@@ -11,7 +11,7 @@ tags:
   - 3d printing
   - ultimaker
   - firmware
-  - python
+  - python3
 excerpt: >
   The Ultimaker S-line printer has an optimized bed leveling procedure that speeds up the preparation process to get printing. However if you have a complex model or slice a model without `;LAYER` indicators in G-code, the Ultimaker printer may trigger a safety shutdown and require a soft-reset.
 
