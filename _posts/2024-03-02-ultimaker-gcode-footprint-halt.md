@@ -424,14 +424,25 @@ We found at least 2 edge cases that force a soft reset on the Ultimaker S-line 3
 
 **01MAR24** - I notified Ultimaker of the Bed Leveling Footprint Finder and Gcode header bugs.
 
-Ultimaker makes a streamlined 3D printer line of dual color 3D FDM printers and in recent years, they have pivoted away from the hobbyist audience to institutional customers. This seems to happen to many 3D printer companies when a "time is more valuable than money" customer base is found.
+## Musings While We're At It
 
 ![Ultimaker nozzle and bed](/wp-content/uploads/2024/02/UM-bed-nozzle.jpg)
 : *Source: Ultimaker*
 
-Ultimaker printers are well built (my UMO+ and UM2+ printers are still going strong!) and have above average reliability. This is partly due to overengineering as well as conservative performance estimates and limited features compared to new 3D printers from Prusa and Bambu. Without incorporating new hardware features that benefit the common user, a company can only float on support contracts for so long until other "newly established" competitors come for a piece of the pie.
+Ultimaker makes a streamlined 3D printer line of dual color 3D FDM printers and in recent years, they have pivoted away from the hobbyist audience to institutional customers. This seems to happen to many 3D printer companies when a "time is more valuable than money" customer base is found.
 
-This is not to say that Ultimaker is slacking in the software aspect! Ultimaker is the lead developer of the open source [Cura](https://github.com/Ultimaker/Cura) slicer software. Cura has consistently incorporated new slicer innovations at the front of the pack competing slicers. Notable examples that come to mind are Ironing, Tree Supports, and (more recently) Organic Tree Supports.
+Ultimaker printers are well built (my UMO+ and UM2+ printers are still going strong!) and have above average reliability. This is partly due to overengineering as well as conservative performance estimates and limited features compared to new 3D printers from Prusa and Bambu. Without incorporating new hardware features that benefit the common user, a company can only float on support contracts for so long until other "newly established" competitors come for a piece of the pie (e.g. Bambu X1E).
+
+I don't even want to think about the rebrand of Makerbot printers to appear as if the Method printer is an adjacent, nonoverlapping product line on par with or remotely related to the Ultimaker S-line printer. Currently, there is no Ultimaker S-line vs Method 3D printer specification comparison on the Ultimaker website post-merger with Makerbot. For 3D printer users who are familiar with the printing capabilities of Method and Ultimaker printers, it feels like there was an extra stock of Method printers to offload after the merger.
+
+Ok, that's enough criticism. I may be a bit too harsh there but it had to be said from the perspective of a non-institutional 3D printer user, software developer, and Ultimaker fan.
+
+Ultimaker is killing it in the slicing software aspect as the lead developer of the open source [Cura](https://github.com/Ultimaker/Cura) slicer software. Cura has consistently incorporated new slicer innovations at the front of the pack competing slicers. Notable examples that come to mind are Ironing, Tree Supports, and (more recently) Organic Tree Supports.
+
+Cura may look the most refined out of all the slicers and that often gives the impression that it's a walled garden with no customizability. The opposite is actually the case here. Cura exposes more print settings than others which empowers the user to get a better print!
+
+![Ultimaker Cura](/wp-content/uploads/2024/02/cura_usaofplastic_screenshot.webp)
+: Psst, you can download and print my 3D topo maps [here](https://ansonliu.com/maps/)
 
 Similar to iOS and Android, CuraEngine and [Slic3r](https://slic3r.org/) based slicers ([PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) and [Bambu Studio](https://github.com/bambulab/BambuStudio)) have kept abreast with each other in feature parity over the years. The formerly formidable commercial competitor, Simplify3D, is basically dead at this point. The open source nature of both projects allows developers from both projects to freely borrow good ideas from the other project so the 3D printing community grows as a whole.
 
