@@ -11,19 +11,22 @@ excerpt: >
 ---
 
 [Updated 3D Map Model Release Notes](https://ansonliu.com/maps/release-notes/)
+
 [3D Print Settings](https://ansonliu.com/maps/print-settings/)
+
+Unless otherwise specified for specific maps, I have designed the models for a 0.4 mm nozzle diameter and 0.1mm layer height. Recommended print settings are any multiples of these specs.
 
 ## Model Filename Chart
 
 ```
-STATE-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
+REGION-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
      │                       │
      └────────VARIANT────────┘
 ```
 
 | Definition | Meaning |
 | ---- | ---- |
-| `STATE` | State Abbreviation |
+| `REGION` | REGION Abbreviation |
 | `ESCALING` | Linear or Square Root (sqrt) elevation scaling. |
 | `EXTRUDER` | Dual or Single color (extrusion) model |
 | `STYLE`* *(optional)* | Model special style or subregion. `STYLE` is only present when the model file is a special style or the model is exclusive to a special subregion. |
@@ -34,7 +37,24 @@ STATE-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
 
 †*If multi-part files are not present, I have not created interlocking models for this state yet. Follow me and comment with your request to get future additions and updates.*
 
-## USA Regions
+## Lower 48 (Contiguous) USA Map with Borders
+
+| Map Specification | Value | Notes |
+| ------------- | ------------- | ------------- |
+| Projection | USA Contiguous Lambert Conformal Conic | |
+| Horizontal Scale | 1:20000000 (0.4mm:8000m) | Effective resolution is 1000m x 1000m. |
+| Vertical Scale (Linear) | 1:500000 (0.1mm:50m) | Vertical exaggeration is 40x. |
+| Vertical Scale (Logarithm) | 1:500000 (0.1mm:50m) | Vertical exaggeration ranges from 27000-45x. Scaling is greater at lower elevation and lower at higher elevation, . 45x is at ~5000m elevation.|
+| 3D Model Resolution | 0.1mm | |
+| Highlights | State borders | |
+| Model Base Thickness at Sea Level (Linear) | 5mm | |
+| Model Base Thickness at Sea Level (Logarithm) | 2mm | |
+
+---
+
+## USA Individual Regions
+
+Download on [Printables](https://www.printables.com/@ansonl/collections/714909)
 
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |
@@ -44,7 +64,7 @@ STATE-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
 | Horizontal Scale | 1:2500000 (0.4mm:1000m) | Effective resolution is 1000m x 1000m. |
 | Horizontal Scale (Alaska) | 1:2500000 (0.4mm:1000m) | Effective resolution is 2000m x 2000m. |
 | Vertical Scale (Linear) | 1:500000 (0.1mm:50m) | Vertical exaggeration is 5x. Elevations 0-40m are scaled between 0 and 0.8mm on a logarithmic scale for enhanced coastal detail. |
-| Vertical Scale (Square Root) | 1:500000 (0.1mm:50m) | Vertical exaggeration is greater at lower elevation and lower at higher elevation, ranging from 285-5x between sea level and ~4000m. Linear and Square Root elevation breakover at ~4000m. |
+| Vertical Scale (Square Root) | 1:500000 (0.1mm:50m) | Vertical exaggeration ranges from 285-5x between sea level and ~4000m. Scaling is greater at lower elevation and lower at higher elevation, . Linear and Square Root elevation breakover at ~4000m. |
 | 3D Model Resolution | 0.1mm | |
 | 3D Model Resolution (Alaska) | 0.2mm | |
 | Highlights | Streams, Lakes, Coastlines | |
@@ -53,11 +73,11 @@ STATE-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
 
 ---
 
-## USA Local Regions
+## USA Hyper Local Regions
 
 ### Williamstown, MA, USA - Dual Color (NOV2023)
 
-Download
+Download on [Printables](https://www.printables.com/model/638568-williamstown-ma-usa-framed-topo-map-with-roads-and)
 
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |
@@ -87,6 +107,8 @@ Download
 ## China
 
 *China model is at same scale as USA except for the following. Streams and base thickness are 4x thicker so that model can be more easily printed at 25% scale.*
+
+Download on [Printables](https://www.printables.com/model/656330-china-mainlandhainantaiwan-3d-topo-relief-map-with)
 
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |

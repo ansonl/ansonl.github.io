@@ -25,20 +25,10 @@ excerpt: >
   Let's find out what is causing this error and possible solutions for both Ultimaker and users. 
 ---
 
-[Ultimaker](https://ultimaker.com/) S-line 3D printers run both a linux kernel and Marlin firmware. The touch screen user interface and networking is handled by the Linux "management" side and the printer motion controller code is based on Marlin. The last public documentation on Ultimaker's architecture is the helpful *[Inside the Ultimaker 3 - Day 4 - Electronics](https://community.ultimaker.com/topic/15649-inside-the-ultimaker-3-day-4-electronics/)* post in 2016 on the Ultimaker forum.
+The [Ultimaker](https://ultimaker.com/) S-line printer has an optimized bed level probing procedure where the printer can calculate the bottom footprint of G-code model and only probe the bed where necessary — only where the printed model will touch the bed. Klipper firmware's [adaptive bed meshing](https://www.klipper3d.org/Bed_Mesh.html#adaptive-meshes) speeds up bed mesh generation (leveling) in a similar way.
 
-![UM3 system](/wp-content/uploads/2024/02/um3-system-diagram.png)
-: Source: Ultimaker forum
-
-This is in contrast to the Ultimaker Original+ and 2 that use an embedded microcontroller running Marlin to control all aspects of the printer.
-
-![UM2 system](/wp-content/uploads/2024/02/um2-system-diagram.png)
-: Source: Ultimaker forum
-
-The Ultimaker S-line printer has an optimized bed level probing procedure where the printer can calculate the bottom footprint of G-code model and only probe the bed where necessary — only where the printed model will touch the bed. Klipper's [adaptive bed meshing](https://www.klipper3d.org/Bed_Mesh.html#adaptive-meshes) speeds up bed mesh generation (leveling) in a similar way.
-
-![Ultimaker nozzle and bed](/wp-content/uploads/2024/02/UM-bed-nozzle.jpg)
-: *Source: Ultimaker*
+![adaptive bed mesh](/wp-content/uploads/2024/02/adaptive_bed_mesh_margin.svg)
+: *Source: Klipper*
 
 ## The Issue
 
@@ -66,6 +56,18 @@ What the user sees will be:
 The printer user interface will show one action available to **Reboot**. After rebooting and trying to run the print, it's clear that the same error will occur.
 
 > **Note:** I added AI generated header images to break up the walls of text in this post and keep things interesting for non-technical readers.
+
+## Ultimaker S-line Printer Architecture
+
+Ultimaker S-line 3D printers run both a linux kernel and Marlin firmware. The touch screen user interface and networking is handled by the Linux "management" side and the printer motion controller code is based on Marlin. The last public documentation on Ultimaker's architecture is the helpful *[Inside the Ultimaker 3 - Day 4 - Electronics](https://community.ultimaker.com/topic/15649-inside-the-ultimaker-3-day-4-electronics/)* post in 2016 on the Ultimaker forum.
+
+![UM3 system](/wp-content/uploads/2024/02/um3-system-diagram.png)
+: Source: Ultimaker forum
+
+This is in contrast to the Ultimaker Original+ and 2 that use an embedded Atmega2560 microcontroller running Marlin to control all aspects of the printer.
+
+![UM2 system](/wp-content/uploads/2024/02/um2-system-diagram.png)
+: Source: Ultimaker forum
 
 ## Finding the Cause
 
@@ -423,6 +425,9 @@ We found at least 2 edge cases that force a soft reset on the Ultimaker S-line 3
 **01MAR24** - I notified Ultimaker of the Bed Leveling Footprint Finder and Gcode header bugs.
 
 Ultimaker makes a streamlined 3D printer line of dual color 3D FDM printers and in recent years, they have pivoted away from the hobbyist audience to institutional customers. This seems to happen to many 3D printer companies when a "time is more valuable than money" customer base is found.
+
+![Ultimaker nozzle and bed](/wp-content/uploads/2024/02/UM-bed-nozzle.jpg)
+: *Source: Ultimaker*
 
 Ultimaker printers are well built (my UMO+ and UM2+ printers are still going strong!) and have above average reliability. This is partly due to overengineering as well as conservative performance estimates and limited features compared to new 3D printers from Prusa and Bambu. Without incorporating new hardware features that benefit the common user, a company can only float on support contracts for so long until other "newly established" competitors come for a piece of the pie.
 
