@@ -7,4 +7,4 @@ redirect: mailto:maps@ansonliu.com
 more-link-text: "Send me a message"
 ---
 
-Got an idea? Let's get started.
+Got an idea? Need a commercial license? Let's get started.

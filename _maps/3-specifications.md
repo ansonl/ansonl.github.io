@@ -42,9 +42,9 @@ REGION-ESCALING-EXTRUDER-STYLE-REVISION-PIECE##.3mf
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |
 | Projection | USA Contiguous Lambert Conformal Conic | |
-| Horizontal Scale | 1:20000000 (0.4mm:8000m) | Effective resolution is 1000m x 1000m. |
+| Horizontal Scale | 1:20000000 (0.4mm:8000m) | Effective resolution is 2000m x 2000m. |
 | Vertical Scale (Linear) | 1:500000 (0.1mm:50m) | Vertical exaggeration is 40x. |
-| Vertical Scale (Logarithm) | 1:500000 (0.1mm:50m) | Vertical exaggeration ranges from 27000-45x. Scaling is greater at lower elevation and lower at higher elevation, . 45x is at ~5000m elevation.|
+| Vertical Scale (Logarithm) | 1:500000 (0.1mm:50m) | Vertical exaggeration ranges from 27000-45x. Scaling is greater at lower elevation and lower at higher elevation. 45x is at ~5000m elevation.|
 | 3D Model Resolution | 0.1mm | |
 | Highlights | State borders | |
 | Model Base Thickness at Sea Level (Linear) | 5mm | |
