@@ -62,12 +62,12 @@ The printer user interface will show one action available to **Reboot**. After r
 Ultimaker S-line 3D printers run both a linux kernel and Marlin firmware. The touch screen user interface and networking is handled by the Linux "management" side and the printer motion controller code is based on Marlin. The last public documentation on Ultimaker's architecture is the helpful *[Inside the Ultimaker 3 - Day 4 - Electronics](https://community.ultimaker.com/topic/15649-inside-the-ultimaker-3-day-4-electronics/)* post in 2016 on the Ultimaker forum.
 
 ![UM3 system](/wp-content/uploads/2024/02/um3-system-diagram.png)
-: Source: Ultimaker forum
+: *Source: Ultimaker forum*
 
 This is in contrast to the Ultimaker Original+ and 2 that use an embedded Atmega2560 microcontroller running Marlin to control all aspects of the printer.
 
 ![UM2 system](/wp-content/uploads/2024/02/um2-system-diagram.png)
-: Source: Ultimaker forum
+: *Source: Ultimaker forum*
 
 ## Finding the Cause
 
@@ -427,7 +427,6 @@ We found at least 2 edge cases that force a soft reset on the Ultimaker S-line 3
 ## Musings While We're At It
 
 ![Ultimaker nozzle and bed](/wp-content/uploads/2024/02/UM-bed-nozzle.jpg)
-: *Source: Ultimaker*
 
 Ultimaker makes a streamlined 3D printer line of dual color 3D FDM printers and in recent years, they have pivoted away from the hobbyist audience to institutional customers. This seems to happen to many 3D printer companies when a "time is more valuable than money" customer base is found.
 
@@ -442,7 +441,7 @@ Ultimaker is killing it in the slicing software aspect as the lead developer of 
 Cura may look the most refined out of all the slicers and that often gives the impression that it's a walled garden with no customizability. The opposite is actually the case here. Cura exposes more print settings than others which empowers the user to get a better print!
 
 ![Ultimaker Cura](/wp-content/uploads/2024/02/cura_usaofplastic_screenshot.webp)
-: Psst, you can download and print my 3D topo maps [here](https://ansonliu.com/maps/)
+: *Psst, you can download and print my 3D topo maps [here](https://ansonliu.com/maps/)*
 
 Similar to iOS and Android, CuraEngine and [Slic3r](https://slic3r.org/) based slicers ([PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) and [Bambu Studio](https://github.com/bambulab/BambuStudio)) have kept abreast with each other in feature parity over the years. The formerly formidable commercial competitor, Simplify3D, is basically dead at this point. The open source nature of both projects allows developers from both projects to freely borrow good ideas from the other project so the 3D printing community grows as a whole.
 
