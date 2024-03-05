@@ -424,13 +424,15 @@ We found at least 2 edge cases that force a soft reset on the Ultimaker S-line 3
 
 **01MAR24** - I notified Ultimaker of the Bed Leveling Footprint Finder and Gcode header bugs.
 
+**05MAR24** - Ultimaker acknowledged the bug and based on a [comment on the community forum](https://community.ultimaker.com/topic/45139-ultimaker-s-line-g-code-header-generatorversion-er999-bug/#comment-331690), it seems that the bug will be fixed in the next firmware release. 
+
 ## Musings While We're At It
 
 ![Ultimaker nozzle and bed](/wp-content/uploads/2024/02/UM-bed-nozzle.jpg)
 
 Ultimaker makes a streamlined 3D printer line of dual color 3D FDM printers and in recent years, they have pivoted away from the hobbyist audience to institutional customers. This seems to happen to many 3D printer companies when a "time is more valuable than money" customer base is found.
 
-Ultimaker printers are well built (my UMO+ and UM2+ printers are still going strong!) and have above average reliability. This is partly due to overengineering as well as conservative performance estimates and limited features compared to new 3D printers from Prusa and Bambu. Without incorporating new hardware features that benefit the common user, a company can only float on support contracts for so long until other "newly established" competitors come for a piece of the pie (e.g. Bambu X1E).
+Ultimaker printers are well built (my UMO+ and UM2+ printers are still going strong!) and have above average reliability. This is partly due to overengineering as well as conservative performance estimates and limited features compared to new 3D printers from Prusa and Bambu. Without incorporating new hardware features that benefit the common user, a company can only float on support contracts for so long until other "newly established" competitors come for a piece of the pie (e.g. Bambu X1E, Prusa Pro).
 
 I don't even want to think about the rebrand of Makerbot printers to appear as if the Method printer is an adjacent, nonoverlapping product line on par with or remotely related to the Ultimaker S-line printer. Currently, there is no Ultimaker S-line vs Method 3D printer specification comparison on the Ultimaker website post-merger with Makerbot. For 3D printer users who are familiar with the printing capabilities of Method and Ultimaker printers, it feels like there was an extra stock of Method printers to offload after the merger.
 
