@@ -1,7 +1,7 @@
 ---
 published: true
 title: >-
-  Ultimaker S-line 3D Printer Firmware Bed Leveling Triggers a Soft Reset
+  Ultimaker S-line 3D Printer Firmware Bed Leveling Triggers a Soft Reset Bug
 author: Anson Liu
 layout: post
 image: /wp-content/uploads/2024/02/black_and_orange_printed_circuits_boards.webp
@@ -367,6 +367,8 @@ G0 X{print_bed_max[0]} Y{print_bed_max[1]}
 
 > **Note:** We still need to show a minimum of the actual print bottom footprint coordinates to the footprint finder before it stops or else the footprint finder will return a single prefilled point which is the default nozzle probe position in the back right of the bed and the printer will warn about an unbalanced model.
 
+After I [posted](https://community.ultimaker.com/topic/45139-ultimaker-s-line-g-code-header-generatorversion-er999-bug/) this on the Ultimaker forum, Robinmdh from Team Ultimaker [mentioned](https://community.ultimaker.com/topic/45139-ultimaker-s-line-g-code-header-generatorversion-er999-bug/#comment-331690) that adding `;PRINT.GROUPS:2` to the header will also skip adaptive bed probing. Setting 2 print groups will indicate additional first layers for other objects printed further in the G-code.
+
 ## Bonus Bug!
 
 ![matrix](/wp-content/uploads/2024/02/matrix_code_logo.jpg)
@@ -424,7 +426,7 @@ We found at least 2 edge cases that force a soft reset on the Ultimaker S-line 3
 
 **01MAR24** - I notified Ultimaker of the Bed Leveling Footprint Finder and Gcode header bugs.
 
-**05MAR24** - Ultimaker acknowledged the bug and based on a [comment on the community forum](https://community.ultimaker.com/topic/45139-ultimaker-s-line-g-code-header-generatorversion-er999-bug/#comment-331690), it seems that the bug will be fixed in the next firmware release. 
+**05MAR24** - Ultimaker acknowledged the bug and based on a [comment on the community forum](https://community.ultimaker.com/topic/45139-ultimaker-s-line-g-code-header-generatorversion-er999-bug/#comment-331690), it seems that the bug will be fixed in the next firmware release with no date given.
 
 ## Musings While We're At It
 
