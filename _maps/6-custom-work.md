@@ -7,4 +7,4 @@ redirect: mailto:maps@ansonliu.com
 more-link-text: "Send me a message"
 ---
 
-Got an idea? Need a commercial license? Let's get started.
+Custom maps and [commercial licenses](https://www.printables.com/@ansonl/) are available. Send me a message.
