@@ -153,7 +153,7 @@ I previously added an AUX audio input to the Ford Escape Hybrid headunit in my [
 
 *Why didn't I buy a new Ford vehicle?*
 
-[I'm not impressed with the Bronco Sport]({% post_url 2022-10-12-2021-ford-bronco-sport-base-vs-2007-escape-hybrid %}) after driving a rental on a road trip and Ford's current hybrid/plug-in hybrid vehicles are nerfed to not include AWD or omit adaptive cruise and other safety features that should be standard in 2024. Ford's current 2024 models and trims are just not cost or feature competitive with other manufacturers such as Subaru, Mazda, and Toyota.
+[I'm not impressed with the Bronco Sport]({% post_url 2022-10-12-2021-ford-bronco-sport-base-vs-2007-escape-hybrid %}) after driving a rental on a road trip and Ford's current hybrid/plug-in hybrid vehicles are nerfed to not include AWD or omit adaptive cruise and other safety features that should be standard in 2024. Other models I shopped for were the current hybrid Escape (ugly compared to Bronco, no plug-in AWD) and Maverick (markups or long wait, no hybrid AWD). Ford's current 2024 models and trims are just not cost or feature competitive with other manufacturers such as Subaru, Mazda, and Toyota.
 
 *Why didn't I buy a Subaru or Mazda?*
 
