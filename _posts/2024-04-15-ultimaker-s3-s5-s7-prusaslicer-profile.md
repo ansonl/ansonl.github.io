@@ -390,7 +390,7 @@ This is more or less the same start G-code that I included in the PrusaSlicer pr
 
 ### Dual Nozzle Priming
 
-After homing and leveling with `G280 S1` I added 2 sets of prime lines to prime at least $(2.85mm/2) ^ 2 * \pi * retract\_length\_toolchange[N]mm$ of material from each nozzle. `16mm` is the default retract on toolchange length for the Ultimaker. This ensures that the filament is at a known position at the end of the prime routine.
+After homing and leveling with `G280 S1` I added 2 sets of prime lines to prime at least $$(2.85mm/2) ^ 2 * \pi * retract\_length\_toolchange[N]mm$$ of material from each nozzle. `16mm` is the default retract on toolchange length for the Ultimaker. This ensures that the filament is at a known position at the end of the prime routine.
 
 Both nozzles are primed next to each other so that you can visually verify that the extruder offset for the second nozzle is set correctly. `22mm` is the default second extruder X offset for the Ultimaker S-line dual nozzle printhead. 
 
