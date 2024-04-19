@@ -13,7 +13,7 @@ tags:
   - firmware
   - prusaslicer
 excerpt: >
-  You may want use PrusaSlicer to slice a model to print on your Ultimaker S3/S5/S7 3D printer for a multitude of reasons:
+  You may want use [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) to slice a model to print on your Ultimaker S3/S5/S7 3D printer for a multitude of reasons:
 
 
   - Slicing error
@@ -22,13 +22,13 @@ excerpt: >
   - Experimentation
   
 
-  The Ultimaker S-line printers usually refuse to print model G-code sliced with PrusaSlicer and other slicers by default due to a special header requirement and custom homing/leveling routine. 
+  The Ultimaker S-line printers usually refuse to print model G-code sliced with PrusaSlicer and non-Cura slicers by default due to a special header requirement and custom homing/leveling routine. 
 
 
   ![Prusaslicer profile supported ultimaker printers](/wp-content/uploads/2024/04/prusaslicer-ultimaker-printers.webp)
 
 
-  I created a PrusaSlicer Ultimaker printer profile that generates the headers and start-Gcode needed by the Ultimaker S-line printers so that you can easily slice and print to your Ultimaker S-line printer with PrusaSlicer.
+  I added a [PrusaSlicer Ultimaker printer profile](https://github.com/prusa3d/PrusaSlicer-settings/tree/master/live/Ultimaker) that generates the headers and start G-code needed by the Ultimaker S-line printers so that you can easily slice and print to your Ultimaker S-line printer with PrusaSlicer.
 ---
 
 [Ultimaker](https://ultimaker.com/) 3D printers usually print 3D files sliced using the [Ultimaker Cura](https://github.com/Ultimaker/Cura) slicer software. Cura has more user exposed settings accessible through the GUI compared to [Slic3r](https://slic3r.org/) forks such as [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) and [Bambu Studio](https://github.com/bambulab/BambuStudio). 
@@ -431,6 +431,16 @@ A PrusaSlicer version ≥ 2.6.0 is needed to use the Ultimaker S-line (S3/S5/S7)
 If you have an Ultimaker S3/S5/S7 3D printer and are feeling adventurous, take the new PrusaSlicer support for Ultimaker S-line printers out for a spin! 
 
 A fun visual test could be using some PrusaSlicer specific surface patterns that are not available in Cura. 
+
+## Limitations
+
+Due to slicer and printer limitations, the new Ultimaker S-line profile has some special limits to keep in mind.
+
+- The extruder offset is hardcoded into the start-Gcode.
+- Time estimates are not available.
+- No thumbnail support.
+- No real GUID creation for materials. You can copy GUIDs from Cura sliced G-code if needed but the GUID does not affect the actual printing.
+- No binary G-code support. You must save G-code as ASCII. 
 
 ## Z-lift/Wipe on Retract Travel
 
