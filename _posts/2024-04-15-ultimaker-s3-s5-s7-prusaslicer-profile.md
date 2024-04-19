@@ -37,6 +37,8 @@ excerpt: >
   I added a [PrusaSlicer Ultimaker printer profile](https://github.com/prusa3d/PrusaSlicer-settings/tree/master/live/Ultimaker) that generates the headers and start G-code needed by the Ultimaker S-line printers so that you can easily slice and print to your Ultimaker S-line printer with PrusaSlicer.
 ---
 
+Sometimes you just have to go off the rez (in a fun exploratory way).
+
 [Ultimaker](https://ultimaker.com/) 3D printers usually print 3D files sliced using the [Ultimaker Cura](https://github.com/Ultimaker/Cura) slicer software. Cura has more user exposed settings accessible through the GUI compared to [Slic3r](https://slic3r.org/) forks such as [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) and [Bambu Studio](https://github.com/bambulab/BambuStudio). 
 
 Cura can "repair" small non-manifold holes in 3D models and generate printer G-code that prints as the user intended. Cura is great for most use cases, but sometimes it fails to slice large, detailed dual object files that are already manifold.
