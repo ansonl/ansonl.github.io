@@ -13,14 +13,20 @@ tags:
   - firmware
   - prusaslicer
 excerpt: >
+  ![Prusaslicer to ultimaker](/wp-content/uploads/2024/04/prusaslicer-ultimaker.webp)
+
+
   You may want use [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) to slice a model to print on your Ultimaker S3/S5/S7 3D printer for a multitude of reasons:
 
 
   - Slicing error
+
   - PrusaSlicer specific surface patterns
+
   - Different prime tower shapes
-  - Experimentation
   
+  - Experimentation
+
 
   The Ultimaker S-line printers usually refuse to print model G-code sliced with PrusaSlicer and non-Cura slicers by default due to a special header requirement and custom homing/leveling routine. 
 
