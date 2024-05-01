@@ -60,7 +60,15 @@ You just want to get the PrusaSlicer Ultimaker printer profiles and skip reading
 
 ## The Gcode "error"
 
-I'd like to print the model using the dual material Ultimaker S5/S7 3D printers at my work. When the PrusaSlicer generated G-code file is placed on a USB drive and loaded onto the Ultimaker printer. The printer will refuse to print the G-code file when sliced and say that the file has an "error" with no other specific information. 
+I'd like to print the model using the dual material Ultimaker S5/S7 3D printers at my work. As usual the PrusaSlicer generated G-code file is placed on a USB drive and loaded onto the Ultimaker printer.
+
+![ultimaker print file list](/wp-content/uploads/2024/04/ultimaker-print-file-list.webp)
+
+The G-code file is grayed out in the print file list on the printer with a red symbol next to it.
+
+![ultimaker print job error](/wp-content/uploads/2024/04/ultimaker-print-job-error.webp)
+
+The printer will refuse to print the G-code file when sliced and say that the file has an "error" with no other specific information. 
 
 ## Griffin header
 
