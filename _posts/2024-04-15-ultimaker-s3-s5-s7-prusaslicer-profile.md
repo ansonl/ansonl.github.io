@@ -123,7 +123,7 @@ G0, G1, G4, M104, M109, M140, M190, M106, M107, M201, M204, M205, M302, M400, M1
 
 The Ultimaker S-line printer expects any G-code file to have the proper header as comments and movements to use absolute positioning. We can configure PrusaSlicer to autogenerate a valid header as part of the printer start G-code just like Cura. 
 
-If you want to see a valid header, you can slice a file in Cura and save a file as G-code format instead of UFP by 
+If you want to see a valid header, you can slice a file in Cura and save a file as G-code format instead of UFP by changing the save file type to G-code when choosing the Save to Disk option. 
 
 ### Header start
 

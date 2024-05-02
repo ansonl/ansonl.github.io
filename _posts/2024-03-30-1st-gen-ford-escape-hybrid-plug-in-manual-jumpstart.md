@@ -161,6 +161,6 @@ No reliable hybrid models avaiable at the end of 2023.
 
 *Why didn't I buy a Toyota RAV4 hybrid?*
 
-I looked for a new car similar to the 1st gen Ford Escape size and all car models have been getting the [supersize me](https://www.youtube.com/watch?v=jN7mSXMruEo) diet since 2000. It was hard to find a RAV4 hybrid/prime with no markup. The Corolla Cross Hybrid had most of the features I wanted at a lower cost and still looks cool. The barebones S trime that I ultimately got reminds me of an older car or a work truck trim that still has analog dials and physical controls.
+I looked for a new car similar to the 1st gen Ford Escape size and all car models have been getting the [supersize me](https://www.youtube.com/watch?v=jN7mSXMruEo) diet since 2000. It was hard to find a RAV4 hybrid/prime with no markup. The Corolla Cross Hybrid had most of the features I wanted at a lower cost and still looks cool. The barebones S trim that I ultimately got reminds me of an older car or a work truck trim that still has analog dials and physical controls.
 
 My yearly cost of ownership for the 2007 Ford Escape Hybrid 4WD over 7 years was roughly $1500-2000/yr. This number includes buying price + tax, selling price, maintenance, and upgrades. I only included cost for vehicle specific tools such as the oil filter wrench.
