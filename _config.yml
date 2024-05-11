@@ -22,6 +22,7 @@ url: "https://ansonliu.com"
 author:
   name: Anson Liu
   picture: https://avatars1.githubusercontent.com/ansonl?v=3&s=200
+  url: https://ansonliu.com
 github_username: ansonl
 printables_username: ansonl
 linkedin_username: console
@@ -67,6 +68,9 @@ paginate_path: /page:num/
 # Collections
 collections:
   maps:
+    output: true
+    permalink: /:collection/:path/
+  store:
     output: true
     permalink: /:collection/:path/
   portfolio:

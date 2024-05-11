@@ -50,8 +50,9 @@ t:
 
 navigation_pages:
   - about.md
-  - maps.md
   - portfolio.md
+  - maps.md
+  - store.md
   - hikes.md
   - archive.md
   - tags.md

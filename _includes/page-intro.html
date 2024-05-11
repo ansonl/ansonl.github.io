@@ -1,5 +1,5 @@
 <header class="intro">
-  {% if page.image %}
+  {% if page.image and page.image.path %}
     {% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
     <div class="intro-image">
       <img data-src="{{ intro_image }}" alt="{{ page.title }}" class="lazyload">

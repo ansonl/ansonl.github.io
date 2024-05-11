@@ -7,4 +7,4 @@ redirect: https://makerworld.com/en/@ansonl
 more-link-text: "Download 3D Map Models"
 ---
 
-All 3D map models are downloadable for free on my [MakerWorld](https://makerworld.com/en/@ansonl) or [Printables](https://www.printables.com/@ansonl/) page.
+All 3D map models are downloadable for free on [MakerWorld](https://makerworld.com/en/@ansonl) and [Printables](https://www.printables.com/@ansonl/).

@@ -75,21 +75,6 @@
   </a>
   <script src="{{ " /assets/javascripts/return-to-top.js" | prepend: site.baseurl }}"></script>
 
-  <!-- JSON+LD rich structured data https://developers.google.com/search/docs/data-types/social-profile -->
-  <script type="application/ld+json">
-{
-  "@context":"http://schema.org",
-  "@type":"Blog",
-  "keywords":"software engineering development ios golang js objective c objc navy arduino 3d printing",
-  "url":"https://ansonliu.com",
-  "mainEntityOfPage":{
-    "@type":"WebPage",
-    "@id":"http://ansonliu.com"
-  },
-  "author": {% include authorStructuredData.html %}
-}
-    </script>
-
   {% if page.layout == 'post' %}
 
 
