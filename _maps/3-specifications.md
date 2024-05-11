@@ -2,9 +2,8 @@
 title: "Cartographic Specifications"
 layout: page
 permalink: /maps/specifications/
-image: 
-  path: /assets/images/maps/3d-printable-maps-banner.webp
-  thumbnail: /assets/images/maps/map-browse-magnifier.webp
+image: /assets/images/maps/3d-printable-maps-banner.webp
+thumbnail: /assets/images/maps/map-browse-magnifier.webp
 show_subscribe: false
 excerpt: >
   Map projection, scale, resolution, and more. 

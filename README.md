@@ -12,8 +12,7 @@
 - [Post Archive](https://github.com/ansonl/ansonl.github.io/blob/master/archive.md) page with posts by year.
 - [Post Tags](https://github.com/ansonl/ansonl.github.io/blob/master/tags.md) page with list of all tags *and* list of tags with related posts. 
   - Tag display in Liquid with matching CSS styling. Clicking tags in post page goes to tab list page. 
-- Collection Items `entry.html` with redirects and customizable action link.
-- Post `post.html` with ability to hide title.
+- Collection Items `entry.html` with `thumbnail` image, `redirect` redirects and `more-link-text` customizable action link.
 
 ### How to get updated theme from [Basically Basic Jekyll Theme](https://github.com/mmistakes/jekyll-theme-basically-basic) when using GitHub Pages
 

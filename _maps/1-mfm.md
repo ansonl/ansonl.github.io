@@ -2,7 +2,7 @@
 title: "Make Quad-color Maps"
 layout: page
 image: 
-  thumbnail: /assets/images/maps/MFM-header-short.webp
+thumbnail: /assets/images/maps/MFM-header-short.webp
 redirect: https://github.com/ansonl/topo-map-post-processing
 more-link-text: "Use MFM"
 ---

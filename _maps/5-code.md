@@ -2,7 +2,7 @@
 title: "The Code"
 layout: page
 image: 
-  thumbnail: /assets/images/maps/code.jpg
+thumbnail: /assets/images/maps/code.jpg
 redirect: https://github.com/ansonl/DEM2STL
 more-link-text: "View Code"
 ---

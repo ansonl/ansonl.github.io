@@ -2,9 +2,8 @@
 title: "Frequently Asked Questions"
 layout: post
 permalink: /maps/faq/
-image: 
-  path: /assets/images/maps/3d-printable-maps-banner.webp
-  thumbnail: /assets/images/maps/faq-question-mark.svg
+image: /assets/images/maps/3d-printable-maps-banner.webp
+thumbnail: /assets/images/maps/faq-question-mark.svg
 show_subscribe: false
 excerpt: >
   Answers to 3D modeling, slicing, printing issues.

@@ -2,7 +2,7 @@
 title: "Get the 3D Map Models"
 layout: page
 image: 
-  thumbnail: /assets/images/maps/usaofplastic-printables-scroll.webp
+thumbnail: /assets/images/maps/usaofplastic-printables-scroll.webp
 redirect: https://makerworld.com/en/@ansonl
 more-link-text: "Download 3D Map Models"
 ---

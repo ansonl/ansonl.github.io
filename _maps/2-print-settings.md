@@ -2,9 +2,8 @@
 title: "3D Printing Settings"
 layout: post
 permalink: /maps/print-settings/
-image: 
-  path: /assets/images/maps/3d-printable-maps-banner.webp
-  thumbnail: /assets/images/maps/settings-gears.svg
+image: /assets/images/maps/3d-printable-maps-banner.webp
+thumbnail: /assets/images/maps/settings-gears.svg
 show_subscribe: false
 excerpt: >
   3D print profiles and settings recommendations.

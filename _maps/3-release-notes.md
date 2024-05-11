@@ -2,9 +2,8 @@
 title: "Release Notes"
 layout: post
 permalink: /maps/release-notes/
-image: 
-  path: /assets/images/maps/3d-printable-maps-banner.webp
-  thumbnail: /assets/images/maps/release-notes.jpg
+image: /assets/images/maps/3d-printable-maps-banner.webp
+thumbnail: /assets/images/maps/release-notes.jpg
 show_subscribe: false
 excerpt: >
   See what's new and improved in the latest 3D map update.

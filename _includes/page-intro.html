@@ -1,6 +1,6 @@
 <header class="intro">
-  {% if page.image and page.image.path %}
-    {% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
+  {% if page.image %}
+    {% assign intro_image = page.image | relative_url | escape %}
     <div class="intro-image">
       <img data-src="{{ intro_image }}" alt="{{ page.title }}" class="lazyload">
       <!-- Caption support from https://github.com/mmistakes/jekyll-theme-basically-basic/pull/141 -->

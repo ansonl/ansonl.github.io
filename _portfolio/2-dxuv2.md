@@ -1,7 +1,7 @@
 ---
 title: "Ultimaker DXUv2 Dual Nozzle Printhead"
 image: 
-  thumbnail: /assets/images/portfolio/dxu-thumbnail.jpg
+thumbnail: /assets/images/portfolio/dxu-thumbnail.jpg
 redirect: https://github.com/ansonl/DXU
 more-link-text: "Get DXUv2 parts and firmware"
 ---

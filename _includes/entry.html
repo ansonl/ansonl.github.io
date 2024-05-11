@@ -13,8 +13,8 @@
       <a href="{{ post.url | relative_url }}" rel="bookmark">{{ title }}</a>
       {% endif %}
     </h3>
-    {% if post.image.thumbnail %}
-      {% assign entry_image = post.image.thumbnail | relative_url | escape %}
+    {% if post.thumbnail %}
+      {% assign entry_image = post.thumbnail | relative_url | escape %}
       <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
     {% endif %}
   </header>
