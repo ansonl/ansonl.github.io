@@ -2,7 +2,6 @@
 published: true
 title: >-
   Ultimaker S3/S5/S7 3D Printer PrusaSlicer Profile
-author: Anson Liu
 layout: post
 image: /wp-content/uploads/2024/04/prusaslicer-ultimaker.webp
 categories:

@@ -2,7 +2,6 @@
 published: true
 title: >-
   Ultimaker S-line 3D Printer Firmware Bed Leveling Triggers a Soft Reset Bug
-author: Anson Liu
 layout: post
 image: /wp-content/uploads/2024/02/black_and_orange_printed_circuits_boards.webp
 categories:

@@ -21,10 +21,20 @@ baseurl: ""
 url: "https://ansonliu.com"
 author:
   name: Anson Liu
-  picture: https://avatars1.githubusercontent.com/ansonl?v=3&s=200
   url: https://ansonliu.com
+  picture: https://avatars1.githubusercontent.com/ansonl?v=3&s=200
+social:
+  links:
+    - https://github.com/ansonl
+    - https://www.printables.com/@ansonl
+    - https://makerworld.com/en/@ansonl
+    - https://www.linkedin.com/in/console/
+    - https://www.facebook.com/ansonl
+    - https://www.youtube.com/channel/UCqC8y5FsFaAwKkbZu25xY_g
+    - https://www.instagram.com/hardhikes/
 github_username: ansonl
 printables_username: ansonl
+makerworld_username: ansonl
 linkedin_username: console
 youtube_channel: UCqC8y5FsFaAwKkbZu25xY_g
 instagram_username: hardhikes

@@ -1,13 +1,26 @@
+{% capture social_link_array_string %}
+["{{ site.social.links | join: '", "' }}"]
+{% endcapture %}
+
+<script type="application/ld+json">
 {
-    "@type":"Organization",
-    "address":{
-      "@type":"PostalAddress",
-      "addressCountry":"USA"
-    },
-    "logo": {
-      "@type":"ImageObject",
-        "url":"https://avatars1.githubusercontent.com/ansonl?v=3&s=200"
-    },
-    "name":"Anson Liu",
-    "url":"https://ansonliu.com"
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "image": "https://avatars1.githubusercontent.com/ansonl?v=3&s=200",
+  "url": "https://ansonliu.com",
+  "sameAs": {{ social_link_array_string }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://avatars1.githubusercontent.com/ansonl?v=3&s=200"
+  },
+  "name": "Anson Liu",
+  "description": "Anson Liu is an American software engineer.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US",
+    "addressLocality": "Monterey",
+    "addressRegion": "California"
   }
+}
+</script>
+  

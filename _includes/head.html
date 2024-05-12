@@ -21,6 +21,9 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
 
+  <!-- Include Organization schema info -->
+  {% include publisherStructuredData.html %}
+
   <script>
     /* Cut the mustard */
     if ('querySelector' in document && 'addEventListener' in window) {
