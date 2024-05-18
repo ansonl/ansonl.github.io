@@ -21,17 +21,23 @@ Drag (or Open) the 3MF model file into the slicer.
 
 > In Cura 5.7+, imported objects are rearranged to be centered and not overlapping. This will misalign land and water objects in dual color models. The [workaround](https://github.com/Ultimaker/Cura/issues/18966#issuecomment-2092844603) is to run **Undo** `(Ctrl+Z)` after import to move all objects back to their original positions.
 
-*If using Cura, **Grouping** objects `(Ctrl+G)` beforehand will keep the dual color print objects aligned.*
+*If using Cura, **Group** objects `(Ctrl+G)` beforehand to keep multiple objects aligned.*
 
-Print the model flat. You can do a manual color change mid print to get interesting color transitions at higher elevations. Printers without multi-material capability should print the `*-single.3mf` models.
+Print the model flat. Printers without multi-material capability should print the `*-single.3mf` models.
 
 I have cut some larger models into smaller interlocking puzzle pieces for improved printability at 100% scale. These models end with `*pX.3mf`. The target puzzle piece size is 180mm x 180mm unless otherwise specified. Even if your printer may be able to print larger, map pieces with smaller footprints tend to print more reliably with better surface quality due to shorter movements and less retraction.
 
-For models that have a flat side, you can try printing vertically with the flat side down if you are adventurous. Consider modifying the base to be thicker for stability.
+For models that have a flat side, you can try printing vertically with the flat side down if you are adventurous. Consider modifying the base in a 3D modeling software to be thicker for stability.
 
 ## Dual Color Filament
 
 Assign your extruders/filaments to the individual objects in each model. Use glow-in-the-dark or translucent filament to show off rivers and lakes — or simply use a different color from the base land color!
+
+### Elevation Based Color Change
+
+You can do a manual color change mid print to get interesting color transitions at higher elevations.
+
+If you want to swap out a color on a specific layer for a dual color print, you can add the [`M600`](https://marlinfw.org/docs/gcode/M600.html) command to generated G-code at the color change layer. I recommend only doing the filament swap on the active extruder. If the switch filament extruder is not active when starting the color change layer, you should only add `M600 T0` (if the swapped filament is in the first extruder) after the first [`T0`](https://marlinfw.org/docs/gcode/T.html) (first extruder made active) following the change layer G-code (usually indicated with a comment like `;LAYER:XX` where `XX` is the change color layer).
 
 ## Model Scaling
 
