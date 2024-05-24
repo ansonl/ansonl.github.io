@@ -76,7 +76,10 @@ Confusingly, the hybrid vehicle manual mentions using the tow hook and there exi
 
 ## Spare Rim and Tire Size
 
-The wheel has 2 parts, the rim and tire. The rim is the inner metal circle that the outer rubber tire is mounted around. I refer to the wheel and tire interchangeably in the rest of this post since "spare wheel" is synonymous to "spare tire" for most readers.
+![parts of a wheel rim](/wp-content/uploads/2024/05/parts-of-a-wheel-rim.webp)
+: *Source: [CAD Modelling and Fatigue Analysis of a Wheel Rim Incorporating Finite Element Approach](https://www.researchgate.net/publication/372788696_CAD_Modelling_and_Fatigue_Analysis_of_a_Wheel_Rim_Incorporating_Finite_Element_Approach)*
+
+Buying a wheel has 2 parts, the rim and tire. The rim is the inner metal circle that the outer rubber tire is mounted around. I refer to the wheel and tire interchangeably in the rest of this post since "spare wheel" is synonymous to "spare tire" for most readers.
 
 A compatible spare needs to meet the requirements below:
 
@@ -85,6 +88,8 @@ A compatible spare needs to meet the requirements below:
 - The rim bolt thread size should match the existing thread size.
 
 - The rim center bore/hub bore must be wider than or equal to the vehicle hub bore.
+
+![wheel rim offset](/wp-content/uploads/2024/05/wheel-offset-negative-vs-positive.webp)
 
 - The rim offset (ET) should be within the vehicle's compatible offset range.
 
