@@ -1,0 +1,95 @@
+1st gen Corolla Cross
+17 rim
+6.5
+45 offset
+65.1
+5x114.3 bolt pattern
+Possible compatible vehicles
+ACURA3
+ILX 2012 - 2015
+MDX 2001 - 2006
+RSX 2002 - 2006
+CHRYSLER1
+Sebring 1995 - 2010
+DODGE1
+Stratus 2001 - 2006
+HONDA8
+Civic 2004 - 2016
+CR-V 1995 - 2006
+CR-Z 2010 - 2017
+Element 2003 - 2011
+Legend 1996 - 2004
+MDX 2003 - 2006
+Stepwgn 2022 - 2023
+Stepwgn Spada 2022 - 2023
+HYUNDAI6
+Elantra 2020 - 2024
+i45 2010 - 2014
+NF 2006 - 2008
+Sonata 2004 - 2017
+Sonata Hybrid 2011 - 2015
+Tucson 2010 - 2018
+KIA7
+Carens 2006 - 2013
+K5 2010 - 2015
+Lotze 2005 - 2010
+Magentis 2006 - 2010
+Optima 2006 - 2016
+Rondo 2006 - 2013
+Sportage 2004 - 2010
+MAZDA3
+CX-30 2019 - 2024
+Lantis 1993 - 1997
+Mazda3 2019 - 2024
+MITSUBISHI21
+Airtrek 2001 - 2005
+ASX 2010 - 2023
+Chariot Grandis 1997 - 2003
+Eclipse 1990 - 2005
+Galant 2004 - 2014
+Galant Fortis 2007 - 2015
+Galant Fortis Sportback 2009 - 2015
+Grand Lancer 2017 - 2023
+Lancer 2003 - 2017
+Magna 1996 - 2005
+Outlander 2003 - 2006
+Outlander Sport 2010 - 2012
+Pajero iO 1998 - 2007
+Pajero Pinin 1998 - 2006
+Pajero TR4 2002 - 2015
+RVR 1997 - 2024
+RVR Roadest 2011 - 2017
+Space Wagon 1998 - 2004
+Verada 1996 - 1999
+Xpander Cross 2020 - 2024
+NISSAN10
+200SX 1993 - 1999
+Elgrand 2002 - 2010
+Kicks 2019 - 2024
+Lannia 2016 - 2023
+Leaf 2010 - 2024
+Pulsar 2013 - 2018
+Sentra 2012 - 2022
+Sylphy 2013 - 2023
+Tiida 2015 - 2023
+X-Trail 2001 - 2014
+PLYMOUTH1
+Laser 1989 - 1994
+SUZUKI6
+Ertiga XL7 2020 - 2023
+Escudo 2005 - 2015
+Grand Nomade 2013 - 2020
+Grand Vitara 2005 - 2021
+Kizashi 2009 - 2015
+XL7 2020 - 2023
+TOYOTA10
+C-HR 2016 - 2023
+Corolla Cross 2020 - 2024
+Corolla Quest 2014 - 2023
+Hilux 2015 - 2024
+Hilux Revo 2015 - 2021
+Ipsum 2003 - 2009
+Izoa 2018 - 2022
+RAV4 2005 - 2018
+Sienna 2004 - 2016
+Urban Cruiser 2022 - 2023

@@ -15,7 +15,7 @@ excerpt: >
   ![Prusaslicer to ultimaker](/wp-content/uploads/2024/04/prusaslicer-ultimaker.webp)
 
 
-  You may want use [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) to slice a model to print on your Ultimaker S3/S5/S7 3D printer for a multitude of reasons:
+  You may need [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) to slice a model to print on your Ultimaker S3/S5/S7 3D printer for a multitude of reasons:
 
 
   - Slicing error
