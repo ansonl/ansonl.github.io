@@ -230,7 +230,9 @@ Now that you found a spare wheel for your Toyota Corolla Cross Hybrid, there are
 
 Leave the spare wheel and jack on top of the cargo platform like any other luggage.
 
-Tossing the parts in the back is a quick and easy storage solution but has some drawbacks. The spare wheel and jack will take up volume in the cargo area that could be used for other items. If not tied down, the spare wheel and jack will slide around the cargo area during driving and could become projectiles in a collision.
+![strap spare tire in trunk](/wp-content/uploads/2024/05/strap-spare-in-trunk.webp)
+
+Tossing the parts in the back is a quick and easy storage solution but has some drawbacks. The spare wheel and jack will take up volume in the cargo area that could be used for other items. If not tied down, the spare wheel and jack will slide around the cargo area during driving and could go flying in a collision.
 
 ### Rear Spare Wheel Well
 
