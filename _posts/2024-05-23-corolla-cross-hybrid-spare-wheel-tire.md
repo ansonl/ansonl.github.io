@@ -12,10 +12,24 @@ tags:
   - spare tire
   - spare wheel
 excerpt: >
-  Add a spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) as the overlanding gods intended. The hybrid AWD model of the Corolla Cross does not include a spare wheel or jack from the factory so it's up to us.
-
-
+  Add a spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) as the overlanding gods intended. 
+  
+  
   ![corolla cross hybrid tire kit](/wp-content/uploads/2024/05/toyota-corolla-cross-hybrid-tire-kit.webp)
+
+  
+  The hybrid AWD model of the Corolla Cross does not include a spare wheel or jack from the factory so we can add the spare ourselves.
+  
+
+  <video width="512" height="288" autoplay loop muted playsinline>
+  <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.webm" type="video/webm">
+  <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.mp4" type="video/mp4">
+  </video>
+
+
+  I made a tire mount that fits over the power cable lever and elevates the spare tire to avoid stressing the cable.
+
+
   ![corolla cross hybrid spare tire mount solution](/wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-storage.webp)
 
   
