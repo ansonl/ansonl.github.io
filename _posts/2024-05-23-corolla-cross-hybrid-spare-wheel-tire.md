@@ -1,8 +1,9 @@
 ---
-published: false
+published: true
 title: >-
-  Adding a Spare Tire to the Toyota Corolla Cross Hybrid
+  Toyota Corolla Cross Hybrid Spare Tire Upgrade
 layout: post
+image: /wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-storage.webp
 categories:
   - auto
 tags:
@@ -11,12 +12,21 @@ tags:
   - spare tire
   - spare wheel
 excerpt: >
-  draft
+  Add a spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) as the overlanding gods intended. The hybrid AWD model of the Corolla Cross does not include a spare wheel or jack from the factory so it's up to us.
+
+
+  ![corolla cross hybrid tire kit](/wp-content/uploads/2024/05/toyota-corolla-cross-hybrid-tire-kit.webp)
+  ![corolla cross hybrid spare tire mount solution](/wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-storage.webp)
+
+  
+  This post covers all things you need to find and mount a spare wheel in the Toyota Corolla Cross Hybrid AWD.
 ---
 
-1. [The Missing Spare](#the-missing-spare)
-    - [[The Missing] Tow Hook Eyelet](#tow-hook-eyelet)
-2. [Spare Rim and Tire Size](#spare-rim-and-tire-size)
+## Table of Contents
+
+1. [The Missing Spare Wheel](#the-missing-spare)
+    - [[Missing] Tow Hook Eyelet](#tow-hook-eyelet)
+2. [Terminology - Spare Rim and Tire Size](#spare-rim-and-tire-size)
     - [Tire Diameters and Suggested Spare Tire Sizes](#tire-diameters-and-suggested-spare-tire-sizes)
 3. [Getting the Corolla Cross Hybrid Spare Wheel and Jack Set](#getting-the-corolla-cross-hybrid-spare-wheel-and-jack-set)
     - [Compact versus Full Size Spare](#compact-versus-full-size-spare)
@@ -30,7 +40,7 @@ excerpt: >
 4. [Corolla Cross Hybrid Spare Wheel Storage](#corolla-cross-hybrid-spare-wheel-storage)
     - [Trunk/Cargo Platform](#trunkcargo-platform)
     - [Rear Spare Wheel Well](#rear-spare-wheel-well)
-    - [⭐ Rear Spare Wheel Well - **Solution**](#-rear-spare-wheel-well-tire-holder)
+    - [⭐ Rear Spare Wheel Well - **My Solution**](#-rear-spare-wheel-well-tire-holder)
         - [Center Bracket](#high-voltage-power-cable-clearance)
         - [High Voltage Cables](#high-voltage-power-cable-clearance)
         - [Cargo Deck Height Adjustment](#cargo-deck-height-adjustment)
@@ -38,21 +48,38 @@ excerpt: >
     - [Spare Tire Hitch Mount](#spare-tire-hitch-mount)
     - [Vehicle Rooftop](#vehicle-rooftop)
     - [Garage](#garage)
-5. [Actually Changing the Tire](#actually-changing-the-tire)
+5. [Corolla Cross Hybrid Accessories Storage](#corolla-cross-hybrid-accessories-storage)
+6. [Actually Changing the Tire](#actually-changing-the-tire)
+7. [Conclusion](#conclusion)
 
 ## The Missing Spare
 
 The Toyota Corolla Cross Hybrid (CCH) does not include a spare wheel and jack assembly. This hybrid model comes with a Tire Puncture Repair Kit consisting of a tire sealant part **# 42606B** and air compressor **# 44890D** in lieu of the spare wheel and jack.
 
-The lack of spare wheel in the Corolla Cross Hybrid is often not disclosed at purchase time. Most drivers assume that a spare is included -- only to [discover](https://www.corollacrossforum.com/search/13063/?q=spare+tire&o=relevance) the missing [spare](https://www.reddit.com/r/CorollaCross/search/?q=spare+tire) later.
+![corolla cross hybrid tire kit](/wp-content/uploads/2024/05/toyota-corolla-cross-hybrid-tire-kit.webp)
 
-Despite the lack of spare wheel shipped with the car, it is possible to fit a spare wheel and jack under the cargo area of the hybrid model with smart positioning and spacers.
+The lack of spare wheel in the Corolla Cross Hybrid is often not disclosed at purchase time. Most drivers assume that a spare is included — only to [discover](https://www.corollacrossforum.com/search/13063/?q=spare+tire&o=relevance) the missing [spare](https://www.reddit.com/r/CorollaCross/search/?q=spare+tire) later.
 
-Toyota's decision to not skip the spare wheel seems to be both a design and cost savings constraint.
+Despite the lack of spare wheel shipped with the car, it IS possible to fit a spare wheel and jack under the cargo area of the hybrid model with smart positioning and spacers.
+
+![corolla cross hybrid spare tire mount solution](/wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-storage.webp)
+
+**[⭐ Skip to my spare wheel storage solution for the Toyota Corolla Cross Hybrid](#-rear-spare-wheel-well-tire-holder)**
+
+<video width="768" height="432" autoplay loop muted playsinline>
+ <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.webm" type="video/webm">
+ <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.mp4" type="video/mp4">
+</video>
+
+[🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*]({% link store.md %})
+
+The manufacturer's decision to not skip the spare wheel seems to be both a design and cost savings constraint.
 
 - The hybrid system's orange power cable is run through and exits the car body in the spare wheel well. This cable placement takes up vertical space in the wheel well and prevents most spare tires from fitting in there without crushing and rubbing the cable.
 
-- A tire puncture repair kit is significantly cheaper for the manufacturer to include in the car than a larger spare wheel, scissor jack, jack handle, and tire wrench.
+- A tire puncture repair kit is significantly lighter and cheaper for the manufacturer to include in the car than a larger spare wheel, scissor jack, jack handle, and tire wrench.
+
+- Other Toyota hybrids include a spare wheel so the omission of spare in the Corolla Cross Hybrid is unlikely to be safety related.
 
 ![Tire puncture repair kit](/wp-content/uploads/2024/05/tire-puncture-repair-kit.webp)
 
@@ -97,6 +124,8 @@ A compatible spare needs to meet the requirements below:
 
 > *A 17"/18" rim diameter fits best for the Corolla Cross. I tried fitting a donut spare with a 16" rim on my Corolla Cross Hybrid and there was about 1 cm of clearance to the brake calipers and the wheel spun freely so 16" rims with the right offset may work with a large enough tire sidewall height. Toyota's official spare tire rim for the Corolla Cross is 17".*
 
+![car turning different diameters](/wp-content/uploads/2024/05/car-turning-diameters.webp)
+
 - The outer diameter of wheel should match the outer diameter of the other wheels on the car as closely as possible. This outer diameter is the diameter of the rubber tire and not the diameter of the rim. A larger rim diameter does not necessarily equate to a larger wheel diameter since the tire may have a lower sidewall height. Too large of a diameter will cause the wheel to rub against the wheel well when the wheel turns. A mismatched diameter will cause extra wear on a differential connecting the wheels as one wheel will continuously rotate at a different speed. Wheels do not always turn at the same speed in normal driving when the car is turning and the outer wheel rotates faster so some variation in diameter is tolerable for short driving distances. Mismatched wheel diameters will have similar wear on the conponents as the car constantly turning in a tight circle.
 
 > *Matching wheel diameters is most important for the driven wheels. If the mismatched wheel is on an axle that does not have power (e.g. the rear wheels on a FWD vehicle), matching diameters is less important for the non-driven axel.*
@@ -127,19 +156,29 @@ These requirements are ordered in my recommended steps for finding a compatible 
 | 155/90R17 |  | compact | 27.98" (710.8 mm) |
 | 145/90R17 |  | compact | 27.28" (692.8 mm) |
 
+If the mix of metric and imperial units in the tire code is confusing, [you are not alone](https://www.reddit.com/r/explainlikeimfive/comments/wt2660/comment/il1owgz/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
+
 You can use a tire code calculator such as [Tacoma World](https://www.tacomaworld.com/tirecalc) to help calculate the wheel diameter.
 
 ## Getting the Corolla Cross Hybrid Spare Wheel and Jack Set
 
 A spare wheel and jack set can be obtained from several sources that are somewhere in the range below:
 
-- Put in the work and time to find a spare wheel and jack set.
+- **Pay less -** Put in the work and time to find a spare wheel and jack set.
 
-- Pay more for a premade solution where someone has already done the homework and taken the risk to get the wheel and jack.
+- **Pay more -** Buy a premade solution where someone has presumably done the homework and has an inventory of wheels and jacks to ship to you.
+
+> I got two compatible spare wheels: **145/90R17** and **155/90D17** from a 1st gen (2003) Ford Escape and 3rd gen (2009) CRV respectively at the scrapyard and a Toyota Corolla Cross jack assembly from an auto recycler.  
+These two spare wheels are the closest compare spare tire sizes to the stock Corolla Cross tire size that I have found. You can see that they are close to the OEM spare diameters in the [tire code comparison chart](#tire-diameters-and-suggested-spare-tire-sizes) above.
 
 ### Compact versus Full Size Spare
 
-Compact (aka donut) spares are relatively skinny with narrower tire widths and taller sidewall heights to compensate in diameter. These tires are usually lower cost and the rim is made of steel. Due to these compromises, compact spares are not designed to be driven on for long distances or high speeds. They are only made to get you back on the road and to the tire shop. Most tire shops do not mount tires on compact spare rims so it's convenient to find a compact spare wheel mounted with the right tire size.
+![compact donut spare](/wp-content/uploads/2024/05/compact-donut-spare-tire.webp)
+: *Source: Mini Mania*
+
+Compact (aka donut) spares are relatively skinny with narrower tire widths and taller sidewall heights to compensate for a smaller diameter and width. These tires are usually lower cost and the rim is made of steel. Due to these compromises, compact spares are not designed to be driven on for long distances or high speeds. They are only made to get you back on the road and to the tire shop. Most tire shops do not mount tires on compact spare rims so it's convenient to find a compact spare wheel mounted with the right tire size.
+
+![full size wheel](/wp-content/uploads/2024/05/full-size-tire.webp)
 
 Full size spares are the same size as the original rim and tire. A full size spare is basically the same rim and tire as the other wheels on the vehicle.
 
@@ -163,9 +202,9 @@ Toyota's included scissor jack in the gas Corolla Cross is designed to fit benea
 
 The gas only Corolla Cross FWD and AWD models come with different jacks. Toyota has separate part numbers for these jacks.
 
-FWD part **# 0911116060**
+**FWD jack part # 0911116060**
 
-AWD part **# 091110A030**
+**AWD jack part # 091110A030**
 
 ![toyota corolla cross jack assembly fwd awd comparison](/wp-content/uploads/2024/05/cc-jack-fwd-awd.webp)
 
@@ -179,7 +218,7 @@ I got the FWD jack and it was able to lift my Corolla Cross Hybrid to a sufficie
 
 The wheel lug wrench and jack handle parts are the same between the FWD and AWD models. These parts are held in the center foam block inside the spare tire on both models.
 
-The compact Corolla Cross jack assembly can be located at auto recyclers using [Car-Part.com] with the below search options.
+The compact Corolla Cross jack assembly can be located at auto recyclers using [Car-Part.com](https://www.car-part.com/) with the below search options.
 
 ![car-part.com toyota corolla cross jack assembly search](/wp-content/uploads/2024/05/car-part-com-jack-assembly.webp)
 
@@ -189,13 +228,11 @@ You can use a larger scissor jack to lift the car as well but it will not fit in
 
 These are listed below in acquiring a spare and jack set in the order of most work -> highest cost.
 
-I got 2 compatible spare wheels: **145/90R17** and **155/90D17** from a 1st gen (2003) Ford Escape and 3rd gen (2009) CRV respectively at the scrapyard and a Toyota Corolla Cross jack assembly from an auto recycler.
-
-These are the two closest tire sizes to the stock Corolla Cross tire size that I have found. You can see that they are close to the OEM spare diameters in the tire code chart above.
-
 #### Scrapyard/Pick and Pull
 
 The Toyota Corolla Cross is a relatively new vehicle and consequently, there are not many salvage Corolla Crosses to pull used parts from.
+
+![scrapyard aerial](/wp-content/uploads/2024/05/pick-n-pull.webp)
 
 Scrapyards usually have an online searchable listing of avaiable vehicles in their yards. These other vehicles may ride on similar tires to the Corolla Cross and a wheel compatibility can be determined as described in [Compatible Vehicles](#compatible-vehicles).
 
@@ -223,9 +260,14 @@ These vendors also sell scissor jacks and wheel covers. These scissor jacks may 
 
 #### Official Dealer
 
-This is the most expensive solution but also a manufacturer guaranteed-to-fit solution that is covered by warranty.
+This is the most expensive solution but also a manufacturer guaranteed compatible solution that is covered by warranty.
 
 The Toyota Corolla Cross Temporary Spare Wheel is part [#4261B-0R010](https://autoparts.toyota.com/products/product/wheel-temporary-spa-4261b0r010). 17x4 should be the correct rim size. This part only includes the rim and not the stock **165/80D17** or **155/80D17** spare tire that goes around the rim. This rim fits the hybrid model as well.
+
+![original corolla cross spare tire trunk height clearance](/wp-content/uploads/2024/05/original-corolla-cross-spare-trunk-clearance.webp)
+: *Source: [treehouse34](https://www.corollacrossforum.com/posts/5610/)*
+
+A driver tried fitting the original Corolla Cross spare into the hybrid model but the OEM spare [does not fit flush in the spare wheel well](https://www.corollacrossforum.com/posts/5610/) due to the power cable disconnect lever.  
 
 ## Corolla Cross Hybrid Spare Wheel Storage
 
@@ -258,7 +300,19 @@ Without special positioning, this power cable arrangement in the rear area preve
 
 ### ⭐ Rear Spare Wheel Well Tire Holder
 
-I designed a spare wheel holder that mounts to existing unused holes in the power disconnect switch bracket.
+![spare tire mount animated assembly](/wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-assembly-animated.webp)
+
+I designed a spare wheel mount that fits over power disconnect switch and is secured using existing brackets. The mount raises the spare wheel above the power cables and raises the trunk floor height to be level with the folded rear passenger seats.
+
+This Toyota Corolla Cross Hybrid spare wheel mount is available on my [Store]({% link store.md %}).
+
+[🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*]({% link store.md %})
+
+#### No Drilling
+
+![spare tire mount bolt points](/wp-content/uploads/2024/05/spare-tire-mount-bolt-points.webp)
+
+The mount bolts to existing unused holes on the metal bracket underneath the high voltage cable disconnect lever. The setup can be fastened with a normal hex bolt driver.
 
 #### High Voltage Power Cable Clearance
 
@@ -306,13 +360,19 @@ I cut a small circle in the top of the foam where the cargo platform's bottom ci
 
 I trimmed a piece of the foam to sit above the inside of the spare rim similar to the foam blocks that come in the gas model. These two pieces of foam support the foldeable cargo platform along the side and center.
 
-After cutting, I sealed the foam with glue and spray painted it black.
+After cutting, I sealed the foam with wood PVA glue and spray painted it black.
 
 Extruded foam is still soft foam in the end - I saw some wear and tear on the foam as I moved the tire and cargo components around during my design and refinement. The pink extruded foam board I got was also pre-perforated at 1 ft increments which made it less strong than a solid board.
 
 > If I needed to make the riser again, I would opt to use a more durable material combination such as a MDF/plywood + extruded foam sandwich. Shaping the harder material would be easier with a router or saw.
 
-After placing the foam pieces on the cargo deck and in the spare wheel, the folding cargo platform can be laid on top to complete setting up the cargo area.
+![corolla cross hybrid cargo with mat](/wp-content/uploads/2024/05/corolla-cross-all-weather-trunk-liner-mat.webp)
+
+After placing the foam pieces on the cargo deck and in the spare wheel, the folding cargo platform can be laid on top to finish setting up the cargo area.
+
+![corolla cross hybrid rear cargo passenger floor flat](/wp-content/uploads/2024/05/corolla-cross-hybrid-cargo-rear-seat-flat.webp)
+
+The Corolla Cross Hybrid cargo floor is originally much lower than the backs of the folded rear passenger seats. The 1-1.5" rise in the the cargo platform height after the spacer makes the cargo floor level with the folded rear passenger seats which is nice for camping and transporting larger flat objects in the back.
 
 ### Spare Tire Hitch Mount
 
@@ -349,6 +409,16 @@ Not recommended on most vehicles for reasons that can be found elsewhere. If you
 
 If storing the spare in the car doesn't work, you could keep the spare in your garage or home. It's helpful if a tire loses air overnight from a small puncture but you lose convenient access to the spare when away from home.
 
+## Corolla Cross Hybrid Accessories Storage
+
+![oem cc hybrid jack storage](/wp-content/uploads/2024/05/oem-corolla-cross-jack-storage.webp)
+
+The scissor jack that comes with the other gas/FWD Corolla Cross models fits in the upper left plastic storage slot in the cargo deck. The rubber loop can be hooked across the slot to secure the jack. See [Compact Jack Assembly](#compact-jack-assembly) for more jack details.
+
+If you made the right choice and put spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well or inside the spare tire rim.
+
+The original large foam block can be stored at home or in the garage for the future. I haven't figured out what the right side storage slots in the cargo deck were made to fit. If someone knows, please let us in on the secret.
+
 ## Actually Changing the Tire
 
 The most important part of swapping the spare tire is staying safe.
@@ -373,3 +443,31 @@ The most important part of swapping the spare tire is staying safe.
 8. Tighten the lug nuts with the socket wrench AFTER lowering the car to the ground.
 
 9. Put the original tire in the trunk
+
+## Conclusion
+
+I tried to touch on all parts of the spare tire acquisition and mounting process in this post. Decrease the chance of being stranded on the side of the road or trail by pairing your Toyota Corolla Cross Hybrid with a spare tire.
+
+### Supporting More Designs
+
+3D printed objects that I design including those seen in this project are viewable on my [Portfolio]({% link portfolio.md %}). Most of my designs available for free on [MakerWorld](https://makerworld.com/en/@ansonl) and [Printables](https://www.printables.com/@ansonl/). You can download and print them on your own 3D printer.
+
+Physical versions of my designs are available for purchase on my [Store]({% link store.md %}). Get the good stuff straight from the source 📍!
+
+### A couple of my other designs that may interest you
+
+#### Toyota Corolla Cross Integrated Windshield Mount
+
+![toyota safety sense 3 integrated dashcam mount](/assets/images/store/toyota-safety-sense-3-integrated-dashcam-mount.webp)
+
+This modular mount fits all new 2022+ Toyota vehicles [including the Corolla Cross] equipped with Toyota Safety Sense 3.0. Any accessory or dashcam with a GoPro style mount can be cleanly attached to your front windshield using this mount!
+
+*[Download and 3D print](https://makerworld.com/en/models/447037) / Get it from my Store({% link store.md %}).*
+
+#### Toyota Corolla Cross Integrated Windshield Right Side Mount
+
+![toyota safety sense 3 integrated dashcam mount](/assets/images/blue-topo-outline-thumbnail.webp)
+
+A modular mounting point that clips into the right side of the front windshield bracket cover. I created this primarily hold a FasTrak toll road pass but any accessory or dashcam can be attached to the right side of the windshield with this mount.
+
+*Still in development and testing. Releasing soon.*

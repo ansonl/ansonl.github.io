@@ -2,7 +2,7 @@
 title: "3D Model Design Portfolio"
 image: 
 thumbnail: /assets/images/portfolio/printables-scroll-thumbnail.webp
-redirect: https://www.printables.com/@ansonl
+redirect: https://makerworld.com/en/@ansonl
 more-link-text: "View Models"
 ---
 

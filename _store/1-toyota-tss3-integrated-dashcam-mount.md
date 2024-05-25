@@ -1,5 +1,5 @@
 ---
-title: "Toyota Integrated Dashcam Mount (2022-present TSS 3.0)"
+title: "Toyota Integrated Dashcam Mount (TSS 3.0, 2022-present)"
 layout: page
 permalink: /store/toyota-safety-sense-3-integrated-dashcam-mount/
 image: 

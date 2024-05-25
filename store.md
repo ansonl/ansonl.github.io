@@ -7,4 +7,4 @@ collection: store
 entries_layout: grid
 ---
 
-Purchase physical design products straight from the source 📍
+Purchase physical versions of my designs straight from the source 📍
