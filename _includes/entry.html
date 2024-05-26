@@ -4,13 +4,21 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% assign post_link = post.url | relative_url %}
+{% if post.redirect %}
+  {% assign post_link = post.redirect %}
+{% endif %}
+{% if post.more-link-text-enabled == false %}
+  {% assign post_link = '#' %}
+{% endif %}
+
 <article class="entry">
   <header class="entry-header">
     <h3 class="entry-title">
       {% if post.redirect %}
-      <a href="{{ post.redirect }}" rel="external">{{ title }}</a>
+      <a href="{{ post_link }}" rel="external">{{ title }}</a>
       {% else %}
-      <a href="{{ post.url | relative_url }}" rel="bookmark">{{ title }}</a>
+      <a href="{{ post_link }}" rel="bookmark">{{ title }}</a>
       {% endif %}
     </h3>
     {% if post.thumbnail %}
@@ -34,13 +42,7 @@
     {% if post.excerpt %}
       {{ post.excerpt | markdownify }}
       <p>
-        {% assign post_link = post.url | relative_url %}
-        {% if post.redirect %}
-          {% assign post_link = post.redirect %}
-        {% endif %}
-        {% if post.more-link-text-enabled == false %}
-          {% assign post_link = '#' %}
-        {% endif %}
+        
         <a href="{{ post_link }}" class="more-link">{{ post.more-link-text | default: site.data.theme.t.read_more }} 
             <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span>
         </a>

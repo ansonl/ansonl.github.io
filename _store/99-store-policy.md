@@ -3,8 +3,9 @@ title: "Store and Website Policy"
 show_title_at_top: true
 layout: page
 permalink: /store/policy/
+more-link-text: "See Policy"
 excerpt: >
-  Read the policy.
+  
 ---
 
 1. No Warranty and No Liability. The seller and Anson Liu make no warranties, express or implied, with respect to the any physical or digital product. The seller and Anson Liu shall bear no liability for any consequence of using the physical or digital product
