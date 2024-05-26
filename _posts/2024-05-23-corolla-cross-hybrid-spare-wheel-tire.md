@@ -21,7 +21,7 @@ excerpt: >
   The hybrid AWD model of the Corolla Cross does not include a spare wheel or jack from the factory so we can add the spare ourselves.
   
 
-  <video width="512" height="288" autoplay loop muted playsinline>
+  <video style="max-width:100%; height:auto;" width="512" height="288" autoplay loop muted playsinline>
   <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.webm" type="video/webm">
   <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.mp4" type="video/mp4">
   </video>
@@ -80,7 +80,7 @@ Despite the lack of spare wheel shipped with the car, it IS possible to fit a sp
 
 **[⭐ Skip to my spare wheel storage solution for the Toyota Corolla Cross Hybrid](#-rear-spare-wheel-well-tire-holder)**
 
-<video width="768" height="432" autoplay loop muted playsinline>
+<video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
  <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.webm" type="video/webm">
  <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.mp4" type="video/mp4">
 </video>

@@ -38,7 +38,7 @@ No suction cups or drilling required. This mount securely attaches directly to t
 
 **[Toyota Integrated Dashcam Mount assembly directions](https://makerworld.com/en/models/447037)**
 
-<video width="768" height="432" autoplay loop muted playsinline>
+<video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
  <source src="/assets/images/store/tss-3-front-center-universal-black-front-angled-fast.webm" type="video/webm">
 </video>
 

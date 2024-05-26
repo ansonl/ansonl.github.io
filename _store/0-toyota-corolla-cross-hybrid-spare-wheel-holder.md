@@ -40,7 +40,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 **[Read more about the mount and Toyota Corolla Cross Hybrid Spare Tires]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %})**
 
-<video width="768" height="432" autoplay loop muted playsinline>
+<video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
  <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.webm" type="video/webm">
  <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.mp4" type="video/mp4">
 </video>
