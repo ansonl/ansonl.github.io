@@ -47,7 +47,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 ### Includes
 
-- 3/4 piece mount (PETG material)
+- 3/4 piece spare tire mount (PETG material)
   - 2x M10x40mm bolt
   - 2x M10 washer
   - 2x M10 flanged nut
@@ -67,4 +67,4 @@ This product does **NOT** include a spare wheel, jack, and spacer. For informati
 
 Shipping is only available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
 
-Lead time may be ~1 month, as this part is made-to-order.
+Lead time may be ~1 month as this part is made-to-order.

@@ -5,8 +5,8 @@ layout: page
 permalink: /store/future/
 image:
 thumbnail: /assets/images/blue-topo-outline-thumbnail.webp
-more-link-text: "See Details"
-more-link-text-enabled: Coming soon
+more-link-text: "Coming soon"
+more-link-text-enabled: false
 excerpt: >
   ???
 ---

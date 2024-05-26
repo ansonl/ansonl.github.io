@@ -183,7 +183,7 @@ A spare wheel and jack set can be obtained from several sources that are somewhe
 - **Pay more -** Buy a premade solution where someone has presumably done the homework and has an inventory of wheels and jacks to ship to you.
 
 > I got two compatible spare wheels: **145/90R17** and **155/90D17** from a 1st gen (2003) Ford Escape and 3rd gen (2009) CRV respectively at the scrapyard and a Toyota Corolla Cross jack assembly from an auto recycler.  
-These two spare wheels are the closest compare spare tire sizes to the stock Corolla Cross tire size that I have found. You can see that they are close to the OEM spare diameters in the [tire code comparison chart](#tire-diameters-and-suggested-spare-tire-sizes) above.
+These two spare wheels are the closest diameter spare tire sizes to the stock Corolla Cross tire size that I have found. You can see that they are close to the OEM spare diameters in the [tire code comparison chart](#tire-diameters-and-suggested-spare-tire-sizes) above.
 
 ### Compact versus Full Size Spare
 
@@ -429,7 +429,7 @@ If storing the spare in the car doesn't work, you could keep the spare in your g
 
 The scissor jack that comes with the other gas/FWD Corolla Cross models fits in the upper left plastic storage slot in the cargo deck. The rubber loop can be hooked across the slot to secure the jack. See [Compact Jack Assembly](#compact-jack-assembly) for more jack details.
 
-If you made the right choice and put spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well or inside the spare tire rim.
+If you made the right choice and put the spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well or inside the spare tire rim.
 
 The original large foam block can be stored at home or in the garage for the future. I haven't figured out what the right side storage slots in the cargo deck were made to fit. If someone knows, please let us in on the secret.
 
@@ -464,7 +464,9 @@ I tried to touch on all parts of the spare tire acquisition and mounting process
 
 ### Supporting More Designs
 
-3D printed objects that I design including those seen in this project are viewable on my [Portfolio]({% link portfolio.md %}). Most of my designs available for free on [MakerWorld](https://makerworld.com/en/@ansonl) and [Printables](https://www.printables.com/@ansonl/). You can download and print them on your own 3D printer.
+3D printed objects that I design including those seen in this post are viewable on my [Portfolio]({% link portfolio.md %}). I make designs to fill functional gaps in real life and I personally use all of my designs.
+
+Most of my designs available for free on [MakerWorld](https://makerworld.com/en/@ansonl) and [Printables](https://www.printables.com/@ansonl/). You can download and print them on your own 3D printer.
 
 Physical versions of my designs are available for purchase on my [Store]({% link store.md %}). Get the good stuff straight from the source 📍!
 
