@@ -63,6 +63,8 @@ This product does **NOT** include a dashcam, wiring, or switches.
 
 I recommend the no frills Cobra CDR840 dashcam that is about $30 online. The CDR 840 records to a MicroSD card for reliable usage.
 
+Read and agree to the [Policy]({% link _store/99-store-policy.md %}) before ordering.
+
 ### Shipping
 
 Shipping is only available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.

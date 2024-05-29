@@ -12,6 +12,6 @@ excerpt: >
 
 2. Privacy Policy. Your use of all software programs and related services including this website constitutes consent to monitoring and collection. Information may be collected for statistics, development, and debugging purposes.
 
-3. Orders may be cancelled and refunded (purchase amount minus any processing and bank fees) if the product has not shipped yet. Cancellations and order status may be requested prior to shipment by emailing support@ansonliu.com.
+3. Cancellation and refunds. Orders may be cancelled and refunded (purchase amount minus any processing and bank fees) if the product has not finished production. Cancellations and order status may be requested prior to shipment by emailing support@ansonliu.com. Orders may not be refunded after the product has finished production. The seller has sole discretion on granting return, replacement, and refund requests received.
 
-4. Orders may not be refunded after the product has shipped. The seller has sole discretion on granting return, replacement, and refund requests received after the product is shipped.
+4. Proper personal protective equipment (PPE) is recommended when performing any service or modification to a vehicle. Products sold by the seller are third party modifications as user assembled kits. Consult a certified dealer for further guidance.

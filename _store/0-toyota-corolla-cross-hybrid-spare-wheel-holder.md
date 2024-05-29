@@ -63,6 +63,8 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 This product does **NOT** include a spare wheel, jack, and spacer. For information on getting a compatible spare wheel and jack and making your own spacer, see [this post]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}).
 
+Read and agree to the [Policy]({% link _store/99-store-policy.md %}) before ordering.
+
 ### Shipping
 
 Shipping is only available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
