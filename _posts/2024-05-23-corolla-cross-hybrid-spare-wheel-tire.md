@@ -30,7 +30,7 @@ excerpt: >
   I made a tire mount that fits over the power cable lever and elevates the spare tire to avoid stressing the cable.
 
 
-  [🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*]({% link store.md %})
+  [🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*](/store/toyota-corolla-cross-hybrid-spare-wheel-holder/)
 
 
   ![corolla cross hybrid spare tire mount solution](/wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-storage.webp)
