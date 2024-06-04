@@ -269,11 +269,17 @@ There are several turn key third party spare wheel solutions but these vendors d
 
 Aftermarket vendors that claim to have Corolla Cross spares in no particular order (no endorsement):
 
+- [Amazon vendors](https://www.amazon.com/s?k=Toyota+Corolla+Cross+Hybrid+spare&i=automotive&crid=1X41I877Y2PSW&sprefix=toyota+corolla+cross+hybrid+spa%2Cautomotive%2C160&ref=nb_sb_noss_2)
+
 - [EZ Spare Wheel](https://ez-sparewheel.com/products/18-alloy-spare-wheel-and-tire?vehicle=2023%20Toyota%20Corolla%20Cross%20(2.0i%20Hybrid))
 
 - [Modern Spare](https://modernspare.com/product/2023-2024-toyota-corolla-cross-spare-tire-kit-options/)
 
-These vendors also sell scissor jacks and wheel covers. These scissor jacks may be white labeled versions of mass produced jacks from China sold on Amazon and other sites if you shop around. A wheel cover is not needed if you store the tire in the spare wheel well underneath the cargo deck floor as described further down.
+- [Value Spare](https://valuespare.com/product/2023-2024-corolla-cross-spare-tire/)
+
+These vendors also sell scissor jacks and wheel covers. These scissor jacks may be white labeled versions of mass produced jacks from China sold on Amazon and other sites if you shop around. Most third party jacks will NOT fit in the plastic storage slot built into the car.
+
+A wheel cover is not needed if you store the tire in the spare wheel well underneath the cargo deck floor as described further down.
 
 #### Official Dealer
 
