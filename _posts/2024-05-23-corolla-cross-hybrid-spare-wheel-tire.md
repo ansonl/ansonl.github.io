@@ -446,7 +446,7 @@ If storing the spare in the car doesn't work, you could keep the spare in your g
 The scissor jack that comes with the other gas/FWD Corolla Cross models fits in the upper left plastic storage slot in the cargo deck. The rubber loop can be hooked across the slot to secure the jack. See [Compact Jack Assembly](#compact-jack-assembly) for more jack details.
 
 ![toyota corolla cross hybrid tire puncture kit holder and mount](/wp-content/uploads/2024/05/tire-puncture-kit-holder.webp)
-: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](#)*
+: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](https://makerworld.com/en/@ansonl)*
 
 If you made the right choice and put the spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well with a soft TPU holder or inside the spare tire rim.
 
