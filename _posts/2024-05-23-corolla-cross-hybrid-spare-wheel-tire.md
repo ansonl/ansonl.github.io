@@ -445,7 +445,10 @@ If storing the spare in the car doesn't work, you could keep the spare in your g
 
 The scissor jack that comes with the other gas/FWD Corolla Cross models fits in the upper left plastic storage slot in the cargo deck. The rubber loop can be hooked across the slot to secure the jack. See [Compact Jack Assembly](#compact-jack-assembly) for more jack details.
 
-If you made the right choice and put the spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well or inside the spare tire rim.
+![toyota corolla cross hybrid tire puncture kit holder and mount](/wp-content/uploads/2024/05/tire-puncture-kit-holder.webp)
+: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](#)*
+
+If you made the right choice and put the spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well with a soft TPU holder or inside the spare tire rim.
 
 The original large foam block can be stored at home or in the garage for the future. I haven't figured out what the right side storage slots in the cargo deck were made to fit. If someone knows, please let us in on the secret.
 
@@ -454,7 +457,7 @@ The original large foam block can be stored at home or in the garage for the fut
 The most important part of swapping the spare tire is staying safe.
 
 ![toyota corolla cross jack pad](/wp-content/uploads/2024/05/toyota-corolla-cross-jack-pad.webp)
-: *Toyota Corolla Cross Jack Pinch Weld Pad - [3D print](https://makerworld.com/en/models/455043#profileId-362552) in TPU*
+: *Toyota Corolla Cross Jack Pinch Weld Pad in TPU - [3D print](https://makerworld.com/en/models/455043#profileId-362552)*
 
 1. Loosen the tire lug nuts with the socket wrench BEFORE lifting the car with the jack. If you loosen the lug nuts when the car is lifted in the air, the force used to loosen the nuts will transfer to the car and may cause the car to slip and fall off the lifting jack.
 
