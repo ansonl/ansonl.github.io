@@ -476,7 +476,7 @@ The most important part of swapping the spare tire is staying safe.
 
 ## Conclusion
 
-I tried to touch on all parts of the spare tire acquisition and mounting process in this post. Decrease the chance of being stranded on the side of the road or trail by pairing your Toyota Corolla Cross Hybrid with a spare tire.
+I tried to touch on all parts of the spare tire acquisition and mounting process in this post. Decrease the chance of being stranded on the side of the road or trail by pairing your Toyota Corolla Cross Hybrid with a spare tire and [mount]({% link store.md %}).
 
 ### Supporting More Designs
 
@@ -494,7 +494,7 @@ Physical versions of my designs are available for purchase on my [Store]({% link
 
 This modular mount fits all new 2022+ Toyota vehicles [including the Corolla Cross] equipped with Toyota Safety Sense 3.0. Any accessory or dashcam with a GoPro style mount can be cleanly attached to your front windshield using this mount!
 
-*[Download and 3D print](https://makerworld.com/en/models/447037) / Get it from my Store({% link store.md %}).*
+*[Download and 3D print](https://makerworld.com/en/models/447037) / Get it from my [Store]({% link store.md %}).*
 
 #### Toyota Corolla Cross Integrated Windshield Right Side Mount
 
