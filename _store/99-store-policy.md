@@ -14,4 +14,4 @@ excerpt: >
 
 3. Cancellation and refunds. Orders may be cancelled and refunded (purchase amount minus any processing and bank fees) if the product has not finished production. Cancellations and order status may be requested prior to shipment by emailing support@ansonliu.com. Orders may not be refunded after the product has finished production. The seller has sole discretion on granting return, replacement, and refund requests received.
 
-4. Proper personal protective equipment (PPE) is recommended when performing any service or modification to a vehicle. Products sold by the seller are third party modifications as user assembled kits. Consult a certified dealer for further guidance.
+4. Proper personal protective equipment (PPE) is recommended when performing any service or modification to a vehicle. Products sold by the seller are third party modifications and user assembled kits. Consult your manufacturer or certified dealer for further guidance.

@@ -61,6 +61,7 @@ excerpt: >
         - [Center Bracket](#high-voltage-power-cable-clearance)
         - [High Voltage Cables](#high-voltage-power-cable-clearance)
         - [Cargo Deck Height Adjustment](#cargo-deck-height-adjustment)
+        - [Cargo Deck Spacer Dimensions](#cargo-deck-spacer-dimensions)
         - [Raising the Cargo Floor Deck](#cargo-deck-riser-spacer-method)
     - [Spare Tire Hitch Mount](#spare-tire-hitch-mount)
     - [Vehicle Rooftop](#vehicle-rooftop)
@@ -397,6 +398,12 @@ After placing the foam pieces on the cargo deck and in the spare wheel, the fold
 
 The Corolla Cross Hybrid cargo floor is originally much lower than the backs of the folded rear passenger seats. The 1-1.5" rise in the the cargo platform height after the spacer makes the cargo floor level with the folded rear passenger seats which is nice for camping and transporting larger flat objects in the back.
 
+#### Cargo Deck Spacer Dimensions
+
+![cch cargo spacer dimensions top](/wp-content/uploads/2024/05/cch-cargo-spacer-top.webp)
+
+![cch cargo spacer dimensions side](/wp-content/uploads/2024/05/cch-cargo-spacer-side.webp)
+
 ### Spare Tire Hitch Mount
 
 The spare wheel could be mounted behind the car with a spare tire hitch mount that fits in the rear hitch receiver.
@@ -479,7 +486,7 @@ Most of my designs available for free on [MakerWorld](https://makerworld.com/en/
 
 Physical versions of my designs are available for purchase on my [Store]({% link store.md %}). Get the good stuff straight from the source 📍!
 
-### A couple of my other designs that may interest you
+### Another design that may interest you
 
 #### Toyota Corolla Cross Integrated Windshield Mount
 
