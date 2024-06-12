@@ -10,7 +10,7 @@ excerpt: >
   Store the missing spare tire and jack in the cargo area with reduced risk to the hybrid power cables.
 ---
 
-Add the missing spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) as the overlanding gods intended.
+Store the missing spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) with this mount kit. Just as the road warriors and overlanding gods intended.
 
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
@@ -52,7 +52,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
   - 2x M10 washer
   - 2x M10 flanged nut
 - Universal tire hold down (PETG material)
-  - 1x M8x95mm bolt
+  - 1x M8x90mm bolt
   - 1x M8 nut
 
 ### Compatibility

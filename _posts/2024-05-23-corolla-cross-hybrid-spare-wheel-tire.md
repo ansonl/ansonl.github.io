@@ -61,6 +61,7 @@ excerpt: >
         - [Center Bracket](#high-voltage-power-cable-clearance)
         - [High Voltage Cables](#high-voltage-power-cable-clearance)
         - [Cargo Deck Height Adjustment](#cargo-deck-height-adjustment)
+        - [Cargo Deck Spacer Dimensions](#cargo-deck-spacer-dimensions)
         - [Raising the Cargo Floor Deck](#cargo-deck-riser-spacer-method)
     - [Spare Tire Hitch Mount](#spare-tire-hitch-mount)
     - [Vehicle Rooftop](#vehicle-rooftop)
@@ -269,11 +270,17 @@ There are several turn key third party spare wheel solutions but these vendors d
 
 Aftermarket vendors that claim to have Corolla Cross spares in no particular order (no endorsement):
 
+- [Amazon vendors](https://www.amazon.com/s?k=Toyota+Corolla+Cross+Hybrid+spare&i=automotive&crid=1X41I877Y2PSW&sprefix=toyota+corolla+cross+hybrid+spa%2Cautomotive%2C160&ref=nb_sb_noss_2)
+
 - [EZ Spare Wheel](https://ez-sparewheel.com/products/18-alloy-spare-wheel-and-tire?vehicle=2023%20Toyota%20Corolla%20Cross%20(2.0i%20Hybrid))
 
 - [Modern Spare](https://modernspare.com/product/2023-2024-toyota-corolla-cross-spare-tire-kit-options/)
 
-These vendors also sell scissor jacks and wheel covers. These scissor jacks may be white labeled versions of mass produced jacks from China sold on Amazon and other sites if you shop around. A wheel cover is not needed if you store the tire in the spare wheel well underneath the cargo deck floor as described further down.
+- [Value Spare](https://valuespare.com/product/2023-2024-corolla-cross-spare-tire/)
+
+These vendors also sell scissor jacks and wheel covers. These scissor jacks may be white labeled versions of mass produced jacks from China sold on Amazon and other sites if you shop around. Most third party jacks will NOT fit in the plastic storage slot built into the car.
+
+A wheel cover is not needed if you store the tire in the spare wheel well underneath the cargo deck floor as described further down.
 
 #### Official Dealer
 
@@ -391,6 +398,12 @@ After placing the foam pieces on the cargo deck and in the spare wheel, the fold
 
 The Corolla Cross Hybrid cargo floor is originally much lower than the backs of the folded rear passenger seats. The 1-1.5" rise in the the cargo platform height after the spacer makes the cargo floor level with the folded rear passenger seats which is nice for camping and transporting larger flat objects in the back.
 
+#### Cargo Deck Spacer Dimensions
+
+![cch cargo spacer dimensions top](/wp-content/uploads/2024/05/cch-cargo-spacer-top.webp)
+
+![cch cargo spacer dimensions side](/wp-content/uploads/2024/05/cch-cargo-spacer-side.webp)
+
 ### Spare Tire Hitch Mount
 
 The spare wheel could be mounted behind the car with a spare tire hitch mount that fits in the rear hitch receiver.
@@ -432,7 +445,10 @@ If storing the spare in the car doesn't work, you could keep the spare in your g
 
 The scissor jack that comes with the other gas/FWD Corolla Cross models fits in the upper left plastic storage slot in the cargo deck. The rubber loop can be hooked across the slot to secure the jack. See [Compact Jack Assembly](#compact-jack-assembly) for more jack details.
 
-If you made the right choice and put the spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well or inside the spare tire rim.
+![toyota corolla cross hybrid tire puncture kit holder and mount](/wp-content/uploads/2024/05/tire-puncture-kit-holder.webp)
+: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](https://makerworld.com/en/@ansonl)*
+
+If you made the right choice and put the spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well with a soft TPU holder or inside the spare tire rim.
 
 The original large foam block can be stored at home or in the garage for the future. I haven't figured out what the right side storage slots in the cargo deck were made to fit. If someone knows, please let us in on the secret.
 
@@ -441,7 +457,7 @@ The original large foam block can be stored at home or in the garage for the fut
 The most important part of swapping the spare tire is staying safe.
 
 ![toyota corolla cross jack pad](/wp-content/uploads/2024/05/toyota-corolla-cross-jack-pad.webp)
-: *Toyota Corolla Cross Jack Pinch Weld Pad - [3D print](https://makerworld.com/en/models/455043#profileId-362552) in TPU*
+: *Toyota Corolla Cross Jack Pinch Weld Pad in TPU - [3D print](https://makerworld.com/en/models/455043#profileId-362552)*
 
 1. Loosen the tire lug nuts with the socket wrench BEFORE lifting the car with the jack. If you loosen the lug nuts when the car is lifted in the air, the force used to loosen the nuts will transfer to the car and may cause the car to slip and fall off the lifting jack.
 
@@ -463,7 +479,7 @@ The most important part of swapping the spare tire is staying safe.
 
 ## Conclusion
 
-I tried to touch on all parts of the spare tire acquisition and mounting process in this post. Decrease the chance of being stranded on the side of the road or trail by pairing your Toyota Corolla Cross Hybrid with a spare tire.
+I tried to touch on all parts of the spare tire acquisition and mounting process in this post. Decrease the chance of being stranded on the side of the road or trail by pairing your Toyota Corolla Cross Hybrid with a spare tire and [mount]({% link store.md %}).
 
 ### Supporting More Designs
 
@@ -473,7 +489,7 @@ Most of my designs available for free on [MakerWorld](https://makerworld.com/en/
 
 Physical versions of my designs are available for purchase on my [Store]({% link store.md %}). Get the good stuff straight from the source 📍!
 
-### A couple of my other designs that may interest you
+### Another design that may interest you
 
 #### Toyota Corolla Cross Integrated Windshield Mount
 
@@ -481,7 +497,7 @@ Physical versions of my designs are available for purchase on my [Store]({% link
 
 This modular mount fits all new 2022+ Toyota vehicles [including the Corolla Cross] equipped with Toyota Safety Sense 3.0. Any accessory or dashcam with a GoPro style mount can be cleanly attached to your front windshield using this mount!
 
-*[Download and 3D print](https://makerworld.com/en/models/447037) / Get it from my Store({% link store.md %}).*
+*[Download and 3D print](https://makerworld.com/en/models/447037) / Get it from my [Store]({% link store.md %}).*
 
 #### Toyota Corolla Cross Integrated Windshield Right Side Mount
 

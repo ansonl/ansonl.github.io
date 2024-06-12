@@ -2,7 +2,7 @@
 title: CV
 layout: cv
 actions:
-  - label: "CV available upon request"
+  - label: "Request CV"
     icon: email
-    url: "mailto:cv@ansonliu.com"
+    url: "mailto:cv@ansonliu.com?subject=CV Request"
 ---
