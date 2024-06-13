@@ -3,8 +3,8 @@ title: "Print Your Project"
 show_title_at_top: true
 layout: page
 permalink: /store/custom-print/
-image:
-thumbnail: /assets/images/blue-topo-outline-thumbnail.webp
+image: /assets/images/store/ultimaker-dxu-printer-narrow.webp
+thumbnail: /assets/images/ultimaker-dxu-printer.webp
 more-link-text: "Get Started"
 actions:
   - label: "Send an Inquiry"
@@ -20,7 +20,7 @@ excerpt: >
 
 You know the project. I know 3D printing.
 
-Using 8+ years of experience in 3D printing, I deliver customized 3D prints to complete your project.
+I deliver customized 3D prints to complete your project. My 8+ years of experience in 3D printing ensure that your most complex parts are produced accurately in high quality.
 
 Send an inquiry to [sales@ansonliu.com]({{page.actions.url}}) to get started.
 

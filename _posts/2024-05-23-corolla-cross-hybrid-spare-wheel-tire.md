@@ -446,11 +446,16 @@ If storing the spare in the car doesn't work, you could keep the spare in your g
 The scissor jack that comes with the other gas/FWD Corolla Cross models fits in the upper left plastic storage slot in the cargo deck. The rubber loop can be hooked across the slot to secure the jack. See [Compact Jack Assembly](#compact-jack-assembly) for more jack details.
 
 ![toyota corolla cross hybrid tire puncture kit holder and mount](/wp-content/uploads/2024/05/tire-puncture-kit-holder.webp)
-: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](https://makerworld.com/en/@ansonl)*
+: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](https://makerworld.com/en/models/490337)*
 
-If you made the right choice and put the spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well with a soft TPU holder or inside the spare tire rim.
+If you made the right choice and put the spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well or spare rim with soft TPU holders that I designed to prevent rattling.
 
-The original large foam block can be stored at home or in the garage for the future. I haven't figured out what the right side storage slots in the cargo deck were made to fit. If someone knows, please let us in on the secret.
+![tire wrench and jack handle cover](/wp-content/uploads/2024/05/tire-wrench-jack-handle-cover-display.webp)
+: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](https://makerworld.com/en/models/491288)*
+
+![tire wrench and jack handle storage](/wp-content/uploads/2024/05/tire-wrench-jack-handle-cover.webp)
+
+The original large foam block with cutouts can be stored at home or in the garage for future use. I haven't figured out what the storage slots in the right side of the cargo deck were made to fit.
 
 ## Actually Changing the Tire
 
