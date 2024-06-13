@@ -34,7 +34,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 - Depending on the width of the spare, a spacer may be needed to elevate the cargo deck to be level with the top of the tire.
 
-- The mount can be made in a specific color and material upon [request](mailto:support@ansonliu.com).
+- The product will be made in a random color (probably black). Specific color is available upon [request](mailto:support@ansonliu.com).
 
 - 🇺🇸 Made in the USA.
 

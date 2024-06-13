@@ -10,9 +10,20 @@ tags:
   - 3d printing
   - creality
   - cura
+excerpt: >
+  Automatically set the correct extruder and bed temperature for the printed material for the Creality K1 series in Cura with the start G-code below.
+
+
+  `M140 S0`
+
+
+  `M104 S0`
+  
+
+  `START_PRINT EXTRUDER_TEMP={material_print_temperature} BED_TEMP={material_bed_temperature}`
 ---
 
-The default Creality start G-code for the K1 printer in Cura does not automatically set the correct extruder and bed temperature and you can change the start G-code to automatically set the right temperature for your material. 
+The default Creality start G-code for the K1 printer in Cura does not automatically set the correct extruder and bed temperature and you can change the start G-code to automatically set the right temperature for your material.
 
 Creality Slicer is now based on Orcaslicer instead of Cura but you can still use the Cura to slice for the K1. 
 
