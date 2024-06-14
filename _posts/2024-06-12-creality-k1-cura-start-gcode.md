@@ -1,7 +1,7 @@
 ---
 published: true
 title: >-
-  Creality K1 series Cura Start G-code
+  Creality K1 series 3D Printer Cura Start G-code
 layout: post
 image: 
 categories:
@@ -11,7 +11,7 @@ tags:
   - creality
   - cura
 excerpt: >
-  Automatically set the correct extruder and bed temperature for the printed material for the Creality K1 series in Cura with the start G-code below.
+  Automatically set the correct extruder and bed temperature to match the printed material when printing with the Creality K1 series 3D printer in Cura with the start G-code below.
 
 
   `M140 S0`
