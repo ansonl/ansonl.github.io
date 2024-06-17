@@ -58,13 +58,16 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
   - 2x M10 flanged nut
 - Universal tire hold down (PETG material)
   - 1x M8x90mm bolt
-  - 1x M8 nut
 
 ### Notes
 
 **This kit does NOT include a spare wheel, jack, and spacer.** For information on getting a compatible spare wheel and jack and making your own spacer, see [this post]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}).
 
 You must read and agree to the [Policy]({% link _store/99-store-policy.md %}) before ordering.
+
+### Assembly Directions
+
+See [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}).
 
 ### Compatibility
 

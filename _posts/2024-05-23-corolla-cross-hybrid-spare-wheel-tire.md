@@ -91,6 +91,8 @@ Despite the lack of spare wheel shipped with the car, it IS possible to fit a sp
 
 [🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*]({% link store.md %})
 
+See spare tire mount [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}).
+
 The manufacturer's decision to not skip the spare wheel seems to be both a design and cost savings constraint.
 
 - The hybrid system's orange power cable is run through and exits the car body in the spare wheel well. This cable placement takes up vertical space in the wheel well and prevents most spare tires from fitting in there without crushing and rubbing the cable.
