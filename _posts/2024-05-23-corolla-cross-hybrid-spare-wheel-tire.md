@@ -172,8 +172,8 @@ These requirements are ordered in my recommended steps for finding a compatible 
 
 | Tire Code | Toyota OEM Spec | Type | Outer Diameter |
 | ---- | ---- | ---- | ---- |
-| 215/60R17 | ✓ | full | 28.00" (711.3 mm) |
-| 225/50R18 | ✓ | full | 27.74" (704.7 mm) |
+| 215/65R17 | ✓ | full | 28.00" (711.3 mm) |
+| 225/55R18 | ✓ | full | 27.74" (704.7 mm) |
 | 165/80D17 | ✓ | compact | 27.39" (695.8 mm) |
 | 155/80D17 | ✓ | compact | 26.76" (679.8 mm) |
 | 155/90R17 |  | compact | 27.98" (710.8 mm) |
