@@ -33,6 +33,9 @@ excerpt: >
   [🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*](/store/toyota-corolla-cross-hybrid-spare-wheel-holder/)
 
 
+  Spare tire mount [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}).
+
+
   ![corolla cross hybrid spare tire mount solution](/wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-storage.webp)
 
   
@@ -211,6 +214,8 @@ See [Tire Diameters and Suggested Spare Tire Sizes](#tire-diameters-and-suggeste
 There are many other vehicles with a similar wheel size to the Corolla Cross. You can get a list of such vehicles with compatible wheels by searching all vehicles that have the same wheel size as the Corolla Cross on websites such as [Wheel-Size.com](https://www.wheel-size.com/).
 
 I generated a partial list of CCH compatible vehicles that I printed out and brought to the scrapyard with me. Wheel-Size.com only allows me to search within a small offset range at a time so the full list of compatible vehicles is much greater. The partial list including 16" and 17" rims can be viewed [here](/wp-content/uploads/2024/05/corolla-cross-compatible-vehicles.txt) and may be a starting point.
+
+A 3D printed [5x114.3mm bolt pattern and 60.1mm template](https://makerworld.com/en/models/493853) was useful to quickly check found tires' bolt pattern and bore diameters at the scrapyard.
 
 ### Compact Jack Assembly
 
