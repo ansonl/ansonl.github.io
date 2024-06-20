@@ -68,9 +68,9 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 <iframe style="max-width:100%; height:auto;" width="560" height="315" src="https://www.youtube.com/embed/5yy8hvflbi4?si=i_0M465U2dJqtU4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-1. Pry the black plastic retainer tab outwards from the white plastic lever with an insulated tool.
+1. Pry the black plastic retainer tab outwards from the white plastic lever with an insulated flat tool.
 
-2. Disconnect the orange power cable connector in the center of the cargo space by pulling the white plastic lever upwards.
+2. Disconnect the orange power cable connector in the center of the cargo space by lifting the white plastic lever upwards.
 
 ![1](/assets/images/reference/cch-tire-mount-assembly/1-hybrid-cable-annotated-arrows.webp)
 
@@ -83,8 +83,8 @@ The diagram of the spare wheel well is oriented like above.
 The parts may be shipped a single unit. Separate the parts in preparation for installation in the vehicle. If the parts are already separated from each other, proceed to [Tire Mount Assembly](#tire-mount-assembly).
 
 <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
- <source src="/wp-content/uploads/2024/05/spare-tire-mount-printed-part-disassembly.webm" type="video/webm">
- <source src="/wp-content/uploads/2024/05/spare-tire-mount-printed-part-disassembly.mp4" type="video/mp4">
+ <source src="/assets/images/reference/cch-tire-mount-assembly/spare-tire-mount-printed-part-disassembly.webm" type="video/webm">
+ <source src="/assets/images/reference/cch-tire-mount-assembly/spare-tire-mount-printed-part-disassembly.mp4" type="video/mp4">
 </video>
 
 1. The top circular piece (**Piece 3**) interlocks with the bottom 2 pieces with horizontal grooves running from left to right. Slide **Piece 3** to the left until **Piece 3** leaves the bottom 2 pieces as seen in the animation above.
@@ -98,8 +98,8 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 ### Tire Mount Assembly
 
 <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
- <source src="/wp-content/uploads/2024/05/spare-tire-mount-printed-part-assembly.webm" type="video/webm">
- <source src="/wp-content/uploads/2024/05/spare-tire-mount-printed-part-assembly.mp4" type="video/mp4">
+ <source src="/assets/images/reference/cch-tire-mount-assembly/spare-tire-mount-printed-part-assembly.webm" type="video/webm">
+ <source src="/assets/images/reference/cch-tire-mount-assembly/spare-tire-mount-printed-part-assembly.mp4" type="video/mp4">
 </video>
 
 ![2](/assets/images/reference/cch-tire-mount-assembly/2-p2-in-place.webp)
