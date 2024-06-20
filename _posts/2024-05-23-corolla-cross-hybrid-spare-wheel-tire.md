@@ -33,7 +33,7 @@ excerpt: >
   [🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*](/store/toyota-corolla-cross-hybrid-spare-wheel-holder/)
 
 
-  Spare tire mount [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}).
+  Spare tire mount [assembly notes](/reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions/).
 
 
   ![corolla cross hybrid spare tire mount solution](/wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-storage.webp)

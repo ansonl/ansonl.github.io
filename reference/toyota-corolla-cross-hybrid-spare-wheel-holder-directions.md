@@ -44,9 +44,9 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
 ### Tools Needed
 
 - 8 mm hex driver
-- 6 mm hex driver
 - Plier/Adjustable Wrench
-- Flat screw driver
+- Insulated gloves
+- Flat insulated screw driver
 
 ### Compatibility
 
@@ -66,6 +66,8 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 > Wear insulated gloves, shoes, and clothing. Ensure the work environment is completely dry before continuing.
 
+<iframe style="max-width:100%; height:auto;" width="560" height="315" src="https://www.youtube.com/embed/5yy8hvflbi4?si=i_0M465U2dJqtU4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 1. Pry the black plastic retainer tab outwards from the white plastic lever with an insulated tool.
 
 2. Disconnect the orange power cable connector in the center of the cargo space by pulling the white plastic lever upwards.
@@ -74,9 +76,31 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 The diagram of the spare wheel well is oriented like above.
 
-### Tire Mount Partss
+> **Avoid excessive force when handling the mount parts** If pieces fit too tightly, lightly tap a corner of the part with your fist or soft mallet.
 
-> Avoid excessive force when putting the mount parts together. If tapping, lightly tap the pieces using a soft mallet and tapping block to avoid damage.
+### Tire Mount Disassembly
+
+The parts may be shipped a single unit. Separate the parts in preparation for installation in the vehicle. If the parts are already separated from each other, proceed to [Tire Mount Assembly](#tire-mount-assembly).
+
+<video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
+ <source src="/wp-content/uploads/2024/05/spare-tire-mount-printed-part-disassembly.webm" type="video/webm">
+ <source src="/wp-content/uploads/2024/05/spare-tire-mount-printed-part-disassembly.mp4" type="video/mp4">
+</video>
+
+1. The top circular piece (**Piece 3**) interlocks with the bottom 2 pieces with horizontal grooves running from left to right. Slide **Piece 3** to the left until **Piece 3** leaves the bottom 2 pieces as seen in the animation above.
+
+2. The rectangular piece (**Piece 1**) interlocks with the semi circular piece (**Piece 2**) with a groove on the underside of the pieces. Slide the **Piece 1** upwards from **Piece 2** until the two pieces separate as seen in the animation above.
+
+3. Unscrew and remove two M10 nuts on the underside of **Piece 1**.
+
+4. Remove two M10 bolts and washers from **Piece 1**.
+
+### Tire Mount Assembly
+
+<video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
+ <source src="/wp-content/uploads/2024/05/spare-tire-mount-printed-part-assembly.webm" type="video/webm">
+ <source src="/wp-content/uploads/2024/05/spare-tire-mount-printed-part-assembly.mp4" type="video/mp4">
+</video>
 
 ![2](/assets/images/reference/cch-tire-mount-assembly/2-p2-in-place.webp)
 
