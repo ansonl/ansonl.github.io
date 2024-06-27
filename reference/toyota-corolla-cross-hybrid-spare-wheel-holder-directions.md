@@ -52,6 +52,22 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
 
 Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
+### Contents
+
+1. [Preparation](#preparation)
+
+2. [Power Connector](#power-connector)
+
+3. [Tire Mount Disassembly](#tire-mount-disassembly)
+
+4. [Tire Mount Assembly](#tire-mount-assembly)
+
+5. [Tire Hold Down](#tire-hold-down)
+
+6. [Cargo Deck Spacer](#cargo-deck-spacer)
+
+7. [Finishing Up](#finishing-up)
+
 ### Preparation
 
 1. Park the vehicle on a level and dry surface. Ensure the vehicle is completely turned OFF and nonenergize for at least 10 minutes.
@@ -77,6 +93,11 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 The diagram of the spare wheel well is oriented like above.
 
 > **Avoid excessive force when handling the mount parts** If pieces fit too tightly, lightly tap a corner of the part with your fist or soft mallet.
+
+#### Cable Disconnect-free installation (Unsupported)
+
+If you do not want to disconnect the power connector to attach the tire mount, the lower member of **Part 1** can be removed with a fine-toothed saw and sanded smooth at the marked spots below to fit around the cable lever. **The tire mount will be weaker and less rigid with this method.**  
+![p1 cable free cut](/assets/images/reference/cch-tire-mount-assembly/p1-cable-free-cut.webp)
 
 ### Tire Mount Disassembly
 
