@@ -13,10 +13,7 @@ Store the missing spare wheel and jack under the cargo area of your Toyota Corol
 
 *The Toyota Corolla Cross Hybrid Spare Tire Mount* can get purchased from the [Store]({% link store.md %})
 
-<video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
- <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.webm" type="video/webm">
- <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.mp4" type="video/mp4">
-</video>
+<iframe style="max-width:100%; height:auto;" width="560" height="315" src="https://www.youtube.com/embed/kHzdqbQ0Vwk?si=Gs0Eo5GvHKTzxLZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Assembly Instructions
 
@@ -119,8 +116,8 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 ### Tire Mount Assembly
 
 <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
- <source src="/assets/images/reference/cch-tire-mount-assembly/spare-tire-mount-printed-part-assembly.webm" type="video/webm">
- <source src="/assets/images/reference/cch-tire-mount-assembly/spare-tire-mount-printed-part-assembly.mp4" type="video/mp4">
+ <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.webm" type="video/webm">
+ <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.mp4" type="video/mp4">
 </video>
 
 ![2](/assets/images/reference/cch-tire-mount-assembly/2-p2-in-place.webp)

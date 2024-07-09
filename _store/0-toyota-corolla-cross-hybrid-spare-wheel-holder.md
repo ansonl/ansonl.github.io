@@ -67,7 +67,7 @@ You must read and agree to the [Policy]({% link _store/99-store-policy.md %}) be
 
 ### Assembly Directions
 
-See [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}).
+See [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}) and [video](https://youtu.be/kHzdqbQ0Vwk).
 
 ### Compatibility
 
