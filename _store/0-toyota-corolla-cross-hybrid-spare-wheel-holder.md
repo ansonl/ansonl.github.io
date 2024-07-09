@@ -6,14 +6,14 @@ permalink: /store/toyota-corolla-cross-hybrid-spare-wheel-holder/
 image:
 thumbnail: /assets/images/store/toyota-corolla-cross-hybrid-spare-tire-mount.webp
 more-link-text: "See Details"
+comments: true
 excerpt: >
-  Be prepared for what the road throws your way. 
+  Be prepared for what the road throws your way.   
   
-  
-  Store the missing spare tire and jack in the cargo area with this mounting solution.
+  Store the missing spare tire and jack under the cargo area with this mounting solution.
 ---
 
-Store the missing spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) with this mount kit. Just as the road warriors and overlanding gods intended.
+Store the missing spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) AWD with this mount kit. Just as the road warriors and overlanding gods intended.
 
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
