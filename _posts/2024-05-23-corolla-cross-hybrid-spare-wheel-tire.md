@@ -492,6 +492,8 @@ The original large foam block with cutouts can be stored at home or in the garag
 
 The most important part of swapping the spare tire is staying safe.
 
+> ⛽ Check the pressure of your spare tire and inflate it to the listed pressure on the tire before storage and usage.
+
 ![toyota corolla cross jack pad](/wp-content/uploads/2024/05/toyota-corolla-cross-jack-pad.webp)
 : *Toyota Corolla Cross Jack Pinch Weld Pad in TPU - [3D print](https://makerworld.com/en/models/455043#profileId-362552)*
 
