@@ -148,7 +148,9 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 
 1. Lower [your spare tire]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}) centered above **Part 3** onto the mount. The tire rim center bore surface should be flat against **Part 3**. You may need to flip the tire to the other side to get an acceptable fit. The tire orientation depends on the geometry of your spare tire.
 
-2. You can customize and 3D print **Part 3** using the released 3D model [here](https://makerworld.com/en/models/480955). The top of the part may be raised, lowered, and additional cutouts made to better fit your specific tire.
+> ⚠️ Spare rims with high offsets may touch the cable or sit very high. If this is the case, you may measure the additional height you need to raise the tire to clear the cable when placed "deep dish side down". Then place a circular wood or dense foam piece with height equal to the measured additional height amount in between **Part 3** and the rim as an additinal inside spacer. This may minimize the distance the cargo floor is ultimately raised by the spare tire. A longer tire hold down bolt may be needed after this modification.
+
+> ⚙️ **Part 3** may be customized by raising and lowering the top surface and making additinal cutouts made to better fit your specific tire. Customize and 3D print **Part 3** using the [released 3D model](https://makerworld.com/en/models/480955). 
 
 ### Tire Hold Down
 
