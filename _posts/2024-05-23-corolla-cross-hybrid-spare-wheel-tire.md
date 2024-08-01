@@ -157,6 +157,8 @@ A compatible spare needs to meet the requirements below:
 
 These requirements are ordered in my recommended steps for finding a compatible spare.
 
+#### Stock Corolla Cross Wheel Sizes
+
 | Specification | Corolla Cross (Gas/Hybrid) (USA/Canada) |
 | ---- | ---- |
 | Bolt Pattern | 5x144.3mm |
@@ -253,6 +255,13 @@ You can use a larger scissor jack to lift the car as well but it will not fit in
 
 These are listed below in acquiring a spare and jack set in the order of most work -> highest cost.
 
+I recommend sourcing in the following order 
+
+1. Scrapyard
+2. Secondhand OEM
+3. Official Dealer
+4. Aftermarket
+
 #### Scrapyard/Pick and Pull
 
 The Toyota Corolla Cross is a relatively new vehicle and consequently, there are not many salvage Corolla Crosses to pull used parts from.
@@ -265,15 +274,30 @@ Spare wheels stored inside in trunk are easier to retrieve while spares mounted 
 
 Furthermore, scrapyards usually prohibit using jacks on premises for safety reasons and remove the scissor jacks from the cars in the yard. Still, they might forget to remove the jack so I've been able to find brand new scissor jacks several times.
 
+I recommend searching online and visiting your local scrapyard at least once to see if you have any luck. You may be able to to get a new/barely used spare wheel for under $30 when it would otherwise cost 5-10x from an online seller!
+
 #### Secondhand OEM
 
 If someone is selling a Corolla Cross or compatible vehicle, you may be able to buy just the full size or compact wheel.
 
-I did not have much luck with this option since most sellers do not want to part out a driveable vehicle.
+I did not have much luck finding a Corolla Cross OEM spare early 2024 since most sellers do not want to part out a new/driveable vehicle.
+
+There are sellers online that pick out spare tires from salvage cars and sell the tires and jack assembly both individually and together. Search the spare tire size you are looking for on the marketplace site and confirm that the spare rim has the [correct bolt patterns size/spacing and center bore diameter](#stock-corolla-cross-wheel-sizes). 
+
+There is no foolproof metbhod to verify if the spare rim offset will fit the Corolla Cross Hybrid. Comparing the original vehicle for the spare wheel and the Corolla Cross Hybrid's OEM wheel offsets *should* be sufficient. I have not seen a 17" spare rim with matching bolt specs and center bore not fit the Corolla Cross Hybrid yet.
+
+- [Ebay vendors - "toyota corolla cross spare tire"](https://www.ebay.com/sch/i.html?_from=R40&_nkw=toyota+corolla+cross+spare+tire&_sacat=0)
+
+- [Ebay vendors - "145/90R17 escape"](https://www.ebay.com/sch/i.html?_from=R40&_nkw=145%2F90r17+escape&_sacat=0&_odkw=145%2F90r17&_osacat=0)*
+
+**I use a 145/90R17 spare tire from a 01-04 Ford Escape as the spare in my Corolla Cross Hybrid.*
 
 #### Aftermarket
 
-There are several turn key third party spare wheel solutions but these vendors do not sell a perfect matching wheel size for the Corolla Cross. They usually have an selection of tire sizes for multiple cars and will usually ship you a compatible 17" or 18" rim with a tire that they consider "close enough" to the Corolla Cross wheel diameter.
+There are several turnkey third party spare wheel solutions but these vendors do not sell a perfect matching wheel size for the Corolla Cross. They usually have an selection of tire sizes for multiple cars and will usually ship you a compatible 17" or 18" rim with a tire that they consider "close enough" to the Corolla Cross wheel diameter.
+
+> ⚠️ Some aftermarket vendors' special alloy rims sit very high on the CCH spare tire upgrade kit due to rim designs with high offsets. This may raise the cargo floor significantly and require an extra-thick spacer or other workarounds!  
+I recommend getting a **compatible steel compact donut spare rim style** (usually painted black) described [above](#compact-versus-full-size-spare) through the scrapyard or Ebay method.
 
 Aftermarket vendors that claim to have Corolla Cross spares in no particular order (no endorsement):
 
@@ -467,6 +491,8 @@ The original large foam block with cutouts can be stored at home or in the garag
 ## Actually Changing the Tire
 
 The most important part of swapping the spare tire is staying safe.
+
+> ⛽ Check the pressure of your spare tire and inflate it to the listed pressure on the tire before storage and usage.
 
 ![toyota corolla cross jack pad](/wp-content/uploads/2024/05/toyota-corolla-cross-jack-pad.webp)
 : *Toyota Corolla Cross Jack Pinch Weld Pad in TPU - [3D print](https://makerworld.com/en/models/455043#profileId-362552)*
