@@ -22,10 +22,10 @@ excerpt: >
   `M109 T0 Sxxx ; Heating to PLA temp`
 
 
-  `G92 Exxx`
+  `G92 Exxx ; Set extruder position`
 
 
-  `G0 Zxx.xx`
+  `G0 Zxx.xx ; Set Z position`
 
 
   `G1 F1500 Exxx`
@@ -62,7 +62,7 @@ Find the first layer change line that comes after a movement line that looks lik
     - Backspace or Delete to remove all the selected text
 
 8. Copy one of the below resume start G-codes at the first line.  
-    - Replace both `Exxx` with the first `E` + following digits found after the layer change line. This will set the extruder position to the expected last extruder position in the G-code.
+    - **Only for slicers and printers set to Absolute Extruder Position.** Replace both `Exxx` with the first `E` + following digits found after the layer change line. This will set the extruder position to the expected last extruder position in the G-code.
     - Replace `Zxx.xx` with the last Z position you previously found before the layer change line.
     - Replace bed and nozzle temperature if you have custom values.
     - Remove `G28` if your printer homes towards the 0 Z direction (towards the bed) and you **Paused** the print.
