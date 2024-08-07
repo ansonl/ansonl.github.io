@@ -54,7 +54,6 @@ Find the layer change line that has the layer number for the last successful lay
 Find the first layer change line that comes after a movement line that looks like `G0 .... ZXX.XX` or `G1 .... ZXX` where `XX` is the partially printed object's layer height you physically measured.  
 **In both cases, remember the last Z position found before the layer change line. It will look like `Zxx.xx` where `xx.xx` are numbers.**
 
-
 7. Remove all lines from the start of the file up to the layer change line. A quick way to do this in VS Code:
     - Click the start of the layer change line.
     - Move up to the first line of the file using the scroll bar.

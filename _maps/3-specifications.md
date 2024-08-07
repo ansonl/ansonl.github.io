@@ -15,6 +15,14 @@ excerpt: >
 
 Unless otherwise specified for specific maps, I have designed the models for a 0.4 mm nozzle diameter and 0.1mm layer height. Recommended print settings are any multiples of these specs.
 
+## Map Variants Comparison
+
+![map variant comparison](/assets/images/maps/map-variants-comparison.png)
+
+**Linear Scale:** reflects the true elevation with a constant multiplier applied evenly across all the entire map to show sufficient detail.
+
+**Logarithmic Scale (incl: Square Root):** exagerrates elevation differences in flat locations while smoothing out the pointyness of extreme elevations. Elevation detail is enhanced across the entire map at the cost of decreased accuracy.
+
 ## Model Filename Chart
 
 ```
