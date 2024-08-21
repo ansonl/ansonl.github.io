@@ -122,7 +122,9 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 
 ![2](/assets/images/reference/cch-tire-mount-assembly/2-p2-in-place.webp)
 
-1. Slide **Part 2** (labeled "2") from left to right against the metal bracket underneath the power connector. The tongue on **Part 2** fits underneath the metal bracket's raised ridge.
+1. Slide **Part 2** (labeled "2") from left to right against the metal bracket underneath the power connector. The tongue on **Part 2** fits underneath the metal bracket's raised ridge.  
+
+    > ↘️ Tilt **Part 2** downwards towards the bracket (inboard) while ➡️ sliding the toungue underneath the bracket.
 
     ![3](/assets/images/reference/cch-tire-mount-assembly/3-p1-in-place.webp)
 
@@ -141,6 +143,8 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
    ![4](/assets/images/reference/cch-tire-mount-assembly/5-p3-in-place.webp)
 
 7. Slide **Part 3** over **Part 1** and **Part 2** from the left. The grooves in the parts should fit into each other without excessive force.
+
+> 🩹 The non-metal parts in this kit can be patched with super glue.
 
 ### Spare Tire
 
