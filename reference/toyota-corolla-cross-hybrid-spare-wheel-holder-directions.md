@@ -31,11 +31,11 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
   - Part 1 (a/b)
   - Part 2
   - [Part 3](https://makerworld.com/en/models/480955)
-  - 2x M10x40mm socket screw
+  - 2x M10x40mm socket bolt
   - 2x M10 washer
   - 2x M10 flanged nut
 - [Universal tire hold down](https://makerworld.com/en/models/443704)
-  - 1x M8x90mm cap screw
+  - 1x M8 cap bolt with length ≥90mm
   - 1x M8 nut (optional)
 
 ### Tools Needed
@@ -163,11 +163,13 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 > ⚠️ You should use a matching **M8 threaded** tire hold down for your spare tire. **Part 1** is threaded for M8 bolts.  
 The Universal Tire Hold Down part can be used if you do not have a matching hold down.
 
+> ⚠️🔩 If you received multiple M8 bolts, you **must** try the **shorter and/or fully threaded** bolt first. Only use the longer/partially threaded bolt if the shorter bolt is not long enough. Screwing in the partially threaded bolt will wear out the part's threads and hamper use of shorter bolts in the future.
+
 1. Insert the M8 bolt into the tire hold down knob so that the hex head of the bolt fits into the hex cutout in the knob.
 
 2. Insert the tire hold down ring into the tire rim center bore hole from above.
 
-3. Insert the hold down knob with M8 bolt into the hold down ring. The flat surfaces of the knob will be flat against the interior circular cutout of the hold down ring.
+3. Insert the hold down knob with M8 bolt into the hold down ring. The flat surfaces of the knob will be flat against the interior circular cutout of the hold down ring. 
 
 4. Finger tighten the hold down knob by turning the knob clockwise and applying downward pressure to the hold down knob. Stop tightening the knob when resistance is encountered. Do not overtighten the knob or else **Part 1** threads will be stripped.
 
