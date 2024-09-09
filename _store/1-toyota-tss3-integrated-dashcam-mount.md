@@ -11,11 +11,7 @@ excerpt: >
 
 Mount a dashcam or electronics in your Toyota vehicle's front windshield using only the stock mirror bracket.
 
-<script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
-<stripe-buy-button buy-button-id="buy_btn_1PKWCcCGCEb5Dn5h6qAWLGav" publishable-key="pk_live_51PKQVBCGCEb5Dn5hLMoKGekYqrgnOSKQeqVJWy89kBmGPTrEx1w6uB5i3FMS4PlynWCEgZ5fD1iEtdCsu1F7iB4n00noGaPFkK">
-</stripe-buy-button>
+> I recommend printing this design on your own 3D printer. 
 
 The modular device attachment point fits all devices with a common GoPro style mount. A blank universal mount is provided for customization for your device needs.
 

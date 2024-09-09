@@ -37,9 +37,9 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 - A spare tire can be placed on top of the mount which elevates the tire to minimize rubbing and tension on the power cable.
 
-- Depending on the width of the spare, a spacer may be needed to elevate the cargo deck to be level with the top of the tire.
+- Depending on the width of the spare, a spacer will be needed to elevate the cargo deck to be level with the top of the tire.
 
-- The product will be made in a random color (probably black). Specific color is available upon [request](mailto:support@ansonliu.com).
+- The product will be made in a random color (probably black). Specific colors are available upon [request](mailto:support@ansonliu.com).
 
 - 🇺🇸 Made in the USA.
 
@@ -57,7 +57,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
   - 2x M10 washer
   - 2x M10 flanged nut
 - Universal tire hold down (PETG material)
-  - 1x M8x90mm bolt
+  - 1x M8 bolt of length ≥90mm
 
 ### Notes
 
@@ -73,8 +73,10 @@ See [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-h
 
 Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
+**There may be variation in fitment between individual vehicles due to the physical production process and stamped metal parts. You may need to sand parts of this kit to better fit your vehicle.**
+
 ### Shipping
 
 Shipping is only available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
 
-Lead time may be ~1 month as this part is made-to-order.
+Lead time is ~1 month as this part is made-to-order.
