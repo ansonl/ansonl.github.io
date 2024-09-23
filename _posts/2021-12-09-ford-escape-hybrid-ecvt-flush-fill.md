@@ -26,20 +26,20 @@ image: >-
   /wp-content/uploads/2021/11/2007-ford-escape-hybrid-cvt-drain-plug-labeled.jpg.svg
 ---
 
-Materials needed: *Linked products provided for reference.*
-- 5.00L (5.30 pints) [Mercon V ATF](https://amzn.to/3DCVwGf)
-- [3/8" rachet](https://amzn.to/3GzNe49)
-- [10mm hex bit socket](https://amzn.to/3y9glZ1)
-- [3/8" torque wrench](https://amzn.to/3dytykw)
-- [Oil catch pan](https://amzn.to/30sWaZu)
+Materials needed: *Affiliate linked products provided for reference.*
+- 5.00L (5.30 pints) [Mercon V ATF](https://www.amazon.com/Motorcraft-XT5QMC-Mercon-Automatic-Transmission/dp/B01JU877WQ?keywords=mercon+v&qid=1639067366&sr=8-1&linkCode=ll1&tag=ansonl0d-20&linkId=bcdf10729c4aa0ed0ac180b405339eb5&language=en_US&ref_=as_li_ss_tl)
+- [3/8" rachet](https://www.amazon.com/CRAFTSMAN-Ratchet-Wrench-72-Tooth-CMMT81748/dp/B07QK9YS8G?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=280f93efda5492da71d9790eaae29100&language=en_US&ref_=as_li_ss_tl)
+- [10mm hex bit socket](https://www.amazon.com/LEXIVON-Socket-Premium-13-Piece-Metric/dp/B07MR771P4?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=c897919241d6fcb6c5cbe373d60ff6a4&language=en_US&ref_=as_li_ss_tl)
+- [3/8" torque wrench](https://www.amazon.com/TEKTON-24330-8-Inch-ft-lb-13-6-108-5/dp/B00FMPKAD0?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=60696a649ee1c3440738b5e8c1281a4e&language=en_US&ref_=as_li_ss_tl)
+- [Oil catch pan](https://www.amazon.com/WirthCo-32953-Funnel-Coolant-Handles/dp/B009KVSYOE?&linkCode=ll1&tag=ansonl0d-20&linkId=6ef569ddc9ba8e89a28d8e9a33cc6989&language=en_US&ref_=as_li_ss_tl)
 
 Materials recommended:
-- [Brake cleaner](https://amzn.to/30veGR9)
-- [WD-40 penetrant](https://amzn.to/3yBf25d)
-- [Rags](https://amzn.to/3q2HOaY) or towels
-- Gloves and [pumice soap](https://amzn.to/3oWlujT)
-- [Oil hand pump](https://amzn.to/3oVF5Rt)
-- [Spare oil container](https://amzn.to/3ysjmUc)
+- [Brake cleaner](https://www.amazon.com/CRC-05084-BRAKLEEN-Brake-Cleaner-Non-Chlorinated-14/dp/B000BXKZUQ?&linkCode=ll1&tag=ansonl0d-20&linkId=ae419a41aae3ca41dd1aef356dddbd59&language=en_US&ref_=as_li_ss_tl)
+- [WD-40 penetrant](https://www.amazon.com/WD-40-Multi-Use-Product-Smart-Straw-Sprays/dp/B0B8Y48VBN?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=462493734c5dc41c7c9ae355706c0077&language=en_US&ref_=as_li_ss_tl)
+- [Rags](https://www.amazon.com/Buffalo-Industries-10524-Recycled-T-Shirt/dp/B002IV89UW?&linkCode=ll1&tag=ansonl0d-20&linkId=58aec83e236fc572007bd4bd206f4604&language=en_US&ref_=as_li_ss_tl) or towels
+- Gloves and [pumice soap](https://www.amazon.com/Cleaner-Non-Drying-Heavy-Duty-Squeeze-Bottles/dp/B019666VXI?&linkCode=ll1&tag=ansonl0d-20&linkId=3e91b49c6e5912c7ebb067697330e609&language=en_US&ref_=as_li_ss_tl)
+- [Oil hand pump](https://www.amazon.com/Slippery-Pete-Fluid-Quart-Bottles/dp/B07CX4XKFH?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=f7fd0127d7058b3d773a8e81c9243b6f&language=en_US&ref_=as_li_ss_tl)
+- [Spare oil container](https://www.amazon.com/Hopkins-11849-FloTool-Dispos-Oil-Recycle/dp/B0014FKI1Q?&linkCode=ll1&tag=ansonl0d-20&linkId=f1a5e585d51ecf6b9d443ead68a7d92d&language=en_US&ref_=as_li_ss_tl)
 
 Changing the electronically controlled continuously variable transmission (eCVT) on my 2007 Ford Escape Hybrid at 220k miles. Ford considers the eCVT as "filled for life" so it's not on the maintenance schedule (which ended at 150k miles anyways). The fluid has never been changed since it came from the factory 15 years ago. Let's see the condition of the fluid!
 

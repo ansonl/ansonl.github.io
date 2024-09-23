@@ -24,20 +24,20 @@ title: 2005-2007 Ford Escape Hybrid PTU Fluid Change
 image: /wp-content/uploads/2021/11/2007-ford-escape-hybrid-ptu-fill-plug.jpg.svg
 ---
 
-Materials needed: *Linked products provided for reference.*
-- 0.35 L (12 oz) [75W-140](https://amzn.to/3IM5I3f)
-- [3/8" rachet](https://amzn.to/3GzNe49)
-- [3/8" torque wrench](https://amzn.to/3dytykw)
-- [6mm hex bit socket](https://amzn.to/3oXle4j)
-- [Oil catch pan](https://amzn.to/30sWaZu)
+Materials needed: *Affiliate linked products provided for reference.*
+- 0.35 L (12 oz) [75W-140](https://www.amazon.com/Valvoline-SynPower-75W-140-Full-Synthetic/dp/B0049J5FJY?keywords=75w-140&qid=1639594069&sr=8-1&th=1&linkCode=ll1&tag=ansonl0d-20&linkId=aef62709776edef998089b775a76d804&language=en_US&ref_=as_li_ss_tl)
+- [3/8" rachet](https://www.amazon.com/CRAFTSMAN-Ratchet-Wrench-72-Tooth-CMMT81748/dp/B07QK9YS8G?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=1edbd173d9c4a11e0ca2f3ea7aeb7d61&language=en_US&ref_=as_li_ss_tl)
+- [3/8" torque wrench](https://www.amazon.com/TEKTON-24330-8-Inch-ft-lb-13-6-108-5/dp/B00FMPKAD0?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=812568ddc81d4d0918feb5439ac79027&language=en_US&ref_=as_li_ss_tl)
+- [6mm hex bit socket](https://www.amazon.com/EKLIND-14612-Hex-L-allen-wrench/dp/B000GAUR7U?crid=3FI9EF2K7NFTA&keywords=6mm+hex+wrench&qid=1639594339&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=6mm+hex%2Caps%2C182&sr=8-6&linkCode=ll1&tag=ansonl0d-20&linkId=934de4207f1e2dd7b10dbebb34cf1e3c&language=en_US&ref_=as_li_ss_tl)
+- [Oil catch pan](https://www.amazon.com/WirthCo-32953-Funnel-Coolant-Handles/dp/B009KVSYOE?&linkCode=ll1&tag=ansonl0d-20&linkId=e7a04bab41fc55cc22f7dccba736c142&language=en_US&ref_=as_li_ss_tl)
 
 Materials recommended:
-- [Brake cleaner](https://amzn.to/30veGR9)
-- [WD-40 penetrant](https://amzn.to/3yBf25d)
-- [Rags](https://amzn.to/3q2HOaY) or towels
-- Gloves and [pumice soap](https://amzn.to/3oWlujT)
-- [Oil hand pump](https://amzn.to/3oVF5Rt)
-- [Spare oil container](https://amzn.to/3ysjmUc)
+- [Brake cleaner](https://www.amazon.com/CRC-05084-BRAKLEEN-Brake-Cleaner-Non-Chlorinated-14/dp/B000BXKZUQ?&linkCode=ll1&tag=ansonl0d-20&linkId=ae419a41aae3ca41dd1aef356dddbd59&language=en_US&ref_=as_li_ss_tl)
+- [WD-40 penetrant](https://www.amazon.com/WD-40-Multi-Use-Product-Smart-Straw-Sprays/dp/B0B8Y48VBN?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=462493734c5dc41c7c9ae355706c0077&language=en_US&ref_=as_li_ss_tl)
+- [Rags](https://www.amazon.com/Buffalo-Industries-10524-Recycled-T-Shirt/dp/B002IV89UW?&linkCode=ll1&tag=ansonl0d-20&linkId=58aec83e236fc572007bd4bd206f4604&language=en_US&ref_=as_li_ss_tl) or towels
+- Gloves and [pumice soap](https://www.amazon.com/Cleaner-Non-Drying-Heavy-Duty-Squeeze-Bottles/dp/B019666VXI?&linkCode=ll1&tag=ansonl0d-20&linkId=3e91b49c6e5912c7ebb067697330e609&language=en_US&ref_=as_li_ss_tl)
+- [Oil hand pump](https://www.amazon.com/Slippery-Pete-Fluid-Quart-Bottles/dp/B07CX4XKFH?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=f7fd0127d7058b3d773a8e81c9243b6f&language=en_US&ref_=as_li_ss_tl)
+- [Spare oil container](https://www.amazon.com/Hopkins-11849-FloTool-Dispos-Oil-Recycle/dp/B0014FKI1Q?&linkCode=ll1&tag=ansonl0d-20&linkId=f1a5e585d51ecf6b9d443ead68a7d92d&language=en_US&ref_=as_li_ss_tl)
 
 The 2001-2007 Ford Escape Power Transfer Unit (PTU) (aka transfer case) is a high rate of failure powertrain component for the 1st generation Ford Escape generation. The PTU is bolted onto the right side of the transmission and transfers drive power to the rear axel via the driveshaft. It is passively air cooled and separated from multiple high temperature components by a metal heat shield. Surrounding hot parts include the engine, transmission, and exhaust. 
 

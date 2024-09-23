@@ -299,15 +299,17 @@ There are several turnkey third party spare wheel solutions but these vendors do
 > ⚠️ Some aftermarket vendors' special alloy rims sit very high on the CCH spare tire upgrade kit due to rim designs with high offsets. This may raise the cargo floor significantly and require an extra-thick spacer or other workarounds!  
 I recommend getting a **compatible steel compact donut spare rim style** (usually painted black) described [above](#compact-versus-full-size-spare) through the scrapyard or Ebay method.
 
-Aftermarket vendors that claim to have Corolla Cross spares in no particular order (no endorsement):
+Aftermarket vendors that offer Corolla Cross spares in no particular order (no endorsement):
 
-- [Amazon vendors](https://www.amazon.com/s?k=Toyota+Corolla+Cross+Hybrid+spare&i=automotive&crid=1X41I877Y2PSW&sprefix=toyota+corolla+cross+hybrid+spa%2Cautomotive%2C160&ref=nb_sb_noss_2)
+- [Amazon vendors*](https://amzn.to/3zCzIi3)
 
 - [EZ Spare Wheel](https://ez-sparewheel.com/products/18-alloy-spare-wheel-and-tire?vehicle=2023%20Toyota%20Corolla%20Cross%20(2.0i%20Hybrid))
 
-- [Modern Spare](https://modernspare.com/product/2023-2024-toyota-corolla-cross-spare-tire-kit-options/)
+- [Value Spare](https://valuespare.com/product/2023-2024-corolla-cross-spare-tire/) - [Amazon*](https://amzn.to/4gtM90x)
 
-- [Value Spare](https://valuespare.com/product/2023-2024-corolla-cross-spare-tire/)
+- [Modern Spare](https://modernspare.com/product/2023-2024-toyota-corolla-cross-spare-tire-kit-options/) - [Amazon*](https://amzn.to/3zFMFYt)
+
+###### **affiliate link*
 
 These vendors also sell scissor jacks and wheel covers. These scissor jacks may be white labeled versions of mass produced jacks from China sold on Amazon and other sites if you shop around. Most third party jacks will NOT fit in the plastic storage slot built into the car.
 

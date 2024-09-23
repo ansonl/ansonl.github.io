@@ -21,23 +21,23 @@ title: 2001-2007 Ford Escape Rear Axel Differential Fluid Change
 image: /wp-content/uploads/2021/10/printed-bed-cover-unfinished.jpg
 ---
 
-Materials needed: *Linked products provided for reference.*
-- 1.40L (2.96 pints) [80W-90 gear oil](https://amzn.to/3DZvWLK)
-- [3/8" rachet](https://amzn.to/3GzNe49)
-- [1/2" or 13mm hex socket](https://amzn.to/3sdgbia)
-- [3/8" torque wrench](https://amzn.to/3dytykw)
-- [Silicone sealant/RTV](https://amzn.to/3EYQdSZ)
-- [Flat head](https://amzn.to/3m7vFAw) tool and [mallet](https://amzn.to/3dWzHqM)
-- [Oil catch pan](https://amzn.to/30sWaZu)
+Materials needed: *Affiliate linked products provided for reference.*
+- 1.40L (2.96 pints) [80W-90 gear oil](https://www.amazon.com/Valvoline-773732-High-Performance-gallon/dp/B000CQ6L7I?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=a625d9ffa86cf14228f35e13d92252a9&language=en_US&ref_=as_li_ss_tl)
+- [3/8" rachet](https://www.amazon.com/CRAFTSMAN-Ratchet-Wrench-72-Tooth-CMMT81748/dp/B07QK9YS8G?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=f7aa2697a7eed9ec2863832215c49c97&language=en_US&ref_=as_li_ss_tl)
+- [1/2" or 13mm hex socket](https://www.amazon.com/CRAFTSMAN-Socket-6-Point-11-Piece-CMMT12044/dp/B07QL3DMT4?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=ad729f7da00f9c978a942778085158ba&language=en_US&ref_=as_li_ss_tl)
+- [3/8" torque wrench](https://www.amazon.com/TEKTON-24330-8-Inch-ft-lb-13-6-108-5/dp/B00FMPKAD0?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=86a42d317a2aab97f8d48be45de325e4&language=en_US&ref_=as_li_ss_tl)
+- [Silicone sealant/RTV](https://www.amazon.com/Permatex-82180-Maximum-Resistance-Silicone/dp/B0002UEN1U?&linkCode=ll1&tag=ansonl0d-20&linkId=51685011ec4095c586e5427f4c702dec&language=en_US&ref_=as_li_ss_tl)
+- [Flat head](https://www.amazon.com/CRAFTSMAN-Screwdriver-Set-5-Piece-CMHT65050/dp/B07S8YTC8K?&linkCode=ll1&tag=ansonl0d-20&linkId=1d8c7306318da0bdcfe9a01777924be6&language=en_US&ref_=as_li_ss_tl) tool and [mallet](https://www.amazon.com/TEKTON-30603-Fiberglass-Handle-16-Ounce/dp/B00KX4KB5M?&linkCode=ll1&tag=ansonl0d-20&linkId=2828e6d4208ad2e809ff5d43fab157a0&language=en_US&ref_=as_li_ss_tl)
+- [Oil catch pan](https://www.amazon.com/WirthCo-32953-Funnel-Coolant-Handles/dp/B009KVSYOE?&linkCode=ll1&tag=ansonl0d-20&linkId=a8c35195559042bfaeb58739e8c416f2&language=en_US&ref_=as_li_ss_tl)
 
 Materials recommended:
-- [Metal glass scraper razer](https://amzn.to/3pYaWQO)
-- [Brake cleaner](https://amzn.to/30veGR9)
-- [WD-40 penetrant](https://amzn.to/3yBf25d)
-- [Rags](https://amzn.to/3q2HOaY) or towels
-- Gloves and [pumice soap](https://amzn.to/3oWlujT)
-- [Oil hand pump](https://amzn.to/3oVF5Rt)
-- [Spare oil container](https://amzn.to/3ysjmUc)
+- [Metal glass scraper razer](https://www.amazon.com/Razor-Blade-Scraper-Cooktop-Replaceable/dp/B07HPFGQ2G?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=63f988689bb96a85ed2f608674075a0a&language=en_US&ref_=as_li_ss_tl)
+- [Brake cleaner](https://www.amazon.com/CRC-05084-BRAKLEEN-Brake-Cleaner-Non-Chlorinated-14/dp/B000BXKZUQ?&linkCode=ll1&tag=ansonl0d-20&linkId=75185e4be930b769a14575f107674235&language=en_US&ref_=as_li_ss_tl)
+- [WD-40 penetrant](https://www.amazon.com/WD-40-Multi-Use-Product-Smart-Straw-Sprays/dp/B0B8Y48VBN?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=90ddfa1de1ce1cec6d547dd9338022b4&language=en_US&ref_=as_li_ss_tl)
+- [Rags](https://www.amazon.com/Buffalo-Industries-10524-Recycled-T-Shirt/dp/B002IV89UW?&linkCode=ll1&tag=ansonl0d-20&linkId=f219483677f6aaca1a16e0bf31efcd9b&language=en_US&ref_=as_li_ss_tl) or towels
+- Gloves and [pumice soap](https://www.amazon.com/Cleaner-Non-Drying-Heavy-Duty-Squeeze-Bottles/dp/B019666VXI?&linkCode=ll1&tag=ansonl0d-20&linkId=d012eeb9ca0b6fd769be0f913e007429&language=en_US&ref_=as_li_ss_tl)
+- [Oil hand pump](https://www.amazon.com/Slippery-Pete-Fluid-Quart-Bottles/dp/B07CX4XKFH?th=1&linkCode=ll1&tag=ansonl0d-20&linkId=930c8cda43aeec372905efb7dbacfe5e&language=en_US&ref_=as_li_ss_tl)
+- [Spare oil container](https://www.amazon.com/Hopkins-11849-FloTool-Dispos-Oil-Recycle/dp/B0014FKI1Q?&linkCode=ll1&tag=ansonl0d-20&linkId=d5ef1b2174781e6c52339d2f64f2bfb4&language=en_US&ref_=as_li_ss_tl)
 
 I changed the rear axel differential fluid on my 2007 Ford Escape Hybrid with 222k miles. The rear differential fluid has not been changed since it left the factory 15 years ago. This axel has probably been periodically submerged in water from driving through hurricanes in South Carolina and flooded roads in Florida so it's time to see its condition inside!
 
