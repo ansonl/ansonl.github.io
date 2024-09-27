@@ -68,11 +68,15 @@ You must read and agree to the [Policy]({% link _store/99-store-policy.md %}) be
 
 #### 🔧 Order Measurements
 
+Determine which placement direction works best for your tire. The diagram below depicts common examples. Placement A "deep dish up" is recommended when the rim protudes significantly from the tire.
+
+![Tire styles and recommended placements](/assets/images/store/tire-storage-direction.webp)
+
 Include the following measurements with your order to get the best fit the first time:
 
-- **Center Bore Diameter (mm)**
+- **Center Bore Diameter (mm)** *For all placements*
 
-- **Hub Surface Depth (mm)** - The distance from the downward hub surface to the ground when the tire is laid on its side for storage. This is **not** the same as Wheel Backspacing because the rubber tire width must be considered. This can be directly measured with the tire (preferred) or estimated with the below equation:
+- **Hub Surface Depth (mm)** *Only for placement B "deep dish down"* - The distance from the downward hub surface to the ground when the tire is laid on its side for storage. This is **not** the same as Wheel Backspacing because the rubber tire width must be considered. This can be directly measured with the tire (preferred) or estimated with the below equation:
 
   {% raw %}
   $$
