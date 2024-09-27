@@ -81,7 +81,7 @@ Include the following measurements with your order to get the best fit the first
 
   ##### A diagram showing the Hub and Center Bore of a wheel
 
-  ![parts of a wheel rim](/wp-content/uploads/2024/05/parts-of-a-wheel-rim.webp)
+  ![parts of a wheel rim](/assets/images/store/parts-of-a-wheel-rim_50perc.webp)
 : *Source: [CAD Modelling and Fatigue Analysis of a Wheel Rim Incorporating Finite Element Approach](https://www.researchgate.net/publication/372788696_CAD_Modelling_and_Fatigue_Analysis_of_a_Wheel_Rim_Incorporating_Finite_Element_Approach)*
 
 ### 📒 Assembly Directions
