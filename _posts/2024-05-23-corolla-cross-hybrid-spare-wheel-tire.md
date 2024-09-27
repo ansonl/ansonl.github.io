@@ -282,7 +282,7 @@ If someone is selling a Corolla Cross or compatible vehicle, you may be able to 
 
 I did not have much luck finding a Corolla Cross OEM spare early 2024 since most sellers do not want to part out a new/driveable vehicle.
 
-There are sellers online that pick out spare tires from salvage cars and sell the tires and jack assembly both individually and together. Search the spare tire size you are looking for on the marketplace site and confirm that the spare rim has the [correct bolt patterns size/spacing and center bore diameter](#stock-corolla-cross-wheel-sizes). 
+There are sellers online that pick out spare tires from salvage cars and sell the tires and jack assembly both individually and together. Search the spare tire size you are looking for on the marketplace site and confirm that the spare rim has the [correct bolt patterns size/spacing and center bore diameter](#stock-corolla-cross-wheel-sizes).
 
 There is no foolproof metbhod to verify if the spare rim offset will fit the Corolla Cross Hybrid. Comparing the original vehicle for the spare wheel and the Corolla Cross Hybrid's OEM wheel offsets *should* be sufficient. I have not seen a 17" spare rim with matching bolt specs and center bore not fit the Corolla Cross Hybrid yet.
 
@@ -290,7 +290,7 @@ There is no foolproof metbhod to verify if the spare rim offset will fit the Cor
 
 - [Ebay vendors - "145/90R17 escape"](https://www.ebay.com/sch/i.html?_from=R40&_nkw=145%2F90r17+escape&_sacat=0&_odkw=145%2F90r17&_osacat=0)*
 
-**I use a 145/90R17 spare tire from a 01-04 Ford Escape as the spare in my Corolla Cross Hybrid.*
+###### **I use a 145/90R17 spare tire from a 01-04 Ford Escape as the spare in my Corolla Cross Hybrid.*
 
 #### Aftermarket
 
@@ -301,11 +301,11 @@ I recommend getting a **compatible steel compact donut spare rim style** (usuall
 
 Aftermarket vendors that offer Corolla Cross spares in no particular order (no endorsement provided):
 
-- [Amazon vendors*](https://amzn.to/3zCzIi3)
+- [Amazon vendors](https://amzn.to/3zCzIi3)*
 
-- [Value Spare](https://valuespare.com/product/2023-2024-corolla-cross-spare-tire/) - [Amazon*](https://amzn.to/4gtM90x)
+- [Value Spare](https://valuespare.com/product/2023-2024-corolla-cross-spare-tire/) - [Amazon](https://amzn.to/3XY4V8T)*
 
-- [Modern Spare](https://modernspare.com/product/2023-2024-toyota-corolla-cross-spare-tire-kit-options/) - [Amazon*](https://amzn.to/3zFMFYt)
+- [Modern Spare](https://modernspare.com/product/2023-2024-toyota-corolla-cross-spare-tire-kit-options/) - [Amazon](https://amzn.to/3zFMFYt)*
 
 - [EZ Spare Wheel](https://ez-sparewheel.com/products/18-alloy-spare-wheel-and-tire?vehicle=2023%20Toyota%20Corolla%20Cross%20(2.0i%20Hybrid))
 

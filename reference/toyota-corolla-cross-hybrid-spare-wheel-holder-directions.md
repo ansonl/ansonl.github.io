@@ -122,7 +122,7 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 
 ![2](/assets/images/reference/cch-tire-mount-assembly/2-p2-in-place.webp)
 
-1. Slide **Part 2** (labeled "2") from left to right against the metal bracket underneath the power connector. The tongue on **Part 2** fits underneath the metal bracket's raised ridge.  
+1. Slide **Part 2** (labeled "2") from left to right against the metal bracket underneath the power connector. The tongue on **Part 2** fits underneath the metal bracket's raised ridge.
 
     > ↘️ Tilt **Part 2** downwards towards the bracket (inboard) while ➡️ sliding the toungue underneath the bracket.
 

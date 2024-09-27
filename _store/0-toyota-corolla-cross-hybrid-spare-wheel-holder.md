@@ -50,7 +50,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
  <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.mp4" type="video/mp4">
 </video>
 
-### Includes
+### 🧰 Includes
 
 - 3/4 piece spare tire mount (PETG material)
   - 2x M10x40mm bolt
@@ -59,24 +59,43 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 - Universal tire hold down (PETG material)
   - 1x M8 bolt of length ≥90mm
 
-### Notes
+### ⚠️ Notes
 
 **This kit does NOT include a spare wheel, jack, and spacer.** For information on getting a compatible spare wheel and jack and making your own spacer, see [this post]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}).
 
 You must read and agree to the [Policy]({% link _store/99-store-policy.md %}) before ordering.
 
-### Assembly Directions
+#### 🔧 Order Measurements
+
+Include the following measurements with your order to get the best fit the first time:
+
+- **Center Bore Diameter (mm)**
+
+- **Hub Surface Depth (mm)** - The distance from the downward hub surface to the ground when the tire is laid on its side for storage. This is **not** the same as Wheel Backspacing because the rubber tire width must be considered. This can be directly measured with the tire (preferred) or estimated with the below equation:
+
+  $$\text{Hub Surface Depth} = (\text{TireWidth} \div 2) + \text{WheelOffset} $$
+
+  - **Tire Width (mm)** - Tire width is ***XXX*** from the [DOT tire code](https://en.wikipedia.org/wiki/Tire_code) format ***XXX**/YYRDD*
+
+  - **Wheel Offset (mm)** - Offset of the hub mounting surface relative to the centerline of the wheel. Positive offset is towards the street side. Negative offset is towards the car side. [Reference](https://www.lesschwab.com/article/wheels/what-is-wheel-offset.html)
+
+  ##### A diagram showing the Hub and Center Bore of a wheel
+
+  ![parts of a wheel rim](/wp-content/uploads/2024/05/parts-of-a-wheel-rim.webp)
+: *Source: [CAD Modelling and Fatigue Analysis of a Wheel Rim Incorporating Finite Element Approach](https://www.researchgate.net/publication/372788696_CAD_Modelling_and_Fatigue_Analysis_of_a_Wheel_Rim_Incorporating_Finite_Element_Approach)*
+
+### 📒 Assembly Directions
 
 See [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}) and [video](https://youtu.be/kHzdqbQ0Vwk).
 
-### Compatibility
+### 🚘 Compatibility
 
 Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 **There may be variation in fitment between individual vehicles due to the physical production process and stamped metal parts. You may need to sand parts of this kit to better fit your vehicle.**
 
-### Shipping
+### 📦 Shipping
 
 Shipping is only available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
 
-Lead time is ~1 month as this part is made-to-order.
+Lead time is ~1 month. This part is made-to-order.
