@@ -78,10 +78,12 @@
   </a>
   <script src="{{ " /assets/javascripts/return-to-top.js" | prepend: site.baseurl }}"></script>
 
+  {% if page.use_math %}
   <!-- Mathjax -->
   <script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    src="{{ " /assets/javascripts/mathjax/tex-chtml.js" | prepend: site.baseurl }}">
   </script>
+  {% endif %}
 
   {% if page.layout == 'post' %}
 

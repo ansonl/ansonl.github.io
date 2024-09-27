@@ -7,6 +7,7 @@ image:
 thumbnail: /assets/images/store/toyota-corolla-cross-hybrid-spare-tire-mount.webp
 more-link-text: "See Details"
 comments: true
+use_math: true
 excerpt: >
   Be prepared for what the road throws your way.   
   
