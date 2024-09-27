@@ -73,7 +73,9 @@ Include the following measurements with your order to get the best fit the first
 
 - **Hub Surface Depth (mm)** - The distance from the downward hub surface to the ground when the tire is laid on its side for storage. This is **not** the same as Wheel Backspacing because the rubber tire width must be considered. This can be directly measured with the tire (preferred) or estimated with the below equation:
 
-  $$\text{Hub Surface Depth} = (\text{TireWidth} \div 2) + \text{WheelOffset} $$
+  ```math
+  \text{Hub Surface Depth} = (\text{TireWidth} \div 2) + \text{WheelOffset}
+  ```
 
   - **Tire Width (mm)** - Tire width is ***XXX*** from the [DOT tire code](https://en.wikipedia.org/wiki/Tire_code) format ***XXX**/YYRDD*
 
