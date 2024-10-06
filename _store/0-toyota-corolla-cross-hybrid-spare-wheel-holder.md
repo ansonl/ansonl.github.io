@@ -42,7 +42,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 - The product will be made in a random color (probably black). Specific colors are available upon [request](mailto:support@ansonliu.com).
 
-- 🇺🇸 Made in the USA.
+- 🇺🇸 Designed and made in the USA.
 
 **[Read more about the mount and Toyota Corolla Cross Hybrid Spare Tires]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %})**
 
@@ -103,7 +103,7 @@ Include the following measurements with your order to get the best fit the first
     > 1. Flip the tire to lay flat on the other side of the tire.
     > 1. Measure the Hub Surface Depth to the floor.
     > 1. Use the lower of the 2 measured Hub Surface Depths.*
-    > ###### *If the measured Hub Surface Depth is < 20 mm, the tire should be laid on the other side.
+    > ###### *If the measured Hub Surface Depth is < 20 mm AND the rim protrudes past the tire, the tire should be laid on the other side.
 
   - Hub Surface Depth can be estimated with the below equation.
 
