@@ -94,9 +94,18 @@ Include the following measurements with your order to get the best fit the first
 
 - **Center Bore Diameter (mm)** - The diameter of the center hole in the rim.
 
-- **Hub Surface Depth (mm)** - The distance from the downward [hub](/assets/images/store/parts-of-a-wheel-rim_50perc.webp) surface to the ground when the tire is laid flat for storage. Hub Surface Depth is most accurately physically measured with the actual tire. If the measured Hub Surface Depth is < 20 mm, the tire should be laid on the other side.
+- **Hub Surface Depth (mm)** - The distance from the downward [hub](/assets/images/store/parts-of-a-wheel-rim_50perc.webp) surface to the ground when the tire is laid flat for storage.
 
-  - It can be estimated with the below equation.
+  - 📏 Hub Surface Depth is most accurate when physically measured with the actual tire.
+
+    > 1. Lay the tire flat.
+    > 1. Measure the Hub Surface Depth to the floor.
+    > 1. Flip the tire to lay flat on the other side of the tire.
+    > 1. Measure the Hub Surface Depth to the floor.
+    > 1. Use the lower of the 2 measured Hub Surface Depths.*
+    > ###### *If the measured Hub Surface Depth is < 20 mm, the tire should be laid on the other side.
+
+  - Hub Surface Depth can be estimated with the below equation.
 
   {% raw %}
   $$
@@ -104,8 +113,8 @@ Include the following measurements with your order to get the best fit the first
   $$
   {% endraw %}
 
-  > *Tire Width (mm)* - Tire width is ***XXX*** from the [DOT tire code](https://en.wikipedia.org/wiki/Tire_code) format ***XXX**/YYRDD*
-  >
-  > *Wheel Offset (mm)* - Offset of the hub mounting surface relative to the centerline of the wheel. Positive offset is towards the street side. Negative offset is towards the car side. [Reference](https://www.lesschwab.com/article/wheels/what-is-wheel-offset.html)
+    > *Tire Width (mm)* - Tire width is ***XXX*** from the [DOT tire code](https://en.wikipedia.org/wiki/Tire_code) format ***XXX**/YYRDD*
+    >
+    > *Wheel Offset (mm)* - Offset of the hub mounting surface relative to the centerline of the wheel. Positive offset is towards the street side. Negative offset is towards the car side. [Reference](https://www.lesschwab.com/article/wheels/what-is-wheel-offset.html)
 
   - This is **not** the same as Wheel Backspacing because the rubber tire width must be considered.
