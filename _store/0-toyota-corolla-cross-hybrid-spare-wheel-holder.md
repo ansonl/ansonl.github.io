@@ -84,17 +84,19 @@ Lead time is ~1 month. This part is made-to-order.
 
 ### 🔧 Order Measurements
 
-Determine which placement direction works best for your tire. 
-
-Placement A "deep dish up" is recommended when the rim protudes significantly from the tire.
+Determine which placement direction works best for your tire.
 
 ![Tire styles and recommended placements](/assets/images/store/tire-storage-direction.webp)
 
+Placement A "deep dish up" is recommended when the rim protudes significantly from the tire (e.g. Toyota CC OEM Spare Tire).
+
 Include the following measurements with your order to get the best fit the first time:
 
-- **Center Bore Diameter (mm)** *For all placements*
+- **Center Bore Diameter (mm)** - The diameter of the center hole in the rim.
 
-- **Hub Surface Depth (mm)** *For placement B "deep dish down"* - The distance from the downward [hub](/assets/images/store/parts-of-a-wheel-rim_50perc.webp) surface to the ground when the tire is laid on its side for storage. This is **not** the same as Wheel Backspacing because the rubber tire width must be considered. This can be directly measured with the tire (preferred) or estimated with the below equation:
+- **Hub Surface Depth (mm)** - The distance from the downward [hub](/assets/images/store/parts-of-a-wheel-rim_50perc.webp) surface to the ground when the tire is laid flat for storage. Hub Surface Depth is most accurately physically measured with the actual tire. If the measured Hub Surface Depth is < 20 mm, the tire should be laid on the other side.
+
+  - It can be estimated with the below equation.
 
   {% raw %}
   $$
@@ -102,6 +104,8 @@ Include the following measurements with your order to get the best fit the first
   $$
   {% endraw %}
 
-  - **Tire Width (mm)** - Tire width is ***XXX*** from the [DOT tire code](https://en.wikipedia.org/wiki/Tire_code) format ***XXX**/YYRDD*
+  > *Tire Width (mm)* - Tire width is ***XXX*** from the [DOT tire code](https://en.wikipedia.org/wiki/Tire_code) format ***XXX**/YYRDD*
+  >
+  > *Wheel Offset (mm)* - Offset of the hub mounting surface relative to the centerline of the wheel. Positive offset is towards the street side. Negative offset is towards the car side. [Reference](https://www.lesschwab.com/article/wheels/what-is-wheel-offset.html)
 
-  - **Wheel Offset (mm)** - Offset of the hub mounting surface relative to the centerline of the wheel. Positive offset is towards the street side. Negative offset is towards the car side. [Reference](https://www.lesschwab.com/article/wheels/what-is-wheel-offset.html)
+  - This is **not** the same as Wheel Backspacing because the rubber tire width must be considered.
