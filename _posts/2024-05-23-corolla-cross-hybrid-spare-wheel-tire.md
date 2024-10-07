@@ -411,7 +411,9 @@ I cut a 1.5" thick board of extruded foam from the hardware store to fit on top 
 
 ![corolla cross hybrid spare tire cargo deck riser spacer foam](/wp-content/uploads/2024/05/corolla-cross-spare-tire-cargo-deck-riser-spacer.webp)
 
-I cut a small circle in the top of the foam where the cargo platform's bottom circular protrusion sticks out so that the platform does not slide around.
+I cut a small circle in the top of the foam where the cargo platform's bottom circular protrusion sticks out so that the platform does not slide around. Later on, I 3D printed a [cargo deck circle buffer](https://makerworld.com/en/models/686847) out of flexible TPU to absorb some of the shifting movement of the cargo deck and distribute the force over a larger area to decrease wear and tear of the foam.
+
+![corolla cross hybrid spare tire tpu buffer](/wp-content/uploads/2024/05/cargo-deck-circle-buffer.webp)
 
 ![corolla cross hybrid spare tire foam insert](/wp-content/uploads/2024/05/corolla-cross-spare-tire-foam-insert.webp)
 
