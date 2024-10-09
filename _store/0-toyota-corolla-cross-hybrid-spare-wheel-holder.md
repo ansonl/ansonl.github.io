@@ -80,7 +80,7 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 Shipping is only available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
 
-Lead time is ~1 month. This part is made-to-order.
+**Lead time is ~1-3 months.** This part is made-to-order.
 
 ### 🔧 Order Measurements
 

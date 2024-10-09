@@ -11,18 +11,23 @@ tags:
   - ultimaker
   - cura
 excerpt: >
-  Choosing a reliable start G-code that primes a dual extruder printer is difficult. Read about the different extruder prime techniques and my adaptive priming start G-code for Cura that fits most printers.
+  Choosing a reliable start G-code that primes a dual extruder printer is difficult. Read about the different extruder prime techniques and how my adaptive priming start G-code for Cura incorporates these techniques for dual nozzle printers.
+
+  <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
+  <source src="/wp-content/uploads/2024/10/ultimaker-dxuv2-prime-video.webm" type="video/webm">
+  </video>
 
   <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
   <source src="/wp-content/uploads/2024/10/cura-dual-extruder-adaptive-start-gcode-preview.webm" type="video/webm">
   </video>
 
-  <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
-  <source src="/wp-content/uploads/2024/10/prusa-dual-extruder-adaptive-start-gcode-preview.webm" type="video/webm">
-  </video>
 ---
 
 Choosing a reliable start G-code that primes a dual extruder printer is difficult. Read about the different extruder prime techniques and my adaptive priming start G-code for Cura that fits most printers.
+
+<video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
+  <source src="/wp-content/uploads/2024/10/ultimaker-dxuv2-prime-video.webm" type="video/webm">
+</video>
 
 ## Prime Techniques
 
@@ -163,6 +168,12 @@ The initial extruder is primed with a similar sequence that is flipped to the ot
 ![initial extruder prime](/wp-content/uploads/2024/10/end-prime-location.webp)
 
 After the break line, a U turn is done with an arc to return the extruder as close to the origin as possible while avoiding the bed clip. The nozzle travels over the previous prime line and is raised slightly to take advantage at the crossing point to wipe the nozzle against previously laid down plastic.
+
+#### Results
+
+![end result](/wp-content/uploads/2024/10/ultimaker-dxuv2-prime-bed-result.webp)
+
+I've had great results with this dual nozzle prime routine with very few failures (almost all due to existing user error). It saves time by not heating unused extruders and ensures that the initial extruder is always primed last.
 
 #### Possible Future Improvements
 
