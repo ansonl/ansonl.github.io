@@ -175,6 +175,8 @@ After the break line, a U turn is done with an arc to return the extruder as clo
 
 I've had great results with this dual nozzle prime routine with very few failures (almost all due to existing user error). It saves time by not heating unused extruders and ensures that the initial extruder is always primed last.
 
+The entire prime line is connected so it is easily removed as a single piece.
+
 #### Possible Future Improvements
 
 I could heat up the nozzle while it is touching the bed instead of raised in the air. This has the drawback of burning a hole in PEI beds to expose the metal underneath that is within the printable area but could work for glass bed users.
