@@ -167,7 +167,7 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 > ⚠️ You should use a matching **M8 threaded** tire hold down for your spare tire. **Part 1** and **Part 3** are threaded for M8 bolts.  
 The Universal Tire Hold Down part can be used if you do not have a matching hold down.
 
-> ⚠️🔩 If you received multiple M8 bolts, you **must** try the **shorter and/or fully threaded** bolt first. Only use the longer/partially threaded bolt if the shorter bolt is not long enough. Screwing in the partially threaded bolt will wear out the part's threads and hamper use of shorter bolts in the future.
+> ⚠️🔩 If you received multiple M8 bolts, you **must** try the **fully threaded or shorter** bolt first. You can try the longer/partially threaded bolt if the shorter bolt is not long enough. Screwing in the partially threaded bolt will wear out the part's threads and hamper use of shorter bolts in the future. If the bolt is too long, cut the bolt to a shorter length.
 
 1. Insert the M8 bolt into the tire hold down knob so that the hex head of the bolt fits into the hex cutout in the knob.
 
