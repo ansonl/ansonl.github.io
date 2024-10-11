@@ -28,15 +28,19 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
 ### Kit Parts
 
 - Spare tire mount
-  - Part 1 (a/b)
+  - Part 1
   - Part 2
-  - [Part 3](https://makerworld.com/en/models/480955)
-  - 2x M10x40mm socket bolt
+  - [Part 3](https://makerworld.com/en/models/480955) - [Hub Surface Height](https://ansonliu.com/store/toyota-corolla-cross-hybrid-spare-wheel-holder/#-order-measurements)
+  - Part 3 - low profile*
+  - 1x M10x40mm socket bolt
+  - 1x M10x25mm socket bolt
   - 2x M10 washer
   - 2x M10 flanged nut
-- [Universal tire hold down](https://makerworld.com/en/models/443704)
+- [Universal tire hold down](https://makerworld.com/en/models/443704) (2 parts)
   - 1x M8 cap bolt with length ≥90mm
-  - 1x M8 nut (optional)
+  - 1x M8 nut*
+
+###### *optional
 
 ### Tools Needed
 
@@ -134,9 +138,9 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 
 3. Reconnect the orange power connector. Flip the white lever down. Pop the black clip back into the white lever.
 
-4. Place a M10 washer over each of the two M10x40mm bolts.
+4. Place a M10 washer over each of the two M10 bolts.
 
-5. Insert the M10 bolts through two holes on the front and right side of **Piece 1**.
+5. Insert the M10 bolts through two holes on the front and right sides of **Piece 1**. The shorter bolt fits in the front.
 
 6. Tighten the two bolts to the metal bracket with two M10 nuts on the bottom face of the metal bracket.
 
@@ -160,7 +164,7 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 
 ![tire hold down](/assets/images/reference/cch-tire-mount-assembly/7-tire-hold-down-above-tire.webp)
 
-> ⚠️ You should use a matching **M8 threaded** tire hold down for your spare tire. **Part 1** is threaded for M8 bolts.  
+> ⚠️ You should use a matching **M8 threaded** tire hold down for your spare tire. **Part 1** and **Part 3** are threaded for M8 bolts.  
 The Universal Tire Hold Down part can be used if you do not have a matching hold down.
 
 > ⚠️🔩 If you received multiple M8 bolts, you **must** try the **shorter and/or fully threaded** bolt first. Only use the longer/partially threaded bolt if the shorter bolt is not long enough. Screwing in the partially threaded bolt will wear out the part's threads and hamper use of shorter bolts in the future.
@@ -171,11 +175,11 @@ The Universal Tire Hold Down part can be used if you do not have a matching hold
 
 3. Insert the hold down knob with M8 bolt into the hold down ring. The flat surfaces of the knob will be flat against the interior circular cutout of the hold down ring. 
 
-4. Finger tighten the hold down knob by turning the knob clockwise and applying downward pressure to the hold down knob. Stop tightening the knob when resistance is encountered. Do not overtighten the knob or else **Part 1** threads will be stripped.
+4. Finger tighten the hold down knob by turning the knob clockwise and applying downward pressure to the hold down ring. Stop tightening the knob when resistance is encountered. Do not overtighten the knob or else **Part 1** and **Part 3** threads will be stripped.
 
 5. If there is excessive play in the tire, repeat the previous step.
 
-    > The plastic threads in **Part 1** are sufficient to hold the tire in place. If you strip the plastic threads in **Part 1**, the M8 nut cutout on the bottom of the **Part 1** may be enlarged to fit a M8 nut for an additional fastening point but this is not tested or recommended.
+    > The plastic threads in **Part 1** are sufficient to hold the tire in place. If you strip the plastic threads in **Part 1**, the M8 nut cutout on the bottom of the **Part 1** may be enlarged to fit a M8 nut for an additional fastening point but this is untested.
 
 ### Cargo Deck Spacer
 
@@ -183,7 +187,7 @@ The Universal Tire Hold Down part can be used if you do not have a matching hold
 
 2. Make a spacer using the dimensions in the [post]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}) as a general guide and tailor your measurements for any variations in your vehicle.
 
-3. Make a circular cutout in the spacer for the circular holder located on the bottom of the cargo floor. This will help keep the floor and spacer aligned.
+3. Make a circular cutout in the spacer for the circular holder located on the bottom of the cargo floor. This will help keep the floor and spacer aligned. You may create a [cargo deck hole buffer](https://makerworld.com/en/models/686847) out of flexible material (e.g. TPU, silicone) to distribute the shifting force of the cargo floor.
 
 4. Put the spacer on top of the cargo deck.
 
@@ -191,7 +195,7 @@ The Universal Tire Hold Down part can be used if you do not have a matching hold
 
 1. Put the cargo floor on top of the spacer.
 
-2. If you have a jack for your vehicle, the jack fits in the plastic cargo deck slot with the rubber circle as a latch.
+2. If you have a jack for your vehicle, the jack fits in the plastic cargo deck slot with the rubber band as a latch.
 
 3. The Tire Puncture Kit consisting of a air compressor and tire sealant can be either removed from the car or placed under the cargo floor.
 
