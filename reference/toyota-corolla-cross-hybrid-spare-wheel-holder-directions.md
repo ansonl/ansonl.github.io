@@ -30,7 +30,7 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
 - Spare Tire Mount
   - Part 1
   - Part 2
-  - [Part 3](https://makerworld.com/en/models/480955) - [Hub Surface Height](https://ansonliu.com/store/toyota-corolla-cross-hybrid-spare-wheel-holder/#-order-measurements)
+  - [Part 3](https://makerworld.com/en/models/480955) - [Hub Surface Depth](https://ansonliu.com/store/toyota-corolla-cross-hybrid-spare-wheel-holder/#-order-measurements)
   - Part 3 - low profile*
   - 1x M10x40mm socket bolt
   - 1x M10x25mm socket bolt
@@ -109,13 +109,15 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
  <source src="/assets/images/reference/cch-tire-mount-assembly/spare-tire-mount-printed-part-disassembly.mp4" type="video/mp4">
 </video>
 
-1. The top circular piece (**Piece 3**) interlocks with the bottom 2 pieces with horizontal grooves running from left to right. Slide **Piece 3** to the left until **Piece 3** leaves the bottom 2 pieces as seen in the animation above.
+1. Unscrew the **Universal Tire Hold Down (and M8 bolt)** from the top circular piece (**Piece 3**). Completely remove the tire hold down and accompanying M8 bolt from **Piece 3**.
 
-2. The rectangular piece (**Piece 1**) interlocks with the semi circular piece (**Piece 2**) with a groove on the underside of the pieces. Slide the **Piece 1** upwards from **Piece 2** until the two pieces separate as seen in the animation above.
+2. **Piece 3** interlocks with the bottom 2 mount pieces with horizontal grooves running from left to right. Slide **Piece 3** to the left until **Piece 3** leaves the bottom 2 pieces as seen in the animation above.
 
-3. Unscrew and remove two M10 nuts on the underside of **Piece 1**.
+3. The rectangular piece (**Piece 1**) interlocks with the semi circular piece (**Piece 2**) with a groove on the underside of the pieces. Slide the **Piece 1** upwards from **Piece 2** until the two pieces separate as seen in the animation above.
 
-4. Remove two M10 bolts and washers from **Piece 1**.
+4. Unscrew and remove two M10 nuts on the underside of **Piece 1**.
+
+5. Remove two M10 bolts and washers from **Piece 1**.
 
 ### Tire Mount Assembly
 
