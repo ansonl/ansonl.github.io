@@ -37,7 +37,7 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
   - 2x M10 washer
   - 2x M10 flanged nut
 - [Universal tire hold down](https://makerworld.com/en/models/443704) (2 parts)
-  - 1x M8 cap bolt with length ≥90mm
+  - 1x M8 cap bolt
   - 1x M8 nut*
 
 ###### *optional
@@ -158,22 +158,24 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 
 > ⚠️ Spare rims with high offsets may touch the cable or sit very high. If this is the case, you may measure the additional height you need to raise the tire to clear the cable when placed "deep dish side down". Then place a circular wood or dense foam piece with height equal to the measured additional height amount in between **Part 3** and the rim as an additinal inside spacer. This may minimize the distance the cargo floor is ultimately raised by the spare tire. A longer tire hold down bolt may be needed after this modification.
 
-> ⚙️ **Part 3** may be customized by raising and lowering the top surface and making additinal cutouts made to better fit your specific tire. Customize and 3D print **Part 3** using the [released 3D model](https://makerworld.com/en/models/480955). 
+> ⚙️ **Part 3** may be customized by raising and lowering the top surface and making additinal cutouts made to better fit your specific tire. Customize and 3D print **Part 3** using the [released 3D model](https://makerworld.com/en/models/480955).
 
 ### Tire Hold Down
 
 ![tire hold down](/assets/images/reference/cch-tire-mount-assembly/7-tire-hold-down-above-tire.webp)
 
 > ⚠️ You should use a matching **M8 threaded** tire hold down for your spare tire. **Part 1** and **Part 3** are threaded for M8 bolts.  
-The Universal Tire Hold Down part can be used if you do not have a matching hold down.
+The Universal Tire Hold Down can be used if you do not have a matching hold down.
 
-> ⚠️🔩 If you received multiple M8 bolts, you **must** try the **fully threaded or shorter** bolt first. You can try the longer/partially threaded bolt if the shorter bolt is not long enough. Screwing in the partially threaded bolt will wear out the part's threads and hamper use of shorter bolts in the future. If the bolt is too long, cut the bolt to a shorter length.
+> ⚠️🔩 If you received multiple M8 bolts, you **must** try the **fully threaded and shorter** bolt first. Longer bolts can be tested if the shorter bolts do not get enough grip. Test longer bolts when **Part 1** is **NOT** attached to **Part 2**. If the bolt sticks out of the bolt hole underneath **Part 1**, the bolt is too long and must cut shorter.
+
+> ⚠️🔩 Partially threaded bolts should only be used if **Part 3** has an unthreaded bolt hole. **Part 3 - low profile** has an unthreaded bolt hole. Screwing partially threaded bolts into threaded parts will wear out threads and preclude use of shorter bolts in the future.
 
 1. Insert the M8 bolt into the tire hold down knob so that the hex head of the bolt fits into the hex cutout in the knob.
 
 2. Insert the tire hold down ring into the tire rim center bore hole from above.
 
-3. Insert the hold down knob with M8 bolt into the hold down ring. The flat surfaces of the knob will be flat against the interior circular cutout of the hold down ring. 
+3. Insert the hold down knob with M8 bolt into the hold down ring. The flat surfaces of the knob will be flat against the interior circular cutout of the hold down ring.
 
 4. Finger tighten the hold down knob by turning the knob clockwise and applying downward pressure to the hold down ring. Stop tightening the knob when resistance is encountered. Do not overtighten the knob or else **Part 1** and **Part 3** threads will be stripped.
 
