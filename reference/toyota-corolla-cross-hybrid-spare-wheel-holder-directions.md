@@ -27,7 +27,7 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
 
 ### Kit Parts
 
-- Spare tire mount
+- Spare Tire Mount
   - Part 1
   - Part 2
   - [Part 3](https://makerworld.com/en/models/480955) - [Hub Surface Height](https://ansonliu.com/store/toyota-corolla-cross-hybrid-spare-wheel-holder/#-order-measurements)
@@ -36,7 +36,7 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
   - 1x M10x25mm socket bolt
   - 2x M10 washer
   - 2x M10 flanged nut
-- [Universal tire hold down](https://makerworld.com/en/models/443704) (2 parts)
+- [Universal Tire Hold Down](https://makerworld.com/en/models/443704)
   - 1x M8 cap bolt
   - 1x M8 nut*
 

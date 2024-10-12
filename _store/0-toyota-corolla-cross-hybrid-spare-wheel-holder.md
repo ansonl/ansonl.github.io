@@ -53,12 +53,12 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 ### 🧰 Includes
 
-- 3/4 piece spare tire mount (PETG material)
-  - 2x M10x40mm bolt
+- 3 piece Spare Tire Mount (PETG material)
+  - 2x M10 bolt
   - 2x M10 washer
   - 2x M10 flanged nut
-- Universal tire hold down (PETG material)
-  - 1x M8 bolt of length ≥90mm
+- 2 piece Universal tire hold down (PETG material)
+  - 1x M8 bolt
 
 ### ⚠️ Notes
 
