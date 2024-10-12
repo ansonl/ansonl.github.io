@@ -109,7 +109,7 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
  <source src="/assets/images/reference/cch-tire-mount-assembly/spare-tire-mount-printed-part-disassembly.mp4" type="video/mp4">
 </video>
 
-1. Unscrew the **Universal Tire Hold Down (and M8 bolt)** from the top circular piece (**Piece 3**). Completely remove the tire hold down and accompanying M8 bolt from **Piece 3**.
+1. Completely unscrew the **Universal Tire Hold Down (and M8 bolt)** from the top circular piece (**Piece 3**).
 
 2. **Piece 3** interlocks with the bottom 2 mount pieces with horizontal grooves running from left to right. Slide **Piece 3** to the left until **Piece 3** leaves the bottom 2 pieces as seen in the animation above.
 
