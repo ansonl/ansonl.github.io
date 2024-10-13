@@ -531,7 +531,7 @@ Most of my designs available for free on [MakerWorld](https://makerworld.com/en/
 
 Physical versions of my designs are available for purchase on my [Store]({% link store.md %}). Get the good stuff straight from the source 📍!
 
-### Another design that may interest you
+### Other Toyota Corolla Cross accessories that may interest you
 
 #### Toyota Corolla Cross Integrated Windshield Mount
 
@@ -539,7 +539,9 @@ Physical versions of my designs are available for purchase on my [Store]({% link
 
 This modular mount fits all new 2022+ Toyota vehicles [including the Corolla Cross] equipped with Toyota Safety Sense 3.0. Any accessory or dashcam with a GoPro style mount can be cleanly attached to your front windshield using this mount!
 
-*[Download and 3D print](https://makerworld.com/en/models/447037) / Get it from my [Store]({% link store.md %}).*
+*[Download + 3D print - Integrated Dashcam Mount](https://makerworld.com/en/models/447037)*
+
+*[Download + 3D print - Fuse Box Extended Height Cover](https://makerworld.com/en/models/227473)*
 
 #### Toyota Corolla Cross Integrated Windshield Right Side Mount
 
@@ -547,4 +549,4 @@ This modular mount fits all new 2022+ Toyota vehicles [including the Corolla Cro
 
 A modular mounting point that clips into the right side of the front windshield bracket cover. I created this primarily hold a FasTrak toll road pass but any accessory or dashcam can be attached to the right side of the windshield with this mount.
 
-*Still in development and testing. Releasing soon.*
+*[Download + 3D print](https://makerworld.com/en/models/494116)

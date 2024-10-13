@@ -11,7 +11,7 @@ tags:
   - ultimaker
   - cura
 excerpt: >
-  Choosing a reliable start G-code that primes a dual extruder printer is difficult. Read about the different extruder prime techniques and how my adaptive priming start G-code for Cura incorporates these techniques for dual nozzle printers.
+  Choosing a reliable start G-code that primes a dual extruder printer is difficult. This post explains the different extruder prime techniques and how my [adaptive priming start G-code](https://github.com/ansonl/DXU/blob/master/AL-DXUv2/start-end-gcode/cura-adaptive-start-gcode-dual-extruder.gcode) for Cura incorporates these techniques for dual nozzle printers.
 
   <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
   <source src="/wp-content/uploads/2024/10/ultimaker-dxuv2-prime-video.webm" type="video/webm">
@@ -23,7 +23,7 @@ excerpt: >
 
 ---
 
-Choosing a reliable start G-code that primes a dual extruder printer is difficult. Read about the different extruder prime techniques and my adaptive priming start G-code for Cura that fits most printers.
+Choosing a reliable start G-code that primes a dual extruder printer is difficult. There are different extruder prime techniques and my [adaptive priming start G-code](https://github.com/ansonl/DXU/blob/master/AL-DXUv2/start-end-gcode/cura-adaptive-start-gcode-dual-extruder.gcode) for Cura uses a mix of these techniques to properly prime the most single/dual nozzle printers.
 
 <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
   <source src="/wp-content/uploads/2024/10/ultimaker-dxuv2-prime-video.webm" type="video/webm">
