@@ -521,7 +521,9 @@ The most important part of swapping the spare tire is staying safe.
 
 ## Conclusion
 
-I tried to touch on all parts of the spare tire acquisition and mounting process in this post. Decrease the chance of being stranded on the side of the road or trail by pairing your Toyota Corolla Cross Hybrid with a spare tire and [mount]({% link store.md %}).
+I tried to touch on all parts of the spare tire acquisition and mounting process in this post. Decrease the chance of being stranded on the side of the road or trail by pairing your Toyota Corolla Cross Hybrid with a spare tire and mount.
+
+[🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*]({% link store.md %})
 
 ### Supporting More Designs
 

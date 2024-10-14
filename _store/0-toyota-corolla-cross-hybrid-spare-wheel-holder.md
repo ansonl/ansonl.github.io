@@ -78,7 +78,7 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 ### 📦 Shipping
 
-Shipping is only available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
+Shipping is available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
 
 **Lead time is ~1-3 months.** This part is made-to-order.
 
@@ -118,3 +118,4 @@ Include the following measurements with your order to get the best fit the first
     > *Wheel Offset (mm)* - Offset of the hub mounting surface relative to the centerline of the wheel. Positive offset is towards the street side. Negative offset is towards the car side. [Reference](https://www.lesschwab.com/article/wheels/what-is-wheel-offset.html)
 
   - This is **not** the same as Wheel Backspacing because the rubber tire width must be considered.
+  
