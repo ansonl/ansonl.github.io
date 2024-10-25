@@ -161,7 +161,7 @@ These requirements are ordered in my recommended steps for finding a compatible 
 
 | Specification | Corolla Cross (Gas/Hybrid) (USA/Canada) |
 | ---- | ---- |
-| Bolt Pattern | 5x144.3mm |
+| Bolt Pattern | 5x114.3mm |
 | Bolt Thread Size | M12 x 1.5 |
 | Center Bore | 60.1 mm |
 | Offset (ET) | 43-(45)-47 (17" rim) / 48-(50)-52 (18" rim) |
