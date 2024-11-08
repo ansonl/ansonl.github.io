@@ -40,7 +40,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 - Depending on the width of the spare, a spacer will be needed to elevate the cargo deck to be level with the top of the tire.
 
-- The product will be made in a random color (probably black). Specific colors are available upon [request](mailto:support@ansonliu.com).
+- The kit will be made in a random color. Specific colors are available upon [request](mailto:support@ansonliu.com).
 
 - 🇺🇸 Designed and made in the USA.
 
@@ -80,7 +80,7 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 Shipping is available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
 
-**Lead time is ~1-3 months.** This part is made-to-order.
+**Lead time is ~1 month.** This part is made-to-order.
 
 ### 🔧 Order Measurements
 
