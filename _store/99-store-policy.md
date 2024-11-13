@@ -14,10 +14,12 @@ excerpt: >
 
 3. Contact. The seller and Anson Liu may be contacted in writing by emailing support@ansonliu.com.
 
-4. Shipping. Packages will be shipped through any shipping carrier including but not limited to USPS/UPS/FedEx/DHL. Specific carrier preferences must be requested and confirmed through email prior to order placement.
+4. Additional costs. You are responsible for responsible for paying all tariffs, fees, taxes, customs, and additional charges for purchased items. The seller and Anson Liu are not responsible for these costs and refunds will not be made for delivery issues related to these costs.
 
-5. Cancellation and refunds. Orders may be cancelled and refunded (purchase amount minus any processing, restocking, and bank fees) if the product has not begun production. Cancellations and order status may be requested prior to shipment by email. Orders may not be refunded after the product has begun production. The seller has sole discretion on granting return, replacement, and refund requests received.
+5. Shipping. Packages will be shipped through any shipping carrier including but not limited to USPS/UPS/FedEx/DHL. Specific carrier preferences must be requested and confirmed through email prior to order placement.
 
-6. Proper personal protective equipment (PPE) is recommended when performing any service or modification to a vehicle.
+6. Cancellation and refunds. Orders may be cancelled and refunded (purchase amount minus all processing, restocking, and bank fees) if the product has not begun production. Cancellations and order status may be requested prior to shipment by email. Orders may not be refunded after the product has begun production. The seller has sole discretion on granting return, replacement, and refund requests received.
 
-7. All products sold by the seller and Anson Liu are third party modifications and user assembled kits. The products do not have safety features or capabilities and are not meant to be safety devices. Consult your manufacturer or certified dealer for further guidance on vehicle modifications.
+7. Proper personal protective equipment (PPE) is recommended when performing any service or modification to a vehicle.
+
+8. All products sold by the seller and Anson Liu are third party modifications and user assembled kits. The products do not have safety features or capabilities and are not meant to be safety devices. Consult your manufacturer or certified dealer for further guidance on vehicle modifications.
