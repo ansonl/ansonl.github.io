@@ -18,14 +18,17 @@ excerpt: >
 
 [Download all USA state printable models](https://www.printables.com/@ansonl/collections/714909)
 
-| Subregion | Variant | V1 | V2 |
-| --- | --- | --- | --- |
-| [Lower 48](https://www.printables.com/@ansonl/collections/714909) | Linear Scale | 1 | 2 |
-| Lower 48 | Square Root Scale | __N/A__ | 1 |
-| [Alaska](https://www.printables.com/model/611779-alaska-usa-ak-topographic-relief-map-with-rivers-a) | Linear Scale | __N/A__ | 1 |
-| Alaska | Square Root Scale | __N/A__ | 1 |
-| [Hawaii](https://www.printables.com/model/546259-hawaii-usa-hi-southeastern-islands-topo-map-with-h) | Linear Scale | 1 | __N/A__ |
-| [Lower 48 Combined](https://www.printables.com/model/550506-low-poly-usa-lower-48-states) | Low Poly | 1 | __N/A__ |
+| Subregion | Variant | V1 | V2 | Links |
+| --- | --- | --- | --- | --- |
+| Lower 48 | Linear Scale | 1 | 2 | [MakerWorld](https://makerworld.com/en/collections/766615) / [Printables](https://www.printables.com/@ansonl/collections/714909) |
+| Lower 48 | Square Root Scale | __N/A__ | 1 | see above |
+| Lower 48 🚧 | Linear & Sqrt Scale Low Poly | __N/A__ | 2 | see above |
+| Alaska | Linear Scale | __N/A__ | 1 | [MakerWorld](https://makerworld.com/en/models/662546) / [Printables](https://www.printables.com/model/611779-alaska-usa-ak-topographic-relief-map-with-rivers-a) |
+| Alaska | Square Root Scale | __N/A__ | 1 | see above |
+| Hawaii | Linear Scale | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/571705) / [Printables](https://www.printables.com/model/546259-hawaii-usa-hi-southeastern-islands-topo-map-with-h) |
+| Lower 48 Combined | Linear w/ Borders | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/226944) |
+| Lower 48 Combined | Linear | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/230614) / [Printables](https://www.printables.com/model/529276-contiguous-usa-lower-48-topographic-map-with-hydro) |
+| Lower 48 Combined | Low Poly | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/230533) / [Printables](https://www.printables.com/model/550506-low-poly-usa-lower-48-states) |
 
 **Lower 48 is equivalent to Contiguous states.*
 
@@ -43,6 +46,12 @@ USA V2 - Oct 2023
 
 USA V2.1 - NOV 2023
 : Reuploaded certain models in CO, OH, OK, NE, NV, MI, ID, AZ, KS, GA that did not compress correctly with 7zip.
+
+USA V2.1 *Low Poly* - NOV 2024 🚧
+: Started uploading Low Poly style maps.
+: Low Poly maps are based off USA V2.1
+: Low Poly map borders are compatible with all USA V2.1 maps. The elevation features are made more "triangular" for a futuristic, abstract aesthetic. Precise borders and dual color hygrography are maintained.
+: The Low Poly maps load and slice ~10x faster compared to the high detail maps.
 
 ## Asia Region Major Release to Variant Revision Chart
 
