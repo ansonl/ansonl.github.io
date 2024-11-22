@@ -58,6 +58,7 @@ Download on [MakerWorld](https://makerworld.com/en/collections/766615) and [Prin
 | Horizontal Scale (Alaska) | 1:2500000 (0.4mm:1000m) | Effective resolution is 2000m x 2000m. |
 | Vertical Scale (Linear) | 1:500000 (0.1mm:50m) | Vertical exaggeration is 5x. Elevations 0-40m are scaled between 0 and 0.8mm on a logarithmic scale for enhanced coastal detail. |
 | Vertical Scale (Square Root) | 1:500000 (0.1mm:50m) | Vertical exaggeration ranges from 285-5x between sea level and ~4000m. Scaling is greater at lower elevation and lower at higher elevation, . Linear and Square Root elevation breakover at ~4000m. |
+| Vertical Scale (Low Poly) | | Vertical exaggeration is 3x of the base map vertical scale. E.g. Linear base map 5x * low poly 3x = final 15x. |
 | 3D Model Resolution | 0.1mm | |
 | 3D Model Resolution (Low Poly) | 0.1mm-2mm | |
 | 3D Model Resolution (Alaska) | 0.2mm | |

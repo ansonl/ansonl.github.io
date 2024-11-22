@@ -51,7 +51,7 @@ USA V2.1 *Low Poly* - NOV 2024 🚧
 : Started uploading Low Poly style maps.
 : Low Poly maps are based off USA V2.1
 : Low Poly map borders are compatible with all USA V2.1 maps. The elevation features are made more "triangular" for a futuristic, abstract aesthetic. Precise borders and dual color hygrography are maintained.
-: The Low Poly maps load and slice ~10x faster compared to the high detail maps.
+: The Low Poly maps load and slice ~2x faster compared to the high detail maps.
 
 ## Asia Region Major Release to Variant Revision Chart
 
