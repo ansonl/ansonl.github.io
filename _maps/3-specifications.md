@@ -13,6 +13,8 @@ excerpt: >
 
 [3D Print Settings](https://ansonliu.com/maps/print-settings/)
 
+{% include_relative makerworld-size-limit.md %}
+
 Unless otherwise specified for specific maps, I have designed the models for a 0.4 mm nozzle diameter and 0.1mm layer height. Recommended print settings are any multiples of these specs.
 
 ## Map Variants Comparison

@@ -45,13 +45,22 @@ You can scale the model up or down as needed to fit your printer size, the final
 
 ## Slicer Settings
 
-The below settings are optimized for printing at 100% model scale using Cura 5. Users have reported good results changing equivalent settings in Prusaslicer/Bambu Studio. Classic line generation is preferred to Arachne variable line width but the Cura 5 settings have been adjusted for compensate for Arachne.
+### PrusaSlicer / Bambu Studio/ Orca Slicer
+
+| Slicer Setting | Recommended Value for 0.4 mm nozzle |
+| ------------- |-------------|
+| Layer Height | 0.12 mm |
+| Infill and Infill Percentage | Lightning 30% |
+
+### Cura
+
+The below settings are optimized for printing at 100% model scale using Cura 5. Users have reported good results changing equivalent settings in PrusaSlicer/Bambu Studio. Classic line generation is preferred to Arachne variable line width but these Cura 5 settings have been adjusted for compensate for Arachne.
 
 The [downloadable Cura 4/5 profiles](https://www.printables.com/model/741190-topographic-relief-map-calibrationstress-test-prin/files) contain additional optimized settings not listed below for brevity.
 
 | Slicer Setting | Recommended Value for 0.4 mm nozzle |
 | ------------- |-------------|
-| Layer Height | 0.1 mm |
+| Layer Height | 0.12 mm |
 | Line Width | 0.4 mm |
 | Minimum Thin Wall Line Width | 0.2 mm |
 | Top Surface Skin Layers | 2 |

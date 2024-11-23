@@ -27,7 +27,7 @@ The 3D Manufacturing Format (3MF) is a file format to distribute 3D models. The 
 
 ### 3. How can I import 3MF into Blender?
 
-3MF files can be imported into Blender using the free [Blender 3MF Format addon](https://github.com/ansonl/Blender3mfFormat). I recommend using my branch of the addon that adds some additional features in a [pull request](https://github.com/Ghostkeeper/Blender3mfFormat/pull/58) waiting to be merged into the main repo.
+3MF files can be imported into Blender using the free [Blender 3MF Format addon](https://github.com/ansonl/Blender3mfFormat). I recommend using my linked branch of the addon that adds 3MF Color Group support for objects in a [pull request](https://github.com/Ghostkeeper/Blender3mfFormat/pull/58) waiting to be merged into the main repo.
 
 ### 4. Cura/Prusaslicer slicer softwares hang or fail when slicing the models
 

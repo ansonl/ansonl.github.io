@@ -1,0 +1,2 @@
+> Not all map styles may be available on [MakerWorld](https://makerworld.com/en/@ansonl) due to MakerWorld's low file size limits.  
+All styles are available on [Printables](https://www.printables.com/@ansonl).
