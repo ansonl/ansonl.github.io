@@ -23,3 +23,5 @@ excerpt: >
 7. Proper personal protective equipment (PPE) is recommended when performing any service or modification to a vehicle.
 
 8. All products sold by the seller and Anson Liu are third party modifications and user assembled kits. The products do not have safety features or capabilities and are not meant to be safety devices. Consult your manufacturer or certified dealer for further guidance on vehicle modifications.
+
+9. This policy and all products may change without notice.
