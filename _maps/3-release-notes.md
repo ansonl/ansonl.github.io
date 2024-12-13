@@ -46,14 +46,16 @@ USA V2 - Oct 2023
 
 USA V2.1 - NOV 2023
 : Reuploaded certain models in CO, OH, OK, NE, NV, MI, ID, AZ, KS, GA that did not compress correctly with 7zip.
+: V2.1 map filenames are versioned as `v2` and directly replace V2 maps.
 
-USA V2.2 - *Optimized & Low Poly Maps* - DEC 2024 🚧
-: Started uploading Optimized and Low Poly style maps.
-: New model files are labeled v2 and are a direct replacement for existing v2 maps.
-: Optimized maps retain the same amount of detail of original maps but are half size for faster downloading and processing.
+USA V2.2 - **Storage Optimized Maps & Low Poly style Maps** - DEC 2024 🚧
+: Reuploaded all V2 maps in storage optimized version.
+: Uploaded Low Poly style maps.
+: V2.2 map filenames are versioned as `v2` and directly replace V2/V2.1 maps.
+: All maps are lower size (~60%) for faster downloading and processing. The maps retain the original amount of detail.
 : Low Poly maps are based off USA V2.1
-: Low Poly map borders are compatible with all USA V2.1 maps. The elevation features are made more "triangular" for a futuristic, abstract aesthetic. Precise borders and dual color hygrography are maintained.
-: The Low Poly maps load and slice ~2x faster compared to the high detail maps.
+: Low Poly map borders are compatible with all USA V2.1 maps. The elevation features are transformed to be more "triangular/pixelated" for an abstract aesthetic. Precise borders and dual color hygrography are maintained.
+: These new maps download and slice almost 100% faster.
 
 ## Asia Region Major Release to Variant Revision Chart
 
