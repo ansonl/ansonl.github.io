@@ -1,12 +1,12 @@
 ---
-title: "Cartographic Specifications"
+title: "File & Cartographic Specifications"
 layout: page
 permalink: /maps/specifications/
 image: /assets/images/maps/3d-printable-maps-banner.webp
 thumbnail: /assets/images/maps/map-browse-magnifier.webp
 show_subscribe: false
 excerpt: >
-  Map projection, scale, resolution, and more. 
+  Map file naming details, map projection, scale, resolution, and more. 
 ---
 
 [Updated 3D Map Model Release Notes](https://ansonliu.com/maps/release-notes/)
@@ -28,19 +28,19 @@ Unless otherwise specified for specific maps, I have designed the models for a 0
 ## Model Filename Chart
 
 ```
-REGION-ESCALING-EXTRUDER-STYLE-REVISION-SUBVARIANT-PIECE##.3mf
-     │                       │
-     └────────VARIANT────────┘
+REGION-ESCALING-EXTRUDER-STYLE-REVISION-POSTPROCESS-PIECE##.3mf
+      │                       │
+      └────────VARIANT────────┘
 ```
 
 | Definition | Meaning |
 | ---- | ---- |
 | `REGION` | REGION Abbreviation |
-| `ESCALING` | Elevation scaling (e.g., Linear or Square Root (sqrt) or Log) |
-| `EXTRUDER` | Dual or Single color (extrusion) model |
-| `STYLE`* *(optional)* | Model special style or subregion. `STYLE` is only present when the model file is a special style or the model is exclusive to a special subregion. |
-| `REVISION` | Revision number. See [release notes](https://ansonliu.com/maps/release-notes/) for the latest improvements. |
-| `POSTPROCESS` *(optional)* | Secondary style of a map `VARIANT`(e.g.,`lowpoly`) |
+| `ESCALING` | Elevation scaling (e.g., `linear` or Square Root (`sqrt`) or `log`) |
+| `EXTRUDER` | `dual` or `single` color (extrusion) model |
+| `STYLE`* *(optional)* | Model special style or subregion. (e.g. `transparent`) `STYLE` is only present when the model file is a special style or the model is exclusive to a special subregion. |
+| `REVISION` | Revision number in the format `Vxx` where `xx` is the version. See [release notes](https://ansonliu.com/maps/release-notes/) for the latest improvements. |
+| `POSTPROCESS` *(optional)* | Secondary style (e.g.,`lowpoly`) based on a map `VARIANT` combination. |
 | `PIECE##`† *(optional)* | Interlocking pre-cut piece ## sized for 180 mm x 180 mm or 256mm x 256mm bed. |
 
 **Default `STYLE` is water features model located over submerged low lying lands. This submerged land may be visible when water layers are printed with a transparent filament. Default style minimizes usage of secondary (water) filament color. `transparent` style has water model features that extend all the way through the land for maximum light transmission when used with glow and transparent filaments.*
