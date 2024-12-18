@@ -55,6 +55,7 @@ USA V2.2 - **Storage Optimized Maps & Low Poly style Maps** - DEC 2024 🚧
 : All maps are lower size (~60%) for faster downloading and processing. The maps retain the original amount of detail.
 : Low Poly maps are based off USA V2.1
 : Low Poly map borders are compatible with all USA V2.1 maps. The elevation features are transformed to be more "triangular/pixelated" for an abstract aesthetic. Precise borders and dual color hygrography are maintained.
+: The land and stream transition on this first version of Low Poly maps is a bit abrupt but should not make a huge difference in the final print.
 : These new maps download and slice almost 100% faster.
 
 ## Asia Region Major Release to Variant Revision Chart
