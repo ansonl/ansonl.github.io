@@ -15,6 +15,56 @@ excerpt: >
 
 [Model Filename Chart & Map Specifications](https://ansonliu.com/maps/specifications/)
 
+## Slicer Settings
+
+> You will get best results with filament that has been [Linear Advance and Flow Rate calibrated](https://github.com/SoftFever/OrcaSlicer/wiki/Calibration).
+
+### PrusaSlicer / Bambu Studio / Orca Slicer
+
+Bambu Studio/ Orca Slicer default settings are already close to perfect. I recommend using below settings for better quality and lower filament usage.
+
+| Slicer Setting | Recommended Value for 0.4 mm nozzle |
+| ------------- |-------------|
+| Layer Height | 0.12 mm |
+| Top Surface Pattern | Monotonic Line |
+| Infill and Infill Percentage | Lightning 30% |
+| Ironing | All Top Surfaces |
+| Ironing Line Spacing | 0.2 mm |
+| Ironing Flow | 20-25% |
+| Ironing Inset | 0.21 mm |
+| Ironing Speed | 60 mm/s |
+| Initial Layer Speed | ≤40 mm/s |
+| Initial Layer Infill Speed | ≤80 mm/s |
+| Outer Wall Speed | ≤125 mm/s |
+| Inner Wall Speed | ≤200 mm/s |
+| Top Surface Speed | ≤150 mm/s |
+| Maximum Speed for any layer | ≤200 mm/s |
+
+### Cura
+
+The below settings are optimized for printing at 100% model scale using Cura 5. Classic line generation is preferred to Arachne variable line width but these Cura 5 settings have been adjusted for compensate for Arachne.
+
+The [downloadable Cura 4/5 profiles](https://www.printables.com/model/741190-topographic-relief-map-calibrationstress-test-prin/files) contain additional optimized settings not listed below for brevity.
+
+| Slicer Setting | Recommended Value for 0.4 mm nozzle |
+| ------------- |-------------|
+| Layer Height | 0.12 mm |
+| Line Width | 0.4 mm |
+| Minimum Thin Wall Line Width | 0.2 mm |
+| Top Surface Skin Layers | 2 |
+| Top Surface Skin Pattern | Lines |
+| Skin Overlap | 20% |
+| Top/Bottom Flow | 100% |
+| Top Surface Skin Flow | 100% |
+| Infill and Infill Percentage | Lightning 30% |
+| Ironing Line Spacing | 0.2 mm |
+| Ironing Flow | 20% |
+| Ironing Inset | 0.34 mm |
+| Ironing Speed | 60 mm/s |
+| Gradual Flow Enabled | True (for bowden/indirect printers) |
+| Brim Extruder | Extruder 1 or 2 |
+| Ooze Shield | Yes |
+
 ## Model Placement/Orientation
 
 Drag (or Open) the 3MF model file into the slicer.
@@ -43,38 +93,6 @@ If you want to swap out a color on a specific layer for a dual color print, you 
 
 You can scale the model up or down as needed to fit your printer size, the final map's scale will just be scaled accordingly. *E.g. 200% scale on a previous scale of **0.4mm:1000m** results in **0.4mm:500m***
 
-## Slicer Settings
-
-### PrusaSlicer / Bambu Studio/ Orca Slicer
-
-| Slicer Setting | Recommended Value for 0.4 mm nozzle |
-| ------------- |-------------|
-| Layer Height | 0.12 mm |
-| Infill and Infill Percentage | Lightning 30% |
-
-### Cura
-
-The below settings are optimized for printing at 100% model scale using Cura 5. Users have reported good results changing equivalent settings in PrusaSlicer/Bambu Studio. Classic line generation is preferred to Arachne variable line width but these Cura 5 settings have been adjusted for compensate for Arachne.
-
-The [downloadable Cura 4/5 profiles](https://www.printables.com/model/741190-topographic-relief-map-calibrationstress-test-prin/files) contain additional optimized settings not listed below for brevity.
-
-| Slicer Setting | Recommended Value for 0.4 mm nozzle |
-| ------------- |-------------|
-| Layer Height | 0.12 mm |
-| Line Width | 0.4 mm |
-| Minimum Thin Wall Line Width | 0.2 mm |
-| Top Surface Skin Layers | 2 |
-| Top Surface Skin Pattern | Lines |
-| Skin Overlap | 20% |
-| Top/Bottom Flow | 100% |
-| Top Surface Skin Flow | 100% |
-| Infill and Infill Percentage | Lightning 30% |
-| Ironing Line Spacing | 0.2 mm |
-| Ironing Flow | 20% |
-| Ironing Inset | 0.34 mm |
-| Ironing Speed | 60 mm/s |
-| Gradual Flow Enabled | True (for bowden/indirect printers) |
-| Brim Extruder | Extruder 1 or 2 |
-| Ooze Shield | Yes |
+## Contribute
 
 If you found other settings (in any slicer) to work well for you, please leave a comment to help others.

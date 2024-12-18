@@ -53,12 +53,16 @@ A couple of my recommended mesh tools are below:
 
 #### [MeshMixer](https://apps.autodesk.com/FUSION/en/Detail/Index?id=4108920185261935100&appLang=en&os=Win64)
 
-### 5. Cura/Prusaslicer slicer softwares hang or fail when slicing the models
+### 5. The Slicer softwares hang or fail when slicing the models
 
-Some models such as Alaska exceed the vertex limit of the slicer. Cut the model into smaller sections to bring the model vertex count down. This can be done in mesh software such as [Meshmixer](https://meshmixer.com/) and [Blender](https://www.blender.org/). If the model is cut to the desired size and still does not slice, you can reduce the overall detail of the model by using the [Decimate modifier](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/decimate.html) in Blender.
+Some users have reported that loading the 3MF as a "Project" instead of importing as a model file into Slicers with "projects" has a higher success rate. Users have also found success importing the 3MF into a different slicer such as [Bambu Studio](https://github.com/bambulab/BambuStudio) or [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer/).
 
-Slicing may also fail if your computer runs out of memory (OOM). You can confirm OOM by monitoring total memory usage while slicing. If your slicer does not crash and the import is empty, the file may have corrupted during upload and I can reupload it.
+Larger models such as Alaska exceed the vertex limit of the slicer. Cut the model into smaller sections to bring the model vertex count down. This can be done in mesh software such as [Meshmixer](https://meshmixer.com/) and [Blender](https://www.blender.org/). If the model is cut to the desired size and still does not slice, you can reduce the overall detail of the model by using the [Decimate modifier](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/decimate.html) in Blender.
+
+Slicing may also fail if your computer runs out of memory (OOM). You can confirm OOM by monitoring total memory usage while slicing. 
+
+You should download the individual map model 3MF directly instead of as a ZIP or other archive. There is a compression bug where larger 3MF files do not compress or extract correctly. If your slicer does not crash and the import is empty, the file could have been corrupted during upload and I can reupload it if you leave a comment.
 
 ### 6. Where do you get the data for your models?
 
-Data is freely available from NASA, USGS, USCB, HydroLAKES, Marine Cadastre, and state NR/GIS departments. Please remember to support national and local natural resource protection and research — this data would not be available otherwise.
+See [Specifications]({% link _maps/3-specifications.md %}).
