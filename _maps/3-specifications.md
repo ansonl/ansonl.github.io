@@ -17,9 +17,11 @@ excerpt: >
 
 Unless otherwise specified for specific maps, I have designed the models for a 0.4 mm nozzle diameter and 0.08-0.12mm layer heights. Recommended print settings are any multiples of these specs but other nozzle sizes (and line widths) will print well too.
 
-> 📢 **Cautionary Remark on Accuracy:** You may find other [small scale](https://en.wikipedia.org/wiki/Scale_(map)#Large_scale,_medium_scale,_small_scale) maps with the description of "most detailed/accurate models available" mixed in with words like LIDAR and satellite. These claims are meaningless without quantifiable resolution and scale to back them up. My published map's specifications are tracked throughout stages of GIS and 3D processing. A modern FDM printer from Bambu Lab or Ultimaker will print near indistinguishable results between 0.1mm map models and 10x downscaled resolution as coarse as 1mm. **If you are printing landscape maps covering a large city ≥50km (31mi) or regional/state map area ≥500km (310mi) on one side, the map projection and scale methods will affect the final map appearance far more than LIDAR.**
+> 📢 **Cautionary Remark on Accuracy:** You may find other [small scale](https://en.wikipedia.org/wiki/Scale_(map)#Large_scale,_medium_scale,_small_scale) maps with the description of "most detailed/accurate/quality models available" mixed in terms like LIDAR and satellite. These claims often lack quantifiable resolution and scale. My published maps' specifications are tracked throughout stages of GIS and 3D processing. A modern FDM printer from Bambu Lab or Ultimaker will print near indistinguishable results between 0.1mm map models and 10x downscaled resolution as coarse as 1mm — determined through testing. **If you are printing landscape maps covering wider than a city ≥50km (31mi), the map projection, smoothing, and scale have a greater effect on the final map detail and appearance.**
 
 ## Map Variants Comparison
+
+My maps are created with 2 different elevation scale styles.
 
 ![map variant comparison](/assets/images/maps/map-variants-comparison.png)
 
@@ -28,6 +30,8 @@ Unless otherwise specified for specific maps, I have designed the models for a 0
 **Logarithmic Scale (incl: Square Root `sqrt`):** exagerrates elevation differences in flat locations while smoothing out the pointyness of extreme elevations. Elevation detail is enhanced across the entire map at the cost of decreased accuracy.
 
 ## Model Filename Chart
+
+The map model style can be decoded and sorted by the filename.
 
 ```
 REGION-ESCALING-EXTRUDER-STYLE-REVISION-POSTPROCESS-PIECE##.3mf
@@ -38,7 +42,7 @@ REGION-ESCALING-EXTRUDER-STYLE-REVISION-POSTPROCESS-PIECE##.3mf
 | Definition | Meaning |
 | ---- | ---- |
 | `REGION` | REGION Abbreviation |
-| `ESCALING` | Elevation scaling (e.g., `linear` or Square Root (`sqrt`) or `log`) |
+| `ESCALING` | Elevation scaling (e.g., `linear` or `sqrt` or `log`) |
 | `EXTRUDER` | `dual` or `single` color (extrusion) model |
 | `STYLE`* *(optional)* | Model special style or subregion. (e.g. `transparent`) `STYLE` is only present when the model file is a special style or the model is exclusive to a special subregion. |
 | `REVISION` | Revision number in the format `Vxx` where `xx` is the version. See [release notes](https://ansonliu.com/maps/release-notes/) for the latest improvements. |

@@ -21,10 +21,10 @@ excerpt: >
 | Subregion | Variant | V1 | V2 | Links |
 | --- | --- | --- | --- | --- |
 | Lower 48 | Linear Scale | 1 | 2 | [MakerWorld](https://makerworld.com/en/collections/766615) / [Printables](https://www.printables.com/@ansonl/collections/714909) |
-| Lower 48 | Square Root Scale | __N/A__ | 1 | see above |
+| Lower 48 | Square Root Scale | __N/A__ | 2 | see above |
 | Lower 48 🚧 | Linear & Sqrt Scale Low Poly | __N/A__ | 2 | see above |
-| Alaska | Linear Scale | __N/A__ | 1 | [MakerWorld](https://makerworld.com/en/models/662546) / [Printables](https://www.printables.com/model/611779-alaska-usa-ak-topographic-relief-map-with-rivers-a) |
-| Alaska | Square Root Scale | __N/A__ | 1 | see above |
+| Alaska | Linear Scale | __N/A__ | 2 | [MakerWorld](https://makerworld.com/en/models/662546) / [Printables](https://www.printables.com/model/611779-alaska-usa-ak-topographic-relief-map-with-rivers-a) |
+| Alaska | Square Root Scale | __N/A__ | 2 | see above |
 | Hawaii | Linear Scale | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/571705) / [Printables](https://www.printables.com/model/546259-hawaii-usa-hi-southeastern-islands-topo-map-with-h) |
 | Lower 48 Combined | Linear w/ Borders | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/226944) |
 | Lower 48 Combined | Linear | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/230614) / [Printables](https://www.printables.com/model/529276-contiguous-usa-lower-48-topographic-map-with-hydro) |
@@ -67,6 +67,8 @@ USA V2.2 - **Storage Optimized Maps & Low Poly style Maps** - DEC 2024 🚧
 
 China V1 - NOV 2023
 : Initial release
+
+China V2 - **Storage Optimized** - DEC 2024
 
 ## Europe Region Major Release to Variant Revision Chart
 
