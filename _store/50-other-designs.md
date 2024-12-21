@@ -16,7 +16,7 @@ excerpt: >
 
 ## Purchase Prints
 
-Purchase prints of any design I have created. 
+Purchase prints of any design I have created.
 
 My designs can be viewed on the below sites:
 
@@ -25,13 +25,13 @@ My designs can be viewed on the below sites:
 
 My most popular designs are my 3D topography relief maps and car accessories.
 
-Send me a message at [sales@ansonliu.com](mailto:sales@ansonliu.com) and mention the design you are interested in.
+See [Custom Design and Manufacturing]({% link _store/80-print-your-project.md %}) for more details.
 
 ## Commercial License for Released Designs
 
-All released designs are free for personal use. Released designs are my designs which have downloadable 3D files on a public website.
+All Released Designs are free for personal use. Released Designs are my designs which have downloadable 3D files on a public website such as Makerworld and Printables.
 
-If you are interested in selling any of my released designs, you can get a commercial license through my [Printables Club](https://www.printables.com/@ansonl/) membership.
+If you are interested in selling any of my Released Designs, you can obtain a commercial license through my [Printables Club](https://www.printables.com/@ansonl/) membership.
 
 ## Commercial License for Other Designs
 

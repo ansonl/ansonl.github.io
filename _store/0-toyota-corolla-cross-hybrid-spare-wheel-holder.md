@@ -64,7 +64,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 **This kit does NOT include a spare wheel, jack, and spacer.** For information on getting a compatible spare wheel and jack and making your own spacer, see [this post]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}).
 
-You must read and agree to the [Policy]({% link _store/99-store-policy.md %}) before ordering.
+By ordering, you have read and agree to the [Policy]({% link _store/99-store-policy.md %}).
 
 ### 📒 Assembly Directions
 
@@ -121,3 +121,6 @@ Include the following measurements with your order to get the best fit the first
 
   - This is **not** the same as Wheel Backspacing because the rubber tire width must be considered.
   
+### 🔏 Licensing
+
+Digital files of this kit are only available through [commercial licensing]({% link _store/50-other-designs.md %}#commercial-license-for-other-designs).

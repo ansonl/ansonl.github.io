@@ -1,5 +1,5 @@
 ---
-title: "Print Your Project"
+title: "Custom Design and Manufacturing"
 show_title_at_top: true
 layout: page
 permalink: /store/custom-print/
@@ -20,7 +20,7 @@ excerpt: >
 
 You know the project. I know 3D printing.
 
-I deliver customized 3D prints to complete your project. My 8+ years of experience in 3D printing ensure that your most complex parts are produced accurately in high quality.
+I deliver customized 3D prints to complete your project. My 8+ years of experience in 3D printing ensure that your most complex parts are produced accurately in high quality. Pricing starts at $500.
 
 Send an inquiry to [sales@ansonliu.com]({{page.actions.url}}) to get started.
 
@@ -37,6 +37,10 @@ Eliminating mixing of materials with a multi-extruder printer design has numerou
 - Less wasted material
 - Lower printing time + faster turnaround
 
+### Multi-Material/Color Printing through a Single Nozzle
+
+Multi-material printing that is most suited for mixing similar materials of different colors.
+
 ### Materials
 
 Object can be printed in a variety of and combination of multiple [materials](https://help.prusa3d.com/materials) including:
@@ -45,4 +49,3 @@ Object can be printed in a variety of and combination of multiple [materials](ht
 - PETG
 - TPU
 - PC (Polycarbonate)
-
