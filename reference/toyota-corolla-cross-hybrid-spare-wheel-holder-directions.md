@@ -175,7 +175,7 @@ The Universal Tire Hold Down can be used if you do not have a matching hold down
 
 > ⚠️🔩 Partially threaded bolts should only be used if **Part 3** has an unthreaded bolt hole. **Part 3 - low profile** has an unthreaded bolt hole. Screwing partially threaded bolts into threaded parts will wear out threads and preclude use of shorter bolts in the future.
 
-1. If your kit came with multiple **Tire Hold Down Handle** and **Tire Hold Down Rings**, remove all rings except the single ring that matches your center bore size.
+1. If your kit came with multiple **Tire Hold Down Handles** and **Tire Hold Down Rings**, remove all handles and rings except the single handle and ring that match your center bore size. The extra parts are for future use if you get a new spare tire rim.
 
 2. Insert the M8 bolt into the **Tire Hold Down Handle** so that the hex head of the bolt fits into the hex cutout in the handle.
 
