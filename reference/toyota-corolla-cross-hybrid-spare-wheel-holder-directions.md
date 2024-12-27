@@ -37,6 +37,8 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
   - 2x M10 washer
   - 2x M10 flanged nut
 - [Universal Tire Hold Down](https://makerworld.com/en/models/443704)
+  - 1x Tire Hold Down Handle
+  - 1x Tire Hold Down Ring
   - 1x M8 cap bolt
   - 1x M8 nut*
 
@@ -156,7 +158,7 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 
 ![spare tire](/assets/images/reference/cch-tire-mount-assembly/6-tire-in-place.webp)
 
-1. Lower [your spare tire]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}) centered above **Part 3** onto the mount. The tire rim center bore surface should be flat against **Part 3**. You may need to flip the tire to the other side to get an acceptable fit. The tire orientation depends on the geometry of your spare tire.
+1. Lower [your spare tire]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}) centered above **Part 3** onto the mount. The tire rim center bore surface should be flat against **Part 3**. You may need to flip the tire to the other side to get an acceptable fit. The tire orientation depends on the geometry of your spare tire. Try both orientations if the tire touches the cable.
 
 > ⚠️ Spare rims with high offsets may touch the cable or sit very high. If this is the case, you may measure the additional height you need to raise the tire to clear the cable when placed "deep dish side down". Then place a circular wood or dense foam piece with height equal to the measured additional height amount in between **Part 3** and the rim as an additinal inside spacer. This may minimize the distance the cargo floor is ultimately raised by the spare tire. A longer tire hold down bolt may be needed after this modification.
 
@@ -173,15 +175,17 @@ The Universal Tire Hold Down can be used if you do not have a matching hold down
 
 > ⚠️🔩 Partially threaded bolts should only be used if **Part 3** has an unthreaded bolt hole. **Part 3 - low profile** has an unthreaded bolt hole. Screwing partially threaded bolts into threaded parts will wear out threads and preclude use of shorter bolts in the future.
 
-1. Insert the M8 bolt into the tire hold down knob so that the hex head of the bolt fits into the hex cutout in the knob.
+1. If your kit came with multiple **Tire Hold Down Handle** and **Tire Hold Down Rings**, remove all rings except the single ring that matches your center bore size.
 
-2. Insert the tire hold down ring into the tire rim center bore hole from above.
+2. Insert the M8 bolt into the **Tire Hold Down Handle** so that the hex head of the bolt fits into the hex cutout in the handle.
 
-3. Insert the hold down knob with M8 bolt into the hold down ring. The flat surfaces of the knob will be flat against the interior circular cutout of the hold down ring.
+3. Insert the **Tire Hold Down Ring** into the tire rim center bore hole from above.
 
-4. Finger tighten the hold down knob by turning the knob clockwise and applying downward pressure to the hold down ring. Stop tightening the knob when resistance is encountered. Do not overtighten the knob or else **Part 1** and **Part 3** threads will be stripped.
+4. Insert the **Tire Hold Down Handle with M8 bolt** into the **Tire Hold Down Ring**. The flat surfaces of the handle will be flat against the interior circular cutout of the hold down ring.
 
-5. If there is excessive play in the tire, repeat the previous step.
+5. Finger tighten the hold down handle by turning the handle clockwise and applying downward pressure to the hold down ring. Stop tightening the handle when it is firm and resistance is encountered. Do not overtighten the handle or else **Part 1** and **Part 3** threads will be stripped.
+
+6. If there is excessive play in the tire, repeat the previous step.
 
     > The plastic threads in **Part 1** are sufficient to hold the tire in place. If you strip the plastic threads in **Part 1**, the M8 nut cutout on the bottom of the **Part 1** may be enlarged to fit a M8 nut for an additional fastening point but this is untested.
 
