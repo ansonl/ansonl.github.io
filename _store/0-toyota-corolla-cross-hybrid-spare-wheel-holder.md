@@ -104,7 +104,7 @@ Include the following measurements with your order to get the best fit the first
     > 1. Measure the Hub Surface Depth to the floor.
     > 1. Flip the tire to lay flat on the other side of the tire.
     > 1. Measure the Hub Surface Depth to the floor.
-    > 1. Use the lower of the 2 measured Hub Surface Depths.*
+    > 1. Use the lower of the 2 measured Hub Surface Depths.* This allows you to use the interior of the rim as extra storage.
     > ###### *If the measured Hub Surface Depth is < 20 mm AND the rim protrudes past the tire, the tire should be laid on the other side.
 
   - Hub Surface Depth can be estimated with the below equation.
