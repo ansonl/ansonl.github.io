@@ -14,18 +14,18 @@ excerpt: >
   Accommodate the spare tire and level the cargo area with the rear seats.
 ---
 
-Raise the cargo floor of your Toyota Corolla Cross Hybrid (CCH) AWD to be level the folded rear seats with this cargo riser that compliments the [spare tire upgrade]({% link _store/0-toyota-corolla-cross-hybrid-spare-wheel-holder.md %}). 
+Raise the cargo floor of your Toyota Corolla Cross Hybrid (CCH) AWD to be level with the folded rear seats with this cargo riser that compliments the [spare tire upgrade]({% link _store/0-toyota-corolla-cross-hybrid-spare-wheel-holder.md %}).
 
 Open to door to more cargo area use cases such as overlanding and camping by allowing objects to be laid flat between the folded rear seats and cargo area.
 
-***My 1.5 inch (38 mm) high cargo riser design is downloadable for free on [MakerWorld](https://makerworld.com/en/models/1020274). If the posted model is useful, purchasing the Digital Kit to show your support is appreciated.***
+***My 1.5 inch (38 mm) high cargo riser design is downloadable for free on [MakerWorld](https://makerworld.com/en/models/1020274).** If the posted model is useful, purchasing the Digital Kit to show your support is appreciated.*
 
 <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
 <stripe-pricing-table pricing-table-id="prctbl_1QjaCoCGCEb5Dn5hNzptpcV1"
 publishable-key="pk_live_51PKQVBCGCEb5Dn5hLMoKGekYqrgnOSKQeqVJWy89kBmGPTrEx1w6uB5i3FMS4PlynWCEgZ5fD1iEtdCsu1F7iB4n00noGaPFkK">
 </stripe-pricing-table>
 
-*Spare Tire Upgrade Kit customers get a $200 discount on the Physical Cargo Riser Kit through a link in the Spare Tire Upgrade Kit shipping confirmation email.*
+*Previous Spare Tire Upgrade Kit customers get a $200 discount on the Cargo Riser - Physical Kit upon [request](mailto:support@ansonliu.com)*
 
 ***Important:** Read [Includes](#-includes), [Notes](#-notes), and [Measurements](#-order-measurements) sections before ordering.*
 
@@ -118,7 +118,7 @@ Shipping is available within the USA. Please contact [support@ansonliu.com](mail
 
   > 1. Lay a flat ruler across the top of your mounted spare wheel so that it is flat on the highest top surface of the wheel (this may be the rim or tire). The ruler should be long enough that it is hanging over the left or right plastic cargo deck piece.
   > 2. Use another ruler to measure the Rise Height as the greatest vertical distance between the large top surface of the cargo deck piece and the first ruler. The large top surface is NOT the raised edges on the far left and right of the cargo deck pieces.
-  - *Physical Kit only* - 💲 Rise Heights above 38 mm (1.5 in) require an additional **Cargo Riser addon** for each extra 12.7mm in rise height on the purchase page.
+  - *Physical Kit only* - 💲 Rise Heights above 38 mm (1.5 in) require an additional **Cargo Riser addon** item on the purchase page for every extra 12.7mm in Rise Height.
 
 - **Spare tire hole (Yes/No)** - *Digital Kit only* - Should the riser have a hole in the center for the spare tire? This should be no if you do not plan to add a spare tire and only want to elevate the cargo floor height.
 
