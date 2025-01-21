@@ -401,9 +401,25 @@ My initial attempt was designing risers to fit underneath the left and right car
 
 A Corolla Cross Hybrid owner [wrote](https://www.reddit.com/r/CorollaCross/comments/1693rxf/comment/jz0mn9v/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) that he was able to use [cut 3" wood spacers](https://imgur.com/a/605t3fG) to elevate a CRV spare wheel above the orange power cables.
 
-#### Cargo Deck Riser (Spacer method)
+#### Cargo Deck Riser
 
 I had better luck creating a spacer riser between the cargo decks and the cargo floor platform. My 145/90R17 compact spare mounted on my tire holder was ~1.5" higher than the cargo decks.
+
+##### Rigid Riser (My new method in 2025)
+
+![cargo deck plastic riser](/wp-content/uploads/2025/01/cargo-spacer-header.webp)
+
+The [rigid cargo riser]({% link _store/2-toyota-corolla-cross-hybrid-cargo-spacer.md %}) provides a stable flat surface for the cargo floor by lifting the existing cargo deck to be level with the spare tire. This kit of interlocking parts easily assembles to cover the entire cargo deck area minus the spare tire hole.
+
+![cargo deck plastic riser quad](/wp-content/uploads/2025/01/cargo-spacer-quad.webp)
+
+The riser incorporates raised edges on the left and right side and a center positioning hole to keep the cargo floor from shifting just like the stock cargo setup that the riser elevates.
+
+The "rise height" is customizable and the riser can be made without a spare tire hole if desired. The riser can be created on any 3D printer or CNC machine with at least a 256x256 workspace.
+
+**The rigid riser is a replacement of my initial foam riser attempt below after lessons learned over a year of carrying cargo and overlanding.** It has improved durability, fitment, and cargo floor retention.
+
+##### Foam Riser (My old method in 2024)
 
 > [Extruded foam](https://en.wikipedia.org/wiki/Polystyrene#Extruded_polystyrene_(XPS)) is preferred to expanded foam. It is much denser, stronger, and easier to cut with less mess.
 
@@ -423,7 +439,8 @@ After cutting, I sealed the foam with wood PVA glue and spray painted it black.
 
 Extruded foam is still soft foam in the end - I saw some wear and tear on the foam as I moved the tire and cargo components around during my design and refinement. The pink extruded foam board I got was also pre-perforated at 1 ft increments which made it less strong than a solid board.
 
-> If I needed to make the riser again, I would opt to use a more durable material combination such as a MDF/plywood + extruded foam sandwich. Shaping the harder material would be easier with a router or saw.
+> ~~If I needed to make the riser again, I would opt to use a more durable material combination such as a MDF/plywood + extruded foam sandwich. Shaping the harder material would be easier with a router or saw.~~
+> I have fixed the durability and fitment issues of the foam spacer with the new [rigid spacer](#cargo-deck-riser).
 
 ![corolla cross hybrid cargo with mat](/wp-content/uploads/2024/05/corolla-cross-all-weather-trunk-liner-mat.webp)
 
