@@ -62,7 +62,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 ### ⚠️ Notes
 
-**This kit does NOT include a spare wheel, jack, and spacer.** For information on getting a compatible spare wheel and jack and [spacer]({% link _store/2-toyota-corolla-cross-hybrid-cargo-spacer.md %}), see [this post]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}).
+**This kit does NOT include a spare wheel, jack, and [spacer]({% link _store/2-toyota-corolla-cross-hybrid-cargo-spacer.md %}).** For information on getting a compatible spare wheel and jack and spacer, see [this post]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}).
 
 By ordering, you have read and agree to the [Policy]({% link _store/99-store-policy.md %}).
 
@@ -70,7 +70,7 @@ By ordering, you have read and agree to the [Policy]({% link _store/99-store-pol
 
 See [assembly directions]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}) and [video](https://youtu.be/kHzdqbQ0Vwk).
 
-<iframe style="max-width:100%; height:auto;" width="560" height="315" src="https://www.youtube.com/embed/kHzdqbQ0Vwk?si=Gs0Eo5GvHKTzxLZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="max-width:100%; height:auto;" width="800" height="450" src="https://www.youtube.com/embed/kHzdqbQ0Vwk?si=Gs0Eo5GvHKTzxLZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 🚘 Compatibility
 

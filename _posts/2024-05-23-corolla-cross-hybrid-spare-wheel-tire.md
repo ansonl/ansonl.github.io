@@ -88,13 +88,17 @@ Despite the lack of spare wheel shipped with the car, it IS possible to fit a sp
 **[⭐ Skip to my spare wheel storage solution for the Toyota Corolla Cross Hybrid](#-rear-spare-wheel-well-tire-holder)**
 
 <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
- <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.webm" type="video/webm">
- <source src="/wp-content/uploads/2024/05/spare-tire-mount-assembly-animation-tire.mp4" type="video/mp4">
+ <source src="/assets/images/store/spare-tire-mount-assembly-animation-tire-hold-down-spacer.webm" type="video/webm">
+ <source src="/assets/images/store/spare-tire-mount-assembly-animation-tire-hold-down-spacer.mp4" type="video/mp4">
 </video>
 
 [🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*]({% link store.md %})
 
-See spare tire mount [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}) and [video](https://youtu.be/kHzdqbQ0Vwk).
+See spare tire mount [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}) and videos below.
+
+<iframe style="max-width:100%; height:auto;" width="800" height="450" src="https://www.youtube.com/embed/kHzdqbQ0Vwk?si=Gs0Eo5GvHKTzxLZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe style="max-width:100%; height:auto;" width="800" height="450" src="https://www.youtube.com/embed/QlGANBVZVjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The manufacturer's decision to not skip the spare wheel seems to be both a design and cost savings constraint.
 

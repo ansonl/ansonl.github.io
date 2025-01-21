@@ -3,7 +3,7 @@ title: "Toyota Corolla Cross Hybrid AWD Cargo Riser"
 show_title_at_top: true
 layout: page
 permalink: /store/toyota-corolla-cross-hybrid-spare-wheel-cargo-riser/
-image:
+image: /wp-content/uploads/2025/01/cargo-spacer-header.webp
 thumbnail: /assets/images/store/toyota-corolla-cross-hybrid-spare-tire-cargo-spacer-store-thumbnail.webp
 more-link-text: "See Details"
 comments: true
@@ -30,6 +30,8 @@ publishable-key="pk_live_51PKQVBCGCEb5Dn5hLMoKGekYqrgnOSKQeqVJWy89kBmGPTrEx1w6uB
 ***Important:** Read [Includes](#-includes), [Notes](#-notes), and [Measurements](#-order-measurements) sections before ordering.*
 
 ![cargo deck plastic riser](/wp-content/uploads/2025/01/cargo-spacer-header.webp)
+
+<iframe style="max-width:100%; height:auto;" width="800" height="450" src="https://www.youtube.com/embed/QlGANBVZVjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![cargo deck plastic riser quad](/wp-content/uploads/2025/01/cargo-spacer-quad.webp)
 
