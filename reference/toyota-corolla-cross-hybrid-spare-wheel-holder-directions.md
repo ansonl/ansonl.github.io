@@ -193,11 +193,9 @@ The Universal Tire Hold Down can be used if you do not have a matching hold down
 
 1. Measure the vertical distance between the highest point on the tire and the top surface of the plastic cargo deck floor on the left or right. This vertical distance (typically 1-2") is the thickness of the spacer needed for your combination of spare tire and vehicle.
 
-2. Make a spacer using the dimensions in the [post]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}) as a general guide and tailor your measurements for any variations in your vehicle.
+2. Make or buy the spacer as described on the [Cargo Riser]({% link _store/1-toyota-corolla-cross-hybrid-cargo-spacer.md %}) store page.
 
-3. Make a circular cutout in the spacer for the circular holder located on the bottom of the cargo floor. This will help keep the floor and spacer aligned. You may create a [cargo deck hole buffer](https://makerworld.com/en/models/686847) out of flexible material (e.g. TPU, silicone) to distribute the shifting force of the cargo floor.
-
-4. Put the spacer on top of the cargo deck.
+3. Put the spacer on top of the cargo deck.
 
 ### Finishing Up
 
