@@ -413,7 +413,7 @@ I had better luck creating a spacer riser between the cargo decks and the cargo 
 
 ![cargo deck plastic riser](/wp-content/uploads/2025/01/cargo-spacer-header.webp)
 
-The [rigid cargo riser]({% link _store/2-toyota-corolla-cross-hybrid-cargo-spacer.md %}) provides a stable flat surface for the cargo floor by lifting the existing cargo deck to be level with the spare tire. This kit of interlocking parts easily assembles to cover the entire cargo deck area minus the spare tire hole.
+The [rigid cargo riser]({% link _store/1-toyota-corolla-cross-hybrid-cargo-spacer.md %}) provides a stable flat surface for the cargo floor by lifting the existing cargo deck to be level with the spare tire. This kit of interlocking parts easily assembles to cover the entire cargo deck area minus the spare tire hole.
 
 ![cargo deck plastic riser quad](/wp-content/uploads/2025/01/cargo-spacer-quad.webp)
 
