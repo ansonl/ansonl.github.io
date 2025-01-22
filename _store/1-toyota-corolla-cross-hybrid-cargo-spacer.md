@@ -25,7 +25,7 @@ Open to door to more cargo area use cases such as overlanding and camping by all
 publishable-key="pk_live_51PKQVBCGCEb5Dn5hLMoKGekYqrgnOSKQeqVJWy89kBmGPTrEx1w6uB5i3FMS4PlynWCEgZ5fD1iEtdCsu1F7iB4n00noGaPFkK">
 </stripe-pricing-table>
 
-*Previous Spare Tire Upgrade Kit customers get a $200 discount on the Cargo Riser - Physical Kit upon [request](mailto:support@ansonliu.com)*
+*Spare Tire Upgrade Kit customers are eligible for a $200 discount on the Cargo Riser - Physical Kit upon [request](mailto:support@ansonliu.com) prior to purchase.*
 
 ***Important:** Read [Includes](#-includes), [Notes](#-notes), and [Measurements](#-order-measurements) sections before ordering.*
 

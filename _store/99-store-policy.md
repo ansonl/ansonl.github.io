@@ -28,4 +28,6 @@ excerpt: >
 
 1. All products sold by the seller and Anson Liu are third party modifications and user assembled kits. The products do not have safety features or capabilities and are not meant to be safety devices. Consult your manufacturer or certified dealer for further guidance on vehicle modifications.
 
+1. Digital license. Digital models are sold under personal license unless otherwise specified. Physical objects derived from the digital model are for the original buyer's personal use only. Distribution, reselling, and/or transferring of the digital license and files are prohibited.
+
 1. This policy may change without notice.
