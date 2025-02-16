@@ -1,3 +1,3 @@
 div#disqus_thread iframe[sandbox] { max-height: 0px !important; }
-div#disqus_recommendations iframe[style*="padding-right:"] { max-width: 0px !important; max-height: 0px !important; }
+div#disqus_recommendations iframe:not([src]) { max-width: 0px !important; max-height: 0px !important; }
 div#disqus_recommendations iframe[style*="width: calc(100% -"] { width: calc(100%) !important; }
