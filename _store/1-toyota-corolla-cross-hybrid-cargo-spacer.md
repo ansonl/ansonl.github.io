@@ -60,10 +60,11 @@ This cargo riser provides a stable flat surface for the cargo floor after adding
 
 ### 🧰 Includes
 
-- **Digital Kit (3MF file)**
-  - 1 piece cargo riser or 19 piece cargo riser
-  - 10mm dowels
-  - Dowel tapping adapter
+- **Digital Cargo Riser Kit (3MF file)**
+  - 1 piece or 19 piece cargo riser model
+  - 10mm dowel model
+  - Dowel tapping adapter model
+  - **No physical parts are shipped**
 
 OR
 
