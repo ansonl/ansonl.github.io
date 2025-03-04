@@ -42,7 +42,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 - The kit will be made in random colors. Specific colors are available upon [request](mailto:support@ansonliu.com).
 
-- 🇺🇸 Designed and made in the USA.
+- 🇺🇸 Veteran owned. Designed and made in the USA.
 
 **[Read more about the mount and Toyota Corolla Cross Hybrid Spare Tires]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %})**
 
