@@ -1,0 +1,13 @@
+<footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright" style="display: flex; justify-content: space-between;">
+      {% if site.copyright %}
+        {{ site.copyright | markdownify }}
+      {% else %}
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
+      {% endif %}
+      <p>I stand with Ukraine 🇺🇦</p>
+      <p>Made in 🇺🇸</p>
+    </div>
+  </div>
+</footer>
