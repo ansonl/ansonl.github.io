@@ -20,7 +20,7 @@ excerpt: >
 
 You know the project. I know 3D printing.
 
-I deliver customized 3D prints to complete your project. My 8+ years of experience in 3D printing ensure that your most complex parts are produced accurately in high quality. Pricing starts at $500.
+I deliver customized 3D prints to complete your project. My 8+ years of experience in 3D printing ensure that your most complex parts are produced accurately in high quality. Minimum order pricing is $500.
 
 Send an inquiry to [sales@ansonliu.com]({{page.actions.url}}) to get started.
 
