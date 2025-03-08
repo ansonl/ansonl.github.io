@@ -26,19 +26,21 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Slicer Setting | Recommended Value for 0.4 mm nozzle |
 | ------------- |-------------|
 | Layer Height | 0.12 mm |
+| Default Line Width | 0.42mm |
 | Top Surface Pattern | Monotonic Line |
 | Infill and Infill Percentage | Lightning 30% |
 | Ironing | All Top Surfaces |
 | Ironing Line Spacing | 0.2 mm |
 | Ironing Flow | 20-25% |
 | Ironing Inset | 0.21 mm |
-| Ironing Speed | 60 mm/s |
+| Ironing Speed | 65 mm/s |
 | Initial Layer Speed | ≤40 mm/s |
 | Initial Layer Infill Speed | ≤80 mm/s |
 | Outer Wall Speed | ≤125 mm/s |
 | Inner Wall Speed | ≤200 mm/s |
 | Top Surface Speed | ≤150 mm/s |
-| Maximum Speed for any layer | ≤200 mm/s |
+| Maximum Printing Speed for any layer | ≤200 mm/s |
+| Support | None (or Tree default style for interlocking map pieces) |
 
 ### Cura
 

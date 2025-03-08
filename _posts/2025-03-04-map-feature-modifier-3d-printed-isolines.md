@@ -82,3 +82,5 @@ A big thank you the below individuals as well as the 3D printing community.
 - Brian Kelley from Colorado for kickstarting my initial work on Map Feature Modifier.
 
 - Joseph Sanzo and Khor Hon Wei for trusting me with their 3D printers as guinea pigs.
+
+- [Toybox Labs](https://toybox.com/) for filament to test.
