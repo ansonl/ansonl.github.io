@@ -152,6 +152,8 @@ The parts may be shipped a single unit. Separate the parts in preparation for in
 
 7. Slide **Part 3** over **Part 1** and **Part 2** from the left. The grooves in the parts should fit into each other without excessive force.
 
+> If **Part 3** will not slide in due to **Part 1** and **Part 2** top surfaces not being level, you can firmly secure **Part 1** with bolts after sliding on **Part 2** and **Part 3**. The bolts do not need a death grip as long as the serrated nut bites into the bracket to prevent loosening! Top surfaces not being level is likely due to car manufacturing variation. You will need to remember to remove the bolts before sliding off **Part 3** in the future.
+
 > 🩹 The non-metal parts in this kit can be patched with super glue.
 
 ### Spare Tire
