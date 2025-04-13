@@ -42,6 +42,8 @@ excerpt: >
   This post covers all things you need to find and mount a spare wheel in the Toyota Corolla Cross Hybrid AWD.
 ---
 
+> ⚠️ This post comes with no warranty or liability. Always consult a certified dealer before modifying your vehicle.
+
 ## Table of Contents
 
 1. [The Missing Spare Wheel](#the-missing-spare)
