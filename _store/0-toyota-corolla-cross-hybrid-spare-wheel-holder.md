@@ -76,13 +76,13 @@ See [assembly directions]({% link reference/toyota-corolla-cross-hybrid-spare-wh
 
 Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
-**There may be variation in fitment between individual vehicles due to the physical production process and stamped metal parts. You may need to sand parts of this kit to better fit your vehicle.**
+**There may be variation in fitment between individual vehicles due to the physical production process and metal parts. You may need to sand parts of this kit to better fit your vehicle.**
 
 ### 📦 Shipping
 
-Shipping is available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
+Shipping is available within the USA.
 
-**Lead time is ~1 month.** This part is made-to-order.
+**Kits usually ship in 1 week.** The kit is made-to-order. Target fulfillment time is ~1 month. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales and expedited orders.
 
 ### 🔧 Order Measurements
 

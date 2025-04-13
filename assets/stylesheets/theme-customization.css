@@ -2,6 +2,10 @@ body {
 	scroll-behavior: smooth;
 }
 
+.inner {
+  max-width: 100%;
+}
+
 .page-link {
 	font-family: Georgia, serif;    
 	transition-duration: 0.3s;

@@ -3,6 +3,7 @@ published: true
 title: >-
   Adaptive Start G-code for Dual Extruder Printers with Cura
 layout: post
+classes: wide
 image: /wp-content/uploads/2024/10/adaptive-start-gcode-preview-prusa.webp
 categories:
   - development

@@ -7,4 +7,4 @@ collection: store
 entries_layout: grid
 ---
 
-Purchase physical products of my designs. Get the good stuff straight from the source 📍
+Purchase my designs and products from Anson Innovations LLC. Get the good stuff straight from the source 📍
