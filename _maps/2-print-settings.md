@@ -23,7 +23,7 @@ excerpt: >
 
 Bambu Studio/ Orca Slicer default settings are already close to perfect. I recommend using below settings for better quality and lower filament usage.
 
-| Slicer Setting | Recommended Value for 0.4 mm nozzle |
+| Slicer Print Setting | Recommended Value for 0.4 mm nozzle |
 | ------------- |-------------|
 | Layer Height | 0.12 mm |
 | Default Line Width | 0.42mm |
@@ -41,6 +41,16 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Top Surface Speed | ≤150 mm/s |
 | Maximum Printing Speed for any layer | ≤200 mm/s |
 | Support | None (or Tree default style for interlocking map pieces) |
+
+If you can't find good filament settings for the Bambu X1/P1 feel free to use the below that work well most filaments of the same material. Spend more time printing what you want and less time "calibrating".
+
+| Slice Filament Setting | Recommended Value for 0.4mm nozzle |
+| --- | --- |
+| PLA flow ratio | 0.965 |
+| PLA linear advance | 0.02 |
+| PLA fan speed | 90% |
+| PLA bed temp | 55-60 C |
+
 
 ### Cura
 
