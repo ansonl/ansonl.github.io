@@ -17,7 +17,7 @@ excerpt: >
 
 ## Slicer Settings
 
-> You will get best results with filament that has been [Linear Advance and Flow Rate calibrated](https://github.com/SoftFever/OrcaSlicer/wiki/Calibration).
+> You will get best results with filament that has been [Linear Advance and Flow Rate calibrated](https://github.com/SoftFever/OrcaSlicer/wiki/Calibration). Or just use use my [Filament Settings](#filament-settings)
 
 ### PrusaSlicer / Bambu Studio / Orca Slicer
 
@@ -41,6 +41,8 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Top Surface Speed | ≤150 mm/s |
 | Maximum Printing Speed for any layer | ≤200 mm/s |
 | Support | None (or Tree default style for interlocking map pieces) |
+
+#### Filament Settings
 
 If you can't find good filament settings for the Bambu X1/P1 feel free to use my settings that will print most filaments of the same material great. Spend more time printing what you want and less time "calibrating".
 
