@@ -42,7 +42,7 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Maximum Printing Speed for any layer | ≤200 mm/s |
 | Support | None (or Tree default style for interlocking map pieces) |
 
-If you can't find good filament settings for the Bambu X1/P1 feel free to use the below that work well most filaments of the same material. Spend more time printing what you want and less time "calibrating".
+If you can't find good filament settings for the Bambu X1/P1 feel free to use my settings that will print most filaments of the same material great. Spend more time printing what you want and less time "calibrating".
 
 | Slice Filament Setting | Recommended Value for 0.4mm nozzle |
 | --- | --- |
