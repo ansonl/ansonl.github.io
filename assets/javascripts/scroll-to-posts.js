@@ -13,7 +13,7 @@ $( window ).on( 'load', function() {
 	    	var title = document.getElementById(scrollTargetId);
 	    	zenscroll.to(title)
 			//zenscroll.center(title);
-		}, 1500);
+		}, 10000);
 	}
 });
 
