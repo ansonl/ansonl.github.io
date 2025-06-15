@@ -73,6 +73,7 @@ Download on [MakerWorld](https://makerworld.com/en/collections/766615) and [Prin
 | Highlights | Streams, Lakes, Coastlines | |
 | Maritime Boundary | Submerged Lands Act | Seaward boundary of coastal states generally 3 or 9 nm from the coastline. Maritime boundaries are included in the dual print models. |
 | Model Base Thickness at Sea Level | ~0.9mm | Additional +0.9mm (dual) / +0.4mm (single) for locations not covered by water. |
+| Model Base Thickness at Sea Level (Low Poly) | ~0.9mm | Additional +4.5mm (dual) / +1.2mm (single) for locations not covered by water. |
 
 ---
 
