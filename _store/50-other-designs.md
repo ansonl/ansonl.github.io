@@ -1,5 +1,5 @@
 ---
-title: "3D Topo Maps & Other Designs"
+title: "3D Topo Maps & Other Products"
 show_title_at_top: true
 layout: page
 permalink: /store/other-designs/
@@ -16,9 +16,9 @@ excerpt: >
 
 ## Purchase Prints
 
-Send me a message at [support@ansonliu.com](mailto:support@ansonliu.com) with your map idea and requirements.
+Send me a message at [support@ansonliu.com](mailto:support@ansonliu.com) specifying which of my designs you want.
 
-Pricing varies depending on the complexity of the map. E.g. An order based on one of my existing released designs will have a lower cost.
+If this is a custom map request, consider mentioning the region and your requirements. Pricing varies depending on the complexity of the map. E.g. An order based on one of my existing released designs will have a lower cost.
 
 My designs can be viewed on the below sites:
 
@@ -26,6 +26,11 @@ My designs can be viewed on the below sites:
 - [Printables](https://www.printables.com/@ansonl/)
 
 My most popular designs are my 3D topography relief maps and car accessories.
+
+### Licensed Sellers
+
+- [JP Designs](https://www.etsy.com/shop/JPDesignsOfficial)
+- [Prized Possessions](https://prizedpossessionsbrand.com/)
 
 ## Commercial License for Released Designs
 
