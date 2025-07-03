@@ -21,8 +21,14 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
 
-  <!-- Include Organization schema info -->
+  
+  <!-- Include personal or commercial Organization schema info -->
+  {% if page.url contains '/store/' %}
+   {% include storeOrganizationStructuredData.html %}
+  {% else %}
+  
   {% include publisherStructuredData.html %}
+  {% endif %}
 
   <script>
     /* Cut the mustard */

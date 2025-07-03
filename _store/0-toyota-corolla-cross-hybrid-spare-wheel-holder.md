@@ -105,7 +105,7 @@ Include the following measurements with your order to get the best fit the first
     > 1. Flip the tire to lay flat on the other side of the tire.
     > 1. Measure the Hub Surface Depth to the floor.
     > 1. Use the lower of the 2 measured Hub Surface Depths.* This allows you to use the interior of the rim as extra storage.
-    > ###### *If the measured Hub Surface Depth is < 20 mm AND the rim protrudes past the tire, the tire should be laid on the other side.
+    > ###### *The tire should be laid on the other side if either 1. The hub surface is not flat OR 2. Measured Hub Surface Depth is < 20 mm AND the rim protrudes past the tire, 
 
   - Hub Surface Depth can be estimated with the below equation.
 
@@ -124,3 +124,62 @@ Include the following measurements with your order to get the best fit the first
 ### 🔏 Licensing
 
 Digital files of this kit are only available through [commercial licensing]({% link _store/50-other-designs.md %}#commercial-license-for-other-designs).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Toyota Corolla Cross Hybrid AWD Spare Tire Mount",
+  "brand": {
+    "@type": "Brand",
+    "name": "Anson Innovations LLC",
+    "slogan": "Make the Uncharted",
+    "url": "https://ansoninnovations.com",
+    "sameAs": "https://ansonliu.com"
+  },
+  "description": "Store the missing spare tire under the Toyota Corolla Cross Hybrid (CCH) AWD cargo area with this easy to install solution.",
+  "image": "https://corollaspare.com/assets/spare-mount-riser-quad.webp",
+  "mainEntityOfPage": "https://corollaspare.com",
+  "sameAs": [
+    "https://corollaspare.com"
+    ],
+  "url": "https://ansonliu.com/store/toyota-corolla-cross-hybrid-spare-wheel-holder/",
+  "@id": "https://ansonliu.com/store/toyota-corolla-cross-hybrid-spare-wheel-holder/",
+  "offers": [
+    {
+      "@type": "Offer",
+      "url": "https://ansonliu.com/store/toyota-corolla-cross-hybrid-spare-wheel-holder/",
+      "price": 399,
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "shippingDestination": [
+          {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          }
+        ],
+        "hasShippingService": {
+          "@type": "ShippingService",
+          "shippingConditions": {
+            "@type": "ShippingConditions",
+            "shippingDestination": [
+              {
+                "@type": "DefinedRegion",
+                "addressCountry": "US"
+              }
+            ],
+            "shippingRate": "0"
+          }
+        }
+      }
+    }
+  ]
+}
+</script>

@@ -1,25 +1,27 @@
-{% capture social_link_array_string %}
-["{{ site.social.links | join: '", "' }}"]
-{% endcapture %}
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "image": "https://avatars1.githubusercontent.com/ansonl?v=3&s=200",
-  "url": "https://ansonliu.com",
-  "sameAs": {{ social_link_array_string }},
+  "url": "https://ansonliu.com/store/",
+  "sameAs": [
+    "https://ansoninnovations.com",
+    "https://corollaspare.com",
+    "https://ansonliu.com"
+    ],
   "logo": {
     "@type": "ImageObject",
     "url": "https://avatars1.githubusercontent.com/ansonl?v=3&s=200"
   },
-  "name": "Anson Liu",
-  "description": "Anson Liu is an American software engineer.",
+  "name": "Anson Innovations LLC",
+  "slogan": "Make the Uncharted",
+  "description": "Anson Innovations LLC is a software engineering and 3D design service.",
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "US",
     "addressLocality": "Cupertino",
-    "addressRegion": "California"
+    "addressRegion": "California",
+    "postalCode": "95014"
   }
 }
 </script>
