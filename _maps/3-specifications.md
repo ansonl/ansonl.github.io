@@ -125,6 +125,34 @@ Download on [Printables](https://www.printables.com/model/638568-williamstown-ma
 
 ---
 
+### Israel + Palestine
+
+[Download](https://makerworld.com/en/models/1579832-israel-palestine-topographic-map-il-pa)
+
+| Map Specification | Value | Notes |
+| ------------- | ------------- | ------------- |
+| Projection | Israeli Transverse Mercator (ITM) | |
+| Horizontal Scale | 1:2500000 (0.4mm:1km) | |
+| Vertical Scale (Linear) | 1:100000 (0.1mm:10m) | Vertical exaggeration is 5x. Elevations 0-40m are scaled between 0 and 0.8mm on a logarithmic scale for enhanced coastal detail. |
+| Highlights | Streams, Lakes |  |
+| Model Base Thickness at Sea Level | ~0.9mm | Additional +0.9mm (dual) / +0.4mm (single) for locations not covered by water. |
+
+---
+
+### Iran
+
+[Download](https://makerworld.com/en/models/1579848-iran-topographic-map-ir)
+
+| Map Specification | Value | Notes |
+| ------------- | ------------- | ------------- |
+| Projection | Web Mercator | |
+| Horizontal Scale | 1:5000000 (0.4mm:2km) | |
+| Vertical Scale (Linear) | 1:100000 (0.1mm:10m) | Vertical exaggeration is 5x. Elevations 0-40m are scaled between 0 and 0.8mm on a logarithmic scale for enhanced coastal detail. |
+| Highlights | Streams, Lakes, Coastlines |  |
+| Model Base Thickness at Sea Level | ~0.9mm | Additional +0.9mm (dual) / +0.4mm (single) for locations not covered by water. |
+
+---
+
 ## China
 
 *China model is at same scale as USA except for the following. Streams and base thickness are 4x thicker so that model can be more easily printed at 25% scale.*
