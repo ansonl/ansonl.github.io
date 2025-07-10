@@ -177,8 +177,29 @@ Digital files of this kit are only available through [commercial licensing]({% l
             ],
             "shippingRate": "0"
           }
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 14,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 7,
+            "unitCode": "DAY"
+          }
         }
-      }
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": [ "US"],
+        "returnPolicyCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+        }
     }
   ]
 }
