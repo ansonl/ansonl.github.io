@@ -31,9 +31,10 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Infill and Infill Percentage | Lightning 30% |
 | Ironing | All Top Surfaces |
 | Ironing Line Spacing | 0.2 mm |
-| Ironing Flow | 20-25% |
+| Ironing Flow | 20-25% (matte) or 38% (glossy) |
+| Ironing Line Spacing | 0.15 mm (matte) or 0.2 mm (glossy) |
 | Ironing Inset | 0.21 mm |
-| Ironing Speed | 65 mm/s |
+| Ironing Speed | 65 mm/s (matte) or 195 mm/s (glossy)|
 | Initial Layer Speed | ≤40 mm/s |
 | Initial Layer Infill Speed | ≤80 mm/s |
 | Outer Wall Speed | ≤125 mm/s |
