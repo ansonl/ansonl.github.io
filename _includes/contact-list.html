@@ -12,6 +12,10 @@
     <li>{% include icon-github.html username=site.github_username label='GitHub' %}</li>
   {% endif %}
 
+  {% if site.makerworld_username %}
+    <li>{% include icon-makerworld.html username=site.makerworld_username label='MakerWorld' %}</li>
+  {% endif %}
+
   {% if site.printables_username %}
     <li>{% include icon-printables.html username=site.printables_username label='Printables' %}</li>
   {% endif %}

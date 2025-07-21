@@ -62,6 +62,8 @@ Bug reports and pull requests are welcome.
 
 Icons made by <a href="https://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
 
+[Makerworld SVG](https://makerworld.com/en/models/1157679-svg-logos) by pocketrush3d
+
 ### License
 
 All original content is © 2022 Anson Liu. Permission is required if republishing any post content without attribution.
