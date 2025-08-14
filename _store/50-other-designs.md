@@ -18,8 +18,6 @@ excerpt: >
 
 Send me a message at [support@ansonliu.com](mailto:support@ansonliu.com) specifying which of my designs you want.
 
-If this is a custom map request, consider mentioning the region and your requirements. Pricing varies depending on the complexity of the map. E.g. An order based on one of my existing released designs will have a lower cost.
-
 My designs can be viewed on the below sites:
 
 - [MakerWorld](https://makerworld.com/en/@ansonl)
@@ -27,7 +25,13 @@ My designs can be viewed on the below sites:
 
 My most popular designs are my 3D topography relief maps and car accessories.
 
+If this is a custom map request, consider mentioning the region and your requirements. Pricing varies depending on the complexity of the map. E.g. An order based on one of my existing released designs will have a lower cost.
+
+Minimum pricing starts at $300 which would be the approximate price of my [large California map design](https://makerworld.com/en/models/1170334-california-hex-puzzle-topographic-map-with-streams). Shipping and handling is generally free within the USA.
+
 ### Licensed Sellers
+
+I recommend getting my designs produced by any of my licensed sellers.
 
 - [JP Designs](https://www.etsy.com/shop/JPDesignsOfficial)
 - [Prized Possessions](https://prizedpossessionsbrand.com/)
