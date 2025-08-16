@@ -121,6 +121,14 @@ Include the following measurements with your order to get the best fit the first
 
   - This is **not** the same as Wheel Backspacing because the rubber tire width must be considered.
   
+  #### Observed Vendor Spare Tire Measurements (averaged, for reference only)
+
+  | Vendor | Center Bore (mm) | Hub Surface Depth (mm) | Mount Style |
+  | --- | --- | --- | --- |
+  | Modern Spare | 67 | 80 | B |
+  | Value Spare | 70 | 53? |  |
+  | OEM | 60 |  |  |
+
 ### 🔏 Licensing
 
 Digital files of this kit are only available through [commercial licensing]({% link _store/50-other-designs.md %}#commercial-license-for-other-designs).
