@@ -121,13 +121,14 @@ Include the following measurements with your order to get the best fit the first
 
   - This is **not** the same as Wheel Backspacing because the rubber tire width must be considered.
   
+
   #### Observed Vendor Spare Tire Measurements (averaged, for reference only)
 
   | Vendor | Center Bore (mm) | Hub Surface Depth (mm) | Mount Style |
   | --- | --- | --- | --- |
   | Modern Spare | 67 | 80 | B |
-  | Value Spare | 70 | 53? |  |
-  | OEM | 60 |  |  |
+  | Value Spare | 70 | 53? varies | A/B |
+  | Toyota OEM | 60 | varies | A/B |
 
 ### 🔏 Licensing
 
