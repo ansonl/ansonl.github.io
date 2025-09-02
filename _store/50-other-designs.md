@@ -27,7 +27,9 @@ My most popular designs are my 3D topography relief maps and car accessories.
 
 If this is a custom map request, consider mentioning the region and your requirements. Pricing varies depending on the complexity of the map. E.g. An order based on one of my existing released designs will have a lower cost.
 
-Minimum pricing starts at $300 which would be the approximate price of my [large California map design](https://makerworld.com/en/models/1170334-california-hex-puzzle-topographic-map-with-streams). Shipping and handling is generally free within the USA.
+My hourly rate for design is $100/hr. Minimum order pricing starts at $300. Shipping and handling is generally free within the USA.
+
+My [large California map design](https://makerworld.com/en/models/1170334-california-hex-puzzle-topographic-map-with-streams) is ~$300 (manufacturing, no additional design fee since it is an existing design) for reference.
 
 ### Licensed Sellers
 
