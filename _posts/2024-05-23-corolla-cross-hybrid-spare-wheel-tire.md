@@ -548,13 +548,22 @@ I tried to touch on all parts of the spare tire acquisition and mounting process
 
 [🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*]({% link store.md %})
 
-### Supporting More Designs
+### More Toyota Corolla Cross Hybrid Specs
+
+There is some conflicting information on the internet on common parts for the United States CCH AWD 1st gen. The correct OEM part numbers are below:
+
+| Part | OEM Part No. | Notes |
+| --- | --- | --- |
+| Engine Air Filter | 17801-F2060 | This filter is almost a square shape and is NOT interchangeable with the gas Corolla Cross. |
+| Cabin Air Filter | 87139-YZZ83 |  |
+
+### Supporting More Of My Designs
 
 3D printed objects that I design including those seen in this post are viewable on my [Portfolio]({% link portfolio.md %}). I make designs to fill functional gaps in real life and I personally use all of my designs.
 
 Most of my designs available for free on [MakerWorld](https://makerworld.com/en/@ansonl) and [Printables](https://www.printables.com/@ansonl/). You can download and print them on your own 3D printer.
 
-Physical versions of my designs are available for purchase on my [Store]({% link store.md %}). Get the good stuff straight from the source 📍!
+Physical versions of my designs are available for purchase from Anson Innovations LLC [Store]({% link store.md %}). Get the good stuff straight from the source 📍!
 
 ### Other Toyota Corolla Cross accessories that may interest you
 
@@ -570,8 +579,6 @@ This modular mount fits all new 2022+ Toyota vehicles [including the Corolla Cro
 
 #### Toyota Corolla Cross Integrated Windshield Right Side Mount
 
-![toyota safety sense 3 integrated dashcam mount](/assets/images/blue-topo-outline-thumbnail.webp)
-
 A modular mounting point that clips into the right side of the front windshield bracket cover. I created this primarily hold a FasTrak toll road pass but any accessory or dashcam can be attached to the right side of the windshield with this mount.
 
-*[Download + 3D print](https://makerworld.com/en/models/494116)
+*[Download + 3D print - Fastrak Flex Transponder Mount](https://makerworld.com/en/models/494116)*
