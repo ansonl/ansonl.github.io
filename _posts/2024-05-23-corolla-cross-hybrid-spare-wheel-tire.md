@@ -550,11 +550,11 @@ I tried to touch on all parts of the spare tire acquisition and mounting process
 
 ### More Toyota Corolla Cross Hybrid Specs
 
-There is some conflicting information on the internet on common parts for the United States CCH AWD 1st gen. The correct OEM part numbers are below:
+There is some conflicting information on the internet on common parts for the North America CCH AWD 1st gen (2.0L 4 cylinder engine). The correct OEM part numbers are below:
 
 | Part | OEM Part No. | Notes |
 | --- | --- | --- |
-| Engine Air Filter | 17801-F2060 | This filter is almost a square shape and is NOT interchangeable with the gas Corolla Cross. |
+| Engine Air Filter | 17801-F2060 | This filter is almost a square shape and is NOT interchangeable with the filter for the gas Corolla Cross. |
 | Cabin Air Filter | 87139-YZZ83 |  |
 
 ### Supporting More Of My Designs

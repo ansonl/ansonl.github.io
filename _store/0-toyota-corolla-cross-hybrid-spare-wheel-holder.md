@@ -74,17 +74,15 @@ See [assembly directions]({% link reference/toyota-corolla-cross-hybrid-spare-wh
 
 ### 🚘 Compatibility
 
-Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
+Toyota Corolla Cross Hybrid AWD (1st gen, 2023+) USA/Canada
 
-- If your car was sold in a region that is not in North America, compare the the rear cable and latch locations in the above photos to your car.
-
-- If you are one of the first to have a US 2026+ facelift model, please contact me to check compatibility.
+- If your car was sold in another region, compare the the rear cable and latch locations in the above photos to your car.
 
 **There may be variation in fitment between individual vehicles due to the physical production process and metal parts. You may need to sand parts of this kit to better fit your vehicle.**
 
 ### 📦 Shipping
 
-Shipping is available within the USA.
+Shipping is available within the USA. Contact me for Canada shipping.
 
 **Kits usually ship in ~2 weeks.** This part is made-to-order. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for expedited orders and international sales.
 
