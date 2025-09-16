@@ -89,6 +89,8 @@ By ordering, you have read and agree to the [Policy]({% link _store/99-store-pol
 
 1. Wear eye and hand protection.
 
+1. Clean out the riser pieces' dowel holes with a 10mm drill bit (maximum diameter).
+
 1. Arrange the riser pieces as shown above.
 
 1. Insert the dowel into the hole so that the flat dowel end faces UP.
