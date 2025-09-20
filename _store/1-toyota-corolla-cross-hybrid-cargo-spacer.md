@@ -43,7 +43,7 @@ This cargo riser provides a stable flat surface for the cargo floor after adding
 
 - Hole in the center is sized to accommodate most spare tires.
 
-- 3D model files available for personal use and creating on your own 3D printer or CNC machine (Recommended build volume: 256x256x256mm). Customizable options for 3D models:
+- 3D model files available for personal use and creating on your own 3D printer or CNC machine (Recommended minimum build volume: 256x256x256mm). Customizable options for 3D models:
 
   - Riser height (mm)
   - Spare tire hole (Yes/No)
@@ -105,9 +105,25 @@ By ordering, you have read and agree to the [Policy]({% link _store/99-store-pol
 
 1. Repeat for all dowels.
 
+### 💻 3D Printing Recommendations
+
+Use PETG or higher temperature resistance material.
+
+| Slicer Print Setting | Value for 0.4 mm nozzle |
+| ------------- |-------------|
+| Layer Height | 0.16-0.2 mm |
+| Default Line Width | 0.42mm |
+| Walls | 4 alternating or 5+ |
+| Top/Bottom surface (shell) | 5+ |
+| Infill and Infill Percentage | Gyroid 8%+ |
+| Print Speed | Slow, 60-200mm/s max |
+| Ironing | Yes |
+
+OrcaSlicer 2.3.1 process presets [download](https://drive.google.com/drive/folders/1CBdNBVKkHc2NUVzPOsTNIQJr_biuBRJ5?usp=sharing)
+
 ### 🚘 Compatibility
 
-Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
+Toyota Corolla Cross Hybrid AWD (1st gen, 2023+, facelift 2026+)
 
 **There may be variation in fitment between individual vehicles due to the physical production process and stamped metal parts. You may need to sand parts of this kit to better fit your vehicle.**
 
@@ -115,7 +131,7 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 Shipping is available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
 
-**Lead time is ~1 month.** This part is made-to-order.
+**Lead time is ~2 weeks.** This part is made-to-order.
 
 ### 🔧 Order Measurements
 
