@@ -21,7 +21,7 @@ excerpt: >
 
 ### PrusaSlicer / Bambu Studio / Orca Slicer
 
-Bambu Studio/ Orca Slicer default settings are already close to perfect. I recommend using below settings for better quality and lower filament usage.
+Bambu Studio/ Orca Slicer default settings are already close to perfect. I recommend using below settings for better quality and lower filament usage. These settings are tuned for the Bambu X1/P1 but should give high quality with most printers.
 
 | Slicer Print Setting | Recommended Value for 0.4 mm nozzle |
 | ------------- |-------------|
@@ -31,7 +31,9 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Infill and Infill Percentage | Lightning 30% |
 | Ironing | All Top Surfaces |
 | Ironing Line Spacing | 0.2 mm |
-| Ironing Flow | 20-25% (matte) or 38% (glossy) |
+| Ironing Flow (0.12mm layer height) | 35% (matte) |
+| Ironing Flow (0.16mm layer height) | 30% (matte) |
+| Ironing Flow (0.2mm layer height) | 20-25% (matte) or 38% (glossy)|
 | Ironing Line Spacing | 0.15 mm (matte) or 0.2 mm (glossy) |
 | Ironing Inset | 0.21 mm |
 | Ironing Speed | 65 mm/s (matte) or 195 mm/s (glossy)|
@@ -47,13 +49,16 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 
 If you can't find good filament settings for the Bambu X1/P1 feel free to use my settings that will print most filaments of the same material great. Spend more time printing what you want and less time "calibrating".
 
-| Slice Filament Setting | Recommended Value for 0.4mm nozzle |
+| Filament Setting | Recommended Value for 0.4mm nozzle |
 | --- | --- |
 | PLA flow ratio | 0.965 |
 | PLA linear advance | 0.02 |
 | PLA fan speed | 90% |
 | PLA bed temp | 55-60 C |
-
+| PETG flow ratio | 0.955 |
+| PETG linear advance | 0.036 |
+| PETG fan speed | 50% |
+| PETG bed temp | 70-80 C |
 
 ### Cura
 
