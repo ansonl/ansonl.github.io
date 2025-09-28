@@ -135,6 +135,8 @@ Shipping is available within the USA. Please contact [support@ansonliu.com](mail
 
 ### 🔧 Order Measurements
 
+> See [Spare Tire Kit Measurements Table]({% link _store/0-toyota-corolla-cross-hybrid-spare-wheel-holder.md %}) for reference measurements.
+
 - **Rise Height (mm)** - The height to elevate the stock cargo deck surface.
 
   > 1. Lay a flat ruler across the top of your mounted spare wheel so that it is flat on the highest top surface of the wheel (this may be the rim or tire). The ruler should be long enough that it is hanging over the left or right plastic cargo deck piece.

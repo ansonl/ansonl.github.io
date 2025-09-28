@@ -1,5 +1,5 @@
 ---
-title: "Toyota Corolla Cross Hybrid AWD Spare Tire Mount"
+title: "Toyota Corolla Cross Hybrid AWD Spare Tire Kit"
 show_title_at_top: true
 layout: page
 permalink: /store/toyota-corolla-cross-hybrid-spare-wheel-holder/
@@ -125,11 +125,11 @@ Include the following measurements with your order to get the best fit the first
   
   #### Observed Vendor Spare Tire Measurements (for reference only)
 
-  | Vendor | Center Bore (mm) | Hub Surface Depth (mm) | Mount Style |
-  | --- | --- | --- | --- |
-  | [Modern Spare](https://amzn.to/3zFMFYt) | 67 | 80 | B |
-  | [Value Spare](https://amzn.to/3XY4V8T) | 70 | 57.15mm (vendor provided) | B |
-  | Toyota OEM | 60 | 60? varies | A/B |
+  | Vendor | Center Bore (mm) | Hub Surface Depth (mm) | Mount Style | Cargo Riser Height |
+  | --- | --- | --- | --- | --- |
+  | [Modern Spare](https://amzn.to/3zFMFYt) | 67 | 80 | B | ? |
+  | [Value Spare](https://amzn.to/3XY4V8T) | 70 | 57.15mm (vendor provided) | A/B | ? |
+  | Toyota OEM | 57 | 54 varies | A/B | 38mm |
 
   - It is recommended to fully inflate and measure your own tire because there may be variation within the same vendor.
 
