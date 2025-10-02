@@ -29,14 +29,6 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Default Line Width | 0.42mm |
 | Top Surface Pattern | Monotonic Line |
 | Infill and Infill Percentage | Lightning 30% |
-| Ironing | All Top Surfaces |
-| Ironing Line Spacing | 0.2 mm |
-| Ironing Flow (0.12mm layer height) | 35-42% |
-| Ironing Flow (0.16mm layer height) | 32% |
-| Ironing Flow (0.2mm layer height) | 20-25% |
-| Ironing Line Spacing | 0.15 mm |
-| Ironing Inset | 0.21 mm |
-| Ironing Speed | 65 mm/s |
 | Initial Layer Speed | ≤40 mm/s |
 | Initial Layer Infill Speed | ≤80 mm/s |
 | Outer Wall Speed | ≤125 mm/s |
@@ -44,6 +36,22 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Top Surface Speed | ≤150 mm/s |
 | Maximum Printing Speed for any layer | ≤200 mm/s |
 | Support | None (or Tree default style for interlocking map pieces) |
+
+#### Bambu X1/P1S Ironing Settings
+
+**I tested multiple combinations of ironing settings to find the best so you don't have to.** Ironing flow increases as your layer height decreases due to the volumetric extrusion decreasing at lower layer heights and a minimum amount of plastic required to smooth the top surface. These settings probably also work for A1 and H2 printers.
+
+| Ironing Setting | Recommended Value for 0.4 mm nozzle |
+| ------------- |-------------|
+| Ironing | All Top Surfaces |
+| Ironing Line Spacing | 0.2 mm |
+| Ironing Flow (0.12mm layer height) | 32-42% (32% for 90° offset / 38% for 45° offset / 38% for 0° offset) |
+| Ironing Flow (0.16mm layer height) | 32-39% (32% for 90° offset / 39% for 45° offset / 38% for 0° offset) |
+| Ironing Flow (0.2mm layer height) | 20-25% |
+| Ironing Line Spacing | 0.15 mm |
+| Ironing Inset | 0.21 mm |
+| Ironing Speed | 65 mm/s |
+| Ironing Angle | 45° (visual smooth) or 90° (tactile+visual smooth) offset (Input 0° or 135° in slicer respectively) |
 
 #### Filament Settings
 
