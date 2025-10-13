@@ -88,7 +88,7 @@ Shipping is available for USA, Canada, and Mexico. Free shipping within the USA.
 
 ### 🔧 Order Measurements
 
-Determine which placement direction works best for your tire.
+Determine which placement direction works best for your tire. [Measurement How-to Video](https://youtu.be/Cd04TEpADUA)
 
 ![Tire styles and recommended placements](/assets/images/store/tire-storage-direction.webp)
 
