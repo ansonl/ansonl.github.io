@@ -309,7 +309,7 @@ Aftermarket vendors that offer Corolla Cross spares in no particular order (no e
 
 - [Amazon vendors](https://amzn.to/3zCzIi3)*
 
-- [Value Spare](https://valuespare.com/product/2023-2024-corolla-cross-spare-tire/) - [Amazon](https://amzn.to/3XY4V8T)*
+- [Value Spare](https://valuespare.com/product/2023-2024-corolla-cross-spare-tire/?aff=2)* - [Amazon](https://amzn.to/3XY4V8T)*
 
 - [Modern Spare](https://modernspare.com/product/2023-2024-toyota-corolla-cross-spare-tire-kit-options/) - [Amazon](https://amzn.to/3zFMFYt)*
 
