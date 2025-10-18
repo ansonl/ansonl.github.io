@@ -261,12 +261,14 @@ You can use a larger scissor jack to lift the car as well but it will not fit in
 
 These are listed below in acquiring a spare and jack set in the order of most work -> highest cost.
 
-I recommend sourcing in the following order 
+I recommend sourcing in the following order:
 
 1. Scrapyard
 2. Secondhand OEM
 3. Official Dealer
 4. Aftermarket
+
+**2025 Update:** The verdict is in after long term feedback from customers. Toyota OEM spare (150/70R17), Value Spare, and other make/model OEM spares fit better due to the lower Flange Thickness of those rims.
 
 #### Scrapyard/Pick and Pull
 
@@ -305,11 +307,11 @@ There are several turnkey third party spare wheel solutions but these vendors do
 > ⚠️ Some aftermarket vendors' special alloy rims sit very high on the CCH spare tire upgrade kit due to rim designs with high offsets. This may raise the cargo floor significantly and require an extra-thick spacer or other workarounds!  
 I recommend getting a **compatible steel compact donut spare rim style** (usually painted black) described [above](#compact-versus-full-size-spare) through the scrapyard or Ebay method.
 
-Aftermarket vendors that offer Corolla Cross spares in no particular order (no endorsement provided):
-
-- [Amazon vendors](https://amzn.to/3zCzIi3)*
+Aftermarket vendors that offer Corolla Cross spares (no endorsement provided):
 
 - [Value Spare](https://valuespare.com/product/2023-2024-corolla-cross-spare-tire/?aff=2)* - [Amazon](https://amzn.to/3XY4V8T)*
+
+- [Amazon vendors](https://amzn.to/3zCzIi3)*
 
 - [Modern Spare](https://modernspare.com/product/2023-2024-toyota-corolla-cross-spare-tire-kit-options/) - [Amazon](https://amzn.to/3zFMFYt)*
 

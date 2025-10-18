@@ -18,7 +18,7 @@ Raise the cargo floor of your Toyota Corolla Cross Hybrid (CCH) AWD to be level 
 
 Open to door to more cargo area use cases such as overlanding and camping by allowing objects to be laid flat between the folded rear seats and cargo area.
 
-**I prefer that you purchase the Digital Kit to support my design work and patronize a local 3D printer or CNC shop to make the riser.**
+**I prefer that you purchase the Digital Kit to support my design work and patronize a local 3D printer or CNC shop to make the riser. You may also cut a spacer out of foam using my [reference measurements](https://ansonliu.com/2024/05/corolla-cross-hybrid-spare-wheel-tire/#cargo-deck-spacer-dimensions).**
 
 ***My 1.5 inch (38 mm) high cargo riser design is downloadable for free on [MakerWorld](https://makerworld.com/en/models/1020274).***
 
