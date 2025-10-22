@@ -32,11 +32,11 @@ Store the missing spare wheel and jack under the cargo area of your Toyota Corol
 
 ![corolla cross hybrid spare tire mount solution](/wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-storage.webp)
 
-This spare tire mount allows you to store a compact spare wheel under trunk utilizing empty space.
+This spare tire mount allows you to store a compact spare wheel under trunk utilizing empty space. Used by owners, dealers, and auto shops nationwide.
 
-- The mount attaches over the power cable disconnect lever in trunk.
+- The mount attaches over the power cable disconnect lever in trunk. No-drill install.
 
-- A spare tire can be placed on top of the mount which elevates the tire to minimize rubbing and tension on the power cable.
+- The spare tire is placed on top of the mount which elevates the tire to minimize rubbing and tension on the power cable.
 
 - Depending on the width of the spare, a spacer will be needed to elevate the cargo deck to be level with the top of the tire.
 
@@ -127,11 +127,11 @@ Include the following measurements with your order to get the best fit the first
 
   | Vendor | Center Bore (mm) | Hub Surface Depth (mm) | Mount Style | Cargo Riser Height |
   | --- | --- | --- | --- | --- |
-  | Toyota OEM *150/70R17* | 57 | 54 varies | A/B | 38mm |
+  | Toyota OEM *150/70R17* | 57 | 54 | A/B | 38mm |
   | [Value](https://amzn.to/3XY4V8T) [Spare](https://valuespare.com/product/2023-2025-corolla-cross-spare-tire/?aff=2) | 70 | 57.15mm (vendor provided) | A/B | ? |
   | [Modern Spare](https://amzn.to/3zFMFYt) | 67 | 80 | B | ? |
   
-  - **Toyota OEM spare** and Value Spare tires fit better due to the lower Flange Thickness of the rims.
+  - Toyota OEM spare and Value Spare tires fit better due to the lower rim **Flange Thickness**
 
   - It is recommended to fully inflate and measure your own tire because there may be variation within the same vendor.
 
