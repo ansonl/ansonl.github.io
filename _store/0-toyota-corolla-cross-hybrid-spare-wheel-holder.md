@@ -127,7 +127,7 @@ Include the following measurements with your order to get the best fit the first
 
   | Vendor | Center Bore (mm) | Hub Surface Depth (mm) | Mount Style | Cargo Riser Height |
   | --- | --- | --- | --- | --- |
-  | Toyota OEM *150/70R17* | 57 | 54 | A/B | 38mm |
+  | Toyota OEM *in 155/70R17* | 57 | 54 | A/B | 38mm |
   | [Value Spare](https://valuespare.com/product/2023-2025-corolla-cross-spare-tire/?aff=2) - [Amazon](https://amzn.to/3XY4V8T) | 70 | 57.15mm (vendor provided) | A/B | ? |
   | [Modern Spare](https://amzn.to/3zFMFYt) | 67 | 80 | B | ? |
   
