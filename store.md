@@ -5,6 +5,8 @@ layout: collection
 permalink: /store/
 collection: store
 entries_layout: grid
+excerpt: >
+  Make the Uncharted
 ---
 
 Purchase my designs and products from Anson Innovations LLC. Get the good stuff straight from the source 📍
