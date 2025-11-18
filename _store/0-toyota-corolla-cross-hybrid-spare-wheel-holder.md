@@ -14,6 +14,11 @@ excerpt: >
   Store the missing spare tire and jack under the cargo area with this mounting solution.
 ---
 
+<link rel="stylesheet" href="{{ " /assets/stylesheets/rainbow-animated-text.css" | prepend: site.baseurl }}">
+<div id="shadowbox">
+<h1 class="rainbow rainbow_text_animated">Extended Black Friday sale</h1><h2 class="rainbow">Get $50 off with coupon BLKFRI50 at checkout</h2>
+</div>
+
 Store the missing spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) AWD with this mount kit. Just as the road warriors and overlanding gods intended.
 
 <script async
@@ -77,6 +82,8 @@ See [assembly directions]({% link reference/toyota-corolla-cross-hybrid-spare-wh
 Toyota Corolla Cross Hybrid AWD (1st gen, 2023+ and facelift 2026+) USA/Canada/Mexico
 
 - If your car was sold in another region, compare the the rear cable and latch locations in the above photos to your car.
+
+- Not recommended for storing full size spare tires.
 
 **There may be variation in fitment between individual vehicles due to the physical production process and metal parts. You may need to sand parts of this kit to better fit your vehicle.**
 
