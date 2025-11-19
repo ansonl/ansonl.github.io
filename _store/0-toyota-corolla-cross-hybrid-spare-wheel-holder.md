@@ -16,7 +16,7 @@ excerpt: >
 
 <link rel="stylesheet" href="{{ " /assets/stylesheets/rainbow-animated-text.css" | prepend: site.baseurl }}">
 <div id="shadowbox">
-<h1 class="rainbow rainbow_text_animated">Extended Black Friday sale</h1><h2 class="rainbow">Get $50 off with coupon BLKFRI50 at checkout</h2>
+<h1 class="rainbow rainbow_text_animated">Extended 2025 Black Friday sale!</h1><h2 class="rainbow">Get $50 off with coupon <i>BLKFRI50</i> at checkout</h2>
 </div>
 
 Store the missing spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) AWD with this mount kit. Just as the road warriors and overlanding gods intended.
