@@ -50,9 +50,9 @@ t:
 
 navigation_pages:
   - about.md
+  - store.md
   - portfolio.md
   - maps.md
-  - store.md
   - archive.md
   - tags.md
   - cv.md
