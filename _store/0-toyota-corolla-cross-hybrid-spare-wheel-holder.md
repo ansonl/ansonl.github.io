@@ -89,9 +89,9 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+ and facelift 2026+) USA/Canada/M
 
 ### 📦 Shipping
 
-Shipping is available for USA, Canada, and Mexico. Free shipping within the USA. 
+Shipping is available for USA, Canada, and Mexico. Free shipping within the USA (with USPS/UPS) and to Canada (DDU w/ UPS).
 
-**Kits usually ship in ~1 week.** This part is made-to-order. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for expedited orders and shipping to Canada and Mexico.
+**Kits usually ship in ~1 week.** This part is made-to-order. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for expedited orders, different couriers, and shipping to Mexico.
 
 ### 🔧 Order Measurements
 
