@@ -139,9 +139,12 @@ Shipping is available within the USA. Please contact [support@ansonliu.com](mail
 
 - **Rise Height (mm)** - The height to elevate the stock cargo deck surface.
 
+  - **Max height 🚫** - 45mm with Toyota OEM CCH rubber mat installed or 63mm bare trunk floor.
+
   > 1. Lay a flat ruler across the top of your mounted spare wheel so that it is flat on the highest top surface of the wheel (this may be the rim or tire). The ruler should be long enough that it is hanging over the left or right plastic cargo deck piece.
   > 2. Use another ruler to measure the Rise Height as the greatest vertical distance between the large top surface of the cargo deck piece and the first ruler. The large top surface is NOT the raised edges on the far left and right of the cargo deck pieces.
-  - *Physical Kit only* - 💲 Rise Heights above 38 mm (1.5 in) require an additional **Cargo Riser addon** item on the purchase page for every extra 12.7mm in Rise Height.
+
+  - *Physical Kit only* 💲 - Rise Heights above 38 mm (1.5 in) require an additional **Cargo Riser addon** item on the purchase page for every extra 12.7mm in Rise Height.
 
 - **Spare tire hole (Yes/No)** - *Digital Kit only* - Should the riser have a hole in the center for the spare tire? This should be no if you do not plan to add a spare tire and only want to elevate the cargo floor height.
 
