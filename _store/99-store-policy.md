@@ -16,7 +16,7 @@ excerpt: >
 
 1. **Privacy Policy.** Your use of all software programs and related services including this website constitutes consent to monitoring and collection. Information may be collected for statistics, development, and debugging purposes.
 
-1. **Contact.** "Anson Innovations LLC" and "Anson Liu" may be contacted in writing by emailing support@ansonliu.com.
+1. **Contact.** "Anson Innovations LLC" may be contacted in writing by emailing support@ansoninnovations.com.
 
 1. All products may change without notice. Descriptions and visuals may not show the current shipped revisions of products.
 

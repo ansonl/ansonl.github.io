@@ -28,7 +28,7 @@ No suction cups or drilling required. This mount securely attaches directly to t
 
 - If your accessory does not have a GoPro style mount, you must machine the universal blank attachment to fit your device or [3D print a compatible mount](https://makerworld.com/en/models/447037).
 
-- The product can be made in a specific color and material upon [request](mailto:support@ansonliu.com).
+- The product can be made in a specific color and material upon [request](mailto:support@ansoninnovations.com).
 
 - 🇺🇸 Made in the USA.
 
@@ -63,6 +63,6 @@ Read and agree to the [Policy]({% link _store/99-store-policy.md %}) before orde
 
 ### Shipping
 
-Shipping is only available within the USA. Please contact [support@ansonliu.com](mailto:support@ansonliu.com) for international sales.
+Shipping is only available within the USA. Please contact [support@ansoninnovations.com](mailto:support@ansoninnovations.com) for international sales.
 
 Lead time may be ~1 month as this part is made-to-order.
