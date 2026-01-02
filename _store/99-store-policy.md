@@ -20,7 +20,7 @@ excerpt: >
 
 1. All products may change without notice. Descriptions and visuals may not show the current shipped revisions of products.
 
-1. **Terms of Sale.** All sales are DAP (DDU) Incoterm unless explicitly specified. You are responsible for responsible for paying all customs, duties, taxes, and additional charges for purchased items. "Anson Innovations LLC" and "Anson Liu" are not responsible for these costs and refunds will not be made for delivery issues related to these costs.
+1. **Terms of Sale.** All sales are DAP (DDU) Incoterm unless explicitly specified. You agree to be the importer of all items. You are responsible for paying all customs, duties, taxes, and additional charges for purchased items. "Anson Innovations LLC" and "Anson Liu" are not responsible for these costs. Refunds will not be made for delivery issues related to these costs.
 
 1. **Shipping.** Packages will be shipped through a shipping carrier including but not limited to USPS/UPS/FedEx/DHL. Specific carrier preferences may incur extra cost. You must request and confirm carrier changes through email prior to order placement.
 
