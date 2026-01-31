@@ -1,11 +1,11 @@
 ---
-title: "Anson Innovations LLC Store and Website Policy"
+title: "Anson Innovations LLC Store Terms of Service and Website Policy"
 show_title_at_top: true
 layout: page
 permalink: /store/policy/
 more-link-text: "See Policy"
 excerpt: >
-  
+
 ---
 
 1. When purchasing an item from "Anson Innovations LLC": You are the buyer. "Anson Innovations LLC" is the seller.
@@ -14,9 +14,9 @@ excerpt: >
 
 1. **Refunds and Cancellation.** Orders may be cancelled and refunded the purchase amount minus all payment processing, bank, and (25%) restocking fees within 12 hrs of payment or shipment, whichever comes first. Cancellations and order status may be requested by email. Orders may not be refunded after the product has begun production. The seller has sole discretion on granting return, replacement, and refund requests received.
 
-1. **Privacy Policy.** Your use of all software programs and related services including this website constitutes consent to monitoring and collection. Information may be collected for statistics, development, and debugging purposes.
+1. **Privacy Policy.** Your use of all software programs and related services including this website constitutes consent to monitoring and collection. Information may be collected for statistics, security, development, and debugging purposes.
 
-1. **Contact.** "Anson Innovations LLC" may be contacted in writing by emailing support@ansoninnovations.com.
+1. **Contact.** "Anson Innovations LLC" may be contacted by emailing support@ansoninnovations.com.
 
 1. All products may change without notice. Descriptions and visuals may not show the current shipped revisions of products.
 

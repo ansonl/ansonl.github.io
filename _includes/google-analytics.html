@@ -1,0 +1,140 @@
+<!-- https://gist.github.com/Chuvisco88/2b446a5c9190b77b41eaafab358223ec -->
+
+<!-- Add cookie consent css & js -->
+<link rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
+    data-cfasync="false"></script>
+
+<!-- Add google analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"></script>
+
+<!-- Add fb pixel for noscript -->
+<noscript><img id="fbpixel" height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1192051532848174&ev=PageView&noscript=1"/></noscript>
+
+<script>
+    // Reads the value of a cookie by name or returns empty string
+    function getCookie(name) {
+        var b = document.cookie.match('(^|[^;]+)\\s*' + name + '\\s*=\\s*([^;]+)');
+        return b ? b.pop() : '';
+    }
+
+    // Actually starting analytics up
+    function addAnalytics() {
+      console.log('activating analytics')
+        var script = document.createElement('script'), done = false,
+            head = document.getElementsByTagName("head")[0];
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X';
+        script.onload = script.onreadystatechange = function(){
+          if ( !done && (!this.readyState ||
+                this.readyState == "loaded" || this.readyState == "complete") ) {
+            done = true;
+            
+            // setup the loaded GA script
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', '{{ site.google_analytics }}');
+
+            // IE memory leak
+            script.onload = script.onreadystatechange = null;
+            head.removeChild( script );
+          }
+        };
+        head.appendChild(script);
+
+        // Include fb pixel for script enabled
+        {% if page.url contains '/store/' %}
+          // Meta Pixel Code
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '1192051532848174');
+          fbq('track', 'PageView');
+          // End Meta Pixel Code
+        {% endif %}
+    }
+
+    // Waiting for the load event
+    window.addEventListener("load", function () {
+        // Reading "cookieconsent_status" cookie
+        const cookieConsent = getCookie('cookieconsent_status');
+
+        // remove all cookies except cookieconsent_status
+        function removeCookies() {
+          const expire = 'expires=Thu, 01 Jan 1970 00:00:00 GMT';
+          const pathParts = location.pathname.split('/').filter(Boolean);
+          const paths = ['/'];
+          let path = '';
+          for (let i = 0; i < pathParts.length; i++) {
+            path += '/' + pathParts[i];
+            paths.push(path);
+            paths.push(path + '/');
+          }
+
+          document.cookie.split(';').forEach(cookie => {
+            const eqPos = cookie.indexOf('=');
+            const name = (eqPos > -1 ? cookie.substring(0, eqPos) : cookie).trim();
+            if (name != 'cookieconsent_status') {
+              paths.forEach(pathValue => {
+                document.cookie = name + '=;' + expire + ';path=' + pathValue;
+              });
+              console.log('removed cookie ' + name);
+            }
+          });
+        }
+        // Start analytics if user consented or did not make a selection
+        if (cookieConsent === 'allow' || cookieConsent === '') {
+            addAnalytics();
+        } if (cookieConsent === 'deny') {
+          removeCookies()
+        }
+
+        // Initialise cookie consent banner
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#efefef",
+                    "text": "#404040",
+                    "opacity": "0.8"
+                },
+                "button": {
+                    "background": "#006f94",
+                    "text": "#ffffff"
+                }
+            },
+            "type": "opt-out",
+            "dismissOnTimeout": 10000,
+            "dismissOnScroll": 10000,
+            "content": {
+                "message": "Cookies are used for functionality + analytics.",
+                "allow": "Okay",
+                "dismiss": "Okay",
+                "deny": "Decline",
+                "link": 'Terms of Service',
+                "href": '{% link _store/99-store-policy.md %}',
+            },
+            // React to user selection
+            onStatusChange: function (status, chosenBefore) {
+                if (status == 'deny') {
+                  removeCookies();
+                }
+                if (status == 'dismiss') { //if cookie banner auto dismissed, show again after some time
+                  var expireDate = new Date();
+                  expireDate.setDate(expireDate.getDate() + 7);
+                  document.cookie = 'cookieconsent_status=' + status + ';expires=' + expireDate.toUTCString() + ';path=/';
+                }
+                //location.reload(); //cookies set to expire are not set with future requests and deleted but the browser debug UI may still show them
+            }
+        })
+    });
+</script>
+
