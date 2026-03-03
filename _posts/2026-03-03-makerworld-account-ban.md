@@ -14,8 +14,10 @@ tags:
 excerpt: >
   My maps and models continue to be available [Printables](https://www.printables.com/@ansonl). You will find my latest uploads and updates on Printables but not on MakerWorld. 
 
+
   ![Printables scroll](/assets/images/portfolio/printables-scroll-thumbnail.webp)
   
+
   *The [3D map of China](https://www.printables.com/model/656330-china-mainlandhainantaiwan-3d-topo-relief-map-with) got reported on MakerWorld so the account got banned and models delisted. You will find my models previously available on MakerWorld on Printables instead.*
 
 ---
