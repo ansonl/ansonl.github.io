@@ -30,13 +30,13 @@ Toyota Emergency Response Guide PDF viewable [here](https://techinfo.toyota.com/
 - Spare Tire Mount
   - Part 1
   - Part 2
-  - [Part 3](https://makerworld.com/en/models/480955) - [Hub Surface Depth](https://ansonliu.com/store/toyota-corolla-cross-hybrid-spare-wheel-holder/#-order-measurements)
+  - Part 3 - [Hub Surface Depth](https://ansonliu.com/store/toyota-corolla-cross-hybrid-spare-wheel-holder/#-order-measurements)
   - Part 3 - low profile*
   - 1x M10x40mm socket bolt
   - 1x M10x25mm socket bolt
   - 2x M10 washer
   - 2x M10 flanged nut
-- [Universal Tire Hold Down](https://makerworld.com/en/models/443704)
+- Universal Tire Hold Down
   - 1x Tire Hold Down Handle
   - 1x Tire Hold Down Ring
   - 1x M8 cap bolt
@@ -207,4 +207,4 @@ The Universal Tire Hold Down can be used if you do not have a matching hold down
 
 3. The Tire Puncture Kit consisting of a air compressor and tire sealant can be either removed from the car or placed under the cargo floor.
 
-Additional vehicle accessories for the jack assembly, Tire Puncture Kit, and dashcam can be found in my released [vehicle accessories collection](https://makerworld.com/en/@ansonl/collections/1170762) and are available for custom order on the [Store]({% link store.md %}).
+Additional vehicle accessories for the jack assembly, Tire Puncture Kit, and dashcam can be found in my released [vehicle accessories collection](https://www.printables.com/@ansonl/collections/798008) and are available for custom order on the [Store]({% link store.md %}).

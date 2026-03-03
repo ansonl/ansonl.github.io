@@ -20,15 +20,15 @@ excerpt: >
 
 | Subregion | Variant | V1 | V2 | Links |
 | --- | --- | --- | --- | --- |
-| Lower 48 | Linear Scale | 1 | 2 | [MakerWorld](https://makerworld.com/en/collections/766615) / [Printables](https://www.printables.com/@ansonl/collections/714909) |
+| Lower 48 | Linear Scale | 1 | 2 | [Printables](https://www.printables.com/@ansonl/collections/714909) / ~~[MakerWorld](https://makerworld.com/en/collections/766615)~~ |
 | Lower 48 | Square Root Scale | __N/A__ | 2 | see above |
 | Lower 48 🚧 | Linear & Sqrt Scale Low Poly | __N/A__ | 2 | see above |
-| Alaska | Linear Scale | __N/A__ | 2 | [MakerWorld](https://makerworld.com/en/models/662546) / [Printables](https://www.printables.com/model/611779-alaska-usa-ak-topographic-relief-map-with-rivers-a) |
+| Alaska | Linear Scale | __N/A__ | 2 | [Printables](https://www.printables.com/model/611779-alaska-usa-ak-topographic-relief-map-with-rivers-a) / ~~[MakerWorld](https://makerworld.com/en/models/662546)~~ |
 | Alaska | Square Root Scale | __N/A__ | 2 | see above |
-| Hawaii | Linear Scale | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/571705) / [Printables](https://www.printables.com/model/546259-hawaii-usa-hi-southeastern-islands-topo-map-with-h) |
-| Lower 48 Combined | Linear w/ Borders | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/226944) |
-| Lower 48 Combined | Linear | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/230614) / [Printables](https://www.printables.com/model/529276-contiguous-usa-lower-48-topographic-map-with-hydro) |
-| Lower 48 Combined | Low Poly | 1 | __N/A__ | [MakerWorld](https://makerworld.com/en/models/230533) / [Printables](https://www.printables.com/model/550506-low-poly-usa-lower-48-states) |
+| Hawaii | Linear Scale | 1 | __N/A__ | [Printables](https://www.printables.com/model/546259-hawaii-usa-hi-southeastern-islands-topo-map-with-h) / ~~[MakerWorld](https://makerworld.com/en/models/571705)~~ |
+| Lower 48 Combined | Linear w/ Borders | 1 | __N/A__ | ~~[MakerWorld](https://makerworld.com/en/models/226944)~~ |
+| Lower 48 Combined | Linear | 1 | __N/A__ | [Printables](https://www.printables.com/model/529276-contiguous-usa-lower-48-topographic-map-with-hydro) / ~~[MakerWorld](https://makerworld.com/en/models/230614)~~ |
+| Lower 48 Combined | Low Poly | 1 | __N/A__ | [Printables](https://www.printables.com/model/550506-low-poly-usa-lower-48-states) / ~~[MakerWorld](https://makerworld.com/en/models/230533)~~ |
 
 **Lower 48 is equivalent to Contiguous states.*
 

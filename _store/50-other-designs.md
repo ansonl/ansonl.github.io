@@ -20,8 +20,8 @@ Send me a message at [support@ansoninnovations.com](mailto:support@ansoninnovati
 
 My designs can be viewed on the below sites:
 
-- [MakerWorld](https://makerworld.com/en/@ansonl)
 - [Printables](https://www.printables.com/@ansonl/)
+- ~~[MakerWorld](https://makerworld.com/en/@ansonl)~~
 
 My most popular designs are my 3D topography relief maps and car accessories.
 
@@ -29,7 +29,7 @@ If this is a custom map request, consider mentioning the region and your require
 
 My hourly rate for design is $100/hr. Minimum order pricing starts at $300. Shipping and handling is generally free within the USA.
 
-My [large California map design](https://makerworld.com/en/models/1170334-california-hex-puzzle-topographic-map-with-streams) is ~$300 (manufacturing, no additional design fee since it is an existing design) for reference.
+My [large California map design](https://www.printables.com/model/1218340-california-hex-puzzle-topographic-map-with-streams) is ~$300 (manufacturing, no additional design fee since it is an existing design) for reference.
 
 ### Licensed Sellers
 
@@ -40,7 +40,7 @@ I recommend getting my designs produced by any of my licensed sellers.
 
 ## Commercial License for Released Designs
 
-All Released Designs are free for personal use. Released Designs are my designs which have downloadable 3D files on a public website such as Makerworld and Printables.
+All Released Designs are free for personal use. Released Designs are my designs which have downloadable 3D files on a public website such as Printables.
 
 If you are interested in selling any of my Released Designs, you can obtain a commercial license through my [Printables Club](https://www.printables.com/@ansonl/) membership.
 

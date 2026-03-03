@@ -15,10 +15,10 @@ Mount a dashcam or electronics in your Toyota vehicle's front windshield using o
 
 The modular device attachment point fits all devices with a common GoPro style mount. A blank universal mount is provided for customization for your device needs.
 
-> Toyota Integrated Dashcam Mount is available on [MakerWorld](https://makerworld.com/en/models/447037) and [Printables](https://www.printables.com/model/683181-2023-2024-toyota-integrated-front-windshield-mount).  
+> Toyota Integrated Dashcam Mount is available on [Printables](https://www.printables.com/model/683181-2023-2024-toyota-integrated-front-windshield-mount) and ~~[MakerWorld](https://makerworld.com/en/models/447037)~~.  
 You may 3D print it for free. Please consider supporting my designs by becoming a member of my [Printables Club](https://www.printables.com/@ansonl).
 
-If you power your device from the vehicle fuse box using a fuse tap, you may find my [Power Distribution Fuse Box Extended Cover](https://makerworld.com/en/models/227473#profileId-247602) useful for covering the fuse box if the original fuse cover is too low and no longer fits with the fuse tap inserted.
+If you power your device from the vehicle fuse box using a fuse tap, you may find my [Power Distribution Fuse Box Extended Cover](https://www.printables.com/model/729753-toyota-corolla-cross-hybrid-power-distribution-fus) useful for covering the fuse box if the original fuse cover is too low and no longer fits with the fuse tap inserted.
 
 ![mount in front windshield](/assets/images/store/tss-3-mount-front-center-dashcam.webp)
 
@@ -26,13 +26,13 @@ No suction cups or drilling required. This mount securely attaches directly to t
 
 ![mount in front windshield](/assets/images/store/tss-3-mount-front-center-inside.webp)
 
-- If your accessory does not have a GoPro style mount, you must machine the universal blank attachment to fit your device or [3D print a compatible mount](https://makerworld.com/en/models/447037).
+- If your accessory does not have a GoPro style mount, you must machine the universal blank attachment to fit your device or [3D print a compatible mount](https://www.printables.com/model/683181-2023-2024-toyota-integrated-front-windshield-mount).
 
 - The product can be made in a specific color and material upon [request](mailto:support@ansoninnovations.com).
 
 - 🇺🇸 Made in the USA.
 
-**[Toyota Integrated Dashcam Mount assembly directions](https://makerworld.com/en/models/447037)**
+**[Toyota Integrated Dashcam Mount assembly directions](https://www.printables.com/model/683181-2023-2024-toyota-integrated-front-windshield-mount)**
 
 <video style="max-width:100%; height:auto;" width="768" height="432" autoplay loop muted playsinline>
  <source src="/assets/images/store/tss-3-front-center-universal-black-front-angled-fast.webm" type="video/webm">

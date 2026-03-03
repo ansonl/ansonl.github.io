@@ -55,7 +55,7 @@ REGION-ESCALING-EXTRUDER-STYLE-REVISION-POSTPROCESS-PIECE##.3mf
 
 ## USA Individual States and Territories
 
-Download on [MakerWorld](https://makerworld.com/en/collections/766615) and [Printables](https://www.printables.com/@ansonl/collections/714909)
+Download on [Printables](https://www.printables.com/@ansonl/collections/714909) and ~~[MakerWorld](https://makerworld.com/en/collections/766615)~~
 
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |
@@ -79,7 +79,7 @@ Download on [MakerWorld](https://makerworld.com/en/collections/766615) and [Prin
 
 ## Lower 48 (Contiguous) USA Map with Borders (all in one)
 
-Download on [MakerWorld](https://makerworld.com/en/models/230614)
+Download on ~~[MakerWorld](https://makerworld.com/en/models/230614)~~
 
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |
@@ -127,7 +127,7 @@ Download on [Printables](https://www.printables.com/model/638568-williamstown-ma
 
 ### Israel + Palestine
 
-[Download](https://makerworld.com/en/models/1579832-israel-palestine-topographic-map-il-pa)
+[Download](https://www.printables.com/model/1347362-israel-palestine-topographic-map-il-pa)
 
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |
@@ -141,7 +141,7 @@ Download on [Printables](https://www.printables.com/model/638568-williamstown-ma
 
 ### Iran
 
-[Download](https://makerworld.com/en/models/1579848-iran-topographic-map-ir)
+[Download](https://www.printables.com/model/1347361-iran-topographic-map-ir)
 
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |
@@ -157,7 +157,7 @@ Download on [Printables](https://www.printables.com/model/638568-williamstown-ma
 
 *China model is at same scale as USA except for the following. Streams and base thickness are 4x thicker so that model can be more easily printed at 25% scale.*
 
-Download on [Printables](https://www.printables.com/model/656330-china-mainlandhainantaiwan-3d-topo-relief-map-with) and [MakerWorld](https://makerworld.com/en/models/675986)
+Download on [Printables](https://www.printables.com/model/656330-china-mainlandhainantaiwan-3d-topo-relief-map-with)
 
 | Map Specification | Value | Notes |
 | ------------- | ------------- | ------------- |

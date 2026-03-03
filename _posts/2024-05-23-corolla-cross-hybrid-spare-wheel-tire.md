@@ -403,7 +403,7 @@ Depending on the width of your spare tire and the offset of the rim, the top sur
 > The wider the spare tire width (this is the first number in the tire code), the higher your spare tire will rest. It is a balancing act to find a narrow enough spare tire with a high sidewall ratio to match the full size Corolla Cross wheel diameter. Good tire size matches and donor vehicles are listed in the section above.
 
 ![cargo deck riser from below](/wp-content/uploads/2024/05/corolla-cross-spare-tire-cargo-deck-riser-bottom.webp)
-: *Toyota Cargo Deck Bottom Riser - [Download and 3D print](https://makerworld.com/en/models/455043#profileId-362552)*
+: *Toyota Cargo Deck Bottom Riser - [Download and 3D print](https://www.printables.com/model/1157816-toyota-corolla-cross-hybrid-awd-cargo-riser)*
 
 My initial attempt was designing risers to fit underneath the left and right cargo decks' feet. While the risers fit fine underneath the cargo decks, the cargo deck was quite wobbly.
 
@@ -563,7 +563,7 @@ There is some conflicting information on the internet on common parts for the No
 
 3D printed objects that I design including those seen in this post are viewable on my [Portfolio]({% link portfolio.md %}). I make designs to fill functional gaps in real life and I personally use all of my designs.
 
-Most of my designs available for free on [MakerWorld](https://makerworld.com/en/@ansonl) and [Printables](https://www.printables.com/@ansonl/). You can download and print them on your own 3D printer.
+Most of my designs available for free on [Printables](https://www.printables.com/@ansonl/) and ~~[MakerWorld](https://makerworld.com/en/@ansonl)~~. You can download and print them on your own 3D printer.
 
 Physical versions of my designs are available for purchase from Anson Innovations LLC [Store]({% link store.md %}). Get the good stuff straight from the source 📍!
 
@@ -575,9 +575,9 @@ Physical versions of my designs are available for purchase from Anson Innovation
 
 This modular mount fits all new 2022+ Toyota vehicles [including the Corolla Cross] equipped with Toyota Safety Sense 3.0. Any accessory or dashcam with a GoPro style mount can be cleanly attached to your front windshield using this mount!
 
-*[Download + 3D print - Integrated Dashcam Mount](https://makerworld.com/en/models/447037)*
+*[Download + 3D print - Integrated Dashcam Mount](https://www.printables.com/model/683181-2023-2024-toyota-integrated-front-windshield-mount)*
 
-*[Download + 3D print - Fuse Box Extended Height Cover](https://makerworld.com/en/models/227473)*
+*[Download + 3D print - Fuse Box Extended Height Cover](https://www.printables.com/model/729753-toyota-corolla-cross-hybrid-power-distribution-fus)*
 
 #### Toyota Corolla Cross Integrated Windshield Right Side Mount
 

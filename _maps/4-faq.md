@@ -19,7 +19,7 @@ excerpt: >
 
 ### 2. How do I find the 3D file on the map listing?
 
-All 3D map models are available for free on [MakerWorld](https://makerworld.com/en/@ansonl) and [Printables](https://www.printables.com/@ansonl/). Each map is published in multiple styles which you can get more info about on [Specifications]({% link _maps/3-specifications.md %}).
+All 3D map models are available for free on [Printables](https://www.printables.com/@ansonl/). Each map is published in multiple styles which you can get more info about on [Specifications]({% link _maps/3-specifications.md %}).
 
 #### MakerWorld
 
