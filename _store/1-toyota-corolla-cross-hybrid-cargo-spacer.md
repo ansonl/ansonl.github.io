@@ -105,22 +105,6 @@ By ordering, you have read and agree to the [Policy]({% link _store/99-store-pol
 
 1. Repeat for all dowels.
 
-### 💻 3D Printing Recommendations
-
-Use PETG or higher temperature resistance material.
-
-| Slicer Print Setting | Value for 0.4 mm nozzle |
-| ------------- |-------------|
-| Layer Height | 0.16-0.2 mm |
-| Default Line Width | 0.42mm |
-| Walls | 4 alternating or 5+ |
-| Top/Bottom surface (shell) | 5+ |
-| Infill and Infill Percentage | Gyroid 8%+ |
-| Print Speed | Slow, 60-200mm/s max |
-| Ironing | Yes |
-
-OrcaSlicer 2.3.1 process presets [download](https://drive.google.com/drive/folders/1CBdNBVKkHc2NUVzPOsTNIQJr_biuBRJ5?usp=sharing)
-
 ### 🚘 Compatibility
 
 Toyota Corolla Cross Hybrid AWD (1st gen, 2023+, facelift 2026+)
@@ -155,3 +139,23 @@ Shipping is available within the USA. Please contact [support@ansoninnovations.c
 The digital model for this kit is sold under a personal use license only. It is prohibited to distribute the digital file to others or sell physical products derived from the model.
 
 Please purchase a commercial license as one of my [Printables Club tiers](https://www.printables.com/@ansonl) if you intend to sell physical versions of this product.
+
+### 💻 3D Printing Recommendations
+
+Use PETG or higher temperature resistance material.
+
+| Slicer Print Setting | Value for 0.4 mm nozzle |
+| ------------- |-------------|
+| Layer Height | 0.16-0.2 mm |
+| Default Line Width | 0.42mm |
+| Walls | 4 alternating or 5+ |
+| Top/Bottom surface (shell) | 5+ |
+| Infill and Infill Percentage | Gyroid 8%+ |
+| Print Speed | Slow, 60-200mm/s max |
+| Ironing | Yes |
+
+OrcaSlicer 2.3.1 process presets [download](https://drive.google.com/drive/folders/1CBdNBVKkHc2NUVzPOsTNIQJr_biuBRJ5?usp=sharing)
+
+#### Suggested 3D printing orientations for 256x256x256 build plate
+
+![cargo deck plastic riser 3d printing orientations](/assets/images/store/cch-cargo-riser-suggested-3d-print-orientations.webp)
