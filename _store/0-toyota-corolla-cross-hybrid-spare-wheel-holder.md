@@ -83,7 +83,7 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+ and facelift 2026+) USA/Canada/M
 
 - If your car was sold in another region, compare the the rear cable and latch locations in the above photos to your car.
 
-- Not recommended for storing full size spare tires.
+- The kit is made for compact/donut spare tires. Not recommended for storing full size spares. [Suggested tire sizes]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}#tire-diameters-and-suggested-spare-tire-sizes).
 
 **There may be variation in fitment between individual vehicles due to the physical production process and metal parts. You may need to sand parts of this kit to better fit your vehicle.**
 
@@ -132,11 +132,12 @@ Include the following measurements with your order to get the best fit the first
   
   #### Observed Vendor Spare Tire Measurements (for reference only)
 
-  | Vendor | Center Bore (mm) | Hub Surface Depth (mm) | Mount Style | Cargo Riser Height |
-  | --- | --- | --- | --- | --- |
-  | Toyota OEM *in 155/70R17* | 57 | 54 | A/B | 38mm |
-  | [Value Spare](https://valuespare.com/product/2023-2025-corolla-cross-spare-tire/?aff=2) - [Amazon](https://amzn.to/3XY4V8T) | 70 | 57.15mm (vendor provided) | A/B | ? |
-  | [Modern Spare](https://amzn.to/3zFMFYt) | 67 | 80 | B | ? |
+  | Vendor | Center Bore (mm) | Hub Surface Depth (mm) | Mount Style | Cargo Riser Height | Reporting Source |
+  | --- | --- | --- | --- | --- | --- |
+  | Toyota OEM *in 155/70R17* | 57 | 54 | A/B | 38mm | Customers |
+  | [Value Spare](https://valuespare.com/product/2023-2025-corolla-cross-spare-tire/?aff=2) - [Amazon](https://amzn.to/3XY4V8T) | 70 | 57.15mm | A/B | ? | Vendor |
+    | [Value Spare](https://valuespare.com/product/2023-2025-corolla-cross-spare-tire/?aff=2) - [Ebay](https://ebay.us/m/eoiKXL) | 67 | 54mm | A | 0mm (Tire was reported to fit below deck. No riser needed.) | Customer |
+  | [Modern Spare](https://amzn.to/3zFMFYt) | 67 | 80 | B | ? | Customers |
   
   - Toyota OEM spare and Value Spare tires fit better due to the lower rim **Flange Thickness**
 
