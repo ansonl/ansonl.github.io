@@ -403,7 +403,7 @@ Depending on the width of your spare tire and the offset of the rim, the top sur
 > The wider the spare tire width (this is the first number in the tire code), the higher your spare tire will rest. It is a balancing act to find a narrow enough spare tire with a high sidewall ratio to match the full size Corolla Cross wheel diameter. Good tire size matches and donor vehicles are listed in the section above.
 
 ![cargo deck riser from below](/wp-content/uploads/2024/05/corolla-cross-spare-tire-cargo-deck-riser-bottom.webp)
-: *Toyota Cargo Deck Bottom Riser - [Download and 3D print](https://www.printables.com/model/1157816-toyota-corolla-cross-hybrid-awd-cargo-riser)*
+: *Toyota Cargo Deck Bottom Riser - [Download and 3D print](https://www.printables.com/model/1694896-toyota-corolla-cross-cargo-deck-bottom-riser)*
 
 My initial attempt was designing risers to fit underneath the left and right cargo decks' feet. While the risers fit fine underneath the cargo decks, the cargo deck was quite wobbly.
 
@@ -435,7 +435,7 @@ I cut a 1.5" thick board of extruded foam from the hardware store to fit on top 
 
 ![corolla cross hybrid spare tire cargo deck riser spacer foam](/wp-content/uploads/2024/05/corolla-cross-spare-tire-cargo-deck-riser-spacer.webp)
 
-I cut a small circle in the top of the foam where the cargo platform's bottom circular protrusion sticks out so that the platform does not slide around. Later on, I 3D printed a [cargo deck circle buffer](https://makerworld.com/en/models/686847) out of flexible TPU to absorb some of the shifting movement of the cargo deck and distribute the force over a larger area to decrease wear and tear of the foam.
+I cut a small circle in the top of the foam where the cargo platform's bottom circular protrusion sticks out so that the platform does not slide around. Later on, I 3D printed a [cargo deck circle buffer](https://www.printables.com/model/1022154-toyota-cargo-deck-hole-buffer-holder) out of flexible TPU to absorb some of the shifting movement of the cargo deck and distribute the force over a larger area to decrease wear and tear of the foam.
 
 ![corolla cross hybrid spare tire tpu buffer](/wp-content/uploads/2024/05/cargo-deck-circle-buffer.webp)
 
@@ -506,12 +506,12 @@ If storing the spare in the car doesn't work, you could keep the spare in your g
 The scissor jack that comes with the other gas/FWD Corolla Cross models fits in the upper left plastic storage slot in the cargo deck. The rubber loop can be hooked across the slot to secure the jack. See [Compact Jack Assembly](#compact-jack-assembly) for more jack details.
 
 ![toyota corolla cross hybrid tire puncture kit holder and mount](/wp-content/uploads/2024/05/tire-puncture-kit-holder.webp)
-: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](https://makerworld.com/en/models/490337)*
+: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](https://www.printables.com/model/1694892-toyota-tire-puncture-kit-holder-mount)*
 
 If you made the right choice and put the spare wheel in the wheel well underneath the cargo floor, the original large foam block that previously held the Tire Puncture Repair Kit is removed and you can stash the jack handle, tire wrench, tire sealant, and inflator next to the spare in the wheel well or spare rim with soft TPU holders that I designed to prevent rattling.
 
 ![tire wrench and jack handle cover](/wp-content/uploads/2024/05/tire-wrench-jack-handle-cover-display.webp)
-: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](https://makerworld.com/en/models/491288)*
+: *Toyota Tire Puncture Kit Holder and Mount in TPU- [3D print](https://www.printables.com/model/918872-toyota-tire-wrench-and-jack-handle-cover-holder)*
 
 ![tire wrench and jack handle storage](/wp-content/uploads/2024/05/tire-wrench-jack-handle-cover.webp)
 
@@ -524,7 +524,7 @@ The most important part of swapping the spare tire is staying safe.
 > ⛽ Check the pressure of your spare tire and inflate it to the listed pressure on the tire before storage and usage.
 
 ![toyota corolla cross jack pad](/wp-content/uploads/2024/05/toyota-corolla-cross-jack-pad.webp)
-: *Toyota Corolla Cross Jack Pinch Weld Pad in TPU - [3D print](https://makerworld.com/en/models/455043#profileId-362552)*
+: *Toyota Corolla Cross Jack Pinch Weld Pad in TPU - [3D print](https://www.printables.com/model/883231-toyota-compact-scissor-jack-pinch-weld-pad)*
 
 1. Loosen the tire lug nuts with the socket wrench BEFORE lifting the car with the jack. If you loosen the lug nuts when the car is lifted in the air, the force used to loosen the nuts will transfer to the car and may cause the car to slip and fall off the lifting jack.
 
