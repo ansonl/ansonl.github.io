@@ -27,7 +27,7 @@ Store the missing spare wheel and jack under the cargo area of your Toyota Corol
 <stripe-buy-button buy-button-id="buy_btn_1PKRSfCGCEb5Dn5hhK39wajQ" publishable-key="pk_live_51PKQVBCGCEb5Dn5hLMoKGekYqrgnOSKQeqVJWy89kBmGPTrEx1w6uB5i3FMS4PlynWCEgZ5fD1iEtdCsu1F7iB4n00noGaPFkK">
 </stripe-buy-button>
 
-***Important:** Read [Includes](#-includes), [Notes](#-notes), and [Measurements](#-order-measurements) sections before ordering.*
+***Important:** Read [Includes](#-includes), [Notes](#-notes), [Compatibility](#-compatibility), and [Measurements](#-order-measurements) before ordering.*
 
 ### Before
 
@@ -69,7 +69,7 @@ This spare tire mount allows you to store a compact spare wheel under trunk util
 
 **This kit does NOT include a spare wheel, jack, and [spacer]({% link _store/1-toyota-corolla-cross-hybrid-cargo-spacer.md %}).** For information on getting a compatible spare wheel and jack and spacer, see [this post]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}).
 
-By ordering, you have read and agree to the [Policy]({% link _store/99-store-policy.md %}).
+By ordering, you have read and agree to the [Store Policy]({% link _store/99-store-policy.md %}).
 
 ### 📒 Assembly Directions
 
@@ -83,7 +83,7 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+ and facelift 2026+) USA/Canada/M
 
 - If your car was sold in another region, compare the the rear cable and latch locations in the above photos to your car.
 
-- The kit is made for compact/donut spare tires. Not recommended for storing full size spares. [Suggested tire sizes]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}#tire-diameters-and-suggested-spare-tire-sizes).
+- The kit is made for compact/donut spare tires. It is NOT compatible for storing full size spares. [Suggested tire sizes]({% post_url 2024-05-23-corolla-cross-hybrid-spare-wheel-tire %}#tire-diameters-and-suggested-spare-tire-sizes).
 
 **There may be variation in fitment between individual vehicles due to the physical production process and metal parts. You may need to sand parts of this kit to better fit your vehicle.**
 

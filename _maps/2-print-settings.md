@@ -19,14 +19,16 @@ excerpt: >
 
 > You will get best results with filament that has been [Linear Advance and Flow Rate calibrated](https://github.com/SoftFever/OrcaSlicer/wiki/Calibration). Or just use use my [Filament Settings](#filament-settings)
 
-### PrusaSlicer / Bambu Studio / Orca Slicer
+### Optimized PrusaSlicer / Bambu Studio / Orca Slicer print settings
 
-Bambu Studio/ Orca Slicer default settings are already close to perfect. I recommend using below settings for better quality and lower filament usage. These settings are tuned for the Bambu X1/P1 but should give high quality with most printers.
+Bambu Studio/ Orca Slicer default settings are already close to perfect. I recommend using below settings for better quality and lower filament usage. These settings are tuned for the Bambu X1/P1 but should give high quality with most printers. These univeral print settings work well for all prints but are optimized for 3D maps and functional prints.
 
 | Slicer Print Setting | Recommended Value for 0.4 mm nozzle |
 | ------------- |-------------|
 | Layer Height | 0.12 mm |
 | Default Line Width | 0.42mm |
+| Outer Wall Line Width | 0.48mm |
+| Inner Wall Line Width | 0.42mm |
 | Top Surface Pattern | Monotonic Line |
 | Infill and Infill Percentage | Lightning 30% |
 | Initial Layer Speed | ≤40 mm/s |
@@ -36,6 +38,10 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Top Surface Speed | ≤150 mm/s |
 | Maximum Printing Speed for any layer | ≤200 mm/s |
 | Support | None (or Tree default style for interlocking map pieces) |
+| Support Interface Pattern | Rectilinear Interlaced |
+| Support Top Interface spacing | 0.5mm |
+
+Another universal profile I like is [igiannakas' X1 print settings profile](https://discord.com/channels/1137181739773603922/1143100252388343870/threads/1188430865005551656) made for OrcaSlicer.
 
 #### Bambu X1/P1S Ironing Settings
 
@@ -44,7 +50,6 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Ironing Setting | Recommended Value for 0.4 mm nozzle |
 | ------------- |-------------|
 | Ironing | All Top Surfaces |
-| Ironing Line Spacing | 0.2 mm |
 | Ironing Flow (0.12mm layer height) | 32-42% (32% for 90° offset / 38% for 45° offset / 38% for 0° offset) |
 | Ironing Flow (0.16mm layer height) | 32-39% (32% for 90° offset / 39% for 45° offset / 38% for 0° offset) |
 | Ironing Flow (0.2mm layer height) | 20-25% |
@@ -53,7 +58,24 @@ Bambu Studio/ Orca Slicer default settings are already close to perfect. I recom
 | Ironing Speed | 65 mm/s |
 | Ironing Angle | 45° (visual smooth) or 90° (tactile+visual smooth) offset (Input 0° or 135° in slicer respectively) |
 
+#### Bambu X2D Ironing Settings
+
+Calibrated with my X2D printer with PLA.
+
+| Ironing Setting | Main Nozzle (Direct Drive) 0.4 mm nozzle | Aux Nozzle (Bowden) 0.4mm nozzle |
+| ------------- |-------------|-------------|
+| Ironing | All Top Surfaces | All Top Surfaces |
+| Ironing Flow (0.12mm layer height) | 32-42% (32% for 90° offset / 38% for 45° offset / 38% for 0° offset) |
+| Ironing Flow (0.16mm layer height) | 32-39% (32% for 90° offset / 39% for 45° offset / 38% for 0° offset) |
+| Ironing Flow (0.2mm layer height) | 23% | 23% |
+| Ironing Line Spacing | 0.15 mm | 0.15 mm |
+| Ironing Inset | 0.21 mm | 0.21 mm |
+| Ironing Speed | 40 mm/s | 40 mm/s |
+| Ironing Angle | 45° (visual smooth) or 90° (tactile+visual smooth) offset (Input 0° or 135° in slicer respectively) |
+
 #### Filament Settings
+
+##### Bambu X1/P1
 
 If you can't find good filament settings for the Bambu X1/P1 feel free to use my settings that will print most filaments of the same material great. Spend more time printing what you want and less time "calibrating".
 
@@ -67,6 +89,17 @@ If you can't find good filament settings for the Bambu X1/P1 feel free to use my
 | PETG linear advance | 0.036 |
 | PETG fan speed | 50% |
 | PETG bed temp | 70-80 C |
+
+##### Bambu X2D/A1/H2 series
+
+Modifications from the X1/P1 settings above for the X2D and other Bambu printers with 2nd gen nozzle design.
+
+| Filament Setting | Direct Drive | Bowden (Aux nozzle) |
+| --- | --- | --- |
+| PLA flow ratio | 0.95 | 0.97 |
+| PLA linear advance | 0.02-0.025 | 0.60-0.7 |
+| PETG flow ratio | 0.955 | 0.955 |
+| PETG linear advance | 0.05-0.064 | 0.7 |
 
 ### Cura
 
