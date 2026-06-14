@@ -101,6 +101,25 @@ Modifications from the X1/P1 settings above for the X2D and other Bambu printers
 | PETG flow ratio | 0.955 | 0.955 |
 | PETG linear advance | 0.05-0.064 | 0.7 |
 
+#### Chamber Temperatue
+
+To avoid heat creep from clogging the nozzle when using PLA material, the chamber temp should not exceed 37 or 38 C. The left nozzle is more likely to clog from heatcreep than the right nozzle due to sitting lower in the unused state.
+
+Lower fan speeds to maintain the chamber temperature result in more consistent and stronger prints.
+
+##### Bambu X2D/H2D Dual Nozzle
+
+Minimum fan settings to maintain a chamber temp under 38 C on a stock X2D are below. These settings should work on the H2D/H2C as well.
+
+1. These fan speed should be set the printer start G-code 
+2. All other `M106` and `M142` in the `layer change gcode` and `change filament gcode` should be removed or commented out with a `;` at the start of the line.
+
+| Fan | Speed | G-code |
+| --- | --- | --- |
+| Left aux fan | 0% | `M106 P2 S0` |
+| Right aux fan | 50% | `M106 P10 S128` |
+| Exhaust fan | 0-80% | `M142 P6 R35 S38 U0.0 V0.8` |
+
 ### Cura
 
 The below settings are optimized for printing at 100% model scale using Cura 5. Classic line generation is preferred to Arachne variable line width but these Cura 5 settings have been adjusted for compensate for Arachne.
