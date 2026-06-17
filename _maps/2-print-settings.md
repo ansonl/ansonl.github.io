@@ -65,13 +65,15 @@ Calibrated with my X2D printer with PLA.
 | Ironing Setting | Main Nozzle (Direct Drive) 0.4 mm nozzle | Aux Nozzle (Bowden) 0.4mm nozzle |
 | ------------- |-------------|-------------|
 | Ironing | All Top Surfaces | All Top Surfaces |
-| Ironing Flow (0.12mm layer height) | 32-42% (32% for 90° offset / 38% for 45° offset / 38% for 0° offset) |
-| Ironing Flow (0.16mm layer height) | 32-39% (32% for 90° offset / 39% for 45° offset / 38% for 0° offset) |
+| Ironing Flow (0.12mm layer height) | 32% | --- |
+| Ironing Flow (0.16mm layer height) | 32% | --- |
+| Ironing Flow Matte Filament (0.16mm layer height) | 22% | --- |
 | Ironing Flow (0.2mm layer height) | 23% | 23% |
-| Ironing Line Spacing | 0.15 mm | 0.15 mm |
-| Ironing Inset | 0.21 mm | 0.21 mm |
-| Ironing Speed | 40 mm/s | 40 mm/s |
-| Ironing Angle | 45° (visual smooth) or 90° (tactile+visual smooth) offset (Input 0° or 135° in slicer respectively) |
+| Ironing Line Spacing | 0.15 mm | --- |
+| Ironing Inset | 0.21 mm | --- |
+| Ironing Speed | 65 mm/s | --- |
+| Ironing Speed Matte Filament | 65-90 mm/s | --- |
+| Ironing Angle | 45° (visual smooth) or 90° (tactile+visual smooth) offset (Input 0° or 135° in slicer respectively) | --- |
 
 #### Filament Settings
 
