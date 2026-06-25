@@ -99,7 +99,7 @@ The diagram of the spare wheel well is oriented like above.
 
 #### Cable Disconnect-free installation (Unsupported)
 
-If you do not want to disconnect the power connector to attach the tire mount, the lower member of **Part 1** can be removed with a fine-toothed saw and sanded smooth at the marked spots below to fit around the cable lever. **The tire mount will be weaker and less rigid with this method.**  
+If you do not want to disconnect the power connector to attach the tire mount, the lower member of **Part 1** can be removed with a fine-toothed saw and sanded smooth at the marked spots below to fit around the cable lever. **The tire mount may be weaker and less rigid with this method.**  
 ![p1 cable free cut](/assets/images/reference/cch-tire-mount-assembly/p1-cable-free-cut.webp)
 
 ### Tire Mount Disassembly
