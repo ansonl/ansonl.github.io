@@ -18,6 +18,7 @@ excerpt: >
 <div id="shadowbox">
 <h1 class="rainbow rainbow_text_animated">sale!</h1><h2 class="rainbow">Get $50 off with coupon <i></i> at checkout</h2>
 </div>-->
+### 🚩 I am away until October. Orders placed between 13AUG26 and 30SEP26 will be shipped in October 2026.
 
 Store the missing spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) AWD with this mount kit. Just as the road warriors and overlanding gods intended.
 
