@@ -77,4 +77,4 @@ The last command sets the resolution to 1920x1080. I tried 4K 3840x2160 resoluti
 There may be 2 legal issues with this setup:
 
 - You need to have purchased a copy of OS X — which you already fulfilled when you bought a physical Apple computer. 
-- The [OS X software license]((https://store.apple.com/Catalog/US/Images/MacOSX.htm)) agreement states that a single license may only be used on a "single Apple-labled computer at a time" which seems to refer to the hardware itself.
+- The [OS X software license](https://store.apple.com/Catalog/US/Images/MacOSX.htm) agreement states that a single license may only be used on a "single Apple-labled computer at a time" which seems to refer to the hardware itself.

@@ -20,7 +20,7 @@ tags:
 published: true
 ---
 
-I recently bought a used 2007 Ford Escape Hybrid and [installed a DIY audio AUX input in it]({{ site.baseurl }}/2016/08/ford-escape-audio-aux-input/). 
+I recently bought a used 2007 Ford Escape Hybrid and [installed a DIY audio AUX input in it]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/). 
 
 ### Rear right door ajar issue
 
