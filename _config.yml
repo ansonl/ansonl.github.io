@@ -44,7 +44,9 @@ search_provider: lunr
 
 #Custom settings
 permalink: /:year/:month/:title/
-google_analytics: UA-55429613-1
+# No analytics. The previous UA-55429613-1 property was Universal Analytics,
+# which stopped collecting data in July 2023. Re-adding means a GA4 property
+# and a fresh consent implementation.
 disqus:
   shortname: apparentetch
 

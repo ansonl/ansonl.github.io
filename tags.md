@@ -2,7 +2,6 @@
 layout: page
 title: Post Tags
 permalink: /tags/
-regnerate: yes
 ---
 
 <section id="tags">

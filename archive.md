@@ -2,7 +2,6 @@
 layout: page
 title: Post Archive 
 permalink: /archive/
-regenerate: yes
 ---
 
 <section id="archive">
