@@ -1,4 +1,9 @@
 #return-to-top {
+    /* reset UA button styling -- this is a <button> injected by return-to-top.js */
+    border: 0;
+    padding: 0;
+    font-family: inherit;
+    cursor: pointer;
     position: fixed;
     bottom: 20px;
     right: 20px;
