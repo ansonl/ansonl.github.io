@@ -102,13 +102,5 @@ defaults:
     values:
       layout: post
       read_time: true
-  # _3dprint
-  - scope:
-      path: "_3dprint"
-      type: 3dprint
-    values:
-      layout: page
-      read_time: false
-      hide_entry-meta: true
 
 remote_theme: "mmistakes/jekyll-theme-basically-basic"

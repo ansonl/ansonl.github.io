@@ -26,7 +26,7 @@
       <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
     {% endif %}
   </header>
-  {% if page.hide_entry-meta == false %}
+  {% unless page.hide_entry-meta %}
   <footer class="entry-meta">
     <ul>
     {% if post.date %}
@@ -37,7 +37,7 @@
     {% endif %}
     </ul>
   </footer>
-  {% endif %}
+  {% endunless %}
   <div class="entry-excerpt">
     {% if post.excerpt %}
       {{ post.excerpt | markdownify }}

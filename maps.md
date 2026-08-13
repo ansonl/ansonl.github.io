@@ -1,6 +1,8 @@
 ---
 title: "3D Printed Maps"
 show_title_at_top: false
+# Items here have no date, so entry-meta would show the build date. Suppress it.
+hide_entry-meta: true
 layout: collection
 permalink: /maps/
 collection: maps

@@ -1,5 +1,7 @@
 ---
 title: Portfolio
+# Items here have no date, so entry-meta would show the build date. Suppress it.
+hide_entry-meta: true
 layout: collection
 permalink: /portfolio/
 collection: portfolio
