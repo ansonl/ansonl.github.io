@@ -2,6 +2,7 @@
 layout: page
 title: Hard Hikes
 redirect: http://hardhikes.com
+published: false
 ---
 
 
