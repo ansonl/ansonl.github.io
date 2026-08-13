@@ -30,13 +30,13 @@ social:
     - https://www.linkedin.com/in/console/
     - https://www.facebook.com/ansonl
     - https://www.youtube.com/@maketheuncharted
-    - https://www.instagram.com/hardhikes/
+    - https://www.instagram.com/maketheuncharted/
 github_username: ansonl
 printables_username: ansonl
 makerworld_username: ansonl
 linkedin_username: console
 youtube_username: maketheuncharted
-instagram_username: hardhikes
+instagram_username: maketheuncharted
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: true
 search_full_content: false # true, false (default)
