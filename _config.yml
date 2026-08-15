@@ -50,6 +50,16 @@ permalink: /:year/:month/:title/
 disqus:
   shortname: apparentetch
 
+# Newsletter signup, rendered by _includes/subscribe.html.
+# Plain HTML POST to Brevo (formerly SendinBlue) - no third-party JS or CSS.
+# The previous embed pointed at my.sendinblue.com/users/subscribeembed/js_id/2vg2o,
+# a legacy v4 form Brevo retired; that endpoint returned 404 and silently discarded
+# every signup. Unset form_action to render no form at all.
+brevo:
+  form_action: "https://65040f50.sibforms.com/serve/MUIFANPtYpdkDD-P1iGVw3TCuizWnR9kGkk8Nq27UG85SlSTf7PHxXLzozgG9at2TQ876HeILP3SP9llunZ6uue_pSG5GPtDSKTKaQKggiwHmunD5UhASAmFsk6U5px2TKa3ZR64L3IJfzvuQ-blmoFQAZv47AM60rAfrpn-wYBalwvGcvkCCoFCRUXJPc_C7IgbA3rkLPxs1w-A"
+  heading: "Subscribe"
+  blurb: "New posts on software design, 3D printing, and outdoor adventures."
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

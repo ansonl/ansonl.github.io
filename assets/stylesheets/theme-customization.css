@@ -182,3 +182,67 @@ span .na-tag:hover {
        url('../fonts/roboto/roboto-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/roboto/roboto-v18-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
 }
+
+/* Newsletter signup (_includes/subscribe.html, Brevo plain-POST form) */
+.subscribe {
+  margin: 3em 0 1em;
+  padding: 1.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.subscribe-heading {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+.subscribe-blurb {
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #555;
+}
+.subscribe-label {
+  display: block;
+  margin-bottom: 0.35em;
+  font-weight: 700;
+}
+.subscribe-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+.subscribe-input {
+  flex: 1 1 16em;
+  min-width: 0;
+  padding: 0.6em 0.7em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.subscribe-input:focus {
+  outline: 2px solid #00838a;
+  outline-offset: 1px;
+}
+.subscribe-button {
+  flex: 0 0 auto;
+  padding: 0.6em 1.4em;
+  font-size: 1em;
+  font-weight: 700;
+  color: #fff;
+  background: #00838a;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background: #006269;
+}
+/* Honeypot: must be unreachable for humans but still submitted by bots.
+   display:none would let some bots skip it, so move it out of view instead. */
+.subscribe-hp {
+  position: absolute;
+  left: -5000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
