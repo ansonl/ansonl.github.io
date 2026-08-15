@@ -1,0 +1,86 @@
+name: Deploy to GitHub Pages
+
+# Replaces GitHub's legacy Pages builder with an explicit Actions build.
+#
+# Deliberately does NOT use actions/jekyll-build-pages: that action runs its
+# own pinned github-pages gem in a container and ignores this repo's Gemfile
+# and Gemfile.lock. The whole point of this stage is that CI builds the same
+# bundle as local, so it uses ruby/setup-ruby + `bundle exec jekyll build`.
+#
+# This workflow is a no-op until Settings -> Pages -> Source is switched from
+# "Deploy from a branch" to "GitHub Actions". Until then the legacy builder
+# keeps serving the site and pushes here change nothing.
+#
+# Acceptance test for this stage: github-pages 232 pins Jekyll 3.10.0, which is
+# exactly what the legacy builder already runs, so the artifact this produces
+# should be byte-identical to a crawl of the live site. That reference output
+# comes from outside this repo, which is why the deploy migration is done
+# before the Jekyll 4 upgrade rather than fused with it.
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment. cancel-in-progress is false so an
+# in-flight deploy is never interrupted half-published.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          # Reads .ruby-version (3.3.12) so CI and local use the same
+          # interpreter. If a runner image ever lacks that exact patch
+          # release, pin `ruby-version: "3.3"` here instead.
+          ruby-version-file: .ruby-version
+          bundler-cache: true
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        # Intentionally no `static_site_generator: jekyll` and no use of the
+        # base_path output. That option writes a config override, and
+        # _config.yml already carries the correct url/baseurl for the apex
+        # custom domain. Injecting a baseurl would change output on every page
+        # and break this stage's byte-identical assertion.
+
+      - name: Build site
+        # JEKYLL_ENV must be set explicitly. The legacy builder set production
+        # for us; `jekyll build` under Actions defaults to development, which
+        # changes theme conditionals. _config.yml now also pins
+        # sass.style: compressed so CSS no longer depends on this alone.
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
+
+      - name: Upload artifact
+        # _site is ~406MB, dominated by wp-content. Expect a slow tar+upload
+        # here until the unreferenced media is removed. Well under the 1GB
+        # Pages site ceiling, but this step is the number worth watching.
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
