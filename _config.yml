@@ -98,16 +98,11 @@ future: true
 # and can never be diffed against production.
 timezone: UTC
 
-# Setting `exclude` REPLACES Jekyll's defaults rather than extending them, so
-# the first seven entries restate them. Drop them and Gemfile ships to _site.
+# Jekyll 4 APPENDS its DEFAULT_EXCLUDES (Gemfile, Gemfile.lock, node_modules,
+# vendor/*, .sass-cache, .jekyll-cache, gemfiles) to whatever is listed here, so
+# only site-specific entries belong below. Jekyll 3 replaced them instead, which
+# is why this list used to restate all seven.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
   - CNAME
   # Dev scripts; these were being served from the live site.
   - jekyllServe.sh

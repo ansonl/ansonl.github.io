@@ -197,6 +197,7 @@ DEPENDENCIES
   jekyll-remote-theme
   jekyll-seo-tag
   jekyll-sitemap
+  sass-embedded (~> 1.0)
   webrick (~> 1.8)
 
 CHECKSUMS
