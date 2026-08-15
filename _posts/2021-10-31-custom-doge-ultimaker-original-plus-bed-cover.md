@@ -5,8 +5,10 @@ excerpt: >
 
   The Doge and USA flag themed Ultimaker Original+ bed header. 
 
-  ![finished doge umo+ bed
-  cover](/wp-content/uploads/2021/10/finished-bed-cover.gif)
+  <video style="max-width:100%; height:auto;" width="600" height="338" autoplay loop muted playsinline>
+  <source src="/wp-content/uploads/2021/10/finished-bed-cover.webm" type="video/webm">
+  <source src="/wp-content/uploads/2021/10/finished-bed-cover.mp4" type="video/mp4">
+  </video>
 author: Anson Liu
 layout: post
 categories:
@@ -33,7 +35,10 @@ The Doge and USA flag themed Ultimaker Original+ bed header.
 
 ## But first...
 
-![Modeling doge ultimaker bed cover in freecad](/wp-content/uploads/2021/10/freecad-compilation.gif)
+<video style="max-width:100%; height:auto;" width="800" height="430" autoplay loop muted playsinline>
+<source src="/wp-content/uploads/2021/10/freecad-compilation.webm" type="video/webm">
+<source src="/wp-content/uploads/2021/10/freecad-compilation.mp4" type="video/mp4">
+</video>
 
 Adjusted a [printable bed cover created by Neotko](https://www.youmagine.com/designs/umo-bed-cover-step) using FreeCAD. 
 
@@ -45,7 +50,10 @@ The United States of America flag was created by doing a similar process on an i
 
 ### Print it!
 
-![24 hr print](/wp-content/uploads/2021/10/print-timelapse.gif)
+<video style="max-width:100%; height:auto;" width="600" height="338" autoplay loop muted playsinline>
+<source src="/wp-content/uploads/2021/10/print-timelapse.webm" type="video/webm">
+<source src="/wp-content/uploads/2021/10/print-timelapse.mp4" type="video/mp4">
+</video>
 
 The print had to be positioned with the front facing up in order to print the angled Doge features without support material. I made the mistake of printing it with the front facing down on a test print and the Doge becomes a husky! The front face is very glossy and smooth when it is facing down, so I had to try to replicate the effect using ironing with the front facing up. 
 
@@ -69,11 +77,17 @@ I used [Gizmo Dorks 2.85mm Gray-White Color Changing PLA](https://gizmodorks.com
 
 The finished print was stuck tight to the glass bed due to the large brim area on the bottom. I placed the glass bed in the refridgerator for an hour and the print popped off with much less force. 
 
-![removing pla print in cold](/wp-content/uploads/2021/10/popping-off-print.gif)
+<video style="max-width:100%; height:auto;" width="476" height="450" autoplay loop muted playsinline>
+<source src="/wp-content/uploads/2021/10/popping-off-print.webm" type="video/webm">
+<source src="/wp-content/uploads/2021/10/popping-off-print.mp4" type="video/mp4">
+</video>
 
 ### Coloring the USA flag
 
-![USA flag glueing](/wp-content/uploads/2021/10/usa-flag-glueing.gif)
+<video style="max-width:100%; height:auto;" width="436" height="338" autoplay loop muted playsinline>
+<source src="/wp-content/uploads/2021/10/usa-flag-glueing.webm" type="video/webm">
+<source src="/wp-content/uploads/2021/10/usa-flag-glueing.mp4" type="video/mp4">
+</video>
 
 I used the 3D model of the USA flag that I created previously and printed the corresponding parts in red and blue PLA. Super glue was used to fit the red and blue parts into printed notches on the bed cover. The white stars on the flag are more visible behind the blue background when the bed cover changes color from gray to a bright white!
 
@@ -81,4 +95,7 @@ I used the 3D model of the USA flag that I created previously and printed the co
 
 I installed the new bed cover in my Ultimaker Original+ which involved removing the entire bed platform and sliding rods. 
 
-![finished doge umo+ bed cover](/wp-content/uploads/2021/10/finished-bed-cover.gif)
+<video style="max-width:100%; height:auto;" width="600" height="338" autoplay loop muted playsinline>
+<source src="/wp-content/uploads/2021/10/finished-bed-cover.webm" type="video/webm">
+<source src="/wp-content/uploads/2021/10/finished-bed-cover.mp4" type="video/mp4">
+</video>
