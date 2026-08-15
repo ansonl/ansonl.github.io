@@ -237,6 +237,22 @@ span .na-tag:hover {
 .subscribe-button:focus {
   background: #006269;
 }
+.subscribe-status {
+  /* Matches .subscribe-label's margin-bottom, so the gap below the input
+     mirrors the gap above it. */
+  margin: 0.35em 0 0;
+  padding: 0.6em 0.8em;
+  border-radius: 4px;
+  background: #f2f2f2;
+}
+.subscribe-status.is-success {
+  color: #14532d;
+  background: #e7f6ec;
+}
+.subscribe-status.is-error {
+  color: #7f1d1d;
+  background: #fdecec;
+}
 /* Honeypot: must be unreachable for humans but still submitted by bots.
    display:none would let some bots skip it, so move it out of view instead. */
 .subscribe-hp {
