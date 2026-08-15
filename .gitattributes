@@ -1,0 +1,29 @@
+# Force LF in the working tree on every platform.
+#
+# Windows git here has core.autocrlf=true while WSL git does not, so a checkout
+# rewrote source files as CRLF while the committed blobs stayed LF. Jekyll then
+# copied those CRs straight into the rendered HTML: one stray \r per line of
+# every affected include, e.g. 72 bytes added to a single post page.
+#
+# That only happened locally -- a Linux CI runner checks out LF and produces
+# clean output -- which is exactly what makes it dangerous. It silently
+# desynchronises local builds from CI and from production, and this whole
+# migration is verified by diffing local builds against those.
+* text=auto eol=lf
+
+# Belt and braces: never let git touch these, regardless of content sniffing.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.webm binary
+*.mp4  binary
+*.ico  binary
+*.pdf  binary
+*.woff binary
+*.woff2 binary
+*.ttf  binary
+*.eot  binary
+*.stl  binary
+*.3mf  binary
