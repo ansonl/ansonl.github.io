@@ -29,6 +29,8 @@ tags:
   - arduino
   - audio
 published: true
+# loads assets/stylesheets/single-div-timeline.css; this is the only page using it
+timeline: true
 ---
 I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehicle's electrical systems and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. This open source project is available at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). 
 
