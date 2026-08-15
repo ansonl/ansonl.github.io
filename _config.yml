@@ -50,11 +50,8 @@ permalink: /:year/:month/:title/
 disqus:
   shortname: apparentetch
 
-# Newsletter signup, rendered by _includes/subscribe.html.
-# Plain HTML POST to Brevo (formerly SendinBlue) - no third-party JS or CSS.
-# The previous embed pointed at my.sendinblue.com/users/subscribeembed/js_id/2vg2o,
-# a legacy v4 form Brevo retired; that endpoint returned 404 and silently discarded
-# every signup. Unset form_action to render no form at all.
+# Newsletter signup (_includes/subscribe.html). Unset form_action to hide the form.
+# Get the URL from Brevo: Contacts -> Forms -> Share -> the iframe src.
 brevo:
   form_action: "https://65040f50.sibforms.com/serve/MUIFANPtYpdkDD-P1iGVw3TCuizWnR9kGkk8Nq27UG85SlSTf7PHxXLzozgG9at2TQ876HeILP3SP9llunZ6uue_pSG5GPtDSKTKaQKggiwHmunD5UhASAmFsk6U5px2TKa3ZR64L3IJfzvuQ-blmoFQAZv47AM60rAfrpn-wYBalwvGcvkCCoFCRUXJPc_C7IgbA3rkLPxs1w-A"
   heading: "Subscribe"
@@ -69,49 +66,13 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   auto_ids: true
-  # Pinned explicitly. The github-pages gem injects these two via pages-gem's
-  # configuration.rb, so they are live today but invisible in this file. They
-  # are NOT Jekyll/kramdown defaults - kramdown-parser-gfm defaults hard_wrap
-  # to TRUE - so dropping github-pages without pinning them would turn every
-  # intra-paragraph newline across 188 posts into <br />, and strip
-  # `language-plaintext` from 686 highlighted spans. Verified byte-identical
-  # output with and without these lines while github-pages is still installed.
-  hard_wrap: false
-  syntax_highlighter_opts:
-    default_lang: plaintext
 
-# Also injected by pages-gem, pinned here for the same reason.
-# gist.noscript: false keeps {% gist %} emitting only <script src>. With it
-# true (the jekyll-gist default) the 9 gist tags in _posts/2014-08-09 and
-# 2014-08-14 each perform a build-time GitHub API call whose failure path is a
-# silent rescue-to-nil, i.e. content vanishes from the deploy with a warning.
-gist:
-  noscript: false
-
-# pages-gem forces style: compressed, but only when JEKYLL_ENV=production.
-# Pinning it here makes development builds match production too, and prevents
-# main.css silently un-minifying (31,547 -> ~54,500 bytes, plus a sourcemap)
-# when the build moves off the legacy GitHub Pages builder.
-sass:
-  style: compressed
-  sourcemap: never
-
-future: true
-
-# Jekyll renders dates in the build machine's timezone. Both the legacy Pages
-# builder and the Actions runner are UTC, so 15 years of published output uses
-# +00:00 -- but a local build on this machine (PDT) emitted -07:00, meaning
-# local builds could never byte-match CI or production. Pinning UTC preserves
-# the existing published output exactly and makes local builds reproducible.
-# Displayed dates are unaffected; only the offset in datetime attributes,
-# article:published_time and the JSON-LD date fields.
+# GitHub Pages builds in UTC; without this a local build emits your own offset
+# and can never be diffed against production.
 timezone: UTC
 
-# NOTE: setting `exclude` REPLACES Jekyll's default list rather than appending
-# to it, so the defaults must be restated here or Gemfile, Gemfile.lock and
-# vendor/ start getting published. (Verified: omitting them added Gemfile and
-# Gemfile.lock to _site.) CNAME is excluded by pages-gem today; pinning it
-# keeps the output identical once github-pages goes away.
+# Setting `exclude` REPLACES Jekyll's defaults rather than extending them, so
+# the first seven entries restate them. Drop them and Gemfile ships to _site.
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -121,12 +82,13 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - CNAME
-  # Local dev scripts. These were being served from the live site.
+  # Dev scripts; these were being served from the live site.
   - jekyllServe.sh
   - jekyllNginxServe.sh
   - rename-loop.sh
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -170,27 +132,8 @@ defaults:
       layout: post
       read_time: true
 
-# The theme (mmistakes/jekyll-theme-basically-basic 1.4.5) is now vendored into
-# _includes, _layouts, _sass and assets rather than fetched via remote_theme.
-#
-# Restored from this repo's own history at b11579a^ -- the commit before the
-# 2022 migration TO remote_theme -- so the files are the ones this site was
-# actually built from, not a fresh download. b11579a^ (2022-08-05) postdates the
-# theme's last functional commit (2021-07-06, release 1.4.5), and both the
-# vendored and remote copies report 1.4.5.
-#
-# Why vendor: remote_theme tracks a third party's default branch HEAD and
-# re-downloads on every cold build, so theme drift is indistinguishable from
-# changes we make. It also puts the theme's own files -- notably the lunr search
-# include that loads a second jQuery from code.jquery.com -- permanently out of
-# reach. Nothing in the theme can be edited while it lives in a temp directory.
-#
-# Only files NOT already overridden locally were restored (183 of 257); the 74
-# locally-shadowed files were left untouched.
-#
-# `theme:` must be explicitly empty. pages-gem DEFAULTS sets
-# theme: jekyll-theme-primer, so simply deleting remote_theme silently handed
-# the site to Primer -- which shipped an extra 76,559-byte assets/css/style.css
-# into the build. Verified via `jekyll build --verbose` reporting
-# "Theme: jekyll-theme-primer".
-theme:
+# Theme files come from upstream; only the handful in _includes/, _layouts/ and
+# _sass/ in this repo override it. Do not set `theme:` as well -- remote_theme
+# supplies it, and leaving it unset lets the github-pages gem default to
+# jekyll-theme-primer, which silently ships its own stylesheet.
+remote_theme: "mmistakes/jekyll-theme-basically-basic"

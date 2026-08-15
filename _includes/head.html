@@ -57,15 +57,9 @@
   <script src="{{ "/assets/javascripts/lazysizes.min.js" | prepend: site.baseurl }}" async></script>
 
   {% comment %}
-    Every script below carries `defer`: none of them needs to run before first
-    paint, and together they were ~115KB of parser-blocking JavaScript on every
-    page. `defer` preserves execution order among deferred scripts, so jQuery
-    still runs before the four scripts that depend on it, and all of them
-    finish before DOMContentLoaded fires -- which is when their
-    $(document).ready callbacks were going to run anyway.
-
-    The one thing that must NOT be deferred is the cut-the-mustard inline
-    script above, which sets the `.js` class used for styling at first paint.
+    Scripts below are deferred: none is needed before first paint, and `defer`
+    keeps them in order so jQuery still runs first. Do not defer the inline
+    cut-the-mustard script above -- it sets the `.js` class used at first paint.
   {% endcomment %}
 
   <!-- For animated title using Typed.JS by mattboldt https://github.com/mattboldt/typed.js/ -->

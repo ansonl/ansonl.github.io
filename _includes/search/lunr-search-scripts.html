@@ -6,7 +6,7 @@
       {%- assign lang = "de" -%}
     {%- when "du" -%}
       {%- assign lang = "du" -%}
-    {-% when "es" -%}
+    {%- when "es" -%}
       {%- assign lang = "es" -%}
     {%- when "fi" -%}
       {%- assign lang = "fi" -%}
@@ -36,10 +36,10 @@
       {%- assign lang = "en" -%}
   {%- endcase -%}
   {%- comment -%}
-    No jQuery load here. The theme shipped a second copy from
-    code.jquery.com (3.3.1, 86,927 bytes) on every page, while head.html
-    already loads 3.6.0 locally. The four $ uses below are satisfied by that
-    copy, so this removes a whole duplicate library and a third-party origin.
+    Local override of the theme's copy. Two changes from upstream:
+    the code.jquery.com <script> is dropped (head.html already loads jQuery),
+    and $(document).ready below is DOMContentLoaded so it works with that
+    jQuery deferred. Re-apply both if you pull a newer theme.
   {%- endcomment -%}
   <script src="{{ '/assets/javascripts/lunr/lunr.min.js' | absolute_url }}"></script>
   <script src="{{ '/assets/javascripts/lunr/lunr.store.js' | absolute_url }}"></script>
@@ -74,13 +74,6 @@
       }
     });
 
-    /*
-      DOMContentLoaded rather than $(document).ready: head.html's jQuery is now
-      deferred, so it does not exist when this inline script is parsed and
-      calling $(...) here would throw. Deferred scripts all finish executing
-      before DOMContentLoaded fires, so jQuery is guaranteed available inside
-      this handler.
-    */
     document.addEventListener('DOMContentLoaded', function () {
       $('input#search').on('keyup', function () {
         var resultdiv = $('#results');

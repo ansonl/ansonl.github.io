@@ -1,25 +1,9 @@
 {% comment %}
-  Brevo (formerly SendinBlue) newsletter signup.
-
-  Plain HTML form POST - no third-party JS or CSS, no CAPTCHA. Brevo's own
-  honeypot field (email_address_check) handles bot filtering; it must stay
-  present, empty, and hidden from real users.
-
-  The endpoint answers a POST with JSON ({"success":true,"message":"..."}),
-  so an unenhanced submit navigates the browser to that raw JSON. The inline
-  script below intercepts the submit and posts via fetch instead, keeping the
-  reader on the page. It is ~700 bytes and adds no request. Brevo sends
-  access-control-allow-origin for this site, so the JSON response is readable.
-
-  If JavaScript is unavailable the form still submits natively and still
-  subscribes - the reader just lands on Brevo's JSON. Set "Redirect to this
-  URL after subscribing" in the Brevo form settings to give that path a real
-  destination.
-
-  Renders nothing unless site.brevo.form_action is set in _config.yml, so an
-  unconfigured site shows no form rather than a broken one. To get the action
-  URL: Brevo dashboard -> Contacts -> Forms -> select a form -> Share ->
-  copy the URL out of the iframe src.
+  Brevo newsletter signup: plain form POST, no third-party JS or CSS.
+  email_address_check is Brevo's honeypot and must stay present but empty.
+  The endpoint replies with JSON, so the script below intercepts the submit to
+  keep the reader on the page; without JS the form still works but lands on
+  that JSON (set a redirect URL in the Brevo form settings to avoid it).
 {% endcomment %}
 
 {% assign brevo_action = site.brevo.form_action %}
@@ -72,18 +56,24 @@
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(new FormData(form)).toString()
       })
-        .then(function (response) { return response.json(); })
-        .then(function (data) {
-          var ok = data && data.success;
+        .then(function (response) {
+          // Treat any 2xx as success even if the body is not the JSON we
+          // expect, so a response-format change cannot make a real signup
+          // look like a failure.
+          return response.json().catch(function () { return null; })
+            .then(function (data) { return { ok: response.ok, data: data }; });
+        })
+        .then(function (r) {
+          var ok = r.ok && (!r.data || r.data.success !== false);
           status.className = 'subscribe-status ' + (ok ? 'is-success' : 'is-error');
-          status.textContent = (data && data.message) ||
+          status.textContent = (r.data && r.data.message) ||
             (ok ? 'Thanks — check your email to confirm.' : 'Something went wrong. Please try again.');
           if (ok) { form.reset(); }
           button.disabled = false;
         })
         .catch(function () {
-          // Do not auto-resubmit: the request may well have succeeded and a
-          // retry would double-subscribe. Let the reader decide.
+          // Network failure only. Do not auto-resubmit: the request may have
+          // succeeded and a retry would double-subscribe.
           status.className = 'subscribe-status is-error';
           status.textContent = 'Could not reach the signup service. Please try again in a moment.';
           button.disabled = false;
