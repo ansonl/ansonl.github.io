@@ -284,7 +284,6 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-paginate
-  jekyll-remote-theme
   jekyll-seo-tag
   jekyll-sitemap
   webrick (~> 1.8)

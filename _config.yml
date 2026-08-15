@@ -127,7 +127,6 @@ exclude:
   - rename-loop.sh
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -171,4 +170,27 @@ defaults:
       layout: post
       read_time: true
 
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
+# The theme (mmistakes/jekyll-theme-basically-basic 1.4.5) is now vendored into
+# _includes, _layouts, _sass and assets rather than fetched via remote_theme.
+#
+# Restored from this repo's own history at b11579a^ -- the commit before the
+# 2022 migration TO remote_theme -- so the files are the ones this site was
+# actually built from, not a fresh download. b11579a^ (2022-08-05) postdates the
+# theme's last functional commit (2021-07-06, release 1.4.5), and both the
+# vendored and remote copies report 1.4.5.
+#
+# Why vendor: remote_theme tracks a third party's default branch HEAD and
+# re-downloads on every cold build, so theme drift is indistinguishable from
+# changes we make. It also puts the theme's own files -- notably the lunr search
+# include that loads a second jQuery from code.jquery.com -- permanently out of
+# reach. Nothing in the theme can be edited while it lives in a temp directory.
+#
+# Only files NOT already overridden locally were restored (183 of 257); the 74
+# locally-shadowed files were left untouched.
+#
+# `theme:` must be explicitly empty. pages-gem DEFAULTS sets
+# theme: jekyll-theme-primer, so simply deleting remote_theme silently handed
+# the site to Primer -- which shipped an extra 76,559-byte assets/css/style.css
+# into the build. Verified via `jekyll build --verbose` reporting
+# "Theme: jekyll-theme-primer".
+theme:
