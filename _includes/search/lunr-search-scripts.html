@@ -35,7 +35,12 @@
     {%- else -%}
       {%- assign lang = "en" -%}
   {%- endcase -%}
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  {%- comment -%}
+    No jQuery load here. The theme shipped a second copy from
+    code.jquery.com (3.3.1, 86,927 bytes) on every page, while head.html
+    already loads 3.6.0 locally. The four $ uses below are satisfied by that
+    copy, so this removes a whole duplicate library and a third-party origin.
+  {%- endcomment -%}
   <script src="{{ '/assets/javascripts/lunr/lunr.min.js' | absolute_url }}"></script>
   <script src="{{ '/assets/javascripts/lunr/lunr.store.js' | absolute_url }}"></script>
   {%- unless lang == "en" -%}
@@ -69,7 +74,14 @@
       }
     });
 
-    $(document).ready(function () {
+    /*
+      DOMContentLoaded rather than $(document).ready: head.html's jQuery is now
+      deferred, so it does not exist when this inline script is parsed and
+      calling $(...) here would throw. Deferred scripts all finish executing
+      before DOMContentLoaded fires, so jQuery is guaranteed available inside
+      this handler.
+    */
+    document.addEventListener('DOMContentLoaded', function () {
       $('input#search').on('keyup', function () {
         var resultdiv = $('#results');
         var query = $(this).val().toLowerCase();
