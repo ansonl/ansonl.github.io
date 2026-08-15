@@ -23,7 +23,12 @@
     </h3>
     {% if post.thumbnail %}
       {% assign entry_image = post.thumbnail | relative_url | escape %}
-      <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
+      {% comment %}
+        Listing thumbnails are below the fold on every paginated page, so they
+        load lazily. No width/height here because post.thumbnail is arbitrary
+        and its dimensions are not known at build time.
+      {% endcomment %}
+      <img class="entry-image u-photo" src="{{ entry_image }}" alt="" loading="lazy" decoding="async">
     {% endif %}
   </header>
   {% unless page.hide_entry-meta %}
