@@ -98,6 +98,15 @@ sass:
 
 future: true
 
+# Jekyll renders dates in the build machine's timezone. Both the legacy Pages
+# builder and the Actions runner are UTC, so 15 years of published output uses
+# +00:00 -- but a local build on this machine (PDT) emitted -07:00, meaning
+# local builds could never byte-match CI or production. Pinning UTC preserves
+# the existing published output exactly and makes local builds reproducible.
+# Displayed dates are unaffected; only the offset in datetime attributes,
+# article:published_time and the JSON-LD date fields.
+timezone: UTC
+
 # NOTE: setting `exclude` REPLACES Jekyll's default list rather than appending
 # to it, so the defaults must be restated here or Gemfile, Gemfile.lock and
 # vendor/ start getting published. (Verified: omitting them added Gemfile and
