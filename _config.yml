@@ -66,6 +66,33 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   auto_ids: true
+  # These were injected by the github-pages gem and are NOT Jekyll/kramdown
+  # defaults. kramdown-parser-gfm defaults hard_wrap to TRUE, which would turn
+  # every intra-paragraph newline across 188 posts into <br />.
+  hard_wrap: false
+  syntax_highlighter_opts:
+    default_lang: plaintext
+
+# Also previously supplied by github-pages. Left true (the jekyll-gist default),
+# each of the 9 {% gist %} tags makes a build-time GitHub API call whose failure
+# path silently drops the content.
+gist:
+  noscript: false
+
+# github-pages forced this under JEKYLL_ENV=production. Dart Sass would
+# otherwise default to expanded output plus a source map.
+sass:
+  style: compressed
+  # Dart Sass emits a source map by default; we do not want a 74KB .map shipped.
+  sourcemap: never
+  # The upstream theme's SCSS uses lighten()/darken() and slash division, both
+  # deprecated in Dart Sass. It is a remote dependency we do not control, and
+  # the warnings are pure noise on every build.
+  quiet_deps: true
+
+# github-pages set this; Jekyll's own default is false, which would hide any
+# post dated ahead of build time.
+future: true
 
 # GitHub Pages builds in UTC; without this a local build emits your own offset
 # and can never be diffed against production.

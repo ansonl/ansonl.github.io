@@ -38,10 +38,12 @@
   </script>
 
   <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | relative_url }}">
-  {% if site.data.theme.google_fonts %}
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}">
-  {% endif %}
+  {% comment %}
+    The theme's Google Fonts <link> is deliberately not rendered. Fira Sans,
+    Oswald and Roboto are all self-hosted in theme-customization.css. Note the
+    theme ships its own _data/theme.yml with google_fonts set, and it merges
+    with ours, so commenting the key out locally is NOT enough to suppress it.
+  {% endcomment %}
 
   {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed'%}
   {% comment %}
