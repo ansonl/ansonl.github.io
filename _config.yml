@@ -69,6 +69,53 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   auto_ids: true
+  # Pinned explicitly. The github-pages gem injects these two via pages-gem's
+  # configuration.rb, so they are live today but invisible in this file. They
+  # are NOT Jekyll/kramdown defaults - kramdown-parser-gfm defaults hard_wrap
+  # to TRUE - so dropping github-pages without pinning them would turn every
+  # intra-paragraph newline across 188 posts into <br />, and strip
+  # `language-plaintext` from 686 highlighted spans. Verified byte-identical
+  # output with and without these lines while github-pages is still installed.
+  hard_wrap: false
+  syntax_highlighter_opts:
+    default_lang: plaintext
+
+# Also injected by pages-gem, pinned here for the same reason.
+# gist.noscript: false keeps {% gist %} emitting only <script src>. With it
+# true (the jekyll-gist default) the 9 gist tags in _posts/2014-08-09 and
+# 2014-08-14 each perform a build-time GitHub API call whose failure path is a
+# silent rescue-to-nil, i.e. content vanishes from the deploy with a warning.
+gist:
+  noscript: false
+
+# pages-gem forces style: compressed, but only when JEKYLL_ENV=production.
+# Pinning it here makes development builds match production too, and prevents
+# main.css silently un-minifying (31,547 -> ~54,500 bytes, plus a sourcemap)
+# when the build moves off the legacy GitHub Pages builder.
+sass:
+  style: compressed
+  sourcemap: never
+
+future: true
+
+# NOTE: setting `exclude` REPLACES Jekyll's default list rather than appending
+# to it, so the defaults must be restated here or Gemfile, Gemfile.lock and
+# vendor/ start getting published. (Verified: omitting them added Gemfile and
+# Gemfile.lock to _site.) CNAME is excluded by pages-gem today; pinning it
+# keeps the output identical once github-pages goes away.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CNAME
+  # Local dev scripts. These were being served from the live site.
+  - jekyllServe.sh
+  - jekyllNginxServe.sh
+  - rename-loop.sh
 
 plugins:
   - jekyll-remote-theme
