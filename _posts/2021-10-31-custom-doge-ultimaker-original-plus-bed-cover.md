@@ -24,7 +24,7 @@ image: /wp-content/uploads/2021/10/printed-bed-cover-unfinished.jpg
 ---
 ## Custom Doge Ultimaker Original+ Bed Header in Thermochromatic PLA
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PIolxWzFIAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="PIolxWzFIAA" title="Custom Doge Ultimaker Original+ bed header" %}
 
 *Not the custom 3D printer part you need but the part you deserve.*
 

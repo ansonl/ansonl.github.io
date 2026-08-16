@@ -76,7 +76,7 @@ By ordering, you have read and agree to the [Store Policy]({% link _store/99-sto
 
 See [assembly directions]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}) and [video](https://youtu.be/kHzdqbQ0Vwk).
 
-<iframe style="max-width:100%; height:auto;" width="800" height="450" src="https://www.youtube.com/embed/kHzdqbQ0Vwk?si=Gs0Eo5GvHKTzxLZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html id="kHzdqbQ0Vwk" title="Toyota Corolla Cross Hybrid spare tire mount assembly" %}
 
 ### 🚘 Compatibility
 

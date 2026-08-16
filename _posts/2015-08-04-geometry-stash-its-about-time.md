@@ -11,46 +11,7 @@ tags:
 
 <a href="http://geometrystash.com"><img src="{{ site.baseurl }}/wp-content/uploads/2015/08/geometry-stash-2-logo.png" width="256" style="border-radius: 45px;display:block;margin-left:auto;margin-right:auto;"></a>
 
-<!---
-<iframe id="videoClip" width="420" height="200" src="https://www.youtube.com/embed/_J6-3l3hCm0?autoplay=1&showinfo=0&rel=0&controls=0&color=white" frameborder="0" style="display:block;margin-left:auto;margin-right:auto;" allowfullscreen></iframe>
--->
-<div style="display:block;margin-left:auto;margin-right:auto;border-style:groove;
-    border-top-width: 15px;border-bottom-width: 15px;border-right-width: 20px;border-left-width: 20px;border-color: gray;" id="player"></div>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="http://www.youtube.com/player_api"></script>
-<script type="text/javascript">
-  // create youtube player
-    var player;
-    function onYouTubePlayerAPIReady() {
-        player = new YT.Player('player', {
-          height: '200',
-          width: '420',
-          videoId: '_J6-3l3hCm0',
-          playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo': 0, 'rel': 0},
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-    }
-
-    // autoplay video
-    function onPlayerReady(event) {
-        //event.target.playVideo();
-    }
-
-    // when video ends hide video clip
-    function onPlayerStateChange(event) {        
-        if(event.data === 0) {   
-        /*         
-            var child = document.getElementById("player");
-            var parent = child.parentElement;
-            parent.removeChild(child);
-        */
-          $('#player').slideUp("fast", function() { $(this).remove(); } );
-        }
-    }
-</script>
+{% include youtube.html id="_J6-3l3hCm0" title="Geometry Stash 2 demo" %}
 
 <h3 style="text-align: center;">It's here.</h3><h4 style="text-align: center;">Reviewing geometry on the go has never been easier with Geometry Stash 2.</h4>
 <!---<h5 style="text-align: center;"><strong>FREE</strong> for a limited time for back to school.</h5>--->

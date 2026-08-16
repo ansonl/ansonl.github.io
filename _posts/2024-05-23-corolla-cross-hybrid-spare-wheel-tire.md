@@ -98,9 +98,9 @@ Despite the lack of spare wheel shipped with the car, it IS possible to fit a sp
 
 See spare tire mount [assembly notes]({% link reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions.md %}) and videos below.
 
-<iframe style="max-width:100%; height:auto;" width="800" height="450" src="https://www.youtube.com/embed/kHzdqbQ0Vwk?si=Gs0Eo5GvHKTzxLZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html id="kHzdqbQ0Vwk" title="Toyota Corolla Cross Hybrid spare tire mount assembly" %}
 
-<iframe style="max-width:100%; height:auto;" width="800" height="450" src="https://www.youtube.com/embed/QlGANBVZVjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html id="QlGANBVZVjA" title="Toyota Corolla Cross Hybrid cargo spacer" %}
 
 The manufacturer's decision to not skip the spare wheel seems to be both a design and cost savings constraint.
 

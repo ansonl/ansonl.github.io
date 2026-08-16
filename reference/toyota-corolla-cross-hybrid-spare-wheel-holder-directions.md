@@ -13,7 +13,7 @@ Store the missing spare wheel and jack under the cargo area of your Toyota Corol
 
 *The Toyota Corolla Cross Hybrid Spare Tire Mount* can get purchased from the [Store]({% link store.md %})
 
-<iframe style="max-width:100%; height:auto;" width="560" height="315" src="https://www.youtube.com/embed/kHzdqbQ0Vwk?si=Gs0Eo5GvHKTzxLZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html id="kHzdqbQ0Vwk" title="Toyota Corolla Cross Hybrid spare tire mount assembly" %}
 
 ## Assembly Instructions
 
@@ -85,7 +85,7 @@ Toyota Corolla Cross Hybrid AWD (1st gen, 2023+)
 
 > Wear insulated gloves, shoes, and clothing. Ensure the work environment is completely dry before continuing.
 
-<iframe style="max-width:100%; height:auto;" width="560" height="315" src="https://www.youtube.com/embed/5yy8hvflbi4?si=i_0M465U2dJqtU4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html id="5yy8hvflbi4" title="Toyota Corolla Cross Hybrid spare tire mount installation" %}
 
 1. Pry the black plastic retainer tab outwards from the white plastic lever with an insulated flat tool.
 

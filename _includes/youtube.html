@@ -1,0 +1,10 @@
+{% assign youtube_title = include.title | default: "YouTube video player" %}
+<div class="youtube-embed"{% if include.anchor %} id="{{ include.anchor | escape }}"{% endif %}>
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ include.id | escape }}{% if include.params %}?{{ include.params | escape }}{% endif %}"
+    title="{{ youtube_title | escape }}"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe>
+</div>

@@ -688,10 +688,7 @@ An inexpensive (~$2) acrylic case houses the Arduino UNO itself to prevent the h
 </div>
 
 
-<!--https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed-->
-<div id="demo-video" style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">
-<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="https://www.youtube-nocookie.com/embed/6-hwobA9tic?rel=0&amp;start=17" frameborder="0" allowfullscreen></iframe>
-</div>
+{% include youtube.html id="6-hwobA9tic" anchor="demo-video" params="rel=0&start=17" title="Ford ACP AUX demonstration" %}
 
 
 A year after first [splicing the audio cable into the CD connector]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/), I now have a fully integrated AUX audio system (as well as a car [data visualizer](#interpreting-acp-energy-data)) that lets me use the original radio head unit controls to control playback on iPhone. 

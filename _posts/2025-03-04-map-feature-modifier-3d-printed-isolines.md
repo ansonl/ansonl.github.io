@@ -54,7 +54,7 @@ It is optimized for use with my free [3D printable maps](/maps). It even works o
 
 I made a [tutorial video](https://www.youtube.com/watch?v=3BnW-QVdqKM) showing how to use the Map Feature Modifier. All of the steps are also written to follow at your own pace on the GitHub [repo](https://github.com/ansonl/mfm).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3BnW-QVdqKM?si=B7kV8L-rIug6GStB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html id="3BnW-QVdqKM" title="Map Feature Modifier tutorial" %}
 
 Normally I would write the content of the video in a post but I just started a new job and don't have a lot of time lately so the video and Github repo documentation will need to suffice for now.
 
