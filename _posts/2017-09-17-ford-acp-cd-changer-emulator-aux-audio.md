@@ -70,7 +70,7 @@ Last July I [added an AUX audio input]({{ site.baseurl }}/2016/07/ford-escape-au
 - Expensive (>$50) existing third [party](http://www.ycarlink.com/pd_12391_Digital-CD-USB-SD-AUX-Bluetooth-changer-emulator-adapter-for-new-Ford-quadlock-Fakra-12-pin-6000CD-6006CDC-5000C.htm) [accessories](http://www.discountcarstereo.com/AUX-FRDW.html) that emulated the CD changer to add AUX audio capability. 
 
 <figure>
-<img alt="Ford Audio Chassis" data-src="{{ '/wp-content/uploads/2017/07/ford_escape_audio_chassis.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Ford Audio Chassis" src="{{ '/wp-content/uploads/2017/07/ford_escape_audio_chassis.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Ford OEM head unit configurations for 2001-2007 Ford Escape and contemporary generation Ford vehicles. Note no AUX connection available in any of them. </figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ Last July I [added an AUX audio input]({{ site.baseurl }}/2016/07/ford-escape-au
 
 At the time, I found the correct CD changer connector pin out from a [Taurus Car Club Forum post](https://web.archive.org/web/20151102133458/http://www.taurusclub.com/forum/attachments/electronics-security-audio-visual/34387d1106003765-cd-changer-interface-cdchanger_pinout.jpg). I stripped a normal Tip Ring Sleeve (TRS) audio jack cable to expose the three wires within: Left, Right, Ground. These wires were then connected to their respective pins in the CD changer connector. 
 
-<img alt="AUX1" data-src="{{ '/wp-content/uploads/2017/07/aux_1.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX1" src="{{ '/wp-content/uploads/2017/07/aux_1.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 
 The result was an operational CD changer and a spliced in AUX audio jack for a phone. 
 
@@ -130,7 +130,7 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
     <h3 class="single-div-timeline">sorban creates <a href="http://ipod-remote.blogspot.com">iPod remote control</a></h3>
     <p class="single-div-timeline">
       <figure>
-      <img alt="ipod remote control" data-src="{{ '/wp-content/uploads/2017/07/ipod_remote_control.jpg' | prepend:site.baseurl }}" class="lazyload" />
+      <img alt="ipod remote control" src="{{ '/wp-content/uploads/2017/07/ipod_remote_control.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
       </figure>
       Contains external display that interfaces with Ford CD6000 head unit.
     </p>
@@ -140,7 +140,7 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
     <h3 class="single-div-timeline">Krysztof Pintscher ports Andrew Hammond's Yampp code to run on Arduino Mega 2560.</h3>
     <p class="single-div-timeline">
       <figure>
-      <img alt="nious" data-src="{{ '/wp-content/uploads/2017/07/nious.jpg' | prepend:site.baseurl }}" class="lazyload" />
+      <img alt="nious" src="{{ '/wp-content/uploads/2017/07/nious.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
       </figure>
       <a href="http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/">Instructable</a>
 
@@ -151,7 +151,7 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
     <h3 class="single-div-timeline">Dale Thomas adds AT Command integration for Bluetooth Audio support using AT Command integration with OVC3868. </h3>
     <p class="single-div-timeline">
       <figure>
-      <img alt="dale thomas" data-src="{{ '/wp-content/uploads/2017/07/dale_thomas_pcb.jpg' | prepend:site.baseurl }}" class="lazyload" />
+      <img alt="dale thomas" src="{{ '/wp-content/uploads/2017/07/dale_thomas_pcb.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
       </figure>
       <a href="http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/">Instructable</a>
     </p>
@@ -161,7 +161,7 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
     <h3 class="single-div-timeline">Anson Liu finally does something???</h3>
     <p class="single-div-timeline">
        <figure>
-      <img alt="???" data-src="{{ '/wp-content/uploads/2017/07/liu_pcb_blurred.jpg' | prepend:site.baseurl }}" class="lazyload" />
+      <img alt="???" src="{{ '/wp-content/uploads/2017/07/liu_pcb_blurred.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
       </figure>
     </p>
   </div>
@@ -173,7 +173,7 @@ In November 2016 I came across [Krysztof Pintscher](http://www.instructables.com
 Krysztof and Dales' code was made for the Arduino Mega 2560. The code would need to be modified to compile on an Arduino UNO I had. Refactoring Krysztof and Dales' code required replacing the constants in `ACP.ino` to be the correct pins on the Arduino UNO. 
 
 <figure>
-<img alt="AUX2" data-src="{{ '/wp-content/uploads/2017/07/aux_2.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX2" src="{{ '/wp-content/uploads/2017/07/aux_2.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>A soldering warm up project.</figcaption>
 </figure>
 
@@ -211,7 +211,7 @@ PORTA |= (1<<PA6); //set high state on digital pin 28
 PORTA &= ~(1<<PA6); //set low state on digital pin 28
 ```
 <figure>
-<img alt="ATMega2560 Arduino pin mapping" data-src="{{ '/wp-content/uploads/2017/07/atmega2560_pin_mapping.png' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="ATMega2560 Arduino pin mapping" src="{{ '/wp-content/uploads/2017/07/atmega2560_pin_mapping.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>ATMega 2560 Arduino pin mapping</figcaption>
 </figure>
 
@@ -235,7 +235,7 @@ The second line sets a low state by performing bitwise AND operation on `PORTA` 
 `PORTA` and `PA6` constants must be updated to reference a valid pin on the Arduino UNO. 
 
 <figure>
-<img alt="ATMega168/328 Arduino pin mapping" data-src="{{ '/wp-content/uploads/2017/07/atmega168-328_pin_mapping.png' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="ATMega168/328 Arduino pin mapping" src="{{ '/wp-content/uploads/2017/07/atmega168-328_pin_mapping.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>ATMega168/328 Arduino pin mapping</figcaption>
 </figure>
 
@@ -267,7 +267,7 @@ Progress | Goals
 I prototyped the board on a clone protoshield based off the [Adafruit Proto Shield v.5](https://www.adafruit.com/product/51). 
 
 <figure>
-<img alt="AUX3" data-src="{{ '/wp-content/uploads/2017/07/aux_3.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX3" src="{{ '/wp-content/uploads/2017/07/aux_3.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>The finished protoboard.</figcaption>
 </figure>
 
@@ -275,17 +275,17 @@ I used an [shield fabrication print](https://learn.adafruit.com/adafruit-proto-s
 
 ##### Inverted protoshield schematic for printing
 
-<img alt="Inverted protoshield schematic for printing" data-src="{{ '/wp-content/uploads/2017/07/adafruit_protoshield_v6_inverted.png' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Inverted protoshield schematic for printing" src="{{ '/wp-content/uploads/2017/07/adafruit_protoshield_v6_inverted.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 
 My protoshield wiring
 
-<img alt="LIU ACP only protoshield wiring diagram" data-src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_diagram.png' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="LIU ACP only protoshield wiring diagram" src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_diagram.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 
 The finished protoshield
 
-<img alt="LIU ACP only protoshield wiring top side" data-src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
-<img alt="LIU ACP only protoshield wiring bottom" data-src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_bottom.jpg' | prepend:site.baseurl }}" class="lazyload" />
-<img alt="LIU ACP only protoshield wiring connected" data-src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_connected.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="LIU ACP only protoshield wiring top side" src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_side.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
+<img alt="LIU ACP only protoshield wiring bottom" src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_bottom.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
+<img alt="LIU ACP only protoshield wiring connected" src="{{ '/wp-content/uploads/2017/07/liu_acp_aux_uno_protoshield_connected.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 
 Progress | Goals
 --- | ---
@@ -320,7 +320,7 @@ Ring | Right audio
 Sleeve | Ground
 
 <figure>
-<img alt="Cable Chick TRRS diagram" data-src="http://www.cablechick.com.au/resources/image/trrs-diagram2.jpg" class="lazyload" />
+<img alt="Cable Chick TRRS diagram" src="http://www.cablechick.com.au/resources/image/trrs-diagram2.jpg" loading="lazy" decoding="async" />
   <figcaption>TS, TRS, TRRS from <a href="http://www.cablechick.com.au/blog/understanding-trrs-and-audio-jacks/">Cable Chick</a></figcaption>
 </figure>
 
@@ -375,7 +375,7 @@ Volume Down | ~ 10k Ω | 1
 Merely creating a circuit to short the **Ring2** and **Sleeve** lines fails to control a connected Apple device. If only things were that simple; there is an [additional component](http://www.macworld.com/article/1139414/appleheadphonechip.html) to Apple's headsets available as part of the [Apple MFi](https://developer.apple.com/programs/mfi/) program. 
 
 <figure>
-<img alt="iPod Shuffle 3G chip" data-src="https://cdn.arstechnica.net/wp-content/uploads/2009/03/ipodshuffleg3chip.jpg" class="lazyload" />
+<img alt="iPod Shuffle 3G chip" src="https://cdn.arstechnica.net/wp-content/uploads/2009/03/ipodshuffleg3chip.jpg" loading="lazy" decoding="async" />
   <figcaption>iPod Shuffle 3G headset chip from <a href="http://gadgets.boingboing.net/2009/03/14/we-found-the-chip-in.html">Boing Boing Gadgets</a></figcaption>
 </figure>
 
@@ -384,12 +384,12 @@ David Carne analyzed the initial connection "chirp" that the Apple headset contr
 I did not want to spend to much time on getting the "chirp" to work at this stage and was more interested in getting the entire inline control project working. Apparently all the no-name manufacturers have created a working clone control chip to emulate the genuine Apple control chip but I wasn't able to find any information on obtaining *just* the control chip. I ended up cheating by adding an additional audio port for a headset with the chip. I was able to order some headsets with inline control chip for under $2 on Ebay/dollar store.
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="Remote extension cable" data-src="http://i.ebayimg.com/images/g/55wAAOSwLEtYhWtv/s-l500.jpg" class="lazyload" />
+<img alt="Remote extension cable" src="http://i.ebayimg.com/images/g/55wAAOSwLEtYhWtv/s-l500.jpg" loading="lazy" decoding="async" />
   <figcaption>Example <a href="http://www.ebay.com/itm/3-5mm-Audio-Headphone-Adapter-Remote-Mic-Extension-Cable-For-iphone-5-6S-Samsung/272476961890?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649">remote extension cable</a> from Ebay</figcaption>
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="Dollar General earbuds" data-src="{{ '/wp-content/uploads/2017/07/dollar_general_earbuds.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Dollar General earbuds" src="{{ '/wp-content/uploads/2017/07/dollar_general_earbuds.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
   <figcaption>Example of the <i>iPhone + button</i> feature to look for at the Dollar General</figcaption>
 </figure>
 
@@ -399,7 +399,7 @@ To simulate a button press, I initially tried using a *2N2222* transistor to sho
 
 I did not emulate the volume up and down buttons as there was no need for those controls in this use case. The ACP protocol is not known to transmit volume control signals.
 
-<img alt="AUX3.5" data-src="{{ '/wp-content/uploads/2017/07/aux_3-5.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX3.5" src="{{ '/wp-content/uploads/2017/07/aux_3-5.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 
 Because I did not design my first CD changer emulating protoboard with this in mind, I added yet another TRRS audio jack to this second protoboard to pipe the audio from the iOS device to the first shield. If you plan on hand wiring a protoboard, this can be easily avoied by having upward facing female pin headers on the bottom shield connect with bottom facing male pin headers on the top shield!
 
@@ -415,7 +415,7 @@ Progress | Goals
 --- | ---
 ✔ | Head unit controlled **Next/Previous** and **Fast Forward/Rewind** functionality
 
-<img alt="AUX3.5 side by side" data-src="{{ '/wp-content/uploads/2017/07/aux_3-5_side_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX3.5 side by side" src="{{ '/wp-content/uploads/2017/07/aux_3-5_side_side.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 
 I got playback control functionality at the cost of aesthetics due to inefficient wiring — in retrospect. But hey, everything was put together and working! I had an external audio AUX input for my vehicle and **could control my iPhone from the head unit**. 
 
@@ -434,7 +434,7 @@ I learned how to use Autodesk EAGLE for printed circuit board (PCB) design using
 3. [SparkFun - Using EAGLE: Board Layout](https://learn.sparkfun.com/tutorials/using-eagle-board-layout)
 4. 
 <figure>
-<img alt="EAGLE screenshot ford acp aux" data-src="{{ '/wp-content/uploads/2017/07/eagle_screenshot.png' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="EAGLE screenshot ford acp aux" src="{{ '/wp-content/uploads/2017/07/eagle_screenshot.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Screenshot of the EAGLE project.</figcaption>
 </figure>
 
@@ -447,18 +447,18 @@ good for when mistakes are made.
 
 ### Vehicle Wiring
 
-<img alt="040 Multilock Connectors" data-src="{{ '/wp-content/uploads/2017/07/multilock_connectors.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="040 Multilock Connectors" src="{{ '/wp-content/uploads/2017/07/multilock_connectors.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Some 040 Multilock Connectors used by Ford vehicles.</figcaption>
 
 In the meantime, I experimented with hiding my existing protoboard inside the body of the car by removing the head unit and plugging my protoboard directly into the head unit. 
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="Head unit connections" data-src="{{ '/wp-content/uploads/2017/07/head_unit_back.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Head unit connections" src="{{ '/wp-content/uploads/2017/07/head_unit_back.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Ford Escape navigation head unit connections.</figcaption>
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="Head unit ACP" data-src="{{ '/wp-content/uploads/2017/07/acp_connection_back.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Head unit ACP" src="{{ '/wp-content/uploads/2017/07/acp_connection_back.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>12 position ACP connector - the one you want to use.</figcaption>
 </figure>
 
@@ -467,12 +467,12 @@ In the meantime, I experimented with hiding my existing protoboard inside the bo
 As it turns out, the hybrid vehicle contains a CAN-ACP convertor module located on the right side of the body compartment behind the glovebox. This module sends energy flow information (engine, battery charge, etc) to the nav unit to be displayed to the user. 
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="CAN ACP Module" data-src="{{ '/wp-content/uploads/2017/07/can_acp_bus.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="CAN ACP Module" src="{{ '/wp-content/uploads/2017/07/can_acp_bus.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>The Mystery CAN to ACP module</figcaption>
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<img id="acp_graph" alt="Captured ACP data" data-src="{{ '/wp-content/uploads/2017/07/acp_graph.png' | prepend:site.baseurl }}" class="lazyload" />
+<img id="acp_graph" alt="Captured ACP data" src="{{ '/wp-content/uploads/2017/07/acp_graph.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Captured ACP data to be decoded.</figcaption>
 </figure>
 
@@ -500,12 +500,12 @@ We used a **Wire-to-Board** female 040 Multilock Connector ([TE 174051-2](http:/
 #### 2007 Ford Escape Hybrid wiring diagram and component locations
 
 <figure style="display: inline-block; width: 45%;">
-<a href="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_audio_nav_sys_wiring_diagram.jpg' | prepend:site.baseurl }}"><img alt="2007 Ford Escape Hybrid Wiring Diagram" data-src="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_audio_nav_sys_wiring_diagram.jpg' | prepend:site.baseurl }}" class="lazyload" /></a>
+<a href="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_audio_nav_sys_wiring_diagram.jpg' | prepend:site.baseurl }}"><img alt="2007 Ford Escape Hybrid Wiring Diagram" src="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_audio_nav_sys_wiring_diagram.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" /></a>
 <figcaption>2007 Ford Escape Hybrid Audio System/Navigation Wiring Diagram</figcaption>
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<a href="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_instrument_panel_rear_component_view.jpg' | prepend:site.baseurl }}"><img alt="2007 Ford Escape Hybrid Instrument Panel Rear Component View" data-src="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_instrument_panel_rear_component_view.jpg' | prepend:site.baseurl }}" class="lazyload" /></a>
+<a href="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_instrument_panel_rear_component_view.jpg' | prepend:site.baseurl }}"><img alt="2007 Ford Escape Hybrid Instrument Panel Rear Component View" src="{{ '/wp-content/uploads/2017/07/2007_ford_escape_hybrid_instrument_panel_rear_component_view.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" /></a>
 <figcaption>2007 Ford Escape Hybrid Instrument Panel Rear Component View</figcaption>
 </figure>
 
@@ -514,17 +514,17 @@ Progress | Goals
 ✔ | Reliable connection
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="Center console location" data-src="{{ '/wp-content/uploads/2017/07/center_console_location.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Center console location" src="{{ '/wp-content/uploads/2017/07/center_console_location.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Beneath the center console - one of many possible locations to place the system.</figcaption>
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="TRRS Audio jack bezel" data-src="{{ '/wp-content/uploads/2017/07/audio_jack_bezel.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="TRRS Audio jack bezel" src="{{ '/wp-content/uploads/2017/07/audio_jack_bezel.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>I drilled a hole in the bezel to fit a TRRS jack.</figcaption>
 </figure>
 
 <figure>
-<img alt="TRRS Audio jack bezel" data-src="{{ '/wp-content/uploads/2017/07/aux_jack_finished.JPG' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="TRRS Audio jack bezel" src="{{ '/wp-content/uploads/2017/07/aux_jack_finished.JPG' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Finished audio jack.</figcaption>
 </figure>
 
@@ -535,24 +535,24 @@ Progress | Goals
 </figure>
 
 <figure style="display: inline-block; width: 70%;">
-<img alt="AUX4" data-src="{{ '/wp-content/uploads/2017/07/aux_4.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX4" src="{{ '/wp-content/uploads/2017/07/aux_4.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 </figure>
 
 It works and doesn't disappoint. 
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="AUX4 before after top" data-src="{{ '/wp-content/uploads/2017/07/aux_4_before_after_top.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX4 before after top" src="{{ '/wp-content/uploads/2017/07/aux_4_before_after_top.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="AUX4 before after side" data-src="{{ '/wp-content/uploads/2017/07/aux_4_before_after_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX4 before after side" src="{{ '/wp-content/uploads/2017/07/aux_4_before_after_side.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 </figure>
 
 <figure>
-<a href="{{ '/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png' | prepend:site.baseurl }}"><img alt="Inline control schematic" data-src="{{ '/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png' | prepend:site.baseurl }}" class="lazyload" /></a>
+<a href="{{ '/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png' | prepend:site.baseurl }}"><img alt="Inline control schematic" src="{{ '/wp-content/uploads/2017/07/inline_control_acp_aux_schematic.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" /></a>
 </figure>
 
-<img alt="AUX3.5 and AUX4" data-src="{{ '/wp-content/uploads/2017/07/aux_3-5_aux_4.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX3.5 and AUX4" src="{{ '/wp-content/uploads/2017/07/aux_3-5_aux_4.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 
 As you may have noticed, I was able to fit both CD changer emulation and playback control functionality on a single Arduino UNO size shield. 
 
@@ -573,20 +573,20 @@ I made the wiring mistake of placing the ACP activity indicator LED in series in
 4. Proceed to checkout and apply coupon within 2 days.
 
 <figure>
-<img alt="AUX5" data-src="{{ '/wp-content/uploads/2017/07/aux_5.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX5" src="{{ '/wp-content/uploads/2017/07/aux_5.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Revised PCB from Seeed</figcaption>
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="AUX5 top" data-src="{{ '/wp-content/uploads/2017/07/aux_5_inline_top.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX5 top" src="{{ '/wp-content/uploads/2017/07/aux_5_inline_top.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="AUX5 side" data-src="{{ '/wp-content/uploads/2017/07/aux_5_inline_side.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX5 side" src="{{ '/wp-content/uploads/2017/07/aux_5_inline_side.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 </figure>
 
 <figure>
-<img alt="AUX5 pcb before soldering" data-src="{{ '/wp-content/uploads/2017/07/aux_5_before.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX5 pcb before soldering" src="{{ '/wp-content/uploads/2017/07/aux_5_before.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>The bare PCB.</figcaption>
 </figure>
 
@@ -604,7 +604,7 @@ Captured ACP energy flow messages appear to be differently sized; **11 bytes** i
 I initially captured the ACP messages by writing to an SD card using the [Arduino SD library](https://www.arduino.cc/en/Reference/SDCardNotes), importing the data as CSV, and creating a scatter plot. The problem with this approach was that I had to mentally recall the recorded drive to find patterns between driving events and the collected data. *In the repository, ACP SD datalogging code is located in `Sketch/Ford_SD_datalogger`.*
 
 <figure>
-<img id="acp_graph" alt="Captured ACP data" data-src="{{ '/wp-content/uploads/2017/07/acp_graph.png' | prepend:site.baseurl }}" class="lazyload" />
+<img id="acp_graph" alt="Captured ACP data" src="{{ '/wp-content/uploads/2017/07/acp_graph.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Graphed ACP data in Excel. *Hint: Use `hex2dec()` to convert data if logged in hex.*</figcaption>
 </figure>
 
@@ -613,12 +613,12 @@ I was able to figure out the byte at the **7th index** indicated the engine was 
 After these unsuccessful ideas and realizing realtime feedback would make decoding data much easier, I hooked up an HD44780 LCD using the 3 wire shift register setup copied below and described in the Arduino [New LiquidCrystal](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/schematics#!latch-shift-register) library. **The reason to use the HD44780 vs segmented LED bars: There was no way I was going to be able to use segmented LED bars to display data without a shift register anyways due to limited ports on the ATMega328.**
 
 <figure style="display: inline-block; width: 45%;">
-<img id="acp_graph" alt="3 wire Shift Register 74HC595 LCD" data-src="{{ '/wp-content/uploads/2017/07/srlcd595.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img id="acp_graph" alt="3 wire Shift Register 74HC595 LCD" src="{{ '/wp-content/uploads/2017/07/srlcd595.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>3 wire 74HC595 Latching Shift Register schematic from <a href="https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/schematics#!latch-shift-register">fmalpartida/new-liquidcrystal</a></figcaption>
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<img id="acp_graph" alt="LCD Setup" data-src="{{ '/wp-content/uploads/2017/07/graph_wiring.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img id="acp_graph" alt="LCD Setup" src="{{ '/wp-content/uploads/2017/07/graph_wiring.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>LCD and Arduino setup</figcaption>
 </figure>
 
@@ -633,7 +633,7 @@ Coincidentally (again), the HD44780 supports up to 8 custom characters so we can
 - I initially tried to use [rowansimms/arduino-lcd-3pin](https://bitbucket.org/rowansimms/arduino-lcd-3pin) to drive the display but the library has an issue when creating over five custom characters. 😞
 
 <figure>
-<img alt="ACP Data Bar Graphs" data-src="{{ '/wp-content/uploads/2017/07/data_bars.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="ACP Data Bar Graphs" src="{{ '/wp-content/uploads/2017/07/data_bars.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Realtime ACP data display.</figcaption>
 </figure>
 
@@ -654,7 +654,7 @@ The display works after some fiddling around and realtime ACP data is displayed 
 Updating the LCD with data for extended periods of time (hours) led to points when the unit would become unresponsive and require a power cycle/reset. **The 12 position Ford CD Changer connector is "always on" so the microcontroller does not power cycle when the car is started and stopped.**
 
 <figure>
-<img alt="Stack collision" data-src="{{ '/wp-content/uploads/2017/07/stack_collide.gif' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Stack collision" src="{{ '/wp-content/uploads/2017/07/stack_collide.gif' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Stack collision diagram from <a href="https://learn.adafruit.com/memories-of-an-arduino/optimizing-sram">Adafruit</a></figcaption>
 </figure>
 
@@ -665,17 +665,17 @@ Removing the LCD display updating code resolved the problem. I suspect that the 
 The last thing to do is to plug the finished assembly [behind the head unit](#vehicle-wiring) in a secure position within the Ford Escape. I placed my assembly next to the glovebox.
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="Shield resting on glovebox" data-src="{{ '/wp-content/uploads/2017/07/shield_out_glovebox.JPG' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Shield resting on glovebox" src="{{ '/wp-content/uploads/2017/07/shield_out_glovebox.JPG' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 </figure>
 
 <figure style="display: inline-block; width: 45%;">
-<img alt="Shield inside glovebox" data-src="{{ '/wp-content/uploads/2017/07/shield_in_glovebox.JPG' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Shield inside glovebox" src="{{ '/wp-content/uploads/2017/07/shield_in_glovebox.JPG' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 </figure>
 
 An inexpensive (~$2) acrylic case houses the Arduino UNO itself to prevent the headers on the bottom of the Arduino from contacting the metal vehicle chassis and shorting out. 
 
 <figure>
-<img alt="Shield inside glovebox" data-src="{{ '/wp-content/uploads/2017/07/closing_glovebox.png' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Shield inside glovebox" src="{{ '/wp-content/uploads/2017/07/closing_glovebox.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Can't view APNG? <a href="{{ '/wp-content/uploads/2017/07/closing_glovebox.gif' | prepend:site.baseurl }}">View GIF</a></figcaption>
 </figure>
 
@@ -738,12 +738,12 @@ Thanks to the work of those below. Their contributions have made this project po
 ### To be continued?
 
 <figure>
-<img alt="AUX5.5 stacked" data-src="{{ '/wp-content/uploads/2017/07/aux_5-5_stacked.jpg' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="AUX5.5 stacked" src="{{ '/wp-content/uploads/2017/07/aux_5-5_stacked.jpg' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>BLE control to come in the future with more ACP energy flow decoding.</figcaption>
 </figure>
 
 <figure>
-<img alt="Shield inside glovebox" data-src="{{ '/wp-content/uploads/2017/07/ble_control_short.png' | prepend:site.baseurl }}" class="lazyload" />
+<img alt="Shield inside glovebox" src="{{ '/wp-content/uploads/2017/07/ble_control_short.png' | prepend:site.baseurl }}" loading="lazy" decoding="async" />
 <figcaption>Can't view APNG? <a href="{{ '/wp-content/uploads/2017/07/ble_control_short.gif' | prepend:site.baseurl }}">View GIF</a></figcaption>
 </figure>
 

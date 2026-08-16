@@ -1,0 +1,10 @@
+<figure style="{% if include.figure-style %}{{ include.figure-style }}{% endif %}">
+  <img
+    src="{{ include.src | strip | escape }}"
+    alt="{{ include.alt | default: '' | escape }}"
+    loading="lazy"
+    decoding="async">
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify }}</figcaption>
+  {% endif %}
+</figure>

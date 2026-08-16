@@ -55,9 +55,6 @@
   <!-- For general theme customization -->
   <link rel="stylesheet" href="{{ "/assets/stylesheets/theme-customization.css" | prepend: site.baseurl }}">
 
-  <!-- For lazy load images -->
-  <script src="{{ "/assets/javascripts/lazysizes.min.js" | prepend: site.baseurl }}" async></script>
-
   {% comment %}
     Scripts below are deferred: none is needed before first paint, and `defer`
     keeps them in order so jQuery still runs first. Do not defer the inline
