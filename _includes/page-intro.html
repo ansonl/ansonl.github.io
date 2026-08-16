@@ -7,7 +7,9 @@
         has one. Behind it, .intro-image paints a spinner (theme-customization
         .css), which is only ever visible while the image is still arriving.
       {% endcomment %}
-      <img src="{{ intro_image }}" alt="{{ page.title }}" decoding="async">
+      <img src="{{ intro_image }}" alt="{{ page.title }}" decoding="async"
+        onload="this.parentElement.classList.add('is-complete')"
+        onerror="this.parentElement.classList.add('is-complete')">
       <!-- Caption support from https://github.com/mmistakes/jekyll-theme-basically-basic/pull/141 -->
       {% if page.image.caption %}<span class="image-caption">{{ page.image.caption | markdownify | strip_newlines | remove: "<p>" | remove: "</p>" }}</span>{% endif %}
     </div>

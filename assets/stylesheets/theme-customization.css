@@ -209,6 +209,10 @@ span .na-tag:hover {
   animation: intro-image-spin 0.8s linear infinite;
   z-index: 0;
 }
+.intro-image.is-complete::after {
+  display: none;
+  animation: none;
+}
 /* The image sits above the spinner and hides it once painted. */
 .intro-image img {
   position: relative;
