@@ -64,21 +64,26 @@
     cut-the-mustard script above -- it sets the `.js` class used at first paint.
   {% endcomment %}
 
-  <!-- For animated title using Typed.JS by mattboldt https://github.com/mattboldt/typed.js/ -->
   <script defer src="{{ "/assets/javascripts/jquery-3.6.0.min.js" | prepend: site.baseurl }}"></script>
-  <link rel="stylesheet" href="{{ "/assets/stylesheets/site-title-animation.css" | prepend: site.baseurl }}">
-  <script defer src="{{ "/assets/javascripts/typed.js@2.0.12.min.js" | prepend: site.baseurl }}"></script>
-  <script defer src="{{ "/assets/javascripts/site-title-animation.js" | prepend: site.baseurl }}"></script>
+
+  {% if page.layout == 'home' %}
+    <!-- For animated title using Typed.JS by mattboldt https://github.com/mattboldt/typed.js/ -->
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/site-title-animation.css" | prepend: site.baseurl }}">
+    <script defer src="{{ "/assets/javascripts/typed.js@2.0.12.min.js" | prepend: site.baseurl }}"></script>
+    <script defer src="{{ "/assets/javascripts/site-title-animation.js" | prepend: site.baseurl }}"></script>
+  {% endif %}
 
   <!-- For background-check.js to darken/lighten menu button -->
   <link rel="stylesheet" href="{{ "/assets/stylesheets/menu-darken-lighten.css" | prepend: site.baseurl }}">
   <script defer src="{{ "/assets/javascripts/background-check.min.js" | prepend: site.baseurl }}"></script>
   <script defer src="{{ "/assets/javascripts/menu-darken-lighten.js" | prepend: site.baseurl }}"></script>
 
-  <!-- For smooth scrolling to links -->
-  <script>window.noZensmooth = true</script> <!-- Turn off automatic zen scroll, only use it when explicitly called -->
-  <script defer src="{{ "/assets/javascripts/zenscroll-min.js" | prepend: site.baseurl }}"></script>
-  <script defer src="{{ "/assets/javascripts/scroll-to-posts.js" | prepend: site.baseurl }}"></script>
+  {% if page.layout == 'home' %}
+    <!-- For smooth scrolling from the home-page intro to the post list -->
+    <script>window.noZensmooth = true</script>
+    <script defer src="{{ "/assets/javascripts/zenscroll-min.js" | prepend: site.baseurl }}"></script>
+    <script defer src="{{ "/assets/javascripts/scroll-to-posts.js" | prepend: site.baseurl }}"></script>
+  {% endif %}
 
   {% comment %}
     Timeline styles load only where used. Set `timeline: true` in a page's front
