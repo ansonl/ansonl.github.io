@@ -36,75 +36,145 @@
       {%- assign lang = "en" -%}
   {%- endcase -%}
   {%- comment -%}
-    Local override of the theme's copy. Two changes from upstream:
-    the code.jquery.com <script> is dropped (head.html already loads jQuery),
-    and $(document).ready below is DOMContentLoaded so it works with that
-    jQuery deferred. Re-apply both if you pull a newer theme.
+    Local override of the theme's copy. Search assets load only after the
+    visitor opens or focuses search, so normal page views do not download the
+    store or build an index. Re-apply this override if you pull a newer theme.
   {%- endcomment -%}
-  <script src="{{ '/assets/javascripts/lunr/lunr.min.js' | absolute_url }}"></script>
-  <script src="{{ '/assets/javascripts/lunr/lunr.store.js' | absolute_url }}"></script>
-  {%- unless lang == "en" -%}
-    <script src="{{ '/assets/javascripts/lunr/lunr.stemmer.support.min.js' | absolute_url }}"></script>
-    <script src="{{ '/assets/javascripts/lunr/lunr.' | append: lang | append: '.min.js' | absolute_url }}"></script>
-  {%- endunless %}
   <script>
-    var idx = lunr(function () {
-      {% unless lang == "en" %}
-        // use the language
-        this.use(lunr.{{ lang }});
-      {% endunless %}
-      // the, the normal lunr index initialization
-      this.field('title')
-      this.field('excerpt')
-      this.field('categories')
-      this.field('tags')
-      this.ref('id')
+    (function () {
+      var input = document.getElementById('search');
+      var results = document.getElementById('results');
+      var toggle = document.querySelector('.search-toggle');
+      var index;
+      var searchPromise;
+      var scriptPromises = {};
 
-      this.pipeline.remove(lunr.trimmer)
+      if (!input || !results) return;
 
-      // add documents to index
-      for (var item in store) {
-        this.add({
-          title: store[item].title,
-          excerpt: store[item].excerpt,
-          categories: store[item].categories,
-          tags: store[item].tags,
-          id: item
-        })
+      results.setAttribute('aria-live', 'polite');
+
+      function showStatus(message) {
+        var status = document.createElement('p');
+        status.className = 'results-found';
+        status.textContent = message;
+        results.replaceChildren(status);
       }
-    });
 
-    document.addEventListener('DOMContentLoaded', function () {
-      $('input#search').on('keyup', function () {
-        var resultdiv = $('#results');
-        var query = $(this).val().toLowerCase();
-        var result =
-          idx.query(function (q) {
-            query.split(lunr.tokenizer.separator).forEach(function (term) {
-              q.term(term, { boost: 100 })
-              if (query.lastIndexOf(" ") != query.length - 1) {
-                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
-              }
-              if (term != "") {
-                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
-              }
-            })
+      function loadScript(source) {
+        if (scriptPromises[source]) return scriptPromises[source];
+
+        scriptPromises[source] = new Promise(function (resolve, reject) {
+          var script = document.createElement('script');
+          script.src = source;
+          script.onload = resolve;
+          script.onerror = function () {
+            script.remove();
+            delete scriptPromises[source];
+            reject(new Error('Unable to load ' + source));
+          };
+          document.head.appendChild(script);
+        });
+        return scriptPromises[source];
+      }
+
+      function buildIndex() {
+        index = lunr(function () {
+          {% unless lang == "en" %}
+            this.use(lunr.{{ lang }});
+          {% endunless %}
+          this.field('title');
+          this.field('excerpt');
+          this.field('categories');
+          this.field('tags');
+          this.ref('id');
+          this.pipeline.remove(lunr.trimmer);
+
+          for (var item in window.store) {
+            this.add({
+              title: window.store[item].title,
+              excerpt: window.store[item].excerpt,
+              categories: window.store[item].categories,
+              tags: window.store[item].tags,
+              id: item
+            });
+          }
+        });
+      }
+
+      function renderResults() {
+        if (!index) return;
+
+        var query = input.value.toLowerCase();
+        if (!query.trim()) {
+          results.replaceChildren();
+          return;
+        }
+
+        var matches = index.query(function (q) {
+          query.split(lunr.tokenizer.separator).forEach(function (term) {
+            q.term(term, { boost: 100 });
+            if (query.lastIndexOf(' ') !== query.length - 1) {
+              q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 });
+            }
+            if (term !== '') {
+              q.term(term, { usePipeline: false, editDistance: 1, boost: 1 });
+            }
           });
-        resultdiv.empty();
-        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' {{ site.data.theme.t.results_found | default: "Result(s) found" }}</p>');
-        for (var item in result) {
-          var ref = result[item].ref;
-          var searchitem =
+        });
+
+        results.innerHTML = '<p id="results-count" class="results-found">' +
+          matches.length + ' {{ site.data.theme.t.results_found | default: "Result(s) found" }}' +
+          '</p>';
+
+        matches.forEach(function (match) {
+          var item = window.store[match.ref];
+          results.insertAdjacentHTML('beforeend',
             '<article class="entry">' +
               '<h3 class="entry-title">' +
-                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+                '<a href="' + item.url + '">' + item.title + '</a>' +
               '</h3>' +
               '<div class="entry-excerpt">' +
-                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+                '<p>' + item.excerpt.split(' ').slice(0, 20).join(' ') + '...</p>' +
               '</div>' +
-            '</article>';
-          resultdiv.append(searchitem);
-        }
+            '</article>'
+          );
+        });
+      }
+
+      function loadSearch() {
+        if (index) return Promise.resolve();
+        if (searchPromise) return searchPromise;
+
+        showStatus('Loading search…');
+        searchPromise = Promise.all([
+          loadScript({{ '/assets/javascripts/lunr/lunr.min.js' | relative_url | jsonify }}),
+          loadScript({{ '/assets/javascripts/lunr/lunr.store.js' | relative_url | jsonify }})
+        ])
+        {%- unless lang == "en" %}
+          .then(function () {
+            return loadScript({{ '/assets/javascripts/lunr/lunr.stemmer.support.min.js' | relative_url | jsonify }});
+          })
+          .then(function () {
+            return loadScript({{ '/assets/javascripts/lunr/lunr.' | append: lang | append: '.min.js' | relative_url | jsonify }});
+          })
+        {%- endunless %}
+          .then(function () {
+            buildIndex();
+            renderResults();
+          })
+          .catch(function () {
+            searchPromise = null;
+            showStatus('Search is unavailable. Try again.');
+          });
+
+        return searchPromise;
+      }
+
+      if (toggle) toggle.addEventListener('click', loadSearch);
+      input.addEventListener('focus', loadSearch);
+      input.addEventListener('input', function () {
+        if (index) renderResults();
+        else loadSearch();
       });
-    });
+    }());
   </script>
