@@ -34,7 +34,7 @@ timeline: true
 ---
 I finished an AUX audio system that plugs directly into 1996-2007 era Ford vehicle's electrical systems and uses the original head unit controls to manage playback on iPhone. This expands upon my [previous project]({{ site.baseurl }}/2016/07/ford-escape-audio-aux-input/) to add an AUX audio connection to the vehicle. This open source project is available at {% include icon-github.html username="ansonl" %}/[FordACP-AUX](https://github.com/ansonl/FordACP-AUX). 
 
-<video style="max-width:100%; height:auto;" width="300" height="534" src="/wp-content/uploads/2017/07/ford_acp_aux_demo_350w.mp4" autoplay loop muted playsinline controls aria-label="AUX1"></video>
+<video style="max-width:100%; height:auto;" width="300" height="534" src="/wp-content/uploads/2017/07/ford_acp_aux_demo_350w.mp4" poster="/wp-content/uploads/2017/07/ford_acp_aux_demo_350w-poster.webp" preload="metadata" loading="lazy" loop muted playsinline controls aria-label="AUX1"></video>
 [Skip down to the demo video for the impatient.](#demo-video)
 
 If you are interested in interpreting Ford ACP data for energy flow/fuel efficiency info you can skip down to it [here](#interpreting-acp-energy-data).
@@ -531,7 +531,7 @@ Progress | Goals
 ### PCB Arrives (2 weeks later)
 
 <figure style="display: inline-block; width: 25%;">
-<video style="max-width:100%; height:auto;" width="184" height="270" src="/wp-content/uploads/2017/07/cheering_nascar.mp4" autoplay loop muted playsinline controls aria-label="Yay"></video>
+<video style="max-width:100%; height:auto;" width="184" height="270" src="/wp-content/uploads/2017/07/cheering_nascar.mp4" poster="/wp-content/uploads/2017/07/cheering_nascar-poster.webp" preload="metadata" loading="lazy" loop muted playsinline controls aria-label="Yay"></video>
 </figure>
 
 <figure style="display: inline-block; width: 70%;">
@@ -645,7 +645,7 @@ The display works after some fiddling around and realtime ACP data is displayed 
 `0x71` for my vehicle | Constant | Constant | Constant | Battery charging? | Electric Motor load | Engine On/Off | ↑ w/ engine + motor use. Resets on max. | ↕ driving / ↓ w/ discharging battery | ↑ w/ engine use. Resets on max.  | ↕ driving / ↑ w/ discharging battery
 
 <figure>
-<video style="max-width:100%; height:auto;" width="600" height="338" src="/wp-content/uploads/2017/07/data_bar_animated.mp4" autoplay loop muted playsinline controls aria-label="ACP Data Bar Graphs Animated"></video>
+<video style="max-width:100%; height:auto;" width="600" height="338" src="/wp-content/uploads/2017/07/data_bar_animated.mp4" poster="/wp-content/uploads/2017/07/data_bar_animated-poster.webp" preload="metadata" loading="lazy" loop muted playsinline controls aria-label="ACP Data Bar Graphs Animated"></video>
 <figcaption>Like a music visualizer — for Ford cars. </figcaption>
 </figure>
 
