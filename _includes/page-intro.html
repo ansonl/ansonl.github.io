@@ -2,7 +2,12 @@
   {% if page.image %}
     {% assign intro_image = page.image | relative_url | escape %}
     <div class="intro-image">
-      <img data-src="{{ intro_image }}" alt="{{ page.title }}" class="lazyload">
+      {% comment %}
+        Loaded eagerly on purpose: this is the LCP element on every page that
+        has one. Behind it, .intro-image paints a spinner (theme-customization
+        .css), which is only ever visible while the image is still arriving.
+      {% endcomment %}
+      <img src="{{ intro_image }}" alt="{{ page.title }}" decoding="async">
       <!-- Caption support from https://github.com/mmistakes/jekyll-theme-basically-basic/pull/141 -->
       {% if page.image.caption %}<span class="image-caption">{{ page.image.caption | markdownify | strip_newlines | remove: "<p>" | remove: "</p>" }}</span>{% endif %}
     </div>

@@ -183,6 +183,42 @@ span .na-tag:hover {
        url('../fonts/roboto/roboto-v18-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
 }
 
+/* Hero image loading state (_includes/page-intro.html).
+   The image loads eagerly because it is the LCP element, so this spinner is
+   self-limiting: on a fast connection the image paints immediately and covers
+   it before it is ever seen. On a slow one it fills the reserved space until
+   the image arrives. No JavaScript and no connection sniffing involved. */
+.intro-image {
+  /* Reserves room for the spinner before the image reports a size. Kept low so
+     the shortest hero (640x128, ~69px tall on a phone) does not sit above a
+     visible grey band. */
+  min-height: 4rem;
+  background-color: #f2f2f2;
+}
+.intro-image::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin: -1.125rem 0 0 -1.125rem;
+  border: 3px solid rgba(0, 0, 0, 0.12);
+  border-top-color: #00838a;
+  border-radius: 50%;
+  animation: intro-image-spin 0.8s linear infinite;
+  z-index: 0;
+}
+/* The image sits above the spinner and hides it once painted. */
+.intro-image img {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+@keyframes intro-image-spin {
+  to { transform: rotate(360deg); }
+}
+
 /* Newsletter signup (_includes/subscribe.html, Brevo plain-POST form) */
 .subscribe {
   margin: 3em 0 1em;
