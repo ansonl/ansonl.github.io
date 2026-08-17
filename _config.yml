@@ -104,9 +104,12 @@ timezone: UTC
 # is why this list used to restate all seven.
 exclude:
   - CNAME
-  # Dev scripts; these were being served from the live site.
-  - jekyllServe.sh
+  # Dev scripts; these were being served from the live site. Every new *.sh at
+  # the repo root needs a line here or it ships.
+  - jekyllDevServe.sh
+  - jekyllProdServe.sh
   - jekyllNginxServe.sh
+  - jekyllBuild.sh
   - rename-loop.sh
 
 plugins:
