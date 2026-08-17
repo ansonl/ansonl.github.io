@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 # Serve exactly what CI publishes, for checking a change before it ships.
-# Use jekyllDevServe.sh while writing. Pass extra flags through:
+# Use jekyllDevServe.sh while writing. Runs unchanged on Linux, on WSL, and on
+# Windows from Git Bash. Pass extra flags through:
 #   ./jekyllProdServe.sh --livereload
 #   ./jekyllProdServe.sh --host 0.0.0.0     # expose on the LAN
 #
@@ -14,12 +15,15 @@
 # Deliberately no --drafts/--unpublished, which is the whole point of having
 # this split from jekyllDevServe.sh -- what renders here is what ships.
 #
-# --force_polling is required because the repo sits on /mnt/c, which WSL2
-# mounts as v9fs, and v9fs delivers no inotify events. Without it the watcher
-# starts, prints "Auto-regeneration: enabled", and then never fires for the
-# rest of the session. Drop it if the build ever stops reaching across the
-# WSL/Windows boundary; see jekyllDevServe.sh for the timings.
-#
 # Do not add --incremental; see jekyllDevServe.sh for why it serves stale
 # aggregate pages on this site.
-JEKYLL_ENV=production bundle exec jekyll serve --force_polling "$@"
+
+# Polling is needed only when the build runs under WSL against a Windows
+# drive, where inotify never fires; see jekyllDevServe.sh for the detail.
+if [ -r /proc/version ] && grep -qi microsoft /proc/version; then
+  case "$PWD" in
+    /mnt/*) set -- --force_polling "$@" ;;
+  esac
+fi
+
+JEKYLL_ENV=production bundle exec jekyll serve "$@"
