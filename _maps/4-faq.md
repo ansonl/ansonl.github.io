@@ -47,7 +47,13 @@ A couple of my recommended mesh tools are below:
 
 #### [Blender](https://www.blender.org/)
 
-- 3MF files can be imported into Blender using the free [Blender 3MF Format addon](https://github.com/ansonl/Blender3mfFormat). I recommend using my linked branch of the addon that adds 3MF Color Group support for objects in a [pull request](https://github.com/Ghostkeeper/Blender3mfFormat/pull/58) waiting to be merged into the main repo.
+3MF files can be imported into Blender using the free [3MF Import/Export addon](https://extensions.blender.org/add-ons/threemf-io/) which is the most maintained branch. If you use Blender 3, you can use my linked branch of the parent addon that adds 3MF Color Group support for objects in a [pull request](https://github.com/Ghostkeeper/Blender3mfFormat/pull/58).
+
+- I recommend saving the following settings in your Blender `General` project to make editing and exporting 3D models easier.
+
+  - Scene → Units → Unit Scale change from `1.0` to `0.001`. This will change the Blender default unit from 1 meter to 1 millimeter to match the mm unit convention for STL and 3MF files.
+
+  - Delete the starting objects e.g. Cube, Camera, Light.
 
 #### [MeshLab](https://www.meshlab.net/)
 
