@@ -137,7 +137,7 @@ Include the following measurements with your order to get the best fit the first
   | Toyota OEM *in 155/70R17* | 57 | 54 | A/B | 38mm | Customers |
   | [Value Spare](https://valuespare.com/product/2023-2025-corolla-cross-spare-tire/?aff=2) - [Amazon](https://amzn.to/3XY4V8T) | 70 | 57.15mm | A/B | ? | Vendor |
     | [Value Spare](https://valuespare.com/product/2023-2025-corolla-cross-spare-tire/?aff=2) - [Ebay](https://ebay.us/m/eoiKXL) | 67 | 54mm | A | 0mm (Tire was reported to fit below deck. No riser needed.) | Customer |
-  | [Modern Spare](https://amzn.to/3zFMFYt) | 67 | 80 | B | ? | Customers |
+  | [Modern Spare](https://amzn.to/3zFMFYt) | 67 | 78 | B | 25.4mm (+ add'l 5mm around rim) | Customers |
   
   - Toyota OEM spare and Value Spare tires fit better due to the lower rim **Flange Thickness**
 
